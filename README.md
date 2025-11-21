@@ -7,6 +7,14 @@ AIX 딥러닝 프로젝트
 - 신준희, 기계공학부, shinjh0331@naver.com
 - 한인권, (학부), (이메일)
 
+# Index
+- 1. Proposal
+  2. Datasets
+  3. Methodology
+  4. Evaluation & Analysis
+  5. Related Work
+  6. Conclusion: Discussion
+  7. 
 # Proposal
 - Motivation (Why are you doing this?)
 
