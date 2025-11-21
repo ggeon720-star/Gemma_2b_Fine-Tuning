@@ -14,7 +14,7 @@ AIX 딥러닝 프로젝트
   4. Evaluation & Analysis
   5. Related Work
   6. Conclusion: Discussion
-  7. 
+  
 # Proposal
 - Motivation (Why are you doing this?)
 
