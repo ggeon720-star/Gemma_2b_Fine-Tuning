@@ -1,4 +1,4 @@
-# Gemma_2b_Fine-Tuning
+# QLoRA를 이용한 Gemma-2B의 법률 특화 파인튜닝 
 AIX 딥러닝 프로젝트
 
 # Members
