@@ -2,10 +2,10 @@
 AIX 딥러닝 프로젝트
 
 # Members
-고재윤, (학부), (이메일)
-권성근, (학부), (이메일)
-신준희, 기계공학부, shinjh0331@naver.com
-한인권, (학부), (이메일)
+- 고재윤, (학부), (이메일)
+- 권성근, (학부), (이메일)
+- 신준희, 기계공학부, shinjh0331@naver.com
+- 한인권, (학부), (이메일)
 
 # Proposal
 - Motivation (Why are you doing this?)
