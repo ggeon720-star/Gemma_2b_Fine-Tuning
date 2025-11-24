@@ -42,6 +42,7 @@ What do you want to see at the end? :
 > 5. SFTTrainer 설정
 > 6. 학습 실행 및 LoRA 어댑터 저장
 
+1. 기본 Import / 환경 변수 설정 / 경로 및 모델 ID 설정
 1-1. 기본 Import 및 환경 변수 설정
 ```python
 import torch
@@ -66,6 +67,7 @@ ADAPTER_PATH = "/content/drive/MyDrive/gemma_law/gemma-2b-law-lora-adapter"
 MERGED_PATH = "/content/drive/MyDrive/gemma_law/gemma-2b-law-finetuned-merged"
 ```
 
+2. QLoRA용 설정
 2-1. BitsAndBytesConfig (4bit 양자화)
 ```python
 bnb_config = BitsAndBytesConfig(
@@ -160,6 +162,58 @@ if len(train_dataset) > 0:
     print(train_dataset[0]['text'])
 ```
 
+5. SFTTrainer 설정
+```python
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+training_args = TrainingArguments(
+    output_dir=OUTPUT_DIR,
+    num_train_epochs=1,                     # Epoch
+    per_device_train_batch_size=1,
+    per_device_eval_batch_size=1,
+    gradient_accumulation_steps=16,
+    gradient_checkpointing=True,
+    optim="paged_adamw_8bit",
+    eval_strategy="steps",
+    eval_steps=0.2,
+    logging_dir=f"{OUTPUT_DIR}/logs",
+    logging_steps=10,
+    warmup_steps=5,
+    logging_strategy="steps",
+    learning_rate=2e-4,                     # 학습률
+    fp16=True,
+    report_to="tensorboard",
+    save_strategy="epoch",
+    load_best_model_at_end=False,
+)
+trainer = SFTTrainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+    eval_dataset=eval_dataset,
+    peft_config=lora_config,
+    formatting_func=lambda x: x["text"],
+)
+```
+
+6. 학습 실행 및 LoRA 어댑터 저장, 베이스 모델과 병합
+```python
+trainer.train()
+os.makedirs(ADAPTER_PATH, exist_ok=True)
+trainer.model.save_pretrained(ADAPTER_PATH)
+
+base_model = AutoModelForCausalLM.from_pretrained(
+    BASE_MODEL,
+    device_map='auto',
+    torch_dtype=torch.bfloat16
+)
+
+model = PeftModel.from_pretrained(base_model, ADAPTER_PATH, device_map='auto', torch_dtype=torch.bfloat16)
+model = model.merge_and_unload()
+
+os.makedirs(MERGED_PATH, exist_ok=True)
+model.save_pretrained(MERGED_PATH)
+tokenizer.save_pretrained(MERGED_PATH)
+```
 
 # Evaluation & Analysis
 - Graphs, tables, any statistics (if any)
