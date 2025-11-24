@@ -34,8 +34,7 @@ What do you want to see at the end? :
 # Datasets
 
 # Methodology 
-- Explaining your choice of algorithms (methods)
-> 대략적인 알고리즘
+대략적인 알고리즘
 > 1. 기본 Import / 환경 변수 설정 / 경로 및 모델 ID 설정
 > 2. QLoRA용 설정
 > 3. 모델 및 토크나이저 로드
@@ -43,22 +42,123 @@ What do you want to see at the end? :
 > 5. SFTTrainer 설정
 > 6. 학습 실행 및 LoRA 어댑터 저장
 
-- 1. 라이브러리 설치 및 
-> import torch
-> import os
-> import glob
-> import json
-> import pandas as pd
-> from transformers import (
->     AutoTokenizer,
->     AutoModelForCausalLM,
->     BitsAndBytesConfig,
->     TrainingArguments
-> )
-> from peft import LoraConfig, PeftModel, get_peft_model
-> from datasets import Dataset, load_dataset
-> from trl import SFTTrainer
-> from sklearn.model_selection import train_test_split
+1-1. 기본 Import 및 환경 변수 설정
+```python
+import torch
+import os
+import glob
+import json
+import pandas as pd
+from transformers import (AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, TrainingArguments)
+from peft import LoraConfig, PeftModel, get_peft_model
+from datasets import Dataset, load_dataset
+from trl import SFTTrainer
+from sklearn.model_selection import train_test_split
+```
+1-2. 경로 및 모델 ID 설정
+```python
+QA_DATA_DIR = "/content/drive/MyDrive/QA데이터"
+MODEL_ID = "RangDev/gemma-2b-it-legal-sum-ko"
+BASE_MODEL = MODEL_ID
+
+OUTPUT_DIR = "/content/drive/MyDrive/gemma_law/gemma-2b-law-finetune"
+ADAPTER_PATH = "/content/drive/MyDrive/gemma_law/gemma-2b-law-lora-adapter"
+MERGED_PATH = "/content/drive/MyDrive/gemma_law/gemma-2b-law-finetuned-merged"
+```
+
+2-1. BitsAndBytesConfig (4bit 양자화)
+```python
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.bfloat16,
+    bnb_4bit_use_double_quant=False
+)
+```
+2-2. LoRA 설정
+```python
+lora_config = LoraConfig(
+    r=16,                                                     # LoRA 랭크
+    lora_alpha=32,                                            # LoRA Scaling Factor
+    lora_dropout=0.05,                                        # 드롭아웃 비율
+    target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
+    bias="none",
+    task_type="CAUSAL_LM",
+)
+```
+
+3. 모델 & 토크나이저 로드
+```python
+tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
+if tokenizer.pad_token is None:
+    tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+tokenizer.padding_side = 'right'
+model = AutoModelForCausalLM.from_pretrained(
+    MODEL_ID,
+    quantization_config=bnb_config,
+    device_map="auto",
+    torch_dtype=torch.bfloat16
+)
+model.resize_token_embeddings(len(tokenizer))
+```
+
+4. 법률 JSON 데이터를 'Question', 'Answer', 'Commentary'로 텍스트화
+4-1. load_and_format_data 함수 정의
+```python
+def load_and_format_data(data_dir):
+    processed_data = []
+
+    qa_files_pattern = os.path.join(data_dir, "**", "*.json")
+    qa_files = glob.glob(qa_files_pattern, recursive=True)
+    print(f"총 {len(qa_files)}개의 JSON 파일을 찾았습니다 (하위 디렉토리 포함)...")
+
+    if not qa_files:
+        raise ValueError(f"데이터를 찾을 수 없습니다. {data_dir} 경로를 확인하세요.")
+    for file_path in qa_files:
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                item = json.load(f)
+
+            question = item.get('question')
+            simple_answer = item.get('answer')
+            commentary = item.get('commentary') # 없으면 None
+            if question and simple_answer:
+
+                full_answer = simple_answer
+                if commentary and commentary.strip():
+                    full_answer += f"\n\n[근거]\n{commentary}"
+                text = f"""<bos><start_of_turn>user
+{question}
+<end_of_turn>
+<start_of_turn>model
+{full_answer}<end_of_turn><eos>"""
+                processed_data.append({"text": text})
+            else:
+                 print(f"[경고] {file_path} 파일에 'question' 또는 'answer' 키가 없어 건너뜁니다.")
+        except Exception as e:
+            print(f"QA 파일 처리 오류 ({file_path}): {e}")
+    if not processed_data:
+        raise ValueError("학습할 유효한 데이터가 없습니다. JSON 파일 내용을 확인하세요.")
+
+    print(f"총 {len(processed_data)}개의 유효한 학습 데이터를 로드했습니다.")
+
+    df = pd.DataFrame(processed_data)
+    train_df, eval_df = train_test_split(df, test_size=0.1, random_state=42)
+    train_dataset = Dataset.from_pandas(train_df)
+    eval_dataset = Dataset.from_pandas(eval_df)
+
+    return train_dataset, eval_dataset
+```
+4-2. 실제 데이터 로드
+```python
+train_dataset, eval_dataset = load_and_format_data(QA_DATA_DIR)
+
+print(f"\nTrain 셋: {len(train_dataset)}개, Eval 셋: {len(eval_dataset)}개")
+print("\n--- 데이터 로드 및 포맷팅 완료 ---")
+if len(train_dataset) > 0:
+    print("샘플 데이터 (Train):")
+    print(train_dataset[0]['text'])
+```
 
 
 # Evaluation & Analysis
