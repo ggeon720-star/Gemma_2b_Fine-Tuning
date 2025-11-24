@@ -245,12 +245,8 @@ tokenizer.save_pretrained(MERGED_PATH)
 #### p_n은 예측 문장과 참조 문장에서 일치한 수 / 예측문장의 전체 n-gram 수 / w_n은 가중치
 
 ## 5. System-level Evaluation
-referance
-
-Evaluating Large Language Models: A Comprehensive Survey 23. 11. 25
 
 # Related Work (e.g., existing studies)
-- Tools, libaries, blogs, or any documentatiton that you have used to do this project.
-### Guo, Z., Jin, R., Liu, C., Huang, Y., Shi, D., Supryadi, Yu, L., Liu, Y., Li, J., Xiong, B., & Xiong, D. (2023, November 25). Evaluating large language models: A comprehensive survey (arXiv pre-print arXiv:2310.19736).
-### 강봉준, & 김영준. (2025). 국내 법률 LLM의 활용과 연구동향 : 환각과 보안 리스크를 중심으로. 산업기술연구논문지, 30(3), 227-240.
-- Conclusion : Discussion
+#### Guo, Z., Jin, R., Liu, C., Huang, Y., Shi, D., Supryadi, Yu, L., Liu, Y., Li, J., Xiong, B., & Xiong, D. (2023, November 25). Evaluating large language models: A comprehensive survey (arXiv pre-print arXiv:2310.19736).
+#### 강봉준, & 김영준. (2025). 국내 법률 LLM의 활용과 연구동향 : 환각과 보안 리스크를 중심으로. 산업기술연구논문지, 30(3), 227-240.
+# Conclusion : Discussion
