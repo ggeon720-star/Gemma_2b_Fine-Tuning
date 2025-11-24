@@ -42,8 +42,8 @@ What do you want to see at the end? :
 > 5. SFTTrainer 설정
 > 6. 학습 실행 및 LoRA 어댑터 저장
 
-1. 기본 Import / 환경 변수 설정 / 경로 및 모델 ID 설정
-1-1. 기본 Import 및 환경 변수 설정
+### 1. 기본 Import / 환경 변수 설정 / 경로 및 모델 ID 설정
+#### 1. 기본 Import 및 환경 변수 설정
 ```python
 import torch
 import os
@@ -56,7 +56,7 @@ from datasets import Dataset, load_dataset
 from trl import SFTTrainer
 from sklearn.model_selection import train_test_split
 ```
-1-2. 경로 및 모델 ID 설정
+#### 2. 경로 및 모델 ID 설정
 ```python
 QA_DATA_DIR = "/content/drive/MyDrive/QA데이터"
 MODEL_ID = "RangDev/gemma-2b-it-legal-sum-ko"
@@ -67,8 +67,8 @@ ADAPTER_PATH = "/content/drive/MyDrive/gemma_law/gemma-2b-law-lora-adapter"
 MERGED_PATH = "/content/drive/MyDrive/gemma_law/gemma-2b-law-finetuned-merged"
 ```
 
-2. QLoRA용 설정
-2-1. BitsAndBytesConfig (4bit 양자화)
+### 2. QLoRA용 설정
+#### 1. BitsAndBytesConfig (4bit 양자화)
 ```python
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
@@ -77,7 +77,7 @@ bnb_config = BitsAndBytesConfig(
     bnb_4bit_use_double_quant=False
 )
 ```
-2-2. LoRA 설정
+#### 2. LoRA 설정
 ```python
 lora_config = LoraConfig(
     r=16,                                                     # LoRA 랭크
@@ -89,7 +89,7 @@ lora_config = LoraConfig(
 )
 ```
 
-3. 모델 & 토크나이저 로드
+### 3. 모델 & 토크나이저 로드
 ```python
 tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
 if tokenizer.pad_token is None:
@@ -104,8 +104,8 @@ model = AutoModelForCausalLM.from_pretrained(
 model.resize_token_embeddings(len(tokenizer))
 ```
 
-4. 법률 JSON 데이터를 'Question', 'Answer', 'Commentary'로 텍스트화
-4-1. load_and_format_data 함수 정의
+### 4. 법률 JSON 데이터를 'Question', 'Answer', 'Commentary'로 텍스트화
+#### 1. load_and_format_data 함수 정의
 ```python
 def load_and_format_data(data_dir):
     processed_data = []
@@ -151,7 +151,7 @@ def load_and_format_data(data_dir):
 
     return train_dataset, eval_dataset
 ```
-4-2. 실제 데이터 로드
+#### 2. 실제 데이터 로드
 ```python
 train_dataset, eval_dataset = load_and_format_data(QA_DATA_DIR)
 
@@ -162,7 +162,7 @@ if len(train_dataset) > 0:
     print(train_dataset[0]['text'])
 ```
 
-5. SFTTrainer 설정
+### 5. SFTTrainer 설정
 ```python
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 training_args = TrainingArguments(
@@ -195,7 +195,7 @@ trainer = SFTTrainer(
 )
 ```
 
-6. 학습 실행 및 LoRA 어댑터 저장, 베이스 모델과 병합
+### 6. 학습 실행 및 LoRA 어댑터 저장, 베이스 모델과 병합
 ```python
 trainer.train()
 os.makedirs(ADAPTER_PATH, exist_ok=True)
