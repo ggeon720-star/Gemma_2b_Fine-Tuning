@@ -8,12 +8,12 @@ AIX 딥러닝 프로젝트
 - 한인권, (학부), (이메일)
 
 # Index
-- 1. Proposal
-  2. Datasets
-  3. Methodology
-  4. Evaluation & Analysis
-  5. Related Work
-  6. Conclusion: Discussion
+1. Proposal
+2. Datasets
+3. Methodology
+4. Evaluation & Analysis
+5. Related Work
+6. Conclusion: Discussion
   
 # Proposal
 Motivation (Why are you doing this?) :
