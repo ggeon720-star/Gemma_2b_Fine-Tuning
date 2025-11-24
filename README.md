@@ -36,13 +36,30 @@ What do you want to see at the end? :
 # Methodology 
 - Explaining your choice of algorithms (methods)
 > 대략적인 알고리즘
-> 1. 라이브러리 설치 및 드라이브 Mount
-> 2. 판결문 파일 (JSON)을 정규화
-> 3. 정규화된 파일들로 Gemma chat 프롬프트 텍스트 생성
-> 4. QLoRA로 Gemma-2B 법률 모델 추가 학습
-> 5. LoRA 어댑터 저장 & Base와 병합해 최종 모델 저장
-> 6. 병합된 모델 4bit로 로드
-- Explaining features (if any)
+> 1. 기본 Import / 환경 변수 설정 / 경로 및 모델 ID 설정
+> 2. QLoRA용 설정
+> 3. 모델 및 토크나이저 로드
+> 4. 법률 JSON 데이터를 'Question', 'Answer', 'Commentary'로 텍스트화 
+> 5. SFTTrainer 설정
+> 6. 학습 실행 및 LoRA 어댑터 저장
+
+- 1. 라이브러리 설치 및 
+> import torch
+> import os
+> import glob
+> import json
+> import pandas as pd
+> from transformers import (
+>     AutoTokenizer,
+>     AutoModelForCausalLM,
+>     BitsAndBytesConfig,
+>     TrainingArguments
+> )
+> from peft import LoraConfig, PeftModel, get_peft_model
+> from datasets import Dataset, load_dataset
+> from trl import SFTTrainer
+> from sklearn.model_selection import train_test_split
+
 
 # Evaluation & Analysis
 - Graphs, tables, any statistics (if any)
