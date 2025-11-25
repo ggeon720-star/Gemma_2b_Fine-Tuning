@@ -1,0 +1,3434 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what 카페요아정 왕십리점 is and how to get there?"
+      },
+      {
+        "role": "assistant",
+        "content": "카페요아정 is a popular off-campus cafe known for its comfortable vibe and good coffee. To reach it, take Exit 2 at Hanyang Univ. Station, walk through the campus, and go out the back gate towards Sa-geun-dong. It takes about 19 minutes on foot, and you'll pass by some notable spots on your way!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "영풍문고 왕십리역점 도보로 갈 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 영풍문고 왕십리역점은 도보로 갈 수 있어. 한양대역에서 약 14분 정도 걸어가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What kind of food does 베네토 serve?"
+      },
+      {
+        "role": "assistant",
+        "content": "베네토 offers a diverse menu of delicious dishes, making it a great choice for students looking for tasty meals off-campus. It's known for its inviting ambiance, where you can enjoy a nice meal with friends."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리역에서 CGV 가는 길 알 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리역에서 CGV 왕십리 가려면 비트플렉스 건물 5층으로 올라가면 돼. 한양대역에서 출발하는 것과 비슷하게, 도보로 약 14분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to 집무실 왕십리점?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking to 집무실 왕십리점 from Hanyang Univ. Station will take you around 17 minutes. Just exit at Exit 2, walk towards Exit 1, cross the street, and go straight for about 650 meters. You'll pass a couple of landmarks before it appears on your left."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 무학여고 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 캠퍼스 내부를 통과하면 돼. 애지문에서 계단을 올라가 본관과 백남학술정보관(도서관)을 지나서 왼쪽 길로 가면 약 18분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is the Itall Sparta Seongdong Center from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Itall Sparta Seongdong Center is about a 15-minute walk from Hanyang University. You’ll need to walk straight towards Wangsimni Station after exiting from Exit 2 of Hanyang Univ. Station. It’s a manageable distance if you’re looking for a quiet study spot off-campus!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "스시도쿠 겐 어떤 카테고리야?"
+      },
+      {
+        "role": "assistant",
+        "content": "스시도쿠 겐은 음식점 카테고리에 속해. 주로 일본 스시를 전문으로 하는 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "던킨 왕십리민자역사점 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "던킨 왕십리민자역사점은 음식점이야. 다양한 도넛과 커피를 판매하는 곳이라서 간단히 간식이나 음료를 즐기기 좋지."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long should I plan to walk to get to Nerdy Blue Burrow?"
+      },
+      {
+        "role": "assistant",
+        "content": "Plan for about 18 minutes of walking time to get to Nerdy Blue Burrow. Just make sure to exit Hanyang University Station from Exit 2, cross towards Exit 1, and walk straight until you reach the market area."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 비트플렉스약국 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서, 1번 출구 방향으로 길을 건너세요. 그 후 왕십리역 방향으로 약 650m를 직진하면 '왕십리역(비트플렉스)' 건물 2층에 위치해 있어요. 도보로 약 14분 정도 걸려요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What kind of place is Donghaeru and how do I get there from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Donghaeru is a restaurant, and to get there, start from Exit 2 of Hanyang University Station. Cross the street towards Exit 1 and walk straight for about 800 meters towards Wangsimni Station. When you reach Wangsimni Church, take a right and head towards Haengdang Market for about 100 meters. It should take you around 16 minutes on foot."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best walking route to Maeranbang Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way to get to Maeranbang Wangsimni is to exit Hanyang University Station using Exit 2. Cross the street towards Exit 1 and continue straight for about 650 meters. The restaurant is located on the 2nd floor of the Bitplex building at Wangsimni Station, and it will take around 14 minutes to walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What type of food can I get at Dunkin' Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "At Dunkin' Wangsimni Minja Station, you can enjoy a variety of donuts, coffee, and other light snacks. It's a perfect spot for a quick breakfast or an afternoon treat, especially for students looking for something sweet or a caffeine boost."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "스시도쿠 겐 왕십리본점 어떻게 가는지 궁금해."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 건너. 왕십리역 방향으로 약 650m 직진한 후, '왕십리역(비트플렉스)'을 지나고 '성동구청' 방향으로 200m 더 가면 스시도쿠 겐이 있어. 도보로 약 16분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "설약국 가는 길 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "설약국 가려면 한양대역 2번 출구에서 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 방향으로 약 650m 직진하면 '왕십리역(비트플렉스)'가 보일 거야. 도착하면 역 광장 맞은편에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "꼬랑치킨 가려면 어떤 길로 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 캠퍼스를 통과해서 후문으로 나가면 돼. 약 20분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "뉴파인 성동고등학원 가는 데 얼마 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "뉴파인 성동고등학원까지는 약 13분 정도 도보로 걸려. 길 건너서 직진하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I walk to Tomato Convenience Store from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "To walk to Tomato Convenience Store from campus, exit Hanyang University Station at Exit 2. Go towards Exit 1, cross the street, and then walk straight for about 650 meters heading toward Wangsimni Station. After that, cross the road towards Seongdong District Office. The store will be right there! It’s a nice 13-minute walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "너디블루 버로우까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 건너가. 왕십리역 쪽으로 800m 직진하면 '왕십리교회'가 보이거든. '행당시장' 입구에서 안으로 100m 정도 더 가면 돼. 도보로 약 18분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "카이테이블 가는 데 멀어?"
+      },
+      {
+        "role": "assistant",
+        "content": "카이테이블은 한양대역에서 도보로 약 14분 정도 걸려. 거리상으로는 좀 멀게 느껴질 수 있지만, 신선한 음식을 맛볼 수 있는 좋은 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the fastest way to get to Emart Wangsimni from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "The quickest way to reach Emart Wangsimni is by walking. Start at Exit 2 of Hanyang Univ. Station, walk toward Exit 1, cross the street, and head straight for roughly 650 meters toward Wangsimni Station. It will take you about 14 minutes on foot to reach the supermarket located on the 2nd and 3rd floors of the 'Bitplex' building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I get to 꼬랑치킨 without taking a bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can easily walk to 꼬랑치킨 without taking a bus. Just head out from Exit 2 of Hanyang University Station, cut through the campus past the Main Building and dorms, then exit at the back gate. Walk towards '무학여고' and it's near '행당시장.' The whole walk should take you about 20 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리 카페요아정 가려면 어디를 지나가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리 카페요아정에 가려면 한양대역 2번 출구로 나가서 본관, 인문관, 기숙사동을 지나 후문으로 나가야 해. 그 다음 '무학여고' 앞을 지나서 '행당시장' 방향으로 가면 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "더밝은약국까지 어떻게 가면 제일 빠르지?"
+      },
+      {
+        "role": "assistant",
+        "content": "제일 빠른 방법은 한양대역 2번 출구로 나와 1번 출구 방향으로 길을 건너는 거야. 그 다음 왕십리역 방향으로 약 650m를 직진하고, '왕십리역(비트플렉스)' 맞은편 '성동구청' 방향으로 길을 건너면 돼. 도보로 약 13분 걸리니까 참고해!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the fastest way to reach 베네토 from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "The fastest way to get to 베네토 is to walk from Hanyang University Station. Just exit at Gate 2, cross the road to Exit 1, and head straight for about 800 meters towards Wangsimni Station. Turn right at 'Wangsimni Church,' and you’ll see it across from 'Lemon Plaza.' This should take you around 15 minutes on foot."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What landmarks should I look for on my way to 예람서점?"
+      },
+      {
+        "role": "assistant",
+        "content": "On your way to 예람서점, you should look for the main building, the humanities building, and the dormitory at Hanyang University. After that, exit through the back gate towards Sa-geun-dong. 예람서점 is close to Hangdang Market, about 21 minutes walking."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "토마토편의점은 어떤 곳이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "토마토편의점은 다양한 간편식품과 생필품을 판매하는 편의점이야. 한양대학교 주변에서 간단한 쇼핑이나 스낵을 사기에 좋은 장소지."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Should I take public transport to get to Emart Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "You won't need public transport since it's a short walk of about 14 minutes from Hanyang University. Just head out from Exit 2 and walk directly to Mischa Plus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "매란방 왕십리본점까지 걸어서 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "매란방 왕십리본점까지 도보로 약 14분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you break down the path to Kai Table for me?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! From Hanyang University Station, take Exit 2. Head towards Exit 1 and cross the street. After that, walk straight for around 650 meters towards Wangsimni Station. Kai Table is in the basement of the 'Enter Six' building there, and the entire walk takes about 14 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you explain how to walk to Innisfree from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Start from Hanyang University's Exit 2, cross the street towards Exit 1, and then walk straight for about 650 meters. After about 14 minutes of walking, you'll reach Innisfree Emart on the 2nd floor of the Wangsimni Station building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me the location of 예람서점?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! 예람서점 is located about a 21-minute walk from Hanyang University. Start from Exit 2 of the subway station, walk through the campus, and exit at the back gate toward 사근동. You'll find it near '행당시장' after passing by '무학여고'."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "토마토편의점까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "토마토편의점까지 도보로 약 13분 정도 걸려. 한양대역 2번 출구에서 나와서 1번 출구 방향으로 길 건너고, 왕십리역 쪽으로 직진하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "더밝은약국 가는 길에 뭐 지나가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 나와서 1번 출구 방향으로 길을 건너면 '왕십리역(비트플렉스)'가 보여. 거기서 쭉 직진하면 '성동구청' 맞은편에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 베네토까지 가는 경로 설명해줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건넌 후, 왕십리역 쪽으로 800m 직진해. 그리고 '왕십리교회' 근처에서 우회전하면 '레몬프라자' 맞은편에 베네토가 있어. 도보로 약 15분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "미샤 플러스까지 어떻게 가면 돼?"
+      },
+      {
+        "role": "assistant",
+        "content": "먼저 한양대역 2번 출구로 나와서 1번 출구 쪽으로 길을 건너. 그 후 왕십리역 방향으로 계속 직진하면 돼. 약 650m 정도 걸으면 왕십리역(비트플렉스) 2층에 있는 이마트에 도착할 거야. 도보로는 약 14분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I reach Nerdy Blue Burrow by public transport?"
+      },
+      {
+        "role": "assistant",
+        "content": "While it's possible to use public transport, it's actually easier and faster to walk there. You'll get to Nerdy Blue Burrow in just about 18 minutes on foot from Hanyang University Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "던킨 왕십리민자역사점까지 가는 방법 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너면 돼. 이후 왕십리역 쪽으로 약 650m를 계속 직진해. 그러면 '왕십리역(비트플렉스)' 건물 1층에 던킨이 있어. 도보로 약 13분 걸릴 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 카이테이블 가는 길 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 쪽으로 길을 건너. 그 후 왕십리역 방향으로 약 650m를 직진하면 카이테이블이 있어. 지하 1층 '엔터식스'에 위치해있고, 도보로 약 14분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "너디블루 버로우까지 도보로 가는 게 가능해?"
+      },
+      {
+        "role": "assistant",
+        "content": "네, 너디블루 버로우까지 도보로 가는 게 가능해. 한양대역에서 출발하면 약 18분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Explain the route to Benessere from Hanyang University Station."
+      },
+      {
+        "role": "assistant",
+        "content": "Start at Hanyang University Station, go out through Exit 2. Then, cross the street over to Exit 1. Walk straight for approximately 650 meters toward Wangsimni Station. You’ll find Benessere on the 4th floor of the Bitplex building after about a 14-minute walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I walk to Dunkin Wangsimni from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, absolutely! Dunkin Wangsimni is about a 13-minute walk from Hanyang University. Just head out from Exit 2, cross the street towards Exit 1, and continue straight for 650 meters until you reach it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the quickest way to 카페요아정 왕십리점?"
+      },
+      {
+        "role": "assistant",
+        "content": "The quickest way to 카페요아정 is to exit at Hanyang Univ. Station, Exit 2. Walk through the campus and take the back gate toward Sa-geun-dong. This route is straightforward and will get you there in about 19 minutes on foot!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What do I need to know about walking to Muhak High School?"
+      },
+      {
+        "role": "assistant",
+        "content": "Just remember that it's an 18-minute walk from Hanyang University. Head out from Exit 2, walk through the campus, and take the left path after the library to get there. It's pretty straightforward!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Do I need to take a bus to 폼드팡 왕십리점?"
+      },
+      {
+        "role": "assistant",
+        "content": "No, you don't need to take a bus. You can easily walk there in about 14 minutes from Hanyang University. Just follow the route starting from Exit 2 and walking straight toward '왕십리역(비트플렉스)'."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "카이테이블은 어떤 곳이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "카이테이블은 음식점이야. 다양한 메뉴를 제공해서 식사하기 좋은 곳이지. 한양대역에서 조금 거리가 있지만, 맛있는 음식을 먹고 싶다면 추천해!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "꼬랑치킨은 뭐고, 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "꼬랑치킨은 맛있는 치킨 집이야. 한양대역 2번 출구로 나가서 캠퍼스를 지나 후문으로 가는 게 가장 빠른 방법이야. 본관, 인문관, 기숙사동을 지나서 무학여고 앞을 지나면 '행당시장' 근처에 있어. 도보로 약 20분 걸려!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "토마토편의점이 뭐야? 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "토마토편의점은 한양대 근처에 있는 편의점이야. 한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건넌 다음, 왕십리역 방향으로 약 650m 직진하면 돼. '왕십리역(비트플렉스)' 맞은편 '성동구청' 방향으로 길을 건너면 바로 보여."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Dunkin' Wangsimni from Hanyang University Station?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach Dunkin' Wangsimni, start at Hanyang University Station, exit through Gate 2. Cross the street toward Exit 1 and walk straight toward Wangsimni Station for about 650 meters. You'll find it inside the 'Wangsimni Station (Beatplex)' building. It takes roughly 13 minutes on foot."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Could you tell me how long it takes to get to 베네세레 왕십리점 by walking?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking to 베네세레 왕십리점 takes approximately 14 minutes. Begin at Hanyang University Station, Exit 2, cross the street towards Exit 1, and proceed straight for about 650 meters toward 왕십리역. You'll find the restaurant on the 4th floor of the 비트플렉스 building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 더밝은약국 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너. 그 다음 왕십리역 방향으로 약 650m 직진하면 돼. 성동구청 방향으로 길을 건너면 바로 보이는 곳이야. 도보로 약 13분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to 베네세레 왕십리점?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes about 14 minutes to walk to 베네세레 왕십리점 from Hanyang University. Start at Exit 2 of Hanyang University Station, cross the street toward Exit 1, and walk straight about 650 meters towards 왕십리역. The restaurant is located on the 4th floor of the 비트플렉스 building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the walking time to get to the pharmacy?"
+      },
+      {
+        "role": "assistant",
+        "content": "You'll need around 14 minutes of walking to reach 참약사 지안약국. Start from Exit 2 of Hanyang Univ. Station and walk straight towards Wangsimni for about 650 meters."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does 비트플렉스약국 compare to other pharmacies nearby?"
+      },
+      {
+        "role": "assistant",
+        "content": "비트플렉스약국 is a well-known pharmacy located about 14 minutes walking from Hanyang University. Compared to other pharmacies that are closer, it offers a broader range of products and services, making it a popular choice among students. Just keep in mind it's a bit far from campus, so plan your visit accordingly."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 동해루까지 얼마 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대에서 동해루까지는 도보로 약 16분 정도 걸려. 길도 복잡하지 않아서 쉽게 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the route to Mischa Plus E-Mart if I’m walking?"
+      },
+      {
+        "role": "assistant",
+        "content": "To walk to Mischa Plus, start from Hanyang Univ. Station at Exit 2. Cross the street towards Exit 1 and walk straight about 650 meters in the direction of Wangsimni Station. You’ll find it on the 2nd floor of E-Mart, taking around 14 minutes to walk there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "비트플렉스약국까지 어떻게 갈 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "비트플렉스약국은 한양대역 2번 출구로 나와 1번 출구 방향으로 건너고, 왕십리역 방향으로 약 650m를 직진해요. 도보로 대략 14분 걸려요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I walk to Maeranbang Wangsimni from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, you can walk to Maeranbang Wangsimni from Hanyang University. Just take Exit 2 at the station, cross the road towards Exit 1, and walk straight for about 650 meters. It should take you roughly 14 minutes to reach there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "원더시네마는 뭐야? 그리고 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "원더시네마는 영화관이야. 한양대역에서 지하철 2호선을 타고 뚝섬역에서 내려 4번 출구로 나오면 도보로 1분 거리에 있어. 거리상으로는 약 1.1km 정도 되니까 조금 걸어가야 해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "설약국까지 얼마나 걸려서 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "약 13분 정도 걸릴 거야. 한양대역 2번 출구에서 나와서 1번 출구 방향으로 길 건너고 왕십리역 방향으로 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What type of restaurant is Sushi Doku Gen?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sushi Doku Gen is a sushi restaurant. If you're in the mood for some fresh sushi, this is the place to go! It's a bit off-campus, but well worth the trip for sushi lovers."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I get to 예람서점 in under 30 minutes?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! You can get to 예람서점 in about 21 minutes on foot, so you'll definitely make it in under 30 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "이마트왕십리점 어떻게 가는지 설명해줄래?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와 1번 출구 쪽으로 길을 건너고, 왕십리역 쪽으로 약 650m를 직진해. 도보로 약 14분 걸린다."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "잇올 스파르타 성동센터는 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "잇올 스파르타 성동센터는 한양대역에서 도보로 약 15분 거리에 있어. 2번 출구 나와서 1번 출구 쪽으로 길을 건너고 왕십리역 방향으로 직진하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "던킨 왕십리민자역사점 가는 길 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 쪽으로 길 건너고, 왕십리역 방향으로 약 650m 직진하면 돼. 그러면 '왕십리역(비트플렉스)' 건물 1층에 던킨이 있어. 도보로 약 13분 걸려!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "참약사 지안약국까지 도보로 가면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 나가서 왕십리역 방향으로 가면 약 14분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "던킨 왕십리민자역사점 어떤 곳이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "여기는 던킨 도넛이 있는 음식점이야. 학생들이 간식이나 음료를 사먹기에 좋은 장소라서 자주 가는 편이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is 영풍문고 왕십리역점 a bookstore or something else?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, 영풍문고 왕십리역점 is primarily a bookstore. It's a cultural and leisure spot where you can find a wide range of books and magazines. It’s also a nice place to relax or study with friends, but its main focus is definitely on literature and reading."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "행당시장 가는 길에 카페요아정 있지?"
+      },
+      {
+        "role": "assistant",
+        "content": "맞아, 행당시장 쪽으로 가는 길에 카페요아정 왕십리점이 있어. 한양대역 2번 출구에서 출발하면 약 19분 정도 걸리니까 시간 여유를 두고 가면 좋겠어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "무학여고까지 버스 타고 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "버스를 탈 필요는 없어. 한양대역 2번 출구에서 도보로 약 18분 걸려서 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you guide me to Mischa Plus E-Mart Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "Definitely! From Hanyang Univ. Station, take Exit 2, cross the street towards Exit 1, and walk towards Wangsimni Station for about 650 meters. You’ll reach E-Mart where Mischa Plus is located on the 2nd floor. The walk will take you roughly 14 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how far 설약국 is from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "설약국 is approximately a 13-minute walk from Hanyang University Station. Just follow the directions I provided, and you'll be there in no time!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 지안약국까지 가장 빠른 방법은?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대에서 참약사 지안약국까지는 도보로 가는 게 가장 빠른 방법이야. 한양대역 2번 출구로 나와서 1번 출구 방향으로 건너서 왕십리역 방향으로 직진하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me the way to Electro Mart from school?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Head out of Hanyang University Station through Exit 2. Cross over towards Exit 1 and walk straight towards Wangsimni Station for about 650 meters. You'll find it on the 3rd floor of the building called Bitplex inside E-Mart. It should take you about 14 minutes on foot."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best route to 설약국?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best route is to leave Hanyang University Station via Exit 2, cross the road to Exit 1, and then go straight for 650 meters toward Wangsimni Station. It will take you about 13 minutes to walk there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 성동구립도서관 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너. 그러고 나서 왕십리역 방향으로 약 800m 직진해. '왕십리교회'를 끼고 우회전하고, '행당중학교'를 지나서 좌회전한 다음 언덕을 오르면 도서관이 나와. 도보로 약 16분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리 이마트 가는 방법 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 쪽으로 약 650m 가면 돼. 도보로 약 14분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "던킨 왕십리민자역사점까지 걸어서 갈 수 있지?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 한양대역에서 도보로 약 13분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 가는 길 좀 자세히 설명해줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 쪽으로 길을 건너고, 왕십리역 방향으로 약 650m를 쭉 직진해야 해. 그러면 '왕십리역(비트플렉스)' 건물 4층 식당가가 나오고, 그 안에 참약사 지안약국이 있어. 도보로 14분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "더밝은약국, 지하철 타고 갈 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "지하철을 따로 타고 가기보다는 한양대역에서 도보로 가는 게 더 빠르고 편리해. 도보로 약 13분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 베네세레까지 걷는 데 시간이 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대에서 베네세레까지 걷는 데 대략 14분 정도 소요돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I take a subway to get to 카이테이블?"
+      },
+      {
+        "role": "assistant",
+        "content": "You could, but it’s not necessary since it's just a short 14-minute walk from Hanyang University. Enjoy the walk instead!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to Sushi Doku Gen?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes about 16 minutes to walk to Sushi Doku Gen Wangsimni Branch from Hanyang University. Just head out from Exit 2 and walk straight towards Wangsimni Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Muhak Girls' High School on the way to Kkorang Chicken?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Hanyang Univ. Station, head out through Exit 2 and walk through the campus. After passing the Main Building and Humanities Building, exit through the back gate towards Sagun-dong. Muhak Girls' High School will be on your way to Kkorang Chicken, which is about a 20-minute walk from the station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Seongdong Library if I don't want to walk?"
+      },
+      {
+        "role": "assistant",
+        "content": "While walking is the best option, there might be bus routes nearby. However, I recommend walking since it's only about 16 minutes from Hanyang University. It’s a lovely way to get there!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What landmarks should I look for on my way to Nerdy Blue Burrow?"
+      },
+      {
+        "role": "assistant",
+        "content": "As you walk to Nerdy Blue Burrow, keep an eye out for Wangsimni Church after walking straight for about 800 meters from Hanyang Univ. Station, Exit 2. Then, when you reach Hangdang Market, head about 100 meters inside to find the restaurant. The whole walk takes around 18 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 이스포츠PC방 가는 법 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 캠퍼스 내부를 가로질러 후문 쪽으로 이동해. 본관, 인문관, 기숙사동을 지나면 후문이 있어. 후문으로 나가고 사근동 주민센터 방향으로 200m 정도 가면 이스포츠PC방이 있어. 도보로 약 21분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 이마트 왕십리점 가는 제일 좋은 길은?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 방향으로 직진하는 게 제일 좋아. 도보로 약 14분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is the Tomato store close enough to walk to from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, it's definitely close enough! Just about a 13-minute walk, making it easy to get there on foot."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "비트플렉스약국 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "비트플렉스약국은 한양대역 2번 출구에서 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 방향으로 약 650m 직진하면 돼. 도보로 약 14분 걸릴 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What can I expect at 카페요아정 왕십리점 and the best way to get there?"
+      },
+      {
+        "role": "assistant",
+        "content": "At 카페요아정, you can enjoy a relaxing atmosphere with great drinks and snacks. To get there, exit Hanyang Univ. Station at Exit 2. Walk through the campus, pass the main building and dorms, then exit towards Sa-geun-dong. It’s about a 19-minute walk, so make sure to wear comfy shoes!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it possible to walk to KB국민은행 왕십리역?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Walking to KB국민은행 왕십리역 is a good option. It’ll take you about 13 minutes if you leave from Exit 2 of Hanyang University."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking time to 바르미스시샤브 from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "If you walk from Hanyang University, it will take you around 14 minutes to reach 바르미스시샤브 왕십리점. Just follow the route starting from Exit 2."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "무학여고에서 CGV 왕십리 어떻게 가는지 알아?"
+      },
+      {
+        "role": "assistant",
+        "content": "무학여고에서 출발하면, 먼저 왕십리역 방향으로 가야 해. 한양대역 쪽으로 가는 길이 있으니까, 2번 출구 방향으로 나와서 CGV 왕십리까지 가면 돼. 도보로 약 14분 정도 걸릴 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "스시도쿠 겐 음식점 맞아?"
+      },
+      {
+        "role": "assistant",
+        "content": "응! 스시도쿠 겐은 음식점이야. 특히 일본 스시를 전문으로 하는 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is Emart Wangsimni like and how do I get there from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "Emart Wangsimni is a popular supermarket where you can find groceries and more. To get there from Hanyang University, exit through Exit 2 of Hanyang Univ. Station and head toward Exit 1. Cross the street and walk straight for about 650 meters toward Wangsimni Station. You'll find it on the 2nd and 3rd floors of the 'Bitplex' building. It takes roughly 14 minutes on foot."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is Donghae-ro from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "Donghae-ro is approximately 16 minutes away on foot from Hanyang University. Just start at Hanyang University Station, Exit 2, and follow the directions to reach this popular restaurant."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 동해루까지 가는 경로 설명해줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 나와서 1번 출구 방향으로 건너고, 이어서 왕십리역 쪽으로 800m 정도 직진해. '왕십리교회'에서 오른쪽으로 꺾고 100m 더 가면 동해루가 나와. 걸어가면 약 16분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "동해루 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너. 그 다음 왕십리역 쪽으로 800m 직진하고, '왕십리교회'에서 우회전해서 '행당시장' 방향으로 100m 더 가면 동해루가 있어. 도보로 약 16분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the location of Tomato Convenience Store?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tomato Convenience Store is located about a 13-minute walk from Hanyang University. Start at Exit 2 of Hanyang University Station, cross the road towards Exit 1, and walk straight for 650 meters towards Wangsimni Station. Cross again towards the Seongdong District Office, and you'll find it immediately."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "카페요아정 왕십리점 왜 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "카페요아정 왕십리점은 맛있는 커피와 간단한 음식을 제공하니까요. 공부하기에도 좋은 분위기라 학생들이 많이 방문해요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is Maeranbang Wangsimni far from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's not too far! Maeranbang Wangsimni is about a 14-minute walk from Hanyang University. Just head out from Exit 2, cross the road, and walk about 650 meters straight to reach it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "폼드팡 왕십리점 가는 최적의 방법이 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "폼드팡 왕십리점에 가는 최적의 방법은 한양대역 2번 출구에서 나와서 도보로 가는 거야. 약 14분 정도 소요되니까 걸어갈 준비해! 왕십리역 방향으로 직진하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the best way to get to Innisfree Emart Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way is to walk! It only takes about 14 minutes from Hanyang University if you head out from Exit 2."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the quickest way to reach Top Ten Wangsimni from Hanyang University Station?"
+      },
+      {
+        "role": "assistant",
+        "content": "The quickest way is to exit Hanyang University Station from Exit 2, cross over to the side of Exit 1, and walk straight for roughly 650 meters. You’ll reach Top Ten on the 3rd floor of the building across from E-Mart in about 14 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "설약국이랑 다른 약국이랑 뭐가 달라?"
+      },
+      {
+        "role": "assistant",
+        "content": "설약국은 왕십리역 근처에 위치한 약국으로, 한양대에서 조금 거리가 있어. 다른 약국들은 가까운 곳에 있을 수 있지만, 설약국은 다양한 의약품과 서비스를 제공하고 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "던킨 왕십리민자역사점 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "던킨 왕십리민자역사점은 한양대역 2번 출구에서 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 방향으로 약 650m 직진하면 '왕십리역(비트플렉스)' 건물 1층에 있어. 도보로 약 13분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "설약국 가는 길 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "설약국에 가려면 한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너야 해. 그 다음 왕십리역 방향으로 약 650m 직진하면 '왕십리역(비트플렉스)' 앞에 도착해. 그곳의 역 광장 맞은편에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "포시즌휘트니스 왕십리점까지 가장 빨리 가는 방법이 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "포시즌휘트니스 왕십리점까지 가장 빠른 방법은 한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 방향으로 약 650m 직진하는 거야. 이 경로가 도보로 약 14분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the best way to get to 뉴파인 성동고등학원?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way to get there is by walking. It takes about 13 minutes on foot. Just head out of Exit 2 of Hanyang University Station and you’ll find it after about 650 meters straight ahead."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "베네토 버스 타고 갈 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "베네토는 도보로 가는 게 제일 편해. 버스 노선은 직접 연결되지 않아서 도보로 가는 게 더 수월해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "성동구립도서관 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "성동구립도서관 가려면 한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 쪽으로 약 800m 직진해. 그 후에 '왕십리교회'에서 우회전하고, '행당중학교'를 끼고 좌회전해서 언덕을 올라가면 돼. 도보로 약 16분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking time to the 왕십리본점?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking to 매란방 왕십리본점 will take you approximately 14 minutes. Just head out from Hanyang University and follow the route to Wangsimni Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "탑텐 왕십리역점까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 방향으로 약 650m 직진하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What can I find at 더밝은약국 and how do I get there?"
+      },
+      {
+        "role": "assistant",
+        "content": "At 더밝은약국, you can find various medications and health products. To get there, start at Hanyang Univ. Station Exit 2, cross to the direction of Exit 1, and walk straight for about 650 meters towards Wangsimni Station. When you reach '성동구청', cross the street, and the pharmacy will be right in front of you. The walk takes about 13 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "무학여자고등학교는 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "무학여자고등학교는 교육 기관으로, 한양대역에서 도보로 약 18분 거리에 위치해 있어. 학생들이 많이 다니는 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what to expect at 바르미스시샤브 and how to walk there?"
+      },
+      {
+        "role": "assistant",
+        "content": "At 바르미스시샤브, you can indulge in delicious sushi and shabu-shabu. To walk there, head out of Hanyang Univ. Station at Exit 2. Cross the road towards Exit 1 and walk straight for about 650 meters until you reach the 4th floor of the 'Wangsimni Station (Bitplex)' building. The walk will take you about 14 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best way to get to the Tomato Convenience Store?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way is to walk! It takes around 13 minutes from Hanyang University Station, making it a nice little journey."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "스시도쿠 왕십리본점에 가려면 몇 번 출구로 나가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나가야 해. 그 다음 길을 건너서 직진하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the easiest way to reach Seongdong Library?"
+      },
+      {
+        "role": "assistant",
+        "content": "The easiest way is to walk! It takes about 16 minutes. Start at Exit 2 of Hanyang University, cross towards Exit 1, and follow the directions to reach the library. It's really simple!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there any bus that goes to eSports PC Bang?"
+      },
+      {
+        "role": "assistant",
+        "content": "No buses go directly to the eSports PC Bang, but it's a lovely walk of about 21 minutes from Hanyang University. Just exit at the back of the campus towards Sa-geun-dong."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you give me step-by-step directions to Mischa Plus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Of course! First, leave Hanyang Univ. Station via Exit 2. Cross the street to head towards Exit 1. Then, walk straight for about 650 meters until you reach Wangsimni Station. Mischa Plus is situated on the 2nd floor inside E-Mart, and it should take approximately 14 minutes to walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the fastest way to get to KB국민은행 왕십리역?"
+      },
+      {
+        "role": "assistant",
+        "content": "The quickest way is to walk from Hanyang University. Exit the campus through Gate 2, cross the street towards Exit 1, and continue straight for about 650 meters. You'll reach the bank in about 13 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What kind of place is the Esports PC Bang?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Esports PC Bang is a gaming cafe where you can play various video games and enjoy a fun atmosphere. It's a popular spot for students looking to relax and unwind after classes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does 영풍문고 왕십리역점 compare to other bookstores nearby?"
+      },
+      {
+        "role": "assistant",
+        "content": "영풍문고 왕십리역점 is known for its vast selection of books and cultural events, which makes it stand out compared to other bookstores in the area. Plus, it's a bit farther from campus, taking about 14 minutes to walk, which gives it a more relaxed vibe. Other nearby bookstores might be closer, but they may not offer the same range of activities."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예람서점까지 도보로 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "도보로 가려면 한양대역 2번 출구로 나와서 캠퍼스를 지나 후문으로 나가면 돼. 본관, 인문관, 기숙사동을 지나고, 후문으로 나가서 '무학여고' 앞을 지나면 '행당시장' 근처에 도착해. 약 21분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I walk to 원더시네마 from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! You can walk to 원더시네마 from Hanyang University, and it will take around 15 minutes. It's a nice way to stretch your legs!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "베네토 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너. 왕십리역 쪽으로 직진해서 '왕십리교회'를 지나 오른쪽으로 우회전하면 '레몬프라자' 앞에 있어. 도보로 약 15분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to Sushi Doku from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes about 15 minutes to walk to Sushi Doku Wangsimni from Hanyang University. Just head out from Exit 2 of Hanyang University Station and walk towards Exit 1, cross the street, and keep going straight towards Wangsimni Station for 650 meters. After passing 'Wangsimni Station (Bitplex)', continue for another 150 meters towards 'Seongdong District Office'."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "바르미스시샤브까지 가려면 얼마나 시간 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "바르미스시샤브 왕십리점까지는 도보로 약 14분 정도 소요돼. 한양대역 2번 출구에서 출발하면 쉽게 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you give me directions to Sushi Doku from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "Of course! From Hanyang University, take Exit 2 of the station, cross the street towards Exit 1, and then walk straight towards Wangsimni Station. Pass Wangsimni Station and keep going towards Seongdong-gu Office for about 200 more meters. You’ll reach Sushi Doku in about 16 minutes!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 CGV 왕십리 가는 길이 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "CGV 왕십리 가려면 한양대역 2번 출구로 나오고, 1번 출구 쪽으로 길을 건너면 돼. 왕십리역 방향으로 650m 정도 걸으면 되니까, 대략 14분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 무학여고까지 어떻게 가는지 자세히 말해줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나오고 애지문으로 올라가. 본관과 백남학술정보관을 지나가고, 왼쪽 길로 이동해. 인문관과 사회과학관을 지나서 캠퍼스 후문으로 나가면 언덕 위에 있는 무학여고가 보여."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does 카이테이블 compare to other nearby restaurants?"
+      },
+      {
+        "role": "assistant",
+        "content": "카이테이블 stands out for its unique menu and cozy vibe compared to other nearby options. While many places are around the campus, 카이테이블 is a bit further away, located in the basement of the '엔터식스' building at Wangsimni Station, making it a nice off-campus experience."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "성동구청 근처에 스시도쿠 있는데 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 나와 1번 출구 방향으로 길을 건넌 다음, 왕십리역 방향으로 650m 직진해. '왕십리역(비트플렉스)' 지나고 나서 150m 더 가면 성동구청 근처에 스시도쿠 왕십리본점이 있어. 도보로 약 15분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to 꼬랑치킨 from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get to 꼬랑치킨, exit Hanyang Univ. Station at Exit 2. Walk through the campus, pass by the Main Building, Humanities Building, and the dormitory. Then head out the back gate towards Sa-geun-dong. You'll go past Muhak Girls' High School, and it should take you about 20 minutes on foot."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 예람서점까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 예람서점까지 도보로 약 21분 걸려. 캡퍼스를 지나 후문으로 나가고, '무학여고'를 지나서 '행당시장' 근처에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me the walking route to Mischa Plus and how long it will take?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! To walk to Mischa Plus from Hanyang University, exit at Exit 2 of Hanyang University Station, cross the street towards Exit 1, and walk straight for approximately 650 meters towards Wangsimni Station. You’ll reach it on the 2nd floor of 'Wangsimni Station (Beatplex)'. The total walking time is about 14 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I reach Misia Plus by walking?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, you can definitely walk to Misia Plus! It's about a 14-minute walk from Hanyang University, making it a pleasant stroll to enjoy some shopping at Emart Wangsimni."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is 예람서점 far from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, 예람서점 is a bit far from campus—about a 21-minute walk. You’ll walk from Hanyang University Station's Exit 2, through the campus, and out the back gate towards '행당시장'. It’s a nice walk if you have some time to spare!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리 CGV까지 버스 타고 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "CGV 왕십리까지는 도보로 가는 게 좋아. 한양대역에서 약 14분 정도 걸리니까 굳이 버스를 탈 필요는 없어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to the Tomato Convenience Store?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes about 13 minutes to walk there from Hanyang University Station. Just head out from Exit 2 and cross the street towards Exit 1, then walk straight for about 650 meters towards Wangsimni Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "베네토까지 어떻게 가는 게 좋을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "베네토까지는 한양대역 2번 출구에서 도보로 가는 게 가장 좋아. 직진하는 길이 간단하고, 약 15분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 뉴파인 성동고등학원까지 가는 법 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너고, '한양대역' 버스 정류장을 지나서 왕십리역 방향으로 약 650m 직진하면 도착해. 도보로는 약 13분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What type of store is the Electro Mart?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Electro Mart is primarily an electronics store where you can purchase a variety of tech-related items. It’s a great resource for students looking for gadgets and electronics, located off-campus at Wangsimni, inside the Bitplex building on the 3rd floor of E-Mart."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리역 근처에 있는 KB국민은행 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "KB국민은행 왕십리역에 가려면 한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 방향으로 약 650m 직진하면 돼. 도보로 약 13분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the best way to get to 바르미스시샤브 왕십리점?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way is to walk! It's around a 14-minute walk from Hanyang University. Just exit at Gate 2, cross towards Exit 1, and head straight for about 650 meters."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you give me directions to Benessere Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! From Hanyang University Station, take Exit 2, cross the road towards Exit 1, and then walk straight for about 650 meters. Benessere is located on the 4th floor of the Bitplex building, which will take you about 14 minutes to reach."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the walking time to 더밝은약국?"
+      },
+      {
+        "role": "assistant",
+        "content": "The walking time to 더밝은약국 is approximately 13 minutes. Just follow the route from Hanyang University Station's Exit 2, cross the street towards Exit 1, and continue straight towards Wangsimni Station. Cross the street again at the district office, and you'll spot the pharmacy!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it a long walk to the Itol Sparta Seongdong Center?"
+      },
+      {
+        "role": "assistant",
+        "content": "Not at all! It’s about a 15-minute walk from Hanyang University, so it’s pretty manageable."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I best walk to 잇올 스파르타 성동센터 from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "To walk to 잇올 스파르타 성동센터 from Hanyang University, exit at Hanyang Univ. Station's 2nd exit. Cross the street towards Exit 1 and then continue straight for about 800 meters in the direction of Wangsimni Station. When you reach 'Wangsimni Church,' turn right, and you'll arrive at 'Lemon Plaza' on the 4th floor. It’s about a 15-minute walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리민자역사점까지 버스 타고 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "아니, 한양대역에서 도보로 충분히 갈 수 있어. 약 13분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How much time do I need to walk to 더밝은약국?"
+      },
+      {
+        "role": "assistant",
+        "content": "You will need about 13 minutes to walk to 더밝은약국. Begin at Exit 2 of Hanyang University Station, cross the road towards Exit 1, and proceed straight for roughly 650 meters towards Wangsimni Station. Cross again at the district office, and it’s right there!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the quickest way to get to Cafe Yoajeong from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "The quickest way is to walk! It takes around 19 minutes. Just exit at Hanyang University Station, pass through campus, and head towards the back gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "스시도쿠 왕십리본점까지 어떤 교통수단으로 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "스시도쿠 왕십리본점은 도보로 갈 수 있어. 특별히 다른 교통수단을 사용할 필요는 없어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how to get to 원더시네마 from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! You can walk there in about 15 minutes, or you can take Line 2 from Hanyang University Station to Ttukseom Station. Exit at 4 and it's just a minute away!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "스시도쿠 카미동 왕십리본점 가는데 시간 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "스시도쿠 카미동 왕십리본점까지는 도보로 약 16분 정도 걸려. 한양대역 2번 출구에서 시작하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리교회 지나는 길로 베네토 가는 거야?"
+      },
+      {
+        "role": "assistant",
+        "content": "맞아. 한양대역 2번 출구에서 출발해서 왕십리역 방향으로 가다 보면 '왕십리교회'가 있어. 그곳에서 우회전하면 '레몬프라자' 맞은편에 베네토가 있어. 도보로는 약 15분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "집무실 왕십리점은 어떤 곳이야? 가는 길도 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "집무실 왕십리점은 교육 관련 시설이야. 한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 쪽으로 약 650m 직진해. '삼부아파트'와 '행당시장' 입구를 지나 조금 더 가면 왼편에 있어. 도보로는 약 17분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "무학여고 가는 길이 어렵지 않아?"
+      },
+      {
+        "role": "assistant",
+        "content": "그렇게 어렵지 않아. 한양대역 2번 출구에서 나와서 캠퍼스를 지나 후문 쪽으로 가면 돼. '무학여고'는 그렇게 멀지 않아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me where Sushi Doku Kamidong is located?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sushi Doku Kamidong is situated about a 16-minute walk from Hanyang University. From Exit 2 of Hanyang Univ. Station, cross the street towards Exit 1, walk straight for around 650 meters towards Wangsimni Station, and then go an additional 200 meters towards Seongdong District Office."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Sushi Doku from Hanyang University Station?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get to Sushi Doku from Hanyang University Station, start at Exit 2, head towards Exit 1, and cross the street. Walk straight towards Wangsimni Station for about 650 meters, then continue for another 150 meters to reach it. It’ll take you around 15 minutes to walk there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "매란방 왕십리본점 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "매란방 왕십리본점은 한양대역에서 도보로 약 14분 거리에 있는 음식점이야. 2번 출구로 나와 1번 출구 방향으로 건너서 왕십리역 방향으로 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "비트플렉스약국 가려면 얼마나 걸리는지 알고 싶어."
+      },
+      {
+        "role": "assistant",
+        "content": "비트플렉스약국까지는 도보로 약 14분 걸려. 한양대역 2번 출구에서 출발하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how long it takes to walk there?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! It takes about 13 minutes to walk to 뉴파인 성동고등학원. Just follow the direction from Exit 2 of Hanyang University Station and walk straight for a bit more than half a kilometer."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Are there any specific points I should know while heading to Nerdy Blue Burrow?"
+      },
+      {
+        "role": "assistant",
+        "content": "Definitely! After you leave Hanyang Univ. Station from Exit 2, cross the street towards Exit 1 and proceed straight for around 800 meters. You'll pass the Wangsimni Church, which is a good landmark. Once you get to Hangdang Market, walk about 100 meters in to reach Nerdy Blue Burrow. The walk is about 18 minutes long."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I walk to Seol Pharmacy from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! You can walk there. Just go out from Hanyang Univ. Station using Exit 2, cross the street towards Exit 1, and keep walking straight for about 650 meters. Seol Pharmacy will be right in front of you across from Wangsimni Station's plaza. It should take around 13 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Are there any landmarks near 폼드팡 왕십리점?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes! To get to 폼드팡 왕십리점, you can use Wangsimni Station as your landmark. Start from Hanyang Univ. Station, exit at Exit 2, and walk towards Wangsimni Station, which is about 650 meters away. 폼드팡 is on the 3rd floor of the Bitplex, and the walk will take you around 14 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Are there any notable places on the way to Seol Pharmacy?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes! After you leave Hanyang Univ. Station by Exit 2 and cross towards Exit 1, walk straight for approximately 650 meters. You'll be heading towards Wangsimni Station, which is a well-known landmark. Seol Pharmacy is conveniently located right across the plaza from the station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 CGV 왕십리 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너야 해. 그 다음 왕십리역 방향으로 약 650m 직진하면 돼. 도보로 약 14분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I just walk to the Tomato Convenience Store?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, you can! It's a nice 13-minute walk from the campus, so enjoy the stroll while you head there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I find Bitplex Pharmacy?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can find Bitplex Pharmacy by going out of Exit 2 at Hanyang University Station. Cross the road towards Exit 1 and walk straight for about 650 meters towards Wangsimni Station. It's located on the 2nd floor of the Bitplex building, which connects to the subway. The walk should take you around 14 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "더밝은약국까지 걷는 거 괜찮아?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 도보로 갈 수 있어. 한양대역 2번 출구에서 나와서 약 13분 정도 걸으면 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me about the Mischa Plus store and how I can reach it from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Mischa Plus is situated in E-Mart at Wangsimni, where you can shop for a variety of products. To reach it, start at Hanyang University Station, exit through Exit 2, cross over towards Exit 1, and then walk straight for about 650 meters. It’s located on the 2nd floor of the building called 'Wangsimni Station (Beatplex)'. The walk will take about 14 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 CGV 왕십리 간단한 경로 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 건너고, 직진해서 왕십리역 건물 5층으로 가면 CGV야. 약 14분 소요돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리 매란방 어떻게 가는지 알려줘?"
+      },
+      {
+        "role": "assistant",
+        "content": "매란방은 한양대역 2번 출구로 나와 1번 출구 방향으로 길을 건너고, 왕십리역 방향으로 약 650m 걸어가면 2층에 있어. 도보로 약 14분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to 베네토?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes about 15 minutes to walk to 베네토 from Hanyang University Station. Just head out from Exit 2, cross over towards Exit 1, and walk straight for around 800 meters. You'll turn right at '왕십리교회' and you'll see it across from '레몬프라자'."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to 예람서점 from the station?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking from Hanyang Univ. Station to 예람서점 takes around 21 minutes. Just head out of Exit 2 and walk through campus, then exit through the back gate towards Sa-geun-dong."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I find Nerdy Blue Burrow?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can find Nerdy Blue Burrow by leaving Hanyang University Station through Exit 2. Cross the street towards Exit 1 and walk straight for about 800 meters in the direction of Wangsimni Station. You'll pass Wangsimni Church, and once you get to the entrance of Hangdang Market, head about 100 meters inside. It takes about 18 minutes on foot."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it possible to walk to that restaurant?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! You can walk to Sushi Doku. It takes around 16 minutes and is a pretty straightforward route from the university."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Do I need to take a bus to get to Four Seasons Fitness?"
+      },
+      {
+        "role": "assistant",
+        "content": "No, you don’t need to take a bus. It’s only a 14-minute walk from Hanyang University! Just head out through Exit 2 and walk straight toward Wangsimni Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "비트플렉스약국 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "비트플렉스약국은 한양대학교 근처에 있는 약국이야. 일반적인 약과 건강 용품을 판매하고 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "이스포츠PC방 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "이스포츠PC방 가려면 한양대역 2번 출구로 나와서 캠퍼스를 지나 후문으로 나가면 돼. 약 21분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I walk to Bitplex Pharmacy from Hanyang?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, you can definitely walk there! It takes approximately 14 minutes to get to Bitplex Pharmacy on foot. Just follow the directions from Exit 2 of Hanyang University Station, and you’ll be there in no time."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "일렉트로마트 왕십리점까지 걷는데 시간 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "일렉트로마트 왕십리점은 도보로 약 14분 정도 걸려. 한양대역 2번 출구에서 나와서 1번 출구 방향으로 건너면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "던킨 왕십리민자역사점 가는데 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "정확히 한양대역 2번 출구에서 출발하면, 약 13분 정도 도보로 걸려. 조금 멀긴 하지만 맛있는 도넛 생각하면서 가면 금방 도착할 거야!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "CGV 왕십리 가려면 어떤 교통수단이 좋을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "CGV 왕십리는 도보로 가는 게 가장 편해. 한양대역에서 14분 정도 걸리니까 그냥 걸어가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it a long walk to Nerdy Blue Burrow?"
+      },
+      {
+        "role": "assistant",
+        "content": "Not really! It takes around 18 minutes to walk there from Hanyang University Station. Just follow the simple route I mentioned earlier, and you'll be there in no time!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "이스포츠PC방 가는 방법 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "이스포츠PC방는 한양대역 2번 출구에서 캠퍼스를 지나서 후문으로 나가는 게 좋아. 약 21분 정도 소요되니 시간 맞춰서 출발해!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 잇올 스파르타 성동센터 가는 길 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나오고, 1번 출구 방향으로 길을 건너. 그 다음에 왕십리역 방향으로 약 800m 직진하다가 '왕십리교회'에서 우회전하면 '레몬프라자' 건물 4층에 도착해. 도보로 약 15분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "참약사 지안약국 도보로 가는 게 괜찮아?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 도보로 가는 게 괜찮아. 약 14분 정도 소요되니까 시간도 괜찮고."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "너디블루 버로우는 어떻게 가는 게 좋아?"
+      },
+      {
+        "role": "assistant",
+        "content": "너디블루 버로우는 한양대역 2번 출구에서 나와서 길 건너고 왕십리역 방향으로 직진하면 돼. 도보로 약 18분 소요돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "탑텐 왕십리역점은 어떻게 가는 게 좋을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "도보로 가는 게 가장 좋아. 한양대역 2번 출구에서 나오면 약 14분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "비트플렉스약국은 뭐야? 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "비트플렉스약국은 한양대 근처에 있는 편의시설로, 약국이야. 한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너. 그 후 왕십리역 방향으로 약 650m 직진하면 '왕십리역(비트플렉스)' 건물 2층에 있어. 도보로 약 14분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how long it takes to get to Electromart by walking?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Walking to Electromart Wangsimni will take around 14 minutes from Hanyang University. Simply exit from Exit 2, cross the street, and walk straight towards Wangsimni Station for about 650 meters."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What kind of place is 예람서점?"
+      },
+      {
+        "role": "assistant",
+        "content": "예람서점 is a cultural and leisure spot where you can find a variety of books and enjoy some quiet reading time. It's a great place for students looking for a cozy environment off-campus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "CGV 왕십리 가는데 도보로 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "CGV 왕십리까지 도보로는 약 14분 정도 걸려. 한양대역 2번 출구에서 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 방향으로 직진하면 되니까 생각보다 그렇게 멀지 않아!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the best way to walk to the Itall Sparta Seongdong Center from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To walk to the Itall Sparta Seongdong Center from Hanyang University, exit from Exit 2 of the station. Cross the road towards Exit 1, then walk straight for about 800 meters toward Wangsimni Station. When you get to Wangsimni Church, turn right. You'll find the center on the 4th floor of the Lemon Plaza building. It takes about 15 minutes on foot."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the vibe at 베네토, and how do I get there from the university?"
+      },
+      {
+        "role": "assistant",
+        "content": "베네토 has a friendly vibe with great food options. To get there, exit Hanyang University Station at Exit 2, cross the road to Exit 1, and go straight for roughly 800 meters. When you reach 'Wangsimni Church,' make a right, and you’ll find it across from 'Lemon Plaza.' The walk should take about 15 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "스시도쿠 왕십리본점이랑 다른 스시집 비교해줘."
+      },
+      {
+        "role": "assistant",
+        "content": "스시도쿠 왕십리본점은 신선한 재료를 사용하는 스시 전문점으로 유명해. 다른 스시집과 비교했을 때, 주로 스시와 함께 다양한 일본 요리가 제공되지만, 스시도쿠는 특히 스시의 퀄리티가 높아서 학생들 사이에서 인기가 많아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리역까지 가는 길 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 나와 1번 출구 방향으로 길을 건너면 돼. 그런 다음 왕십리역 방향으로 약 650m 직진하면 왕십리역에 도착해. 도보로 약 13분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Tomato Convenience Store from Hanyang University Station?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get to Tomato Convenience Store from Hanyang University Station, take Exit 2 and cross the street towards Exit 1. Walk straight for about 650 meters towards Wangsimni Station. Cross the road towards Seongdong District Office, and you’ll see the store right in front of you. It’s about a 13-minute walk, so wear comfortable shoes!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "스시도쿠 겐 왕십리본점까지 버스를 타고 갈 수 있을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "버스를 타고 가는 것보다 걸어가는 게 더 빠르고 편해. 도보로 약 16분 거리니까, 그냥 걸어가는 걸 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to get there by foot?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking to Youngpoong Bookstore will take you about 14 minutes. Start at Hanyang University's Exit 2 and walk towards Wangsimni Station for around 650 meters."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I get to KB국민은행 왕십리역 from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can get to KB국민은행 왕십리역 by walking. Start from Hanyang University, exit through Gate 2, cross to Exit 1, and walk straight for approximately 650 meters. It should only take about 13 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "카페요아정 왕십리점 가기 전에 무학여고 지나쳐야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 맞아. 카페요아정 왕십리점에 가려면 먼저 한양대역 2번 출구로 나와서 무학여고를 지나야 해. 그 후 '행당시장' 방향으로 계속 내려가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I get to 예람서점 from the university as quickly as possible?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get to 예람서점 quickly, leave from Exit 2 of Hanyang Univ. Station. Walk through the campus, exit at the back gate (후문), and head past '무학여고' towards '행당시장.' This should take you around 21 minutes on foot, which is the best option since it’s off-campus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "CGV 왕십리까지 어떻게 가는 거야?"
+      },
+      {
+        "role": "assistant",
+        "content": "CGV 왕십리까지는 한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 방향으로 직진하면 돼. 약 14분 걸릴 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is Top Ten Wangsimni near campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Top Ten Wangsimni is not right on campus; it’s about a 14-minute walk from Hanyang University. While it’s a bit far, it's definitely worth the stroll if you're looking for some good shopping!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "일렉트로마트 왕십리점 가는 길은 안전해?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 한양대역에서 왕십리역까지 가는 길은 안전해. 사람들이 많이 다니는 길이라 걱정할 필요 없어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the fastest way to get to Mukhak High School?"
+      },
+      {
+        "role": "assistant",
+        "content": "The quickest way to reach Mukhak Women’s High School is to start from Exit 2 of Hanyang University Station. Walk through the campus, passing the main building and library, then turn left towards the Humanities and Social Sciences halls. Head out through the back gate towards Sagun-dong, which will take you directly to the school across the hill. It should take you around 18 minutes on foot."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is the Seongdong Library close to campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Not really, it's about a 16-minute walk from Hanyang University Station. Just exit from Gate 2, head towards Gate 1, cross the road, and walk straight for 800 meters towards Wangsimni. Then turn right at Wangsimni Church and take a left at Haengdang Middle School before climbing the hill to reach the library."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 스시도쿠 왕십리본점까지 어떻게 가면 제일 좋을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대에서 스시도쿠 왕십리본점까지는 한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 쪽으로 직진해. 그 후 '왕십리역(비트플렉스)' 지나서 '성동구청' 방향으로 더 가면 돼. 도보로 약 15분 걸려!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What do I need to know about 뉴파인 성동고등학원 and how do I walk there?"
+      },
+      {
+        "role": "assistant",
+        "content": "뉴파인 성동고등학원 is an educational institution located off-campus, requiring a 13-minute walk from Hanyang University. Exit Hanyang Univ. Station at Exit 2, head across the street to the opposite direction, and proceed straight for about 650 meters towards Wangsimni Station. You’ll find the school on the second floor of the Sambu Apartment shopping area."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it possible to get to Youngpoong Bookstore by walking?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! You can walk to Youngpoong Bookstore in about 14 minutes from Hanyang University. Just take Exit 2, cross the street towards Exit 1, and then walk straight until you see the bookstore."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how long it takes to get to 카이테이블 on foot?"
+      },
+      {
+        "role": "assistant",
+        "content": "It should take you about 14 minutes to walk to 카이테이블 from Hanyang University. Just go out through Exit 2, cross the street towards Exit 1, and walk straight for roughly 650 meters towards Wangsimni Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is Misia Plus a good place for shopping?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Misia Plus, located inside Emart at Wangsimni, provides a variety of shopping options, especially for cosmetics and everyday items. It's definitely worth the 14-minute walk from campus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is Innisfree at Emart Wangsimni closer or farther than other beauty stores nearby?"
+      },
+      {
+        "role": "assistant",
+        "content": "Innisfree at Emart Wangsimni is a bit farther than some other beauty stores you might find nearby, like those in the university area. It takes about 14 minutes to walk there from Hanyang University, while some nearby options may only be a few minutes away. But if you’re looking for a specific range of products, it’s worth the walk!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "카이테이블은 어떤 곳이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "카이테이블은 음식점으로, 한양대역에서 도보로 약 14분 거리에 있어. 왕십리역 방향으로 650m 직진하면 '왕십리역(비트플렉스)' 지하 1층에 위치해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "설약국은 어떤 종류의 장소야?"
+      },
+      {
+        "role": "assistant",
+        "content": "설약국은 약국이지. 건강과 관련된 여러 제품을 팔고 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "폼드팡 가는 길 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 나와서 1번 출구 방향으로 길을 건너. 왕십리역 방향으로 650m 정도 직진하면 '왕십리역(비트플렉스)' 3층 식당가에 도착해. 도보로 약 14분 걸릴 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "영풍문고 왕십리역점까지 갈 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 한양대역 2번 출구에서 나와서 길 건너고 왕십리역 방향으로 직진하면 갈 수 있어. 약 14분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리역 비트플렉스에 있는 참약사 지안약국까지 도보로 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리역에서 비트플렉스 4층 식당가로 가면 돼. 한양대역에서 출발하면 약 14분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the best way to reach the eSports PC Bang on foot?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way to reach the eSports PC Bang is to start from Hanyang University Station’s Exit 2. Walk through the campus, passing the Main and Humanities buildings, then head towards the back gate. Once you’re out, just walk about 200 meters in the direction of Sagun-dong. The walk will take you around 21 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 왕십리점까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너. 그 다음 왕십리역 방향으로 직진하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "카페요아정 가는데 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 도보로 약 19분 걸려요. 캠퍼스를 지나 후문으로 나가서 '무학여고' 앞을 지나 '행당시장' 방향으로 가면 도착해요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "이마트 왕십리점 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "이마트 왕십리점은 한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너면 돼. 왕십리역 방향으로 약 650m 정도 직진하면 '왕십리역(비트플렉스)' 건물 2층과 3층에 있어. 도보로 약 14분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it possible to walk there from the university?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, you can definitely walk to 참약사 지안약국 from the university. It takes around 14 minutes on foot. Just follow the directions from Exit 2 at Hanyang University."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking time to get to 뉴파인 성동고등학원?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can expect a walking time of around 13 minutes. Start from Exit 2 of Hanyang University Station and cross the street, then continue straight towards Wangsimni Station. It’s a straightforward walk!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What can I expect at CGV 왕십리 and how should I get there?"
+      },
+      {
+        "role": "assistant",
+        "content": "At CGV 왕십리, you'll find the latest movies and a great atmosphere. To get there, just exit Hanyang University Station at Exit 2, cross over towards Exit 1, and walk in the direction of 왕십리역 for about 650 meters. It's about a 14-minute walk from campus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the fastest way to get to 원더시네마?"
+      },
+      {
+        "role": "assistant",
+        "content": "The quickest way to reach 원더시네마 is by taking the subway. From Hanyang Univ. Station, hop on Line 2 and ride to Ttukseom Station. Once you get off at exit 4, it’s just a short walk of about a minute. Overall, including walking, it should take around 20 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예람서점 가는 길에 지나는 명소가 있을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "예람서점 가는 길에는 본관, 인문관, 기숙사동 같은 건물들이 있어. 후문으로 나가면 '무학여고'가 바로 앞에 있고, '행당시장' 근처에 위치해 있어. 도보로 약 21분 정도 걸리니까 여유롭게 가면 좋을 것 같아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me where the Wangsimni Electro Mart is located?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! The Wangsimni Electro Mart is about a 14-minute walk from Hanyang University. Exit the university station at Exit 2, head towards Exit 1, cross the street, and walk straight for roughly 650 meters until you find it on the 3rd floor of the Bitplex building inside E-Mart."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "폼드팡 왕십리점 어떤 음식점이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "폼드팡 왕십리점은 다양한 요리를 즐길 수 있는 음식점이야. 왕십리역의 식당가에 위치해 있어 사람들이 많이 찾는 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the walking route to the Itall Sparta Seongdong Center?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get to the Itall Sparta Seongdong Center, exit from Hanyang Univ. Station at Exit 2. Cross to the direction of Exit 1, and then walk straight for approximately 800 meters towards Wangsimni Station. After you pass by Wangsimni Church, make a right turn. The center will be on the 4th floor of the Lemon Plaza building. It takes about 15 minutes to walk there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리 베네세레 가는데 시간이 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리 베네세레 왕십리점까지는 도보로 약 14분이 걸려. 출발점인 한양대역 2번 출구에서 나와서 1번 출구 방향으로 건너서 왕십리역 쪽으로 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there a specific route I should follow to get to Tomato Convenience Store?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, definitely! From Hanyang University Station, take Exit 2, cross the road towards Exit 1, and then head straight for approximately 650 meters towards Wangsimni Station. After that, cross over towards Seongdong District Office, and you’ll find Tomato Convenience Store right there in front. It’s about a 13-minute walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking time to get to 베네토?"
+      },
+      {
+        "role": "assistant",
+        "content": "If you're walking to 베네토, it should take you around 15 minutes. Start at Exit 2 of Hanyang Univ. Station, cross the street towards Exit 1, and keep on walking straight for around 800 meters. Turn right when you reach '왕십리교회', and you'll see it right across from '레몬프라자'."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "집무실 왕십리점 가는 길에 뭐가 있지?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 나와 1번 출구 방향으로 길을 건너면, 왕십리역 쪽으로 650m 정도 가면서 '삼부아파트'와 '행당시장'이 있어. 이 두 곳을 지나면 왼편에 집무실 왕십리점이 있어. 중간에 구경할 것도 많아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "CGV 왕십리 가는 중간에 무슨 지점 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리역(비트플렉스) 건물이 CGV 왕십리까지 가는 중간 지점이야. 여기서 5층으로 올라가면 CGV가 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you explain the route to KB Kookmin Bank using landmarks?"
+      },
+      {
+        "role": "assistant",
+        "content": "Definitely! From Hanyang Univ. Station, exit at Exit 2 and head towards Exit 1. Cross the street, and walk straight for about 650 meters. You'll pass by a few shops and cafes along the way. KB Kookmin Bank is situated on the first floor of the 'Wangsimni Station (Bitplex)' building. The whole walk should take around 13 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리까지 도보로 가면 얼마 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리까지는 도보로 약 14분 정도 소요될 거야. 한양대역 2번 출구에서 출발해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the best way to get to Newfine Seongdong High School from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "The easiest way is to walk! Exit Hanyang University Station via Exit 2. Cross the street toward the direction of Exit 1 and continue straight for approximately 650 meters. The school is located on the second floor of the 'Sambu Apartment' commercial area. This will take you about 13 minutes on foot."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "카이테이블 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나가서 1번 출구 방향으로 길을 건너고, 왕십리역 쪽으로 약 650m 직진하면 '왕십리역(비트플렉스)' 건물 지하 1층에서 찾을 수 있어. 도보로 약 14분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Are there any landmarks I should look for when walking to the Itall Sparta Seongdong Center?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes! When you walk from Hanyang Univ. Station, keep an eye out for Wangsimni Church. You’ll walk straight for about 800 meters towards Wangsimni Station. After you pass the church, take a right turn, and the Itall Sparta Seongdong Center will be on the 4th floor of the Lemon Plaza building. It should take about 15 minutes to reach there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "꼬랑치킨 가는데 대중교통 필요해?"
+      },
+      {
+        "role": "assistant",
+        "content": "필요 없어! 한양대역에서 도보로 약 20분 정도 걸려서 바로 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "카이테이블 버스 타고 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "카이테이블은 도보로 가는 게 더 빠르고 편해. 버스를 타고 가기보다는 한양대역에서 걷는 게 좋아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "이마트왕십리점까지 가는 길 알려주면 시간 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "이마트왕십리점까지는 도보로 약 14분 걸려. 한양대역 2번 출구에서 나와서 1번 출구 방향으로 길을 건넌 다음, 왕십리역 방향으로 직진하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "비트플렉스약국 가는 길에 특별한 랜드마크 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 비트플렉스약국까지 가는 길에 왕십리역이 있어요. 그 방향으로 650m 정도 걸어가면 도착해요. 약 14분 정도 소요되니 참고하세요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "스시도쿠 가려면 어떻게 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나가서, 1번 출구 방향으로 길을 건너고, 왕십리역 방향으로 약 650m 직진한 후, '왕십리역(비트플렉스)'을 지나 '성동구청' 방향으로 150m 가면 돼. 도보로 약 15분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "원더시네마 가는 길 헷갈리면 어쩌지?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 지하철 2호선을 타고 뚝섬역에서 하차한 후 4번 출구로 나오면 도보로 1분 거리에 있어. 도보로 가는 길은 어렵지 않아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리역 근처에 있는 미샤 플러스, 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 나와서 1번 출구 방향으로 길을 건너야 해. 그런 다음 왕십리역 쪽으로 약 650m를 직진하면 '왕십리역(비트플렉스)' 2층에서 이마트를 찾을 수 있어. 도보로 약 14분 정도 걸릴 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is 카페요아정 왕십리점 like and how do I get there?"
+      },
+      {
+        "role": "assistant",
+        "content": "카페요아정 is a cozy cafe located off-campus, perfect for chilling or studying. To get there, start from Exit 2 of Hanyang Univ. Station. Walk through the campus, passing by the main building, Humanities building, and dorms. Exit through the back gate towards Sa-geun-dong, and you'll see it near the Hangdang Market after about a 19-minute walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "스시도쿠 왕십리본점 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "스시도쿠 왕십리본점은 한양대역 2번 출구에서 나와서 길을 건너 왕십리역 방향으로 약 650m 직진한 후, '성동구청' 방향으로 150m 더 가면 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "무학여고까지 도보로 갈 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 무학여자고등학교는 도보로 갈 수 있어. 한양대역 2번 출구에서 출발하면 약 18분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "원더시네마까지 버스 타면 얼마 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "원더시네마까지는 대중교통으로 직접 접근하기보다는 한양대역에서 지하철을 타는 게 더 좋고, 도보로 약 15분 걸려. 버스는 별로 일반적이지 않아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I walk to 설약국 from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To walk to 설약국, leave Hanyang University through Exit 2 at the station. Head towards Exit 1, cross the street, and then keep walking straight for around 650 meters in the direction of Wangsimni Station. You’ll find it right across the plaza in about 13 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to 카이테이블?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes about 14 minutes to walk to 카이테이블 from Hanyang University Station. Just head out from Exit 2 and walk straight towards 왕십리역 for about 650 meters."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "비트플렉스약국 가는데 시간 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "비트플렉스약국까지 걸어가면 약 14분 정도 소요돼. 한양대역 2번 출구에서 출발해서 왕십리역 방향으로 약 650m 직진하면 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the quickest way to reach Cafe Yoajeong?"
+      },
+      {
+        "role": "assistant",
+        "content": "For the quickest route to Cafe Yoajeong, start at Exit 2 of Hanyang University Station. Walk through the campus, passing the Main Building and Humanities Building, and exit at the back gate towards Sagin-dong. Continue past Muhak Girls' High School and down towards Hangdang Market. This should take you roughly 19 minutes to walk there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you explain the route to Emart Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! From Exit 2 of Hanyang Univ. Station, cross the street towards Exit 1. Then, head straight for about 650 meters towards Wangsimni Station. You’ll find Emart on the 2nd and 3rd floors of the Bitplex building. The walk will take you about 14 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What kind of place is Four Seasons Fitness?"
+      },
+      {
+        "role": "assistant",
+        "content": "Four Seasons Fitness is a cultural and leisure facility, perfect for those looking to work out or enjoy recreational activities. It offers a range of fitness services and amenities to help you stay active and healthy!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 이마트 왕십리점 갈 때 교통수단 뭐 추천해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대에서 이마트 왕십리점까지는 도보로 가는 게 가장 좋아. 약 14분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does Electro Mart Wangsimni compare to other convenience stores nearby?"
+      },
+      {
+        "role": "assistant",
+        "content": "Electro Mart Wangsimni is larger and offers a wider range of products compared to smaller convenience stores. It's located about a 14-minute walk from campus, providing a more extensive selection of goods than typical stores found closer to Hanyang University."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "성동구립도서관 어떻게 가는지 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 나오고 1번 출구 방향으로 길을 건너. 그리고 왕십리역 방향으로 직진해서 '왕십리교회'에서 우회전, '행당중학교'에서 좌회전 후 언덕을 오르면 성동구립도서관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is KB국민은행 왕십리역 close to campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "No, KB국민은행 왕십리역 is not exactly close to campus. It takes about 13 minutes to walk there from Hanyang University, but it's still a convenient option for banking needs off-campus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the best way to get to the Wangsimni branch of Sushi Doku?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can easily walk there! Start from Exit 2 of Hanyang Univ. Station, cross the road toward Exit 1, and continue straight for about 650 meters. After passing Wangsimni Station (Bitplex), go another 150 meters towards the Seongdong-gu Office. It’s about a 15-minute walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "설약국 무슨 카테고리야?"
+      },
+      {
+        "role": "assistant",
+        "content": "설약국은 편의시설 카테고리에 속해. 주로 약품과 건강 관련 물품을 판매하는 곳이지."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "비트플렉스약국이 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "비트플렉스약국은 한양대역 2번 출구에서 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 방향으로 약 650m 직진해야 해. 2층에 있어!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "무학여고까지 도보로 얼마 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "무학여고까지는 약 20분 걸려. 캠퍼스 내부를 지나서 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "관리형독서실 잇올 스파르타 성동센터 갈 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 한양대역 2번 출구에서 도보로 약 15분 거리야. 길은 쉽게 찾을 수 있으니까 걱정하지 마!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "관리형독서실 잇올 스파르타 가려면 어떻게 가야 할까?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나가서 1번 출구 방향으로 길을 건너고, 왕십리역 쪽으로 약 800m 직진 후 '왕십리교회'에서 우회전하면 '레몬프라자' 4층이야. 도보로 약 15분 소요돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What public transport options do I have to get to Cafe Yoajeong Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way is actually to walk from Hanyang University. It takes about 19 minutes, and the route is pretty straightforward, so I wouldn’t worry about public transport!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How does 설약국 compare to other pharmacies near Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "설약국 offers a good range of pharmacy items, but it's a bit farther from campus compared to others. While there may be closer options, 설약국 is well-stocked and requires a 13-minute walk from Hanyang University Station, making it a reliable choice despite the distance."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "꼬랑치킨은 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "꼬랑치킨은 맛있는 치킨을 파는 음식점이야. 한양대역에서 도보로 약 20분 거리에 위치해 있어서 친구들과 함께 가기 좋은 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What landmarks should I look for on my way to Emart?"
+      },
+      {
+        "role": "assistant",
+        "content": "When walking to Emart Wangsimni, you'll be heading towards Wangsimni Station. After exiting Hanyang Univ. Station at Exit 2 and crossing toward Exit 1, just walk straight for about 650 meters. Emart will be on the 2nd and 3rd floors of the Bitplex building at the station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what 탑텐 왕십리역점 is like and how to go there?"
+      },
+      {
+        "role": "assistant",
+        "content": "탑텐 왕십리역점 is a trendy shopping location offering a variety of items. To reach it from Hanyang University, exit at Exit 2, cross the street towards Exit 1, and continue straight towards Wangsimni Station for about 650 meters. You'll find the store on the 3rd floor of '비트플렉스', opposite E-Mart. The walk takes about 14 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 카이테이블까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 방면으로 약 650m 직진하면 카이테이블이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "매란방에서 왕십리역까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "매란방이 왕십리역 2층에 있어. 바로 아래층으로 가면 왕십리역에 도착해. 연결된 공간이니까 어렵지 않아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "참약사 지안약국 가는 데 시간이 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 출발하면 약 14분 정도 걸려. 도보로 왕십리역 방향으로 약 650m 거리를 직진해야 해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "더밝은약국 가는 길에 성동구청 지나가?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 성동구청을 지나가. 한양대역 2번 출구에서 나와서 1번 출구 방향으로 길을 건너고, 왕십리역 쪽으로 650m 직진한 후 성동구청 방향으로 길을 건너면 바로 더밝은약국이 있어. 도보로 약 13분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "원더시네마까지 가는 길에서 주의할 점 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 원더시네마까지 가는 길은 대부분 평탄하지만, 보행자 도로가 좁은 부분도 있으니까 조심해야 해. 그리고 도보 거리가 좀 있으니 편한 신발을 신고 가는 게 좋아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "성동구립도서관까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구로 나와서 1번 출구 방향으로 길을 건넌 후, 왕십리역 방향으로 약 800m 직진해. '왕십리교회'를 끼고 우회전한 후, '행당중학교'를 끼고 좌회전해 언덕을 오르면 성동구립도서관이 나와."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "베네토 도보로 갈 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 베네토는 도보로 갈 수 있어. 한양대역에서 약 15분 정도 걸어가면 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to 예람서점 from the university?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get to 예람서점, exit Hanyang University Station at Exit 2. Walk through the campus, past the main building, Humanities Building, and dormitory. Head to the back gate towards 사근동. It will take you around 21 minutes on foot."
+      }
+    ]
+  }
+]

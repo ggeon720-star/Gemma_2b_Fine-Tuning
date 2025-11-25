@@ -1,0 +1,6758 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "학군단 시설은 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "학군단에는 ROTC 관련 활동을 위한 강의실과 훈련 공간 등이 있어. 군사 교육에 필요한 다양한 시설이 갖추어져 있지."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "경영관 근처에 뭐 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "경영관 옆에는 경제금융대학이 있어. 경제학과 관련 수업이 많이 열리는 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is the 병원동관 a medical facility?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the 병원동관 is a medical facility, specifically housing the 류마티스병원."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "노천극장에서 206관은 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "노천극장에서 오른쪽으로 가면 신소재공학관이 있고, 그 맞은편에 공업센터 본관이 있어. 그냥 내려오면 될 거야!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the notable features of Building 406?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 406, or 학군단, is primarily known for its ROTC program."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many floors does Building 508 have?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 508, also known as the Humanitas Hall, has a total of 5 floors."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 사회과학관 가는 길 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "사회과학관은 예지문에서 오른쪽으로 가면 돼. 인문관을 지나서 조금 더 가면 도착할 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 미래교육관 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 병원 단지 가장 안쪽으로 가면 돼. 간호대 쪽에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which is farther from the Main Building, Building 212 or Building 211?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 211 is actually right next to Building 212, so they're pretty close. Both are within walking distance from the Main Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1음악관 몇 층이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "제1음악관은 지상 5층 건물로, 음악대학의 강의실이 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "본관은 어떤 종류의 건물이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "본관은 행정 건물이야. 주로 행정 관련 업무가 이루어지는 곳이지."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "인문관에서 백남학술정보관까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "인문관에서 왼쪽으로 가면 백남학술정보관이 가까워. 본관 방향으로 올라가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "융합교육관 근처에 어떤 건물이 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "융합교육관 옆에 경영관이 있고, 또 옆에 행원파크도 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Building 207 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Aeji Gate, walk to the Main Engineering Building (206) and then head straight to the building right behind it, Building 207."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What category does Building 503 fall under?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 503 is categorized as a convenience facility."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which building is next to the Science and Technology Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "The nearest building to the Science and Technology Hall is the Architecture Hall on the left side."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "607관은 어떤 용도로 쓰여?"
+      },
+      {
+        "role": "assistant",
+        "content": "607관인 동문회관은 주로 행사와 웨딩이 열리는 장소로 사용돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I find Hanyang Cyber University Building 1?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can find it directly across from the HIT building on the right end of the main building from the Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best way to reach the Future Automotive Research Center?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can walk to the right from Aeji Gate towards Daewoon Sports Field and either climb the hill or go behind HIT."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What category does Building 403 belong to?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 403, or 제2음악관, is categorized as an educational building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "211관에 시설은 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "211관에는 공과대학 강의실이 있어, 학생들이 주로 수업을 듣는 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is the 5th Student Residence Hall located from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's located at the western end of the dormitory area, just a short walk over the hill from Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Building 408 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Aeji Gate, walk over the hill and you'll find Building 408 connected to the first law building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What can I find in the Information and Culture Hall and how do I get there?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Information and Culture Hall (Building 907) is located just over the hill from Aeji Gate. It’s around a 22-minute walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "204관 주변에 건물 더 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "네, 신소재공학관(204관) 바로 옆에는 왼쪽으로 건축관, 오른쪽으로 공업센터 본관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "박물관 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "현 위치에서 역사관 왼쪽 길로 가거나 본관 앞에서 왼쪽으로 내려가면 박물관이 보여. 3분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "백남학술정보관 가는 길에 본관도 지나가?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 백남학술정보관은 본관 아래쪽에 위치해 있어서 본관을 지나가게 될 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "병원서관은 어떤 카테고리야?"
+      },
+      {
+        "role": "assistant",
+        "content": "병원서관은 의료시설 카테고리에 속해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the Main Building from 행원스퀘어?"
+      },
+      {
+        "role": "assistant",
+        "content": "Just walk straight ahead, and you'll reach the Main Building in no time!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양여대 디자인관은 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양여대 디자인관은 한양여자대학교 도서관 옆에 위치해 있어. 쉽게 찾을 수 있을 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "HIT 건물은 한양사이버대학교 1관 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "HIT 건물은 한양사이버대학교 1관의 왼쪽에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "IT/BT관까지 걸어서 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 IT/BT관까지 걸으면 약 5분 정도 걸려. 길도 쉽게 찾을 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 식품영양관까지 어떻게 가면 돼?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 언덕을 넘어서 한양여대 캠퍼스 안쪽으로 가면 식품영양관이 있어. 그렇게 가면 약 22분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I find Building 804 on campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can find Building 804, the 제2학생생활관, over the hill from the Aeji Gate, in the dormitory area."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's near the Natural Sciences Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Natural Sciences Building is near the Humanities Hall above and the College of Education below."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한누리관은 기숙사 맞아?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 한누리관은 기숙사야. 여러 학생들이 거주하고 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "301관 주변에 친구를 만나려면 어디로 가야해?"
+      },
+      {
+        "role": "assistant",
+        "content": "301관인 대운동장 주변에서 친구를 만나려면 한양대역 쪽으로 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "자연과학대학 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 본관 쪽으로 정면으로 가서 왼쪽 길로 올라가면 돼. 인문관 아래, 사범대 위에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I find the First Law Building and what's nearby?"
+      },
+      {
+        "role": "assistant",
+        "content": "To find the First Law Building, go from Aeji Gate, cross the hill towards the College of Human Ecology. It's next to the Second Law Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the Main Education Building from the Education Building Annex?"
+      },
+      {
+        "role": "assistant",
+        "content": "Just walk next door; the Main Education Building is right beside the Annex."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "미래교육관은 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "미래교육관은 병원동관 근처에 있어. 병원동관에서 조금만 더 가면 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you guide me from IT/BT Hall to the Olympic Gym?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Just head towards the front, then take a left. The Olympic Gymnasium will be behind Hanyang Plaza."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which is closer, the 6th Student Dormitory or the 7th Student Dormitory?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 6th Student Dormitory is right next to the 7th Student Dormitory, so they're very close to each other!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What category does Building 406 fall under?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 406 is categorized under military and educational facilities."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "올림픽체육관 근처에 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "올림픽체육관 근처에는 한양초등학교가 있어. 하지만 그것보다 가까운 건 한양여대 본관이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I find Building 905?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can find Building 905 by walking 18 minutes from Aeji Gate, heading towards Hanyang Women's University."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is Hanyang Cyber University 1 right next to the library?"
+      },
+      {
+        "role": "assistant",
+        "content": "No, Hanyang Cyber University 1 is not next to the library. It's actually near HIT and Building 2."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which is further away, the 대운동장 or 한양대역?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 한양대역 is further away as the 대운동장 is just to your right when you exit at Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "권역응급의료센터 가는 길에 병원본관 지나야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 맞아. 권역응급의료센터는 병원본관(610) 바로 옆에 위치해 있어서 병원본관을 지나가야 해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 게스트하우스 가는 길이 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 언덕을 넘어서 한양여대 방향으로 가면 돼. 동문회관 옆에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양여자대학교 본관은 뭐가 유명해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양여자대학교 본관은 여대 캠퍼스에 위치해 있고, 주요 강의실과 행정 사무소가 있어 학생들에게 중요한 건물이에요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "역사관 몇 층이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "역사관(구본관)은 지상 3층 건물이야. 각 층마다 다양한 공간이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the Hospital Main Building from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Aeji Gate, walk past the large sports field on your right. You'll see the biggest hospital building ahead."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I find the Outdoor Theater?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Outdoor Theater is located just below the library. Head uphill from the Main Building past the library."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "901관은 어떤 종류의 건물이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "901관은 한양여자대학교 본관으로, 여대 캠퍼스의 주요 건물이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to 제1의학관 from 의대계단강의동?"
+      },
+      {
+        "role": "assistant",
+        "content": "You just need to head up from the 의대계단강의동, and you'll find the 제1의학관 right above."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is Building 804 a dormitory?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, Building 804 is indeed a dormitory, specifically for female students."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "자연과학대학(507관) 어디에 위치해?"
+      },
+      {
+        "role": "assistant",
+        "content": "자연과학대학은 예지문에서 본관 왼쪽 길로 올라가면 돼. 인문관 아래쪽, 사범대학 위쪽에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you estimate how long it takes to get to the Architecture Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can expect to take approximately 5 minutes to walk to the Architecture Building from Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is Building 211 from the Main Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's about a 10-minute walk to Building 211 from the Main Building, going past the gym."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 의과대학 본관까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 오른쪽으로 대운동장을 지나서 병원 단지 중앙으로 가면 의과대학 본관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 제1법학관까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 제1법학관까지는 대략 9분 정도 걸려. 언덕을 넘어가야 하니까 조금 힘들 수도 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there a building close to Building 611?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the Medical School Lecture Building is nearby."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제7학생생활관은 어떤 시설이 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "제7학생생활관은 학생들이 편하게 생활할 수 있도록 설계된 기숙사로, 여러 편의시설들이 제공되고 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to FTC from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "Just walk down the road to the right until you reach the end, and you'll see the tall glass building there next to HIT."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "교수회관까지 지름길 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 언덕을 넘어 가는 길이 가장 빠른 경로야. 약 21분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "If I’m at Baeknam Library, how do I get to the Outdoor Theater?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Baeknam Library, just head down the hill, and you'll arrive at the Outdoor Theater in no time!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양여대 디자인관에 가려면 어떻게 해야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 출발해서 언덕을 넘어가면 한양여대 디자인관에 도착해. 대략 20분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what the Education Building is like and where it is located?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Education Building (사범대학 본관) is a six-story structure for education studies. It's located next to the Education Annex and above the Social Sciences Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "901관은 몇 층이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "901관은 여대 캠퍼스에 위치해 있어. 층수에 대한 정보는 없지만, 주로 강의실과 사무실이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "학군단이 ROTC랑 관련이 있지?"
+      },
+      {
+        "role": "assistant",
+        "content": "맞아, 학군단은 ROTC가 운영되는 곳이야. 군사 교육 관련 활동이 이루어져."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "903관이 아닌 다른 건물도 도서관 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "아니, 903관에 있는 한양여자대학교 도서관이 주된 도서관이야. 다른 건물에는 도서관이 없어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which way is the Second Student Residence Hall from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Second Student Residence Hall is right next to Gaenari Hall, so just head to the side!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 907관까지 가는 길 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 언덕을 넘어 한양여대 캠퍼스 안으로 들어가면 바로 907관인 정보문화관이 있어. 교수회관과 식품영양관 사이에 있지."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "정몽구 미래자동차연구센터 옥상정원 가는 길도 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "옥상정원은 정몽구 미래자동차연구센터 안에 있어. 건물에 들어가서 엘리베이터를 타고 올라가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is it to Building 304 from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's about a 5-minute walk from here at Aeji Gate to Building 304."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is Building 108 located in relation to Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 108 is to the left of Aeji Gate. Just keep walking down the path past the Student Center, and you'll see it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "607관은 의과대학과 어떤 관계야?"
+      },
+      {
+        "role": "assistant",
+        "content": "607관(동문회관)은 의과대학 위쪽에 위치해 있어. 의과대학에 가는 길을 따라가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how to reach Building 607 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Exit Aeji Gate, walk right past the gym, and head towards the hospital entrance. The Alumni Hall will be on the road."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What building is to the left of the Humanities Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "To the left of the Humanities Building is the Social Sciences Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "역사관 어떻게 가는지 궁금해."
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 걸어가면, 정면의 고풍스러운 석조 건물인 역사관(구본관)을 쉽게 찾을 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What category does the IT/BT관 fall under?"
+      },
+      {
+        "role": "assistant",
+        "content": "IT/BT관 is categorized as a research and education building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "신소재공학관 건물 코드는 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "신소재공학관의 건물 코드는 204야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "경영관은 707관 어느 쪽에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "경영관은 707관 바로 앞쪽에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "의과대학 본관 가려면 예지문에서 얼마 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 의과대학 본관까지 걸어가면 대략 10분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is Hanyang Cyber University 1 an educational facility?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, Hanyang Cyber University Building 1 is an educational building focused on online learning."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the Architecture Hall from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Aeji Gate, head straight, follow the path to the right near the Main Building, and you’ll see it on your left."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제2음악관(403관) 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "제2음악관은 예지문에서 언덕 넘어 음악대학 단지 안쪽에 위치해 있어. 제1음악관 바로 옆이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is the Main Education Building in relation to Building 506?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Main Education Building (Building 505) is right next to the Education Building Annex."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is the 3rd Student Dormitory located from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 3rd Student Dormitory is just over the hill in the dormitory complex. You can't miss it!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What buildings are nearby the IT/BT관?"
+      },
+      {
+        "role": "assistant",
+        "content": "IT/BT관 is right next to 산학기술관 and in front of the 올림픽체육관. They're all pretty close!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Hwangwon Square from the library?"
+      },
+      {
+        "role": "assistant",
+        "content": "From the library, just head towards the Main Building in front of you. Hwangwon Square is right there, just a short walk away."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Building 101 if I'm at the Lion Statue?"
+      },
+      {
+        "role": "assistant",
+        "content": "From the Lion Statue, just walk straight ahead, and you'll see the History Hall right behind it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the Open Source SW Center in Building 304 from the Olympic Gymnasium?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach the Open Source SW Center, head up past the Olympic Gymnasium and look for Building 304, which is right behind it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I find Building 707 from the subway station?"
+      },
+      {
+        "role": "assistant",
+        "content": "Head right from Aeji Gate, and you'll come to the underground parking entrance near the Business Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제2음악관에서 제1음악관 가는 길이 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "제2음악관에서 제1음악관도 바로 옆에 있어서 쉽게 갈 수 있어. 그냥 옆으로 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "202관은 몇 층이에요?"
+      },
+      {
+        "role": "assistant",
+        "content": "202관은 지상 6층 건물이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1학생생활관이랑 제3학생생활관 중 어느 게 더 가까워?"
+      },
+      {
+        "role": "assistant",
+        "content": "제1학생생활관이 제3학생생활관 바로 옆에 있어. 제1학생생활관이 더 가까워."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me where the Cyber University building is?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! The Cyber University building, also known as Building 703, is located just beside Building 1 after walking up from 경영관."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "인문관에 가려면 예지문에서 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 그냥 정면 언덕을 끝까지 올라가면 돼. 그러면 백남학술정보관 바로 왼쪽 아래에 인문관이 보여."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제3학생생활관 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "제3학생생활관은 예지문(한양대역 2번 출구)에서 언덕을 넘어 기숙사 단지 내에 있어. 가까운 기숙사는 제1학생생활관과 제5학생생활관이 옆에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제2음악관이랑 백남음악관 중 어디가 더 가까워?"
+      },
+      {
+        "role": "assistant",
+        "content": "제2음악관은 제1음악관 옆에 위치해 있고, 백남음악관은 오른쪽에 있어서 제2음악관이 더 가까워."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "박물관은 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "박물관은 본관의 오른쪽 위에 있는 부속건물이며, 학생회관 아래쪽에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양여대 정보문화관 어떻게 찾지?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 언덕을 넘어가면 한양여대 캠퍼스 내에 있는 정보문화관이 있어. 교수회관과 식품영양관 사이에 위치해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you guide me to the Early Childhood Education Building from the Food and Nutrition Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Just walk next to the Food and Nutrition Building, and you'll see the Early Childhood Education Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which direction should I go to reach the Main Engineering Building from Building 207?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should go up towards the Main Engineering Building from Building 207."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is the Education College Annex located from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Annex (Building 506) is right next to the Main Education Building (505), which you can reach easily from Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's behind the Main Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Lion Statue is located just behind the Main Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 개나리관까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 언덕을 넘어 후문 근처 기숙사 단지로 가면 개나리관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "210관까지 가는 데 얼마나 시간이 필요해?"
+      },
+      {
+        "role": "assistant",
+        "content": "210관까지는 약 11분 걸려. 대운동장 쪽으로 쭉 가면 금방 도착할 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한누리관은 개나리관 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "한누리관은 개나리관 아래쪽에 위치해 있어. 조금 내려가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "행원스퀘어는 교수회관 옆에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 행원스퀘어는 교수회관 바로 옆에 있어. 교수회관에 가는 길에 쉽게 볼 수 있을 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's near the Engineering Center Annex?"
+      },
+      {
+        "role": "assistant",
+        "content": "It’s located right behind the main Engineering Center (Building 206) and near the first Engineering Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "606관에 가면 어떤 행정 업무를 볼 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "의과대학 본관에서는 주로 의대 관련 행정 업무를 처리할 수 있어. 상담이나 서류 제출 같은 것도 할 수 있지."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "국제관이 있는 108관은 몇 층이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "국제관은 지상 6층으로 되어 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "의대계단강의동에 뭐 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "여기에는 대형 강의실이 있어서 많은 수업이 열려. 학습하기 좋은 공간이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "HIT에 어떤 시설 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "HIT에는 산학협력단과 여러 연구실이 있어서 연구 관련 활동이 활발하게 이루어져요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "디자인관은 몇 층이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "디자인관은 층수 정보는 따로 없지만, 디자인 관련 수업과 작업실이 있어. 활용도가 높아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the quickest way to get to the main administration building from the subway?"
+      },
+      {
+        "role": "assistant",
+        "content": "Just walk straight out of Aeji Gate, and you'll find Building 102 straight ahead, behind the Lion Statue."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is Building 405 a cultural facility?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the Baeknam Music Hall is classified as a cultural facility."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "병원서관(국제병원) 가려면 뭐 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 바로 걸어서 가면 돼. 대운동장 넘어 서쪽에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "의대계단강의동 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "의대계단강의동은 예지문(한양대역 2번 출구) 오른쪽 대운동장 길 끝, 병원 주차장 근처에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is the First Law Building located from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "The First Law Building is up on the hill, just across from the College of Human Ecology. You can't miss it!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "과학기술관 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "과학기술관은 예지문(한양대역 2번 출구)에서 정면 본관 오른쪽 길을 따라 올라가다 박물관에서 아래쪽 길로 내려가면 보이는 건축관 뒤쪽에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What facilities can I find in Building 203?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 203 houses facilities for the College of Science and the College of Natural Sciences, though specific facilities aren't listed."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 402관까지 가는 데 시간이 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 402관인 제1음악관까지 걸어서 약 10분 정도 소요돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "사회과학관이랑 인문관 중 어디가 더 가까워?"
+      },
+      {
+        "role": "assistant",
+        "content": "사회과학관은 인문관 맞은편에 위치해 있어서 사실상 가까운 편이에요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how to reach Building 906 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Just walk over the hill towards the inside of Hanyang Women’s University campus to find Building 906."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 경영대학 가는 방법 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 오른쪽으로 돌면 경영관이 있어. 언덕 위에 있으니까 엘리베이터 타는 게 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the building code for the Jung Mong-koo Future Automobile Research Center?"
+      },
+      {
+        "role": "assistant",
+        "content": "The building code is 210."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "정보문화관에서 식품영양관 가는 길 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "정보문화관에서 나와서 옆으로 가면 바로 식품영양관이 있어, 거리가 가깝고 쉽게 찾아갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1의학관은 몇 층이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "제1의학관은 지상 6층 건물이야. 의과대학의 여러 시설이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "박물관 층수 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "박물관은 지상 5층으로 구성되어 있어. 각 층마다 다른 전시와 세미나가 열리지."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me the fastest way to reach Building 210 from the subway exit?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Walk right from Aeji Gate along the path towards Daeun Sports Field, then either take the hill or go behind HIT to reach the Future Automotive Research Center."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "사회과학관은 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "사회과학관은 인문관 왼쪽에 있어. 두 건물은 가까워서 쉽게 찾을 수 있을 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "사범대학 본관 근처에 뭐 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "사범대학 본관 옆에는 사범대학 별관이 있어. 조금 위쪽으로 가면 사회과학관도 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양사이버대학교 2관 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양사이버대학교 2관은 예지문(한양대역 2번 출구) 오른쪽 경영관(706) 뒤편 언덕에 있어. 사이버대 1관 옆에 위치해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "503관으로 가려면 어떻게 해야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 언덕 끝까지 올라가면 백남학술정보관 바로 왼쪽에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me the way to Building 805 from the subway station?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Just head over the hill near the Aeji Gate and follow the path to the dormitory area where Gaenari Hall is located."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is the Design Hall located in the Hanyang University campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the Design Hall is indeed located within the Hanyang University campus!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is Building 614 from the Main Hospital?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 614 is right next to the Main Hospital, so it's just a few steps away!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the building code for Hanyang Plaza?"
+      },
+      {
+        "role": "assistant",
+        "content": "The building code for Hanyang Plaza is 105."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 401관까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 언덕을 올라가고 백남학술정보관 왼쪽 길로 넘어가면 401관이 있어. 그렇게 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "행원파크는 경영대학에서 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "경영관에서 행원파크까지는 도보로 약 5분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "권역응급의료센터가 의대계단강의동에서 얼마나 먼가?"
+      },
+      {
+        "role": "assistant",
+        "content": "의대계단강의동에서 권역응급의료센터까지는 거리상 그렇게 멀지 않아. 병원 본관으로 가는 쪽으로 가면 금방 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I find the 학생회관?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can find the 학생회관 by walking left from Aeji Gate and taking the path by Hanyang Plaza. It should be right in front of you!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "과학기술관 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 본관 오른쪽 길을 따라 올라가다가 박물관에서 아래쪽 길로 내려가면 건축관 뒤쪽에 과학기술관이 있어. 도보로 약 6분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking time from the subway to the International Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "You’ll need roughly 4 minutes to get to the International Building from Aeji Gate. It’s a quick walk!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양여대 디자인관 어떻게 쉽게 찾아?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 언덕을 넘어가면 디자인관이 보일 거야. 20분 정도 걸리니 참고해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "과학기술관 다음에 가면 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "과학기술관 다음에는 왼쪽으로 건축관, 오른쪽으로 신소재공학관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 제1법학관 가는 길에 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 제1법학관으로 가는 길에는 생활과학대학와 제2법학관이 있어. 제2법학관이 바로 옆에 있으니 참고해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is the 대운동장 closer than the 제1의학관?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the 대운동장 is closer since it's right next to the Aeji Gate, while 제1의학관 is further to the right."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "백남학술정보관 주변에 다른 건물은 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "백남학술정보관 바로 아래쪽에 본관, 왼쪽에 인문관이 있어. 주변에 다른 시설도 많이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is the Emergency Medical Center a healthcare facility?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the Emergency Medical Center is indeed classified as a healthcare facility."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long will it take me to get to Building 703?"
+      },
+      {
+        "role": "assistant",
+        "content": "It'll take approximately 13 minutes to walk to Building 703 from the Aeji Gate area."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the best way to reach the Museum from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can either take the left path towards the History Hall or go down from the Main Building to reach the Museum."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "재성토목관은 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "재성토목관은 예지문에서 본관 오른쪽 길로 올라가다가 박물관 아래쪽으로 내려가면 돼. 건축관 바로 옆에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how to find the Hospital Annex from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Just walk past the Big Sports Field on your right, and you'll find the Hospital Annex to the west."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "백남학술정보관에 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "백남학술정보관은 중앙도서관으로, 다양한 자료와 열람실이 있어 공부하기 좋은 공간이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "공업센터는 제2공학관 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "공업센터는 제2공학관 위쪽에 위치해 있어. 한 번 가볼 만해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What direction is Hanyang Women’s University from the elementary school?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hanyang Women’s University is right next to Hanyang Elementary School, so it's very close!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양플라자 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양플라자는 예지문(한양대역 2번 출구) 바로 왼편에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is the Rheumatology Hospital located on the first floor?"
+      },
+      {
+        "role": "assistant",
+        "content": "No, the Rheumatology Hospital is on the 8th floor of Building 614."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which building is on the left when heading to the Stadium?"
+      },
+      {
+        "role": "assistant",
+        "content": "When you go left from here, you'll find Hanyang Univ. Station, right next to the Stadium."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Building 611 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Aeji Gate, head towards the Main Hospital (병원본관). It's connected to the Emergency Medical Center."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is the Olympic Gymnasium from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's just a 2-minute walk from Aeji Gate to the Olympic Gymnasium. Super quick!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how to find Hanyang Elementary School?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Just head over the hill from Aeji Gate; it's about an 18-minute walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제3학생생활관 코드 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "제3학생생활관의 건물 코드는 802야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which direction is the 7th Student Dormitory from the 6th Dorm?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 7th Student Dormitory is right next to the 6th Student Dormitory, so it's just beside it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "408관은 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "408관, 즉 제2법학관은 제1법학관 옆에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양여대의 정보문화관은 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양여대의 정보문화관은 교수회관과 식품영양관 사이에 위치해 있어. 예지문에서 언덕을 넘어가면 될 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "역사관은 몇 층 건물인데?"
+      },
+      {
+        "role": "assistant",
+        "content": "역사관(구본관)은 지상 3층 건물이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "신소재공학관 안에 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "신소재공학관은 신소재공학부가 있는 교육건물이야. 최신 시설과 연구실이 갖춰져 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "개나리관은 어떤 종류의 건물이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "개나리관은 기숙사 건물로, 학생들이 거주하는 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best way to find the library?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get to the library, walk from Aeji Gate over the hill into the campus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Does the 제6학생생활관 have many floors?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the 제6학생생활관 is a newly constructed dormitory, so it has several floors to accommodate students."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "IT/BT관 특징이 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "IT/BT관은 정보통신과 생명공학 관련 교육과 연구를 위한 건물로, 최신 시설이 갖춰져 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "206관 바로 옆에 어떤 건물 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "206관 바로 옆에는 신소재공학관이 있고, 오른쪽에는 노천극장이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "경영대학은 706관에서 뭐가 중요해?"
+      },
+      {
+        "role": "assistant",
+        "content": "706관은 경영대학이 있는 곳으로, 학생들이 수업을 듣고 연구하는 중요한 교육공간이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Are there any buildings near Building 905?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the closest one is Hanyang Women's University Main Building, and further away is the Olympic Gymnasium."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which building is located above the Education Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "The building directly above the Education Building is the Social Sciences Building (사회과학관)."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "802관 주변에 다른 기숙사 있나?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 제3학생생활관 옆에 제1학생생활관과 제5학생생활관이 있어. 다 기숙사야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the notable features of the 제6학생생활관?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 제6학생생활관 is known as the 'Happy Dormitory' and is a newly built facility."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "병원본관에 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "병원본관에는 주로 진료실과 병동이 있어. 환자 진료를 위한 시설이 주로 운영되고 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양여대 본관과 유아교육관은 얼마나 멀어?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양여대 본관은 유아교육관에서 멀리 위치해 있어. 본관까지 가려면 더 걸어야 할 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "의대계단강의동 근처에 뭐 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "의대계단강의동 근처에는 권역응급의료센터가 있어. 이 건물은 응급실이 있는 의료시설이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is the 제3학생생활관 located?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 제3학생생활관 is located up the hill in the dormitory area, specifically in the 800s building range."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한누리관 찾으려면 어떻게 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 언덕을 넘어 행원파크 뒤쪽 길을 따라가면 한누리관이 보여."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "지하철 예지문에서 여학생 기숙사까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 언덕 넘어서 기숙사 단지로 가면 여학생 기숙사인 제2학생생활관이 보여."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me where the Early Childhood Education Building is in relation to the Food and Nutrition Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's right next to the Food and Nutrition Building, so you can easily walk there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking time from the subway station to Building 906?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can expect it to take around 21 minutes to reach Building 906 from the subway station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1음악관은 어떤 건물인데?"
+      },
+      {
+        "role": "assistant",
+        "content": "제1음악관은 교육건물로 음악대학 소속이야. 음악 관련 수업과 활동이 이루어져."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "403관이랑 제1음악관 중 어떤 게 더 큰 건물인가?"
+      },
+      {
+        "role": "assistant",
+        "content": "두 건물 모두 교육 건물이지만, 제2음악관은 연습실이 많이 있어서 음악 관련 시설이 더 많아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What can I find in the Food and Nutrition Building, and where is it located?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Food and Nutrition Building (Building 908) has facilities related to nutrition studies. It's located inside Hanyang University campus, just over the hill from Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1법학관은 제2법학관 어느 쪽이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "제1법학관은 제2법학관의 왼쪽에 위치해 있어. 두 건물은 가까워서 쉽게 알아볼 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "생활과학대학 근처에 뭐 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "생활과학대학 근처에는 백남학술정보관이 오른쪽 아래에 있고, 제1법학관이 왼쪽에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제7학생생활관이랑 제6학생생활관 중 어떤 게 더 가까워?"
+      },
+      {
+        "role": "assistant",
+        "content": "제6학생생활관이 제7학생생활관 바로 옆에 있어, 그러니까 제6학생생활관이 더 가까워."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what’s nearby the Emergency Medical Center?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! The Hospital Main Building is very close, and the Medical School Lecture Building is also nearby."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "본관에서 역사관까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "본관에서 역사관은 왼쪽 방향으로 가면 돼. 걸어서 2분 정도면 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I find Building 605 when coming from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Aeji Gate, go to the right and cross the sports complex. The Second Medical Building is next to the First Medical Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking time to the 5th Student Residence Hall from the subway?"
+      },
+      {
+        "role": "assistant",
+        "content": "You’re looking at about a 16-minute walk from Aeji Gate to the 5th Student Residence Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "901관 어떻게 찾지?"
+      },
+      {
+        "role": "assistant",
+        "content": "901관은 예지문에서 언덕을 넘어 캠퍼스 북쪽 끝으로 가면 쉽게 찾을 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how to reach Building 609 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Go right from Aeji Gate, cross the sports field, and you'll find the International Hospital on your left."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which building is next to the IT/BT관?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 산학기술관 is right beside the IT/BT Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "사회과학관 주변에 어떤 건물이 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "사회과학관 주변에는 인문관이 오른쪽에 있고, 사범대학 본관이 아래쪽에 있어. 이 두 건물은 자주 가는 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한누리관은 없는 건물이지?"
+      },
+      {
+        "role": "assistant",
+        "content": "아니, 한누리관은 기숙사로 존재해. 잘 찾아봐!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it far to the Museum from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "Not at all! It's just a 3-minute walk from Aeji Gate to the Museum."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "융합교육관 가려면 행원파크 지나야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "아니, 행원파크를 지나지 않고 경영관을 지나서 바로 융합교육관으로 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 210관 가려면 어떻게 해야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 오른쪽으로 가서 대운동장 쪽 길을 따라 끝까지 가면 돼. 언덕을 오르면 바로 210관이 보여."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is the Main Building near any other buildings?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes! The History Hall is to the left, and the Lion Statue is located just behind the Main Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제2법학관까지 걸어서 얼마나 걸릴까?"
+      },
+      {
+        "role": "assistant",
+        "content": "제2법학관까지는 예지문에서 걸어서 약 9분 걸려. 그렇게 멀지 않으니 걱정하지 마!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the Main Building from the Design Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Main Building is right next to the Design Building, so just walk over!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What building is above the Education Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "Above the Main Building, you'll find the Social Sciences Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "614관은 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "614관은 병원동관(류마티스병원)/신한플라자를 지칭하는 건물 코드야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what notable features Dongmunhwe-gwan has?"
+      },
+      {
+        "role": "assistant",
+        "content": "Dongmunhwe-gwan is known for its wedding halls and alumni gatherings."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "211관은 교육 건물 맞아?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 맞아! 211관은 교육건물인 제2공학관이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "306관 가려면 어디로 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "306관은 예지문에서 왼쪽으로 가면 돔 형태의 체육관이 보여, 그쪽으로 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking time to Building 617 from the subway station?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should allow around 14 minutes to walk to the Future Education Center from Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to Gaenari Hall from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes about 16 minutes to walk to Gaenari Hall from Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's in the 제2음악관 and how do I get there?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 제2음악관 has practice rooms. From Aeji Gate, walk over the hill into the music complex; it's right next to the 제1음악관."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "본관은 없지?"
+      },
+      {
+        "role": "assistant",
+        "content": "본관은 있어! 행정건물로 총장실과 행정부서가 있는 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제2공학관은 몇 층이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "제2공학관은 지상 5층으로 구성되어 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 904관 가는데 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 904관인 행원스퀘어까지는 보통 20분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what's beside Building 403?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 403 (the Second Music Hall) is right next to the First Music Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양여자대학교 본관 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양여자대학교 본관은 캠퍼스 북쪽 끝에 위치해 있어. 예지문에서 언덕을 넘어가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제2법학관 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 출발하면 언덕을 넘어서 제1법학관과 연결된 제2법학관에 도착할 수 있어. 대략 9분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I reach the Engineering Center Main Building from the Outdoor Theater?"
+      },
+      {
+        "role": "assistant",
+        "content": "From the Outdoor Theater, just head left towards the Materials Science Building, then go down to the engineering complex. The Engineering Center Main Building is right in the middle."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제5학생생활관과 제3학생생활관은 어떻게 달라?"
+      },
+      {
+        "role": "assistant",
+        "content": "제3학생생활관은 지상 7층의 기숙사 건물이고, 제5학생생활관도 기숙사지만 위치와 설계는 조금 다를 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양사이버대학교 2관 가는 데 얼마 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 한양사이버대학교 2관까지는 대략 13분 정도 소요돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양여대 도서관은 몇 층 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양여자대학교 도서관은 여대 캠퍼스에 위치해 있어. 층수에 대한 정보는 없지만, 도서관 공간이 잘 마련되어 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 610관까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 오른쪽으로 나와서 대운동장을 지나면 병원본관인 610관이 바로 보일 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1학생생활관이 남학생 기숙사라고 하는데, 여자 기숙사는 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "제1학생생활관은 남학생 기숙사로, 여자 기숙사는 다른 곳에 있어. 제1학생생활관 근처에는 여자 기숙사가 없어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "행원스퀘어 가는 데 시간이 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "행원스퀘어까지는 예지문에서 약 20분 걸린다고 생각하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I find the first medical building?"
+      },
+      {
+        "role": "assistant",
+        "content": "Just head to Building 604 by crossing the big playground from Aeji Gate and walking towards the hospital."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I find the 미래교육관 and what does it offer?"
+      },
+      {
+        "role": "assistant",
+        "content": "To find the 미래교육관, head 14 minutes from Aeji Gate toward the inner hospital area; it focuses on nursing education."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to 경영관 from Building 703?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Building 703, just head down the hill to reach the 경영관."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you guide me to Building 211 from the Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Aeji Gate, walk right past the large sports field, then head up the path to reach Building 211 (제2공학관) below the Engineering Center."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "대운동장 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "대운동장은 예지문(한양대역 2번 출구) 바로 오른편에 있어. 넓은 인조잔디 운동장이 펼쳐져 있어!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the women's dormitory from the main gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach the women's dormitory (제2학생생활관), walk over the hill from the Aeji Gate. It'll take you about 16 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "203관은 어떤 건물이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "203관은 교육건물인 과학기술관으로, 이과대학과 자연과학대학이 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which building is further away, 경영관 or 행원파크?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 행원파크 is further away compared to the 경영관, which is right next to the 경제금융대학."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I get to Building 2 from 여기?"
+      },
+      {
+        "role": "assistant",
+        "content": "Exit the current building and walk to the right; Building 2 is just down that path."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "융합교육관 찾으려면?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 오른쪽으로 가면 경영관(706) 근처에 있어. 잘 찾아봐!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is the 의대계단강의동 from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's about a 14-minute walk from your current location at Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "백남음악관(405관)에는 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "백남음악관은 주로 콘서트홀로 사용되고 있어. 다양한 음악 행사와 공연들이 열리니까 꼭 가봐!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I find the Semiconductor Research Lab at Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Semiconductor Research Lab is located in the Fusion Tech Center (FTC), which is Building 208."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양사이버대학교 1관은 본관에서 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "본관에서 오른쪽 길 끝으로 가면 HIT 건물 맞은편에 한양사이버대학교 1관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "미래자동차연구센터에 뭐 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "정몽구 미래자동차연구센터에는 미래자동차공학과와 옥상정원이 있어. 연구와 교육을 위한 공간이 마련되어 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I find Hwangwon Park?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hwangwon Park (행원파크) is located at the underground parking area near the Business Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "미래자동차연구센터가 무슨 용도야?"
+      },
+      {
+        "role": "assistant",
+        "content": "정몽구 미래자동차연구센터는 자동차 관련 연구와 교육을 위한 공간으로, 미래자동차공학과가 자리 잡고 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1의학관에서 제2의학관 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "제1의학관에서 나와서 바로 옆에 있는 제2의학관으로 가면 돼. 가까워서 금방 도착할 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "212관 근처에 다른 건물도 있을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "네, 212관 위쪽으로 공업센터 별관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I find the main building of the Faculty of Education?"
+      },
+      {
+        "role": "assistant",
+        "content": "You’ll find the main building of the Faculty of Education at the Education Building (사범대학 본관), located near the Education Annex."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "207관에 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 공업센터 본관(206)으로 가고, 본관 바로 뒤쪽에 있어요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "사범대학 본관에서 사회과학관까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "사범대학 본관에서 아래쪽으로 내려가면 인문관이 보이고, 그 맞은편에 사회과학관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is Building 605 from the main entrance?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's about a 10-minute walk from the Aeji Gate to 제2의학관."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I reach Building 504 from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach Building 504 (Social Science Building), walk up the hill from Aeji Gate and take the left path near the library."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what's near the Law Building 2?"
+      },
+      {
+        "role": "assistant",
+        "content": "Near Law Building 2 (제2법학관), you’ll find Law Building 1 (제1법학관) and Law Building 3 (제3법학관)."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to Building 1 from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes about 13 minutes to walk to Building 1 from Building 703."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "신소재공학관 근처에서 공업센터 본관 어떻게 갈 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "신소재공학관에서 내려오는 길로 가면 바로 공업센터 본관이 보여. 중앙에 위치해 있으니까 쉽게 찾을 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "공업센터 본관이랑 별관 중에서 어떤 게 더 큰 건물인가?"
+      },
+      {
+        "role": "assistant",
+        "content": "공업센터 본관이 더 큰 건물이에요. 별관은 4층으로 비교적 작아요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "여대 도서관이랑 디자인관 중 어디가 더 가까워?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양여자대학교 도서관이 한양여대 디자인관 옆에 있어서 더 가까워. 디자인관에서 도서관까지는 금방 가는 거리야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 퓨전테크센터(FTC)까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 퓨전테크센터(FTC)까지는 대략 8분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I find the funeral home?"
+      },
+      {
+        "role": "assistant",
+        "content": "The funeral home is part of the International Hospital, located in the same building, Building 609."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you point me to the nearest building from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! The nearest building is HIT, just to the left of 한양사이버대학교 1관."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "208관은 어떤 용도로 쓰여?"
+      },
+      {
+        "role": "assistant",
+        "content": "208관, 즉 퓨전테크센터는 주로 연구 및 교육 목적으로 사용되는 건물이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "617관은 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "617관인 미래교육관은 예지문(한양대역 2번 출구)에서 병원 단지 안쪽으로 가면 돼. 간호대 쪽에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 810관까지 어떻게 가는지 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 언덕 넘어 사근동 방향으로 가면 제7학생생활관이 있어. 그곳이 810관이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 606관 가려면 어떻게 해야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 오른쪽으로 나와 대운동장을 지나면 병원 단지 중앙에 있는 의과대학 본관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "503관에 가려면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 사자가 군것질 할 때까지는 약 6분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which building is right next to the Economics and Finance School?"
+      },
+      {
+        "role": "assistant",
+        "content": "The closest building is the Law School (제1법학관) located up from the Economics and Finance School."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I find the Emergency Medical Center and what does it offer?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Emergency Medical Center (Building 611) offers emergency services. To find it, walk from Aeji Gate to the Main Hospital (Building 610); they are connected."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What should I do after reaching the 2nd Engineering Building to get to Building 212?"
+      },
+      {
+        "role": "assistant",
+        "content": "Once you reach the 2nd Engineering Building (제2공학관), keep going straight inside, and you'll find Building 212."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "기숙사인 806관은 어떻게 찾아?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 언덕 넘어 행원파크 뒤쪽 길로 가면 806관이 나와. 14분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many floors does Building 403 have?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 403, or 제2음악관, has 5 floors in total."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "802관은 몇 층이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "제3학생생활관은 지상 7층 건물로 되어 있어. 기숙사로 사용되고 있지."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I walk to 신소재공학관 from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! It takes about 7 minutes to walk to the 신소재공학관 from Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "본관에서 역사관 가는 길은 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "본관에서 오른쪽으로 가면 역사관(구본관)이 있어. 금방 도착할 수 있을 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking time to the Architecture Building from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking from Aeji Gate to the Architecture Building will take around 5 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "사범대학 본관(505관) 주변에 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "사범대학 본관 주변에는 사범대학 별관이 옆에 있고, 위쪽에 사회과학관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "퓨전테크센터 바로 옆에 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "퓨전테크센터 바로 오른쪽에는 한양종합기술연구원(HIT)가 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is the Engineering Center Building 207 located?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 207, also known as the Engineering Center, is located right behind the 공업센터 본관. Just a 9-minute walk from Aeji Gate!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "병원동관은 어떤 기능이 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "병원동관은 주로 류마티스병원으로 구성되어 있으며, 관련된 의료 서비스를 제공해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s below the 3rd Law Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "The College of Economics and Finance is directly below Building 409."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the walking time to Building 410 from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can expect it to take around 5 minutes to walk to Building 410 from your current location."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What features does the Outdoor Theater have?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Outdoor Theater is famous for hosting festivals and performances, making it a lively spot on campus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "사범대학 별관까지 예지문에서 어떻게 가는지 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 사범대학 본관(505)으로 이동하고, 그 옆에 있는 사범대학 별관(506)이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양사이버대학교 1관은 교육 건물 맞지?"
+      },
+      {
+        "role": "assistant",
+        "content": "아니, 한양사이버대학교 1관은 교육건물로 되어 있어. 사이버대와 관련된 중요한 기능을 가지고 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 305관 가는 길 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 왼쪽으로 가면 올림픽체육관이 보이고, 그 뒤쪽에 있는 IT/BT관이야. 체육관 왼쪽 길로 계속 올라가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "107관은 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "107관, 즉 학생회관은 예지문 왼쪽에 위치해 있고, 한양플라자 바로 옆이에요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I find Building 607 from the hospital?"
+      },
+      {
+        "role": "assistant",
+        "content": "Just walk down the road towards the bus stop; 동문회관 will be along the road."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What can I find in the Hanyang Women's University Design Hall and how do I get there?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Design Hall (Building 902) is a key facility for design studies. From Aeji Gate, walk over the hill towards the Hanyang campus for about 20 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "신소재공학관 근처에 어떤 건물 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "신소재공학관 맞은편에 공업센터 본관이 있어. 공과대학 실습실도 있는 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 306관까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 나와서 왼편으로 가면 한양플라자 뒤쪽에 있는 올림픽체육관이 바로 보여. 금방 도착할 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is the Hospital Main Building from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes about 13 minutes to walk to the Hospital Main Building from Aeji Gate, heading right past the playground."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the IT/BT Hall from the Olympic Gym?"
+      },
+      {
+        "role": "assistant",
+        "content": "From the Olympic Gym, just head towards the back, and you'll reach the IT/BT Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제2공학관 찾으려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 대운동장을 지나서 공학관 진입로로 올라가면 공업센터 아래쪽에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "706관은 한양대역에서 어느 방향이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 나와서 오른쪽으로 돌아서 언덕 위에 위치해 있어. 쉽게 찾아갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the Baeknam Music Hall from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Aeji Gate, walk over the hill past the College of Life Sciences, and you'll see the Concert Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the building code for Hwangwon Square?"
+      },
+      {
+        "role": "assistant",
+        "content": "The building code for Hwangwon Square is 904."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1의학관이랑 의과대학 본관 중에 뭐가 더 높은 건물?"
+      },
+      {
+        "role": "assistant",
+        "content": "두 건물 모두 지상 6층으로 같은 높이야. 높이로는 차이가 없어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the Main Building from the Early Childhood Education Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach the Main Building from the Early Childhood Education Building, head towards the distance; it's a bit far."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "409관이랑 제2법학관 중 어디가 더 높아?"
+      },
+      {
+        "role": "assistant",
+        "content": "제3법학관과 제2법학관 모두 지상 7층으로 같아서 높이는 똑같아요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What can I find in the College of Human Ecology (생활과학대학) and how do I get there?"
+      },
+      {
+        "role": "assistant",
+        "content": "The College of Human Ecology is a 7-story education building. To get there, walk straight up the hill from Aeji Gate, then take the first left past the library."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the Medical College Main Building from the Alumni Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Alumni Hall, head towards the athletic field and continue straight to find the Medical College Main Building ahead."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 606관까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 606관(의과대학 본관)까지 가는 데 약 10분 정도 시간이 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1의학관은 의과대학 본관하고 가까워?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 제1의학관은 의과대학 본관 바로 옆에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 경영대학 가는 데 얼마나 걸리나?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 경영대학까지는 약 5분 걸리는데, 언덕이 있어서 엘리베이터를 이용하는 게 좋아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "백남음악관은 제1음악관 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "백남음악관은 제1음악관 옆에 위치해 있어. 가깝고 쉽게 찾아갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양여자대학교는 어떤 건물이 많아?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양여자대학교는 유아교육관 같은 교육 관련 건물들이 많고, 다양한 전공을 지원하는 여러 시설이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best way to get to the Fusion Tech Center from Exit 2?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walk to the right and go straight until you reach the end of the road. FTC is right next to the HIT building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양종합기술연구원(HIT) 바로 옆에 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양종합기술연구원(HIT) 바로 옆에는 퓨전테크센터(FTC)가 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "올림픽체육관 얼마나 걸려서 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 올림픽체육관까지는 약 2분 정도 소요돼. 쉽게 찾아갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's next to the Main Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Design Building is right next to the Main Building at Hanyang Women's University."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the notable features of the Hanyang Women's University Library?"
+      },
+      {
+        "role": "assistant",
+        "content": "The notable feature of this building is that it serves as the library for Hanyang Women's University."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 공업센터 별관 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 공업센터 본관(206)으로 가서 본관 바로 뒤쪽에 있는 건물인 공업센터 별관으로 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Are there any dormitories near Building 406?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the 제1학생생활관 is located just down the hill from the 학군단."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Building 210 from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walk to the right toward Daewon Sports Field, then either go up the hill or head to the back of the HIT building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I find the Engineering Center Annex from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can find the Engineering Center Annex (공업센터 별관) above Building 212. Just head up from here!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how to reach Building 105 from the subway station?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Exit at Aeji Gate, and it's directly to your left."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What type of facility is Building 304?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 304 is a research and education facility focused on technology."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "올림픽체육관 몇 층이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "올림픽체육관은 지상 4층 건물이야. 각층에는 다양한 체육시설이 마련되어 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "산학기술관 옆에 뭐가 있을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "산학기술관 옆에는 IT/BT관이 위치해 있어. 두 건물 간 거리도 가까워서 쉽게 이동할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "의대 본관까지 걸어가면 얼마 시간 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 의과대학 본관까지는 약 10분 정도 걸린다고 생각하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is Building 209 an indoor or outdoor facility?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 209, the Outdoor Theater, is an outdoor facility, perfect for events under the sky."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What can I find in the First Law Building and how do I get there?"
+      },
+      {
+        "role": "assistant",
+        "content": "The First Law Building (Building 407) is home to the Law School. To get there, head from Aeji Gate over the hill, across from the College of Human Ecology."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "융합교육관 근처에 뭐 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "융합교육관 근처에는 경영관이 있고, 행원파크도 바로 옆에 있어. 찾기 쉬울 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is it to the Law Building from the College of Economics and Finance?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's just a short walk up the hill from the College of Economics and Finance."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What kind of facilities are in Hanyang Cyber University 1?"
+      },
+      {
+        "role": "assistant",
+        "content": "You'll find classrooms and study areas designed for online learning and student collaboration."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me where the HIT building is located?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! It's right up the hill to the right of the main building. Look for the large glass building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 제2법학관까지 걸어서 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 제2법학관까지는 약 9분 정도 걸려. 걸어가면서 주변 경치도 즐길 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you help me find Building 904? What’s it like?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Building 904, also called Hwangwon Square, features a plaza and welfare area, and it's located in the plaza section of Hanyang Women's University."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "병원 본관 지나서 병원동관 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "병원 본관을 지나서 더 안쪽(동쪽)으로 계속 가면 병원동관(류마티스병원)에 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I find Building 410 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "To find Building 410, exit Aeji Gate, walk right towards the 경영관, then take a right turn into the path after 경영관."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "개나리관 옆에 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "개나리관 바로 옆에는 제2학생생활관이 있어. 아주 가까워."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 한양사이버대학교 2관 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 오른쪽으로 가서 경영관(706) 뒤편 언덕으로 올라가면 한양사이버대학교 1관 옆에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how to reach Building 507 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Head straight from Aeji Gate, follow the path to the left of the main building, and you'll see the Natural Sciences Building below the Humanities Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 정몽구 미래자동차연구센터까지는 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 정몽구 미래자동차연구센터까지는 대략 11분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 정보문화관 가려면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 정보문화관까지는 걸어서 약 22분 정도 걸려. 언덕을 넘어가야 해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "재성토목관(201관) 가려면 박물관 지나서 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "박물관 지나서 아래쪽 길로 내려가면 국제관이 나오고, 그 아래쪽에 재성토목관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "정몽구 미래자동차연구센터 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "정몽구 미래자동차연구센터는 예지문(한양대역 2번 출구)에서 오른쪽 대운동장 쪽 길을 따라 끝까지 가서 언덕을 오르거나, 본관 오른쪽 길 끝 HIT 건물 뒤편으로 가면 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양종합기술연구원(HIT)까지 걸어서 얼마나 걸리는지 알고 싶어."
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 HIT까지는 약 12분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 퓨전테크센터 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 본관 오른쪽 길 끝까지 가면 높은 유리 건물이 보이는데, 그게 퓨전테크센터(FTC)야. HIT 건물 바로 옆에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how long it takes to get to the Guest House?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! It typically takes around 15 minutes to walk to the Guest House from here."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "정몽구 미래자동차연구센터 가는 길 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 오른쪽으로 대운동장 쪽 길을 따라 끝까지 가고 언덕을 오르면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "본관 근처에 뭐 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "본관 근처에는 역사관이 왼쪽에 있고, 사자상이 바로 뒤쪽에 있어. 찾기 쉬운 위치야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "미래교육관 근처에 뭐 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "미래교육관 옆에는 의대계단강의동과 병원동관이 있어. 둘 다 가까운 거리니까 찾기 쉬워."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which direction is 행원파크 from the 융합교육관?"
+      },
+      {
+        "role": "assistant",
+        "content": "행원파크 is right next to the 융합교육관, so it's either side of it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "701관은 본관과 어떤 방향이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "701관은 본관 오른쪽 언덕 끝에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I go to the Emergency Medical Center from the Medical School Lecture Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "From the Medical School Lecture Hall, just walk nearby to the Hospital Main Building (610), and you'll find the Emergency Medical Center."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What buildings are close to Building 705?"
+      },
+      {
+        "role": "assistant",
+        "content": "The closest buildings are 경영관 and 행원파크, both right beside the 융합교육관."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "국제관은 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "국제관은 학생회관 오른쪽 위쪽에 위치해 있고, 박물관 쪽으로 올라가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "식품영양관에 가려면 예지문에서 언덕 넘어가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "아니, 언덕을 넘어야 해. 예지문에서 식품영양관으로 가려면 언덕을 넘어야 하니, 걷는 시간이 조금 걸릴 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 노천극장 가는 길 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 본관을 지나서 언덕을 올라가면 도서관 아래쪽에 노천극장이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "미래교육관에서 618관까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "미래교육관에서 나와서 바로 옆에 의대계단강의동이 있어. 걷기 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 경영관 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 오른쪽으로 고개를 돌리면 언덕 위에 있는 경영관이 보일 거야. 엘리베이터 타고 올라가면 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "406관은 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "406관은 학군단이야. 군사교육을 하는 곳으로, ROTC 관련 활동이 이루어져."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to Music Hall 1 from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes about 10 minutes to walk to Music Hall 1 from Aeji Gate if you follow the path."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's Building 507 all about and how do I reach it?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 507 is the Natural Sciences Building with 7 floors of science classes. To get there, walk left from Aeji Gate for about 7 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what's near Building 305?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! The 산학기술관 is right next to it, and the 올림픽체육관 is in front."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the Civil Engineering Building from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Aeji Gate, walk straight, then follow the path to the right of the main building. Go down towards the museum and you'll find the Civil Engineering Building below the International Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking time from Aeji Gate to Building 909?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can expect it to take around 23 minutes to walk to Building 909 from Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's near the Engineering Center Annex?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Engineering Center Annex (Building 207) is near the Main Engineering Building (Building 206) and the First Engineering Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양여대 도서관 가기 전에 들를 만한 곳은?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양여자대학교 도서관 근처에는 한양여대 디자인관이 있고, 행원스퀘어도 가까워서 방문하기 좋아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "국제병원 옆에 있는 건물 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "국제병원 옆에는 병원본관과 동문회관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which building is next to the Alumni Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "The nearest building to the Alumni Hall is Hanyang University Hospital, located right next to it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "611관 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 병원 본관(610) 쪽으로 가면 연결되어 있어서 쉽게 찾을 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is the 1st Engineering Building close to the Engineering Center Annex?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes! If you head up from the Engineering Center Annex, you'll find Building 212 not too far away."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is the 3rd Student Dormitory from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's roughly a 15-minute walk from Aeji Gate to Building 802."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me where the 2nd Medical Building is located?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! It's beside the 1st Medical Building and the Medical College Main Building, just across the big playground."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제3학생생활관이 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "제3학생생활관은 예지문(한양대역 2번 출구)에서 언덕을 넘어 기숙사 단지 내에 위치해 있어. 주변에는 제1학생생활관과 제5학생생활관이 옆에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "사범대학 별관에 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "사범대학 별관에는 주로 강의실이 있어. 수업 듣기 좋은 장소야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s around the Hospital Main Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "You’ll find the Hospital East Building and the Hospital West Building right next to it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how to reach Building 408 from the subway?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Just head up the hill from Aeji Gate, and you'll see Building 408 next to the first law building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to Hwangwon Square from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes about 20 minutes to walk to Hwangwon Square from Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 제1법학관 가는 길이 어려워?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 제1법학관까지 가는 길은 언덕을 넘어야 해서 조금 힘들 수 있지만, 경로는 어렵지 않으니 걱정하지 마."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1법학관 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "제1법학관은 예지문(한양대역 2번 출구)에서 언덕을 넘어 생활과학대학 맞은편에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many floors does the 의과대학 본관 have?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Medical School Main Building has 7 floors."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 210관까지 걸어서 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 210관까지 가는 데 약 11분 정도 걸려. 언덕도 있으니 조금 천천히 가는 게 좋을 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you guide me from 경영관 to 경제금융대학?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! From 경영관, just take the right path to the building. It’s right next to it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "야외 운동장 있던데, 대운동장이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "맞아! 그게 대운동장(301관)이고, 인조잔디로 된 넓은 운동장이야. 트랙과 축구장이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is the Early Childhood Education Building from Building 908?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Early Childhood Education Building is next to Building 908, so it's very close!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me the way to Building 618 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Walk right from Aeji Gate to the end of the big sports field, and it's located next to the hospital parking lot."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "703관은 몇 층이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "703관, 즉 한양사이버대학교 2관은 지상 5층으로 이루어져 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "퓨전테크센터 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 본관 오른쪽 길 끝까지 가면 퓨전테크센터가 보여. 대략 8분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양사이버대학교 2관에 대해 좀 더 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양사이버대학교 2관은 사이버대 관련 교육이 이루어지는 건물이고, 1관과 경영관 근처에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "도서관은 디자인관에서 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "도서관도 디자인관과 가까워서 걷기만 하면 돼. 대략 5분 정도 걸릴 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me where the International Hall is located?"
+      },
+      {
+        "role": "assistant",
+        "content": "The International Hall (국제관) is located downhill after the Student Union, near the museum."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제2음악관은 어떤 종류의 건물이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "제2음악관은 교육 건물로, 주로 음악 관련 수업과 연습이 이루어지는 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "108관 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "108관, 즉 국제관은 예지문에서 왼쪽으로 가서 학생회관을 지나, 내리막길을 따라 가면 돼. 금방 도착할 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I find the 백남학술정보관?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can find the 백남학술정보관 by walking straight from the Aeji Gate, going up the hill behind the Main Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "906관은 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "906관, 즉 한양여자대학교 교수회관은 예지문에서 언덕 넘어 가면 돼. 대략 21분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's special about 행원파크 and how do I get there?"
+      },
+      {
+        "role": "assistant",
+        "content": "행원파크 features an underground parking lot. To get there, head right from Aeji Gate, and you'll find the entrance below 경영관."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "101관은 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "101관은 역사관(구본관)이라고 불리는 건물로, 대학의 역사 전시가 있는 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what buildings are nearby Building 605?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Nearby buildings include 제1의학관 and the 의과대학 본관, both located right next to it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s above the Alumni Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "Above the Alumni Hall, you'll find the College of Medicine."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "사범대학 본관이 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "사범대학 본관은 505관이라고도 부르며, 지상 6층 건물로 사범대학의 중심이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to Building 201 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes about 5 minutes to walk from Aeji Gate to the Civil Engineering Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Building 906 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Aeji Gate, just walk up the hill, and you'll find the Faculty Hall inside the Hanyang Women's University campus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "병원서관에 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "병원서관에는 국제병원과 장례식장이 있어서 의료 관련 시설이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you explain the location and features of Building 802?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 802, known as 제3학생생활관, is a 7-floor dormitory located in the dormitory area, about a 15-minute walk from Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What building is referred to as Hanyang Elementary School?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hanyang Elementary School is also known as Building 905, located near Hanyang Women's University."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's nearby the 7th Student Living Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "Next to the 7th Student Living Hall is the 6th Student Living Hall, which is right beside it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "810관은 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "810관, 즉 제7학생생활관은 예지문에서 언덕 넘어 사근동 방향에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you give me directions from Aeji Gate to Hanuri Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! From Aeji Gate, go over the hill and take the path behind Haengwon Park to reach Hanuri Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "402관 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "402관, 즉 제1음악관은 예지문에서 언덕을 넘어 생활과학대학(401)을 지나면 찾아갈 수 있어. 도보로 약 10분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I find classrooms in the Education Annex?"
+      },
+      {
+        "role": "assistant",
+        "content": "No, classrooms are primarily in the Education Building (사범대학 본관), not the Annex."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "백남학술정보관이랑 인문관 중 어디가 더 멀어?"
+      },
+      {
+        "role": "assistant",
+        "content": "백남학술정보관은 인문관의 오른쪽에 위치해 있어서, 인문관이 백남학술정보관 쪽으로 가는 길에 있으니 인문관이 더 가까워."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which building is below the Social Sciences Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "Below the Social Sciences Building is the Education College Main Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1학생생활관에서 제3학생생활관 찾으려면 어떻게 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "제1학생생활관에서 제3학생생활관은 옆에 위치해 있어서, 그냥 걸어가면 쉽게 찾아갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "구본관은 본관으로 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "구본관(역사관)에서 본관은 오른쪽으로 걸어가면 바로 나와. 1분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what I can find in Building 402 and where it's located?"
+      },
+      {
+        "role": "assistant",
+        "content": "In Building 402, you'll find music department classrooms. It's located by crossing the hill and passing the Living Science College."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "사회과학관 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 출발해서 정면 언덕을 끝까지 올라가. 그리고 백남학술정보관 왼쪽 길로 가면 인문관 앞에 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is the Olympic Gymnasium closer to the 산학기술관 or the Library?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Olympic Gymnasium is right below the 산학기술관, so it's closer to it than the Library."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제6학생생활관 가는 길은 어떻게 돼?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 나와서 언덕을 넘어 한양여대 쪽으로 가면 제6학생생활관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제2음악관은 몇 층이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "제2음악관은 지상 5층으로 구성되어 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양여대 유아교육관까지 소요 시간은?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 걷는다고 하면 약 23분 정도 걸려. 언덕을 넘어야 해서 시간이 조금 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What buildings are close to Building 810?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 810 is right next to the 6th Student Residence Hall, and Sagun-dong is in the same direction."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제5학생생활관 코드 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "제5학생생활관의 코드는 803이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I find the administration offices for the medical school?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can find the administration offices for the medical school in the Medical College Main Building, which is near the central hospital area."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "백남음악관 가려면 어디로 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "제2음악관에서 오른쪽으로 가면 백남음악관이 있어. 바로 옆이다 보니 쉽게 찾아갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역 2번 출구에서 학생복지관 가면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 2번 출구에서 걸어서 1분이면 도착해. 금방이야!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you show me how to find Building 611 from the subway?"
+      },
+      {
+        "role": "assistant",
+        "content": "Of course! Walk towards the Hospital Main Building (610) from Aeji Gate, and the Emergency Medical Center is connected to it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "행원파크 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "행원파크는 예지문(한양대역 2번 출구)에서 오른쪽으로 가면 나오는 경영관 아래쪽에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the best route to the Second Medical Building from the subway?"
+      },
+      {
+        "role": "assistant",
+        "content": "Exit Aeji Gate, turn right, cross the sports field, and you'll see the Second Medical Building next to the First Medical Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What can I find in the 학군단 (Building 406) and where is it located?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 학군단 (Building 406) is the ROTC building located downhill, near the 백남음악관 and on the way to the 제1학생생활관."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What category does Building 707 belong to?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 707 is categorized as a parking facility and convenience area."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the official name of Building 202?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 202 is officially called the Architecture Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there a building close to the Science and Technology Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the closest building is the Architecture Hall on your left side."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "209관은 무슨 카테고리야?"
+      },
+      {
+        "role": "assistant",
+        "content": "209관은 야외시설로 되어 있어. 주로 야외에서 사용되는 곳이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me the way to Building 707 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Just go right from Aeji Gate, and you'll see the entrance to the underground parking in front of the Business Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is the 1st Engineering Building located in relation to Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 1st Engineering Building (Building 212) is to the right of Aeji Gate. Just walk towards Building 2 (제2공학관) to find it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "505관은 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "505관, 즉 사범대학 본관은 예지문(한양대역 2번 출구)에서 정면 본관 왼쪽 길로 올라가면 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to 한누리관 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Aeji Gate, head over the hill and take the path behind 행원파크 toward the dormitory."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "사회과학관 근처에 뭐 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "'사자가 군것질 할 때'라는 편의점이 사회과학관 가는 길목에 위치해 있어. 쉽고 빠르게 군것질을 할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1음악관(402관)까지 걸어가려면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "현 위치에서 제1음악관까지 걸으면 약 10분 정도 걸려. 천천히 걸어도 충분히 가는 시간이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "신소재공학관의 위치는 어떻게 돼?"
+      },
+      {
+        "role": "assistant",
+        "content": "신소재공학관(204관)은 과학기술관(203) 오른쪽에 위치해 있어. 예지문에서 가면 약 7분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "산학기술관 어떻게 가는지 자세히 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 왼쪽으로 가서 올림픽체육관(306) 쪽으로 올라가. 체육관 뒤편에 산학기술관이 있어, 도보로 약 5분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I find the convenience store '사자가 군것질 할 때'?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can find '사자가 군것질 할 때' right next to the Baeknam Library, on the way to the Social Sciences Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I get to Building 506 when I’m at Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "Simply go to the Main Education Building (505), and Building 506, the Annex, is right next to it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제3법학관 가려면 어디로 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 언덕을 넘어가면 제3법학관이 나와. 대략 10분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 미래교육관까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 미래교육관까지 걸어서 약 14분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is the Student Union Building and what can I do there?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Student Union Building is located to the left of Hanyang Plaza. You can enjoy club activities and meals in the student cafeteria there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What building is right next to the Engineering Center Annex?"
+      },
+      {
+        "role": "assistant",
+        "content": "The building right next to the Engineering Center Annex is the Main Engineering Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s nearby the Cyber University Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "Nearby, you'll find Building 1 on the left and the 경영관 below."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what's next to the athletic field?"
+      },
+      {
+        "role": "assistant",
+        "content": "To your left, you'll find Hanyang University Station, and to your right is the First Medical Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the Cyber University 2 building and what's special about it?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach Building 703, head right from Aeji Gate, go up the hill behind 경영관, and you'll find it next to Building 1. It specializes in cyber education."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 기숙사 가는 길 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 언덕을 넘어서 기숙사 단지 쪽으로 가면 돼. 제3학생생활관은 그 안에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking distance to Building 607 from the subway?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes roughly 12 minutes to walk from Aeji Gate to the Alumni Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Building 617?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get to Building 617, walk from Aeji Gate towards the inner part of the hospital complex, near the Nursing College."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "경영관 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "경영관은 예지문(한양대역 2번 출구)에서 오른쪽으로 고개를 돌리면 언덕 위에 보이는 큰 건물이에요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what's special about Building 909 and its location?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 909, known as the Early Childhood Education Building, is located on the inner side of the Hanyang Women's University campus. You walk 23 minutes from Aeji Gate, over the hill."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1학생생활관은 제3학생생활관 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "제1학생생활관은 제3학생생활관 바로 옆에 있어서 가깝게 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1법학관에서 경제금융대학까지 가는 데 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "제1법학관에서 경제금융대학까지는 약 5분 정도 소요돼. 금방 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is 제2음악관 closer to 백남음악관 or 제1음악관?"
+      },
+      {
+        "role": "assistant",
+        "content": "제2음악관 is closer to 제1음악관 since they’re right next to each other, while 백남음악관 is to the right."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where exactly is the 7th Student Dormitory and what is its main feature?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 7th Student Dormitory, or Building 810, is a new dormitory known for being a 'Happy Dormitory', located in the Sa-geun-dong direction, just beyond the hill from Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what’s inside the Engineering Center Main Building and how to get there?"
+      },
+      {
+        "role": "assistant",
+        "content": "Inside the Engineering Center Main Building, you'll find engineering labs. To get there, head right from Aeji Gate, then go down to the engineering complex opposite the Materials Science Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What type of building is the Social Sciences Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Social Sciences Hall is categorized as an educational building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is the Design Hall close to the library?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the Hanyang Women's Design Hall is right next to the library, making it easy to find both."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "611관은 어떤 건물이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "611관, 즉 권역응급의료센터는 응급실이 있는 의료시설이야. 지상 3층으로 되어 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "행원스퀘어 찾으려면?"
+      },
+      {
+        "role": "assistant",
+        "content": "행원스퀘어는 한양여대 본관 앞에 있으니까, 본관을 찾으면 그 근처에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the Medical Lecture Hall (의대계단강의동) from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Aeji Gate, head right towards the end of the sports field, and you'll find the Medical Lecture Hall near the hospital parking lot."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "의대계단강의동에서 권역응급의료센터까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "의대계단강의동에서 권역응급의료센터까지는 도보로 약 13분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "노천극장(209관)은 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "노천극장은 예지문에서 본관을 지나 도서관 방향으로 올라가면 바로 아래에 있어. 쉽게 찾을 수 있을 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 803관까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 제5학생생활관(803관)까지 걸어서 약 16분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is the Fusion Technology Center?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can find the Fusion Technology Center by walking straight from the Aeji Gate to the end of the path on the right. It's a tall glass building next to the HIT building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "행원스퀘어 옆에 뭐 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "행원스퀘어 옆에는 한양여대 도서관이 있어. 가까운 거리에 있어서 편리해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "재성토목관 근처에 뭐 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "재성토목관 아래쪽에는 국제관과 박물관이 있어. 이 두 건물은 가까운 거리에 위치해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "HIT까지 가는 데 소요 시간은?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 HIT까지 가면 약 12분 정도 걸린다고 해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "공업센터 본관은 제1공학관 어느 쪽이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "공업센터 본관은 제1공학관의 위쪽에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "교수회관은 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "교수회관은 한양여자대학교 내에 있는 건물로, 교수님들이 주로 사용하시는 공간이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "미래교육관 옆에 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "미래교육관 옆에는 의대계단강의동과 병원동관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What facilities are in Building 614?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 614 houses the 류마티스병원, which is the main feature of this facility."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Building 810 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach Building 810, walk over the hill towards the direction of Sagun-dong. It's the new dormitory at the far end."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제5학생생활관은 어떤 특징이 있어? 위치는 어떻게 돼?"
+      },
+      {
+        "role": "assistant",
+        "content": "제5학생생활관은 고층 기숙사로, 고시반이 있는 곳이야. 예지문에서 언덕을 넘어 가장 서쪽 끝에 위치해 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is the Architecture Building close to the Civil Engineering Building?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the Architecture Building is right beside the Civil Engineering Building, so you can easily walk over."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which direction is the Military Cadet Corps from Baeknam Music Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Military Cadet Corps is located nearby, just a short walk away from the Baeknam Music Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "사범대학 별관은 본관 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "사범대학 별관은 사범대학 본관 바로 옆에 위치해. 금방 찾아갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "행원파크는 융합교육관에서 가까워?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 행원파크도 융합교육관 바로 옆에 있어서 가까워. 쉽게 찾을 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking time from Aeji Gate to Building 606?"
+      },
+      {
+        "role": "assistant",
+        "content": "You’ll need around 10 minutes to walk there from Aeji Gate, depending on your pace."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "자연과학대학 어떻게 가냐?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 본관 왼쪽 길을 따라 올라가면 인문관 아래에 위치한 자연과학대학이 보여."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is the 제6학생생활관 from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's about a 17-minute walk from the Aeji Gate to the 제6학생생활관."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is 제5학생생활관 further away than 제3학생생활관?"
+      },
+      {
+        "role": "assistant",
+        "content": "No, 제5학생생활관 is also next to 제3학생생활관, so they are about the same distance apart."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "정몽구 미래자동차연구센터는 뭐가 있는 건물이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "정몽구 미래자동차연구센터는 미래자동차공학과가 있는 연구 및 교육 건물로, 5층으로 구성되어 있어. 옥상정원도 있어서 공부하기 좋은 공간이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is the Main Building at Hanyang Women's University not located in the southern part of the campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "That's correct! The Main Building is actually at the northern end of the campus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "803관은 어떤 건물인지 궁금해."
+      },
+      {
+        "role": "assistant",
+        "content": "803관은 제5학생생활관으로, 기숙사 용도로 쓰이는 고층 건물이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you help me navigate to Building 906 from Haengwon Square?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Just walk over to the Faculty Hall which is adjacent to Haengwon Square."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 611관까지 걸어서 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 권역응급의료센터까지 걸으면 대략 13분 정도 걸려. 여유롭게 가면 좋을 것 같아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you guide me to the Main Building from the student welfare center?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Just go left from Hanyang Plaza, and the Main Building will be on your way."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's near the Museum?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Main Building is right above it, and the Student Hall is below."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "505관 옆에 어떤 건물이 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "505관인 사범대학 본관 옆에는 사범대학 별관이 있어. 가까운 거리니까 쉽게 찾을 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long will it take me to get to Building 108 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can expect it to take about 4 minutes to walk from Aeji Gate to Building 108. It’s pretty close!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to the 6th Student Residence from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes approximately 17 minutes to walk to the 6th Student Residence from Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is the Music Hall 1 from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's about a 10-minute walk from the Aeji Gate if you go over the hill and pass the College of Human Ecology."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한누리관 쪽에서 개나리관은 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "한누리관 아래쪽에 있는 개나리관은 기숙사 단지에 위치해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Are there any buildings around the Architecture Department?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the Jae Sung Civil Engineering Hall is nearby on the left, and the Museum is below."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양플라자랑 306관 중 어디가 더 가까워?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양플라자가 306관, 즉 올림픽체육관보다 더 가까워. 올림픽체육관은 한양플라자 뒤쪽에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "이 건물 교육용이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "네, 한양사이버대학교 1관은 교육 건물로, 사이버대 학생들이 주로 사용하는 공간이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1공학관 근처에 뭐 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "제1공학관 바로 옆에는 제2공학관이 있고, 위쪽에는 공업센터 별관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "게스트하우스 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 언덕 넘어 한양여대로 가는 길목에 있어. 동문회관 건너편 쪽이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양종합기술연구원 특징이 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양종합기술연구원(HIT)은 연구와 산학협력에 중점을 둔 건물로, 최신 연구시설이 갖춰져 있어요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the library in relation to 행원스퀘어?"
+      },
+      {
+        "role": "assistant",
+        "content": "The library is right next to 행원스퀘어, so it's super easy to find!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "신소재공학관 가는 길에서 건축관은 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "신소재공학관에 가는 길에서 건축관은 왼쪽에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "HIT 건물에서 정몽구 미래자동차연구센터까지 가는 길 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "HIT 건물에서 오른쪽으로 나와서 대운동장 쪽으로 내려가면 돼. 언덕을 오르면 정몽구 미래자동차연구센터가 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "의과대학 본관 갈 때 대운동장 지나야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 맞아. 예지문에서 오른쪽으로 대운동장을 지나야 의과대학 본관에 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to Building 702 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "It usually takes about 12 minutes to walk to Hanyang Cyber University Building 1 from Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is the Student Hall from International Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "It’s just a short walk down to the left from the Student Hall to get to International Hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is special about the 제2학생생활관 and where can I find it?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 제2학생생활관 is a women's dormitory located just over the hill from the Aeji Gate. It takes about 16 minutes to walk there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it easier to get to Hanuri Hall or to the Gyeonggi Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's definitely easier to get to Hanuri Hall since it's just over the hill, while Gyeonggi Hall requires more walking."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제6학생생활관 주변에 다른 기숙사 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "네, 제6학생생활관 옆에 제7학생생활관이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many floors does Building 611 have?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Emergency Medical Center has three floors."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제1공학관까지 걷는데 시간 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 제1공학관까지 걸어가면 대략 10분 정도 소요돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the quickest route to get to the Architecture Building from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can get to the Architecture Building by walking straight from Aeji Gate, taking a right at the main building, and then heading down past the museum."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "학군단에 뭐 있어? 그리고 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "학군단은 ROTC 관련 시설이 있는 군사 교육 건물이야. 예지문(한양대역 2번 출구)에서 언덕 넘어 음악관 아래쪽으로 가면 11분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what's special about Building 606 and where it's located?"
+      },
+      {
+        "role": "assistant",
+        "content": "Building 606, or the Medical College Main Building, specializes in medical administration. It's located near the central hospital complex, just a 10-minute walk from the Aeji Gate!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Building 405?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Aeji Gate, walk over the hill and pass the Living Science building; you'll see the concert hall."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "203관에 가려면 어떻게 해야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 정면으로 본관 오른쪽 길을 따라가다가 박물관에서 아래로 내려가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "802관은 예지문에서 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 언덕을 넘어서 기숙사 단지로 가면 돼. 약 15분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is the 1st Student Dormitory from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's about a 15-minute walk from the Aeji Gate to the 1st Student Dormitory."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What kind of facilities are in the History Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "The facilities mainly include exhibition spaces focused on the history of the university."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I grab a meal at 학생회관?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes! The 학생회관 has a student cafeteria where you can grab a meal. Perfect for a quick bite!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "306관은 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "306관은 올림픽체육관이야. 실내체육관으로 다양한 스포츠 활동을 할 수 있는 곳이지."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there anything close to Building 202?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, Jae Sung Civil Engineering Hall is right next to Building 202, on the left side."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "305관은 어떤 카테고리야?"
+      },
+      {
+        "role": "assistant",
+        "content": "305관, 즉 IT/BT관은 연구 및 교육 건물로 분류돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "생활과학대학은 어떤 카테고리야?"
+      },
+      {
+        "role": "assistant",
+        "content": "생활과학대학은 교육 건물로 분류돼요. 교육과 관련된 다양한 활동이 이루어지죠."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "908관(식품영양관) 근처에 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "908관은 정보문화관과 유아교육관 바로 옆에 있어. 가까운 위치라 쉽게 찾아갈 수 있을 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "병원동관(신한플라자)까지 가는 길에서 유의할 점 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "병원 본관을 지나 동쪽으로 가는 길을 따라가면 되니 길을 잘 보고 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "504관에 어떤 시설 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "504관은 사회과학대학이 위치해 있는 교육건물로, 다양한 강의실과 연구실이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제2학생생활관에서 어떻게 개나리관으로 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "제2학생생활관은 개나리관 옆에 있으니까 바로 옆으로 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "유아교육관까지 가는데 시간이 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 유아교육관까지는 대략 23분 걸려. 캠퍼스 안쪽에 위치해 있어서 참고하면 좋아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking time to Building 212 from the subway station exit?"
+      },
+      {
+        "role": "assistant",
+        "content": "It takes roughly 10 minutes to get to Building 212 from Aeji Gate. Just keep heading right!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "504관은 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "504관, 즉 사회과학관은 예지문에서 언덕을 올라가 백남학술정보관 왼쪽 길로 가면 인문관 맞은편에 있어요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "예지문에서 본관까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 본관까지는 약 2분 정도 걸려. 가까워서 쉽게 갈 수 있어!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "개나리관이랑 제2학생생활관 가까워?"
+      },
+      {
+        "role": "assistant",
+        "content": "네, 개나리관은 제2학생생활관 바로 옆에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what the 융합교육관 is like and its location?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 융합교육관 has several classrooms and is located next to the 경영관. You can reach it by walking 4 minutes from the Aeji Gate."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is Building 401 (생활과학대학) further away than the library?"
+      },
+      {
+        "role": "assistant",
+        "content": "No, Building 401 is actually the first building you come to after the library when you take the left path."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "617관 옆에 어떤 건물이 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "617관, 즉 미래교육관 옆에는 의대계단강의동과 병원동관이 있어. 같이 찾아보면 좋을 것 같아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is it to Building 211 from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "It'll take you about 10 minutes to walk to Building 211 (제2공학관) from your current location."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what’s around the Hospital Annex?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! The Main Building and the Alumni Hall are both very close to the Hospital Annex."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is the Hanyang Women's University Design Hall located from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "It’s just over the hill from Aeji Gate, within the university campus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "국제병원은 병원서관에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 병원서관에는 국제병원과 장례식장이 있어. 중요한 의료 시설이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I find the Future Education Center?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can find the Future Education Center (미래교육관) next to the Medical School Lecture Hall and Hospital Building."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "박물관에서 학생회관까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "박물관에서 아래쪽으로 가면 학생회관이 있어, 거리도 가까워."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long to get from Aeji Gate to the first dormitory?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking from Aeji Gate to the first dormitory will take you around 15 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What building is next to the Education Building (사범대학 본관)?"
+      },
+      {
+        "role": "assistant",
+        "content": "The nearest building to the Education Building is the Education Annex (사범대학 별관), which is right next to it."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "702관 건물 코드는 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양사이버대학교 1관의 건물 코드는 702야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "병원동관은 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "병원동관은 미래교육관 바로 옆에 위치해 있어. 두 건물은 가깝기 때문에 쉽게 찾을 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "IT/BT관에 가는데 얼마나 걸리나?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 IT/BT관까지는 걸어서 약 5분 걸려. 쉽게 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "201관 코드가 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "201관의 건물 코드는 201이야. 기억해 두면 좋겠어!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "국제관 근처에 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "국제관 아래쪽에는 재성토목관이 있어. 공과대학 건물이라서 토목 관련 수업 듣는 학생들이 자주 가."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Building 212 from Aeji Gate?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Aeji Gate, walk straight to the right towards Building 2 (제2공학관). You'll find Building 212 is the long building inside."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are the notable features of the 경영관?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 경영관 is home to the College of Business, making it a key building for business students at Hanyang University."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "산학기술관 몇 층이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "산학기술관은 지상 6층 건물이야. 각 층마다 다양한 연구실과 강의실이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which way to the Main Building from the International Hospital?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Main Building is right next to the International Hospital, just a short walk away."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which is closer, the Information and Culture Hall or the Professors' Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Information and Culture Hall is right next to the Professors' Hall, so they're equally close!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "백남학술정보관은 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "백남학술정보관은 생활과학대학의 오른쪽 아래에 위치해 있어요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제3법학관 가려면 제2법학관 지나가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "네, 맞아요. 제3법학관은 제2법학관 옆에 위치해 있어서, 제2법학관을 지나가야 해요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "618관 건물 코드는 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "의대계단강의동은 618번 건물 코드가 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "융합교육관 가려면 어디로 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문(한양대역 2번 출구)에서 오른쪽으로 경영관 방향으로 올라가면 돼. 경영관 근처에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제2학생생활관이랑 제5학생생활관 중 어디가 더 가까워?"
+      },
+      {
+        "role": "assistant",
+        "content": "제2학생생활관이 제5학생생활관 바로 옆에 있어서 더 가까워."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "109관 건물 코드는 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "109관의 건물 코드는 109야. 박물관을 의미해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제2음악관 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "예지문에서 시작해서 언덕을 넘으면 되고, 음악대학 단지 가장 안쪽에 위치한 제1음악관 옆에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the building code for the 7th Student Living Hall?"
+      },
+      {
+        "role": "assistant",
+        "content": "The building code for the 7th Student Living Hall is 810."
+      }
+    ]
+  }
+]

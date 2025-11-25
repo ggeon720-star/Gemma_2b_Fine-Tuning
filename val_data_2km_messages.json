@@ -1,0 +1,5834 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how far the GS25 is from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "The GS25 서울숲디타워점 is about 1.3km away, which is a bit far to walk. I recommend taking the subway to make it easier and faster!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is walking to 웅진북클럽 a good idea?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking would take around 22 minutes from the university, which is quite a trek! It's better to take the bus instead."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 걸어가면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대에서 롯데마트 행당역점까지 걸어가면 약 16분 정도 걸려. 하지만 마을버스를 타면 더 빠르게 갈 수 있어서 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 어떤 정류장에서 버스를 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구 앞에 있는 '한양대역' 정류장에서 지선 버스 2012번을 타면 돼. 이 버스를 타고 '성동구청' 정류장에서 하차하면 왕십리중앙새마을금고 본점에 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best way to go to 굴과찜사랑?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way is to take the Seongdong 03 bus from Hanyang University Station, exit 1. After about 6 minutes, get off at 성동구청, then walk 2 minutes towards Wangsimni Station. Since it's a bit far to walk, taking the bus is recommended!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "춘향미엔 가려면 어떤 버스 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구 앞에서 마을버스 성동03번을 타고, '성동구청'에서 하차하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 신당초등학교까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 신당초등학교까지는 간선 버스 241번을 타면 돼. 1번 출구로 나가서 '한양대역' 정류장에서 버스를 타고, '신당초등학교' 정류장에서 하차하면 바로 학교야. 도보로 가면 24분 정도 걸려서 버스를 타는 걸 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "신전떡볶이 왕십리센트라스점 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "신전떡볶이 왕십리센트라스점에 가려면 한양대역에서 지하철 2호선을 타고 상왕십리역에서 내려야 해. 상왕십리역 4번 출구로 나오면 도보로 2분 거리에 있어. 총 거리도 약 1.6km라서 대중교통으로 가는 게 더 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "투엑스휘트니스 센트라스점 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "투엑스휘트니스 센트라스점은 한양대역에서 약 1.6km 떨어져 있어. 지하철 2호선 상왕십리역 1번 출구로 나가면 '센트라스' 상가 L동 3층에 있어. 한양대역에서 지하철로 1정거장 이동하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I walk to 호갱 왕십리 본점 instead of taking the bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can walk, but it's about 1.2 km, which takes roughly 15 minutes. Taking bus 2012 is much quicker if you're in a hurry!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is public transport necessary to reach the skin clinic?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, public transport is recommended since the clinic is about 1.2 km away from Hanyang University, which is a bit far for walking."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it better to walk or take the bus to Chicken Brothers?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking will take about 21 minutes, which is a bit far. It's better to take the subway for a quicker trip to Chicken Brothers!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스 어디서 내려야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "'성동구청' 정류장에서 내려야 해. 거기서 도보로 2분 정도 가면 닥터쁘띠의원에 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you give me a detailed route to Ililhyang Wangsimni 9?"
+      },
+      {
+        "role": "assistant",
+        "content": "Of course! Head to Hanyang University Station and take Exit 1. From there, board the Seongdong 08 bus. Get off at 'Wangsimni KCC Switzen Apartment' and it's just a quick walk—about 3 minutes—to Ililhyang Wangsimni 9."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is CU 현대테라스타워점 from Hanyang University Station?"
+      },
+      {
+        "role": "assistant",
+        "content": "CU 현대테라스타워점 is about 1.5km from Hanyang University Station, which is a bit far to walk. It’s better to take public transport for a quicker trip!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "무프아파트먼트 가려면 대중교통 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 무프아파트먼트는 한양대역에서 약 1.3km 떨어져 있어서 걸어가기엔 좀 멀어. 그래서 대중교통을 이용하는 게 좋아. 한양대역에서 마을버스 성동03-1이나 성동08번을 타면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Should I take public transport to 모노마트 성동점?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Public transport is recommended since it's a bit far to walk. The bus will save you time and effort!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is Amorepacific from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "Amorepacific Seongdong Future Store is about 1.2 km away from Hanyang University, which is a bit far to walk. It's better to take the bus for a quick trip!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "소울 스터디 카페까지 걸어가면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "소울 스터디 카페까지 걸어가면 약 21분 정도 걸려. 그래서 대중교통을 이용하는 게 더 편리할 거야. 마을버스 성동08번을 타고 2분 거리에 하차하는 게 좋아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "데벨로페 발레스튜디오 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구로 나가서 '한양대역' 정류장에서 성동03-1번 또는 성동08번 마을버스를 타면 돼. '왕십리 KCC스위첸아파트' 정류장에서 내려서 1분만 걷고 나면 도착할 수 있어. 걸어가려면 꽤 멀어서 버스가 더 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "신전떡볶이 가려면 어디서 버스를 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대에서 성동03번 버스를 타야 해. 버스 정류장에 가서 기다리면 돼. 상왕십리역 정류장에서 내리면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스로 가면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 버스를 타면 왕십리 KCC스위첸아파트까지 약 10분 정도 걸려. 도보보다 빠를 수 있어서 버스가 좋아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is the bus stop from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus stop is right at Hanyang University Station. It's super convenient, just a short walk from the campus!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I walk to Sungshin Elementary School, or is it too far?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can walk, but it's about 24 minutes, which is a bit far. I recommend taking the Seongdong 08 bus for a faster and more convenient option!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "스포애니 왕십리역점까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "스포애니 왕십리역점은 한양대역에서 약 1.2km 떨어져 있어서 직접 걸어가면 14분 정도 걸려. 근데 대중교통을 이용하면 버스를 타고 3분 정도 걷는 게 더 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "어거스트치킨 왕십리센트라스점 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 출발하시면, 지하철 2호선에 탑승 후 상왕십리역으로 가세요. 상왕십리역 1번 출구로 나가면 '센트라스' 상가 내에 어거스트치킨이 있어요. 걸어가면 거의 24분 정도 걸리니 지하철로 가는 게 빠르지!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is DCT스터디카페 상왕십리점 from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's about 1.7 kilometers away, which is a bit far to walk, especially if you want to save time. Taking the subway is a much quicker option, as the journey only takes a few minutes once you’re on the train!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to Wangsimni Central Saemaul Geumgo?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's about a 15-minute walk from Hanyang University Station, which is a bit far, so I recommend taking bus 2012 instead. That way, you can get there quicker!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 피부공방 맑음 가는 버스는 어디서 타?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 피부공방 맑음 가려면 1번 출구로 나와서 '한양대역' 정류장에서 지선 버스 2012번을 타면 돼. 그 버스를 타고 '성동구청' 정류장에서 내려서 도보로 5분 정도 걸으면 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "브라운팟 가려면 어디서 내려야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "브라운팟에 가기 위해서는 성동03번 버스를 타고 성동구청 정류장에서 내려야 해. 내려서 왕십리역 쪽으로 3분 정도 걸어가면 브라운팟에 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "뚝섬역에서 어떻게 GS25 서울숲디타워점 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "뚝섬역 4번 출구로 나와서 직진하면 GS25 서울숲디타워점이 있어. 도보로 약 3분 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the fastest way to get to Lotte Mart?"
+      },
+      {
+        "role": "assistant",
+        "content": "The fastest way is to take the Seongdong 03 village bus from Hanyang University Station. It takes about 10 minutes to reach 'Hangdang Station' where Lotte Mart is located, compared to a 16-minute walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to the Woori Bank Seongsu Financial Center from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get to the Woori Bank Seongsu Financial Center, take Line 2 at Hanyang University Station and get off at Ttukseom Station. After that, take Exit 8 and walk for about 5 minutes. It's around 1.4 kilometers, so public transport is the best choice."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "어느 정류장에서 내려야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "성동03번이나 2012번 버스를 타고 '뚝섬역' 정류장에서 내려야 해. 그 후 8번 출구로 나가면 우리은행 성수동금융센터에 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which exit do I take at Sangwangsimni Station to reach 신전떡볶이?"
+      },
+      {
+        "role": "assistant",
+        "content": "You'll want to take exit 4 at Sangwangsimni Station. It's just a 2-minute walk from there to the restaurant."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the bus stop for Tens PC?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus stop you want is right in front of Hanyang University Station, at Exit 1. You'll find the buses heading to Tens PC there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long will it take me to walk to GS25 서울숲디타워점?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking from Hanyang University to GS25 서울숲디타워점 takes about 15 minutes. It's a bit far, so I suggest taking the subway for a quicker trip!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which exit should I take at Hanyang University station for the bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take exit 1 at Hanyang University station. The bus stops are right outside for your convenience!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to 삼맛호오떡 왕십리본점 from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach 삼맛호오떡 왕십리본점 from Hanyang University, head to Hanyang Univ. Station, take exit 1, and catch the Seongdong 03 village bus at the stop right outside. Get off at the '성동구청' stop and walk about a minute toward Wangsimni Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "걸어가면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "직접 걸어가면 약 14분 걸려. 하지만 대중교통을 이용하면 더 빨리 도착할 수 있어. 한양대역에서 지하철 2호선 타고 뚝섬역에서 내리면 1분 만에 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "아모레퍼시픽 성동미래점까지 얼마나 멀어?"
+      },
+      {
+        "role": "assistant",
+        "content": "아모레퍼시픽 성동미래점은 한양대역에서 약 1.2km 떨어져 있어. 걸어가면 14분 정도 걸리지만, 대중교통을 이용하면 더 빠르게 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Could you give me a route to 신당초등학교?"
+      },
+      {
+        "role": "assistant",
+        "content": "Of course! From Hanyang University Station, use Exit 1 and head to the bus stop. Board bus 241, and you'll be at 신당초등학교 in no time. The bus is definitely the way to go since it's a bit far to walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "무학중학교 어떤 학교야?"
+      },
+      {
+        "role": "assistant",
+        "content": "무학중학교는 중학교로, 한양대학교 근처에 위치해 있어. 학생들이 많이 다니는 학교로, 지역 내에서 교육적인 역할을 하고 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus should I take to get to Chunhyangmyeon Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take the village bus Seongdong 03 from the 'Hanyang Univ. Station' bus stop right outside exit 1. After about a short ride, get off at Seongdong District Office and walk for 3 minutes towards Wangsimni Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is Sindang Elementary School?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sindang Elementary School is about 2 kilometers away from Hanyang University Station. It’s best to take the bus since walking would take around 24 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "성동03번 버스 타고 어떻게 가는 거야?"
+      },
+      {
+        "role": "assistant",
+        "content": "성동03번 버스를 한양대역 1번 출구 앞 '한양대역' 정류장에서 타고 '행당역' 정류장에서 하차하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is walking to Brown Pot a good idea?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's around 1.1 km away from Hanyang University Station, which is a bit far to walk. Taking the bus would be more convenient. The Seongdong 03 bus will get you there quickly!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus should I take to get to Sangmu Sushi Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take bus 241 to get to Sangmu Sushi Wangsimni. Board the bus at 'Hanyang Univ. Station' after exiting from exit 1. Ride until 'Sindang Elementary School' and then it's only a 1-minute walk to the restaurant!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스 정류장 어디서 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "버스는 한양대역 1번 출구 앞에 있는 '한양대역' 정류장에서 탈 수 있어. 거기서 2012번 지선 버스를 타면 되고, '성동구청'에서 하차하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "굴과찜사랑 가려면 몇 분 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "굴과찜사랑 본점까지는 걸어가면 약 13분 정도 걸려. 하지만 마을버스 성동03번을 이용하면 성동구청에서 내리고 2분 정도만 걸으면 돼, 그래서 버스 타는 게 훨씬 낫지."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "걸어서 네이처리퍼블릭 메트로상왕십리역점 갈 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "걸어가기는 가능하지만, 약 1.6km 정도 되서 좀 멀어. 보통 20분 정도 걸려서, 대중교통으로 가는 게 더 편해. 지하철이나 버스 이용하는 걸 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What kind of place is Chunhyangmyeon Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "Chunhyangmyeon Wangsimni is a restaurant, known for its delicious dishes. It's a great spot to grab a meal after a long day at school!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus goes to the Seongdong Cheongmaru Library?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can take the Seongdong 03 village bus to get there. Just hop on at Hanyang University Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What stop do I get off at for Yangjagang?"
+      },
+      {
+        "role": "assistant",
+        "content": "You need to get off at the 'Seongdong District Office' stop after riding bus 2012. From there, it's just a 6-minute walk to the restaurant!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which exit should I use to catch the bus to Sungshin Elementary?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should use Exit 1 at Hanyang Univ. Station to catch the Seongdong 08 bus. The bus stop is conveniently located right outside the exit!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Should I walk or take the subway to 아이리스피부과의원 성수?"
+      },
+      {
+        "role": "assistant",
+        "content": "Taking the subway is definitely the better choice! It’s about 1.1km, which means it’ll take you around 14 minutes to walk, but the subway can get you there much faster in about 15-20 minutes including the walking to the station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus do I take to get to Muhak Middle School?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get to Muhak Middle School, you should take the Seongdong 03 village bus from Hanyang University Station. Just catch it at the bus stop in front of the station after you exit through exit 1!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "굴과찜사랑 본점 버스 뭐 타?"
+      },
+      {
+        "role": "assistant",
+        "content": "굴과찜사랑 본점에 가려면 한양대역 1번 출구 앞 '한양대역' 정류장에서 마을버스 성동03번을 타야 해. '성동구청'에서 하차하고, 그 후 왕십리역 방향으로 2분 정도 걸으면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long will it take by bus versus walking to Muhak Elementary School?"
+      },
+      {
+        "role": "assistant",
+        "content": "Taking the bus will save you time compared to walking! It takes about 18 minutes to walk there, but the bus ride is much quicker. So definitely consider hopping on the Seongdong 03 bus instead!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What type of place is the Seongdonggu Rainbow Library?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Seongdonggu Rainbow Library is an educational facility. It offers various resources and services for students and the community."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리맛나곱창에 가려면 어디서 내려야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리맛나곱창에 가기 위해서는 지선 버스 2012번을 타고 '성동구청' 정류장에서 내려야 해. 그 후 도보로 3분 정도 가면 왕십리맛나곱창에 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me about the food at Gondea Udon House?"
+      },
+      {
+        "role": "assistant",
+        "content": "At Gondea Udon House, you can enjoy various types of udon dishes. It’s popular among students for its tasty menu and friendly atmosphere!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus should I take to get to Wangsimni Matna Gopchang?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take bus 2012 from Hanyang University Station. It will take you directly to the Seongdong-gu Office stop, and then it's only a 3-minute walk to the restaurant."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "샤인더마의원 왕십리 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구로 나와서 '한양대역' 정류장에서 마을버스 성동03-1 또는 성동08번을 타면 돼. '왕십리 KCC스위첸아파트' 정류장에서 하차하고, 거기서 도보로 2분 정도 걸으면 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Selbody PT from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "Take the 2012 bus from Hanyang University Station (exit 1). Get off at 'Seongdong District Office' and walk about 4 minutes to Selbody PT."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where should I get off the bus to reach 웅진북클럽 성동사업국?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should get off at the 'Tenz Hill Apartment' stop when taking the Seongdong 08 bus. It's just a short 2-minute walk from there to the 웅진북클럽."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 무학중학교까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 무학중학교까지는 한 12분 정도 걸어가야 해. 하지만 버스를 타면 더 빨리 갈 수 있어. 1번 출구 나와서 '한양대역' 정류장에서 성동03번 버스를 타면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is 만나떡볶이 from the campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "It’s roughly 1.3 kilometers from Hanyang University. While it's possible to walk there in about 16 minutes, taking public transport is recommended for convenience."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "소울 스터디 카페 가는 방법 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구로 나가서 '한양대역' 정류장에서 마을버스 성동08번을 타면 돼. '텐즈힐아파트' 정류장에서 내려서 2분 정도 걸어가면 소울 스터디 카페야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "텐즈PC 정류장 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "텐즈PC에 가려면 '한양대역' 정류장에서 마을버스를 타야 해. 한양대역 1번 출구로 나가면 바로 정류장이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 상왕십리역까지 어떻게 가야 돼?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 지하철 2호선을 타고 1정거장 가면 상왕십리역이야. 그곳에서 1번 출구로 나가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you explain the route to 치킨부라더스 in detail?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! From Hanyang University Station, hop on Line 2 and ride it to Sangwangsimni Station. Once you get there, take Exit 4. You'll be just a 3-minute walk from 치킨부라더스."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "일일향 왕십리9호점 근처에 정류장 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "일일향 왕십리9호점 가까이에 '왕십리 KCC스위첸아파트' 정류장이 있어. 한양대역 1번 출구에서 마을버스 성동08번을 타고 이 정류장에서 내리면 3분 정도 걸어가면 도착해. 대중교통을 이용하기에 아주 편리해!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how to get to Woori Bank from Hanyang University using public transport?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! From Hanyang University Station, hop on Line 2 and ride it to Ttukseom Station. Once you exit at Exit 8, it's just a 5-minute walk to the Woori Bank Seongsu. This route is around 1.4 kilometers, so taking the metro is recommended."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I catch the bus to 만나떡볶이?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can catch bus 2012 right outside Hanyang University Station at the 'Hanyang Univ. Station' bus stop. It's super convenient!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why should I take public transport to 유제?"
+      },
+      {
+        "role": "assistant",
+        "content": "Taking public transport to 유제 is recommended because it's a bit far to walk. Using the bus will make your trip much easier and faster."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the bus number to 박만배아리랑보쌈?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take either the Seongdong 03-1 or Seongdong 08 bus to reach the restaurant easily."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the bus stop for the 2012 bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus stop for the 2012 bus is right in front of Exit 1 at Hanyang University Station. Just head there and you’ll be all set to go to 건대우동집!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "어디서 내려야 춘향미엔 갈 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "춘향미엔 왕십리점에 가려면 한양대역에서 마을버스 성동03번을 타고 '성동구청' 정류장에서 내려야 해. 거기서 왕십리역 방향으로 도보 3분 거리에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "성동구립무지개도서관까지 걸어갈 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "성동구립무지개도서관까지 걸어갈 수는 있는데, 거리가 약 1km 이상이라서 도보로 약 12분 정도 걸려. 그래서 마을버스를 이용하는 게 더 편리해. 버스를 타면 약 10분 정도 걸리니까."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "유제 가는 데 걸리는 시간 얼마야?"
+      },
+      {
+        "role": "assistant",
+        "content": "유제까지는 걸어서 약 24분이 걸리지만, 버스를 타면 훨씬 더 빠르게 갈 수 있어. 버스로 약 10~15분 정도 걸릴 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 모노마트 성동점 가는 버스 정류장 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구 앞에 있는 '한양대역' 정류장에서 버스를 탈 수 있어. 여기서 지선 버스 2012번을 타면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "앤탑PC까지 가는 정류장 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구로 나와서 '한양대역' 정류장에서 마을버스 성동03-1 또는 성동08번을 타야 해. 이 버스를 타고 '왕십리 KCC스위첸아파트' 정류장에서 하차하면 되고, 하차 후에는 도보로 2분가량 이동하면 앤탑PC에 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "일일향 왕십리9호점 메뉴는 뭐가 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "일일향 왕십리9호점에서는 다양한 음식을 즐길 수 있어. 주로 중식 요리가 유명하고, 학생들에게 인기가 많은 메뉴들이 많아. 친구들과 함께 부담 없이 가기 좋은 곳이지."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스 타면 데벨로페 발레스튜디오까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "버스를 타고 '왕십리 KCC스위첸아파트' 정류장에서 하차하면 약 1분 정도 도보로 가면 돼. 전체적으로 버스 타는 시간이 포함해서 대략 10~15분 정도 걸릴 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus goes to the Seongdong-gu Library?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take the Seongdong 03 village bus. It will take you directly to the stop near the library in just a few minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the quickest way to get to Amorepacific Seongdong Future Branch?"
+      },
+      {
+        "role": "assistant",
+        "content": "The quickest way is to take the bus. It’s about a 14-minute walk, which is a bit far, so I recommend getting on the Seongdong 03-1 or Seongdong 08 bus from Hanyang Univ. Station. You’ll reach your destination much faster!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you explain how to get to 호갱 왕십리 본점 from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Start at Hanyang University Station and head to Exit 1. From there, catch bus 2012 at the bus stop outside. Ride it until you reach the Seongdong District Office stop. After you get off, it's just a 4-minute walk to 호갱 왕십리 본점."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I walk to 우리은행 성수동금융센터 from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can walk, but it's about 1.4 km away, which is roughly a 17-minute walk. Public transport is definitely recommended for convenience!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is Sangwangsimni Station from Wangcho BBQ?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sangwangsimni Station is very close to Wangcho BBQ. After taking the subway, it’s only a 3-minute walk from Exit 4 to the restaurant."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 어떤 버스 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 옷을입다 행당점에 가려면 마을버스 성동03번을 타야 해. 이 버스가 무학중학교 정류장까지 간단 말이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리맛나곱창 가는 방법 자세히 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리맛나곱창은 한양대역에서 약 1.2km 떨어져 있어. 한양대역 1번 출구 앞에 있는 '한양대역' 정류장에서 지선 버스 2012번을 타고 '성동구청' 정류장에서 내려. 그 후에 도보로 3분 정도만 걸으면 돼. 또는 지하철 2호선 상왕십리역 4번 출구로 나가서도 도보로 3분 거리에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "옷을입다 행당점 가려면 어떤 버스 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "옷을입다 행당점에 가려면 한양대역에서 마을버스 성동03번을 타면 돼. 무학중학교 정류장에서 하차하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does the bus take compared to walking to the library?"
+      },
+      {
+        "role": "assistant",
+        "content": "Taking the bus should only take a few minutes, about the time it takes to ride two stops. Walking would take around 13 minutes, so the bus is definitely the quicker option!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Should I take public transport to 호갱 왕십리 본점?"
+      },
+      {
+        "role": "assistant",
+        "content": "Definitely! It's a good idea to take public transport since it's a bit far to walk. The bus will save you time and effort."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "거기 가려면 환승해야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "아니, 왕십리 닥터쁘띠의원까지는 한양대역에서 지선 버스 2012번을 타고 바로 가면 돼. 환승할 필요 없어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 이투스247학원까지 걸어가면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대에서 이투스247학원까지 걸으면 약 23분 정도 걸려. 하지만 이 정도 거리는 버스를 타는 게 더 편할 것 같아. 지하철로는 1정거장 이동하면 빨리 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "텐즈힐아파트에서 내리면 웅진북클럽까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "텐즈힐아파트 정류장에서 내린 후, 웅진북클럽 성동사업국까지는 도보로 약 2분 정도 걸려. 그렇게 멀지 않으니까 걱정하지 않아도 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리 KCC스위첸아파트에서 차일드북앤토이까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리 KCC스위첸아파트에서 차일드북앤토이까지는 도보로 3분 정도 걸어가면 돼. 그곳에서 나와서 직진하면 금방 도착할 수 있어. 한양대역에서 버스를 타고 온 경우에 쉽게 갈 수 있지!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I walk to 신당초등학교 from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "While you can walk to 신당초등학교, it's a bit far at about 2 km, which takes around 24 minutes. I’d recommend taking bus number 241 instead for a quicker trip!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is Wangcho BBQ from the university?"
+      },
+      {
+        "role": "assistant",
+        "content": "Wangcho BBQ is approximately 1.3km from Hanyang University. It’s a bit too far to walk if you're in a hurry, so I'd recommend taking public transport instead!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it easy to walk to GS25 성수세대점?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's a bit far to walk from Hanyang University, taking about 20 minutes. I recommend taking the subway for a quicker trip!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역 어떤 출구로 나가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서는 1번 출구로 나가야 해. 그쪽에서 버스 정류장이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "웅진북클럽 성동사업국 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구로 나가서 '한양대역' 정류장에서 마을버스 성동08번을 타. '텐즈힐아파트' 정류장에서 내리면 되고, 그곳에서 도보로 2분 거리에 있지."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where do I catch the bus to Lotte Mart?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can catch the Seongdong 03 bus at the Hanyang University Station stop. It's right outside the 1st exit of the station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "DCT스터디카페 상왕십리점 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "DCT스터디카페 상왕십리점에 가려면 한양대역에서 지하철 2호선 타고 '상왕십리역'에서 내리면 돼. 4번 출구로 나와서 도보로 약 3분 거리에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Should I walk or take the bus to Brown Pot?"
+      },
+      {
+        "role": "assistant",
+        "content": "Taking the bus is a better choice! Walking takes about 13 minutes, while the bus ride plus a quick walk only takes a fraction of that time. It’s definitely more efficient to hop on the Seongdong 03 bus from Hanyang University Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 춘향미엔까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 춘향미엔 왕십리점까지는 걸어가면 약 14분 정도 걸려. 하지만 대중교통을 이용하면 마을버스 성동03번을 타고 '성동구청' 정류장에서 하차 후 도보 3분이면 되니, 버스를 타는 게 더 편해!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "CU 현대테라스타워점 가려면 버스 타는 게 좋지?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, CU 현대테라스타워점에 가려면 버스를 타는 게 좋아. 한양대역에서 성동03번 버스를 타면 성수역에서 하차할 수 있어. 그 후에 4번 출구로 나와서 3분 정도 걸으면 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the bus stop for 옷을입다 행당점?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus stop you need is right outside Hanyang Univ. Station at exit 1. You'll board the Seongdong 03 bus there. After a short ride, get off at 'Muhak Middle School' and it's just a quick 2-minute walk to 옷을입다 행당점."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "투엑스휘트니스 센트라스점 가는 가장 빠른 방법은?"
+      },
+      {
+        "role": "assistant",
+        "content": "가장 빠른 방법은 한양대역에서 지하철 2호선을 타고 상왕십리역에서 내리는 거야. 그 후 1번 출구로 나와서 센트라스 상가로 가면 돼. 전체 소요 시간은 약 10분 정도로 예상돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Ililhyang from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get to Ililhyang Wangsimni 9th branch, head to Hanyang University Station, take exit 1 and catch the Seongdong 08 village bus. Get off at 'Wangsimni KCC Switzen Apartment' stop. It’s just a short 3-minute walk from there!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you explain how to get to the Seongdonggu Rainbow Library?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Start at Hanyang University Station and take exit 1. Right in front, you'll find the bus stop for Seongdong 03. Hop on that bus and get off at the Seongdong District Office stop after two stops. The library is on the 3rd floor of the district office!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "모노마트 성동점까지 가는 데 걸리는 시간 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 모노마트 성동점까지는 걸어가면 18분, 버스를 타면 약 6분 걸려. 그래서 대중교통 이용이 더 효율적이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 데벨로페 발레스튜디오까지 얼마나 멀어?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대에서 데벨로페 발레스튜디오까지는 약 1.5km 정도 돼. 걸어가면 19분 정도 걸리는데, 버스를 타면 훨씬 더 빨리 갈 수 있어. 한양대역에서 버스를 타는 게 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does the bus ride take to Ililhyang?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus ride should only take about 10-15 minutes, and then you have a quick 3-minute walk to Ililhyang Wangsimni. Much quicker than walking the whole way!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "모노마트 성동점 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "모노마트 성동점은 한양대학교에서 약 1.5km 떨어진 곳에 있어. 한양대역 1번 출구로 나와서 '한양대역' 정류장에서 2012번 지선 버스를 타면 돼. 성동구청에서 하차하면 도보로 6분 정도 걸리니까, 버스를 타는 게 훨씬 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "CU 현대테라스타워점까지 걸어갈 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "걸어갈 수는 있지만, 약 19분 정도 걸리기 때문에 좀 멀게 느껴질 수 있어. 대중교통을 이용하는 게 더 편할 것 같아. 한양대역에서 지하철 2호선 타고 성수역으로 가는 게 좋아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 성동구청까지 몇 분 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 성동구청까지는 버스로 대략 14분 걸려. 거기서 내린 후에는 스포애니 왕십리역점까지 도보로 3분이면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "용비쉼터는 대중교통으로 가는 게 낫지?"
+      },
+      {
+        "role": "assistant",
+        "content": "맞아, 용비쉼터까지는 대중교통을 이용하는 게 더 편해. 걷기엔 약간 멀어서 버스 타는 걸 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus should I take to get to 유제?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take bus 241 to get to 유제. Board it at the Hanyang Univ. Station bus stop, and get off at 신당초등학교. You'll be just a short walk away from your destination!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there an alternative way to get to Wangcho BBQ?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes! Instead of the subway, you can take bus 2012 from Hanyang University Station to the Seongdong District Office stop. It's a convenient option and will get you there quickly!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "호갱 왕십리 본점 가는 방법 자세히 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "호갱 왕십리 본점은 한양대역에서 약 1.2km 거리에 있어. 한양대역 1번 출구로 나가서 '한양대역' 정류장에서 지선 버스 2012번을 타면 돼. 그 다음 '성동구청' 정류장에서 내려서 도보로 약 4분 거리에 있어. 걸어가기엔 좀 멀어서 버스를 타는 게 좋아!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "레드포스PC아레나 왕십리점까지 걸어가면 멀어?"
+      },
+      {
+        "role": "assistant",
+        "content": "레드포스PC아레나 왕십리점까지 도보로 약 13분이 걸려. 1.1km 정도 되니까, 걸어가기는 조금 멀게 느껴질 수 있어. 그래서 대중교통인 마을버스 성동03번을 타고 가는 걸 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "아이리스피부과까지 가는데 대중교통이 나을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 대중교통이 훨씬 나아. 한양대역에서 지하철로 뚝섬역까지 가면 5분도 안 걸리고, 도보로는 14분 걸려서 꽤 멀어. 지하철 타는 게 편할 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best way to get to 제일곱창?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way to get to 제일곱창 is to take bus 2012 from Hanyang University Station. After about 5 minutes, hop off at the Seongdong District Office stop and walk for 3 minutes to the restaurant. It's a bit far to walk directly!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "DCT스터디카페 상왕십리점 가는 버스 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "DCT스터디카페 상왕십리점에 가는 버스는 성동03번과 2012번이 있어. 하지만 걸어가기에는 좀 멀어서 대중교통 타는 게 훨씬 나아!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Wangsimni Matnangopchang using public transport?"
+      },
+      {
+        "role": "assistant",
+        "content": "Take bus 2012 from Hanyang Univ. Station and get off at Seongdong-gu Office stop. After that, it's just a short 3-minute walk to the restaurant. Alternatively, you can take subway line 2 to Sangwangsimni Station, which is also a quick walk away!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you explain the route to Sungshin Elementary School in detail?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Start at Hanyang Univ. Station and take Exit 1. From there, catch the Seongdong 08 town bus at the bus stop in front of the station. Stay on the bus until you reach the 'Tenz Hill Apartment' stop, then it's just a 3-minute walk to the school."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "상왕십리역 하차 후 어떤 출구로 나가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "상왕십리역에서 DCT스터디카페 상왕십리점으로 가려면 4번 출구로 나가면 돼. 그 출구를 나와서 도보로 3분 걸리니까 쉽게 찾을 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "굴과찜사랑 가려면 어떤 버스 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "굴과찜사랑 가려면 마을버스 성동03번을 타야 해. 한양대역 1번 출구 앞에 있는 정류장에서 탑승하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is the bus stop for the Seongdong 03 bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus stop for the Seongdong 03 bus is located right outside Exit 1 of Hanyang University Station. It's very convenient!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "이 근처 걸어갈 수도 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "신전떡볶이까지는 약 1.6km 거리라서 걸어가기엔 좀 멀어. 보통 20분 정도 걷게 되니까 대중교통을 이용하는 게 더 편할 것 같아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best way to reach Mupar from the university?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way is to take the village bus from Hanyang University Station. It's only about a 2-minute walk from the bus stop to Mupar, making it super convenient!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "도서관까지 버스 시간이 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "버스를 타면 약 10분 이내에 도착할 수 있어. 성동03번 버스는 한양대역에서 출발해서 성동구청까지 금방 가."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Are there any other ways to get to Two X Fitness from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "The most reliable way is by subway to Sangwangsimni Station. Alternatively, you could take a bus, but I recommend the subway for its speed and convenience. Just remember it’s a bit of a walk otherwise."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "만두전빵 가는 길 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "만두전빵에 가려면 한양대역 1번 출구로 나와서 '한양대역' 정류장에서 성동03번 마을버스를 타면 돼. '무학중학교' 정류장에서 내리면 도보 1분 거리니까 그렇게 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리 KCC스위첸아파트 정류장은 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리 KCC스위첸아파트 정류장은 마을버스를 타고 '왕십리 KCC스위첸아파트'에서 하차하면 바로 앞에 있어. 거기서 무프아파트먼트까지는 도보로 2분이면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the bus stop for the Seongdong 03 bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can catch the Seongdong 03 bus at Hanyang University Station, right in front of exit 1. It’s super convenient for getting to 옷을입다 행당점!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "숭신초등학교 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "숭신초등학교는 한양대역에서 약 2km 떨어져 있어. 한양대학교 1번 출구 앞에 있는 '한양대역' 정류장에서 마을버스 성동08번을 타면 돼. '텐즈힐아파트' 정류장에서 내려서 도보로 3분 거리에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the bus stop for 세종동 03?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus stop is right in front of Hanyang University Station at the 1st exit. You won't miss it!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What bus number goes near 신전떡볶이?"
+      },
+      {
+        "role": "assistant",
+        "content": "Take bus number 2012 or Seongdong 03. Both will get you pretty close to the restaurant."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the nearest bus stop to 옷을입다 행당점?"
+      },
+      {
+        "role": "assistant",
+        "content": "The nearest bus stop is 'Muhak Middle School,' which you can reach after getting off the Seongdong 03 bus. It's just about a 2-minute walk to the store from there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "앤탑PC에 가려면 어디서 내려야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "앤탑PC에 가기 위해서는 마을버스 성동03-1이나 성동08번을 타고 '왕십리 KCC스위첸아파트' 정류장에서 하차해야 해. 그 후 도보로 2분 정도 걸으면 앤탑PC에 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "삼맛호오떡 왕십리본점 가는 버스 정류장은?"
+      },
+      {
+        "role": "assistant",
+        "content": "삼맛호오떡 왕십리본점 가는 버스 정류장은 한양대역 1번 출구 앞에 있는 '한양대역' 정류장이야. 거기서 성동03번 마을버스를 타면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Seongdonggu Rainbow Library from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get to Seongdonggu Rainbow Library, head to the Hanyang Univ. Station. Take exit 1, then catch the Seongdong 03 village bus at the nearby bus stop. Ride for two stops and get off at the 'Seongdong District Office'. The library is on the 3rd floor of the district office. It's a bit far to walk, so the bus is recommended!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 몇 번 출구로 나가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서는 1번 출구로 나가야 해. 그쪽으로 나가면 '한양대역' 정류장이 바로 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "소울 스터디 카페까지 걸어가면 너무 멀어?"
+      },
+      {
+        "role": "assistant",
+        "content": "소울 스터디 카페는 한양대역에서 약 1.7km 떨어져 있어서 걸어가면 21분 정도 걸려. 그래서 대중교통을 이용하는 걸 추천해. 버스를 타면 훨씬 빠르게 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "오까네 제1연구소 상왕십리점 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 오까네 제1연구소 상왕십리점까지 가려면 한양대역 1번 출구로 나와서 '한양대역' 정류장에서 2012번 지선 버스를 타면 돼. '성동구청' 정류장에서 내리고 나서 도보로 약 6분 정도 걸어가면 도착해. 걸어가면 18분 정도 걸리니까 버스를 타는 게 더 편할 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I walk to Mariang Plus Wangsimni from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "While it's technically possible to walk the 1.6 km to Mariang Plus Wangsimni from Hanyang University, it’s a bit far. I recommend taking the subway as it only takes a couple of minutes. You’ll be there in no time!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "어거스트치킨 왕십리센트라스점 가는 버스 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "어거스트치킨 왕십리센트라스점에 가려면 2012번 버스를 타고 '상왕십리역' 정류장에서 하차하면 돼. 버스도 꽤 빠르니까 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스 타는 위치가 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구 앞으로 나가면 '한양대역' 정류장이 있어. 그곳에서 마을버스 성동03-1번이나 성동08번을 타면 돼. 그렇게 가면 왕십리 KCC스위첸아파트 정류장에서 하차할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "레드포스PC아레나 왕십리점 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 출발하는 게 좋아. 1번 출구로 나와서 '한양대역' 정류장에서 마을버스 성동03번을 타면 돼. '성동구청'에서 내려서 왕십리역 방향으로 3분 정도 걸으면 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it better to walk or take the bus to 옷을입다 행당점?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's better to take the bus! Walking takes about 14 minutes, but the bus will get you there quicker and is more convenient."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to 아이리스피부과의원 성수 using public transport?"
+      },
+      {
+        "role": "assistant",
+        "content": "Just take Line 2 from Hanyangdae Station to Ttukseom Station. When you arrive, exit through door 4, and it's just a minute on foot to the clinic!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "유제 근처에 정류장 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "유제 근처에는 '신당초등학교' 정류장이 있어. 여기서 하차한 후 도보로 1분 정도 가면 유제를 찾아갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "성수멜팅의원 가려면 어떻게 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "먼저 한양대역에서 지하철 2호선을 타고 '성수역'에서 내려. 그리고 3번 출구로 나와서 1분 정도 걸으면 도착해. 걸어가면 21분 정도 걸리니까 대중교통 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it faster to walk or take the bus to Soul Study Cafe?"
+      },
+      {
+        "role": "assistant",
+        "content": "Taking the bus is definitely faster! It takes around 21 minutes to walk, while the bus ride plus a short walk only takes about 10 minutes total."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "우리은행 성수동금융센터는 뭐하는 곳이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "우리은행 성수동금융센터는 금융 관련 편의시설이야. 다양한 금융 서비스와 상담을 받을 수 있는 곳으로, 학생들에게도 유용해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 옷을입다까지 걸어서 갈 수 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "걸어갈 수도 있지만 약 1.1km라서 14분 정도 걸려. 좀 멀어서 대중교통 이용하는 게 더 좋을 것 같아. 버스 타면 더 빨리 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "마리앙플러스까지 걷고 가는 건 어때?"
+      },
+      {
+        "role": "assistant",
+        "content": "마리앙플러스 왕십리점까지 걸어가는 건 약 20분 정도 걸려. 거리도 한 1.6km 되니까 좀 멀게 느껴질 수도 있어. 대중교통을 이용하는 게 더 편할 것 같아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the quickest way to get to Nature Republic?"
+      },
+      {
+        "role": "assistant",
+        "content": "The quickest way to get to Nature Republic at Sangwangsimni Station is by taking Subway Line 2 from Hanyang University Station. It's just one stop away at Sangwangsimni, making it an easy and fast trip."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I walk to 옷을입다 행당점 instead of taking the bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can walk to 옷을입다 행당점, but it would take around 14 minutes. Since it's a bit far, I recommend taking the Seongdong 03 bus from Hanyang Univ. Station for a quicker and more convenient trip."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "춘향미엔 정류장 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "춘향미엔까지 가려면 '성동구청' 정류장에서 내려야 해. 그곳에서 왕십리역 쪽으로 3분 정도 걸어가면 나와."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "일일향 왕십리9호점에서 한양대역까지 얼마나 멀어?"
+      },
+      {
+        "role": "assistant",
+        "content": "일일향 왕십리9호점은 한양대역에서 약 1.4km 거리에 있어. 걸어가면 16분 정도 걸리지만, 대중교통을 이용하면 더 빠르게 갈 수 있어. 마을버스를 타면 3분 정도면 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Should I walk or take public transport to Amorepacific Seongdong Future Branch?"
+      },
+      {
+        "role": "assistant",
+        "content": "Taking public transport is definitely the better choice! Walking takes around 14 minutes, which is a bit far, so catching the Seongdong 03-1 or 08 bus will save you time and effort."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리 건대우동집까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "건대우동집 왕십리점까지 걸어가면 약 17분 정도 걸려. 하지만 버스를 타면 더 빠르게 갈 수 있어서 5분 정도 도보와 버스 시간을 합쳐서 10분 내외로 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스 타고 호갱 왕십리 본점 가면 어디서 내려?"
+      },
+      {
+        "role": "assistant",
+        "content": "버스를 타고 호갱 왕십리 본점에 가면 '성동구청' 정류장에서 내려야 해. 하차 후 약 4분 정도 걸어가면 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where is the bus stop for 무학중학교?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus stop for 무학중학교 is located right in front of the school. Just take the Seongdong 03 bus from Hanyang University Station and get off there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I just walk to 텐즈PC?"
+      },
+      {
+        "role": "assistant",
+        "content": "You could walk to 텐즈PC, but it's about 1.3km from Hanyang University Station, which takes around 15 minutes. It's a bit far, so taking the bus is recommended for a quicker and easier trip."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "신당초등학교에서 하차는 어디서 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "신당초등학교에 가려면 '신당초등학교' 정류장에서 하차하면 돼. 버스 241번을 타고 이 정류장에서 내리면 바로 학교에 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Daerim Bookstore using public transport?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach Daerim Bookstore, head to Hanyang University Station and take exit 1. Catch the Seongdong 03 bus at the 'Hanyang Univ. Station' stop and get off at 'Haengdang Station.' After that, it's a quick 1-minute walk to the bookstore."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Does the 241 bus go near 신당초등학교?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, the 241 bus goes straight to the 신당초등학교 stop. Just hop on at Hanyang University station, and you'll be there in no time!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I walk to 투엑스휘트니스 센트라스점 from the subway station?"
+      },
+      {
+        "role": "assistant",
+        "content": "You could walk, but it’s about 1.6km, which might take around 20 minutes. It’s better to use public transport to save time!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best way to reach 만나떡볶이?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way is to use public transport. Start from Hanyang University Station, take exit 1, and hop on bus 2012 at the stop in front. After about 4 stops, get off at Seongdong District Office and walk 4 minutes to 만나떡볶이."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "용비쉼터까지 걸어갈 수도 있을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "걸어갈 수는 있지만 약 19분이 걸려서 좀 멀게 느껴질 수 있어. 그래서 대중교통을 추천해. 한양대역 1번 출구에서 '한양대정문' 정류장까지 5분 정도 걸어가고, 그 후에 지선 버스 2016번을 타면 더 빠르고 편리하게 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "피부공방 맑음에서 어디서 내려야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "피부공방 맑음에 가려면 '성동구청' 정류장에서 내려야 해. 거기서 도보로 5분 정도 걸으면 피부공방 맑음에 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Should I just walk to 무프아파트먼트?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's about 1.3km from Hanyang University Station, which is a bit far to walk, so I recommend taking the bus instead!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "투엑스휘트니스 센트라스점까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "투엑스휘트니스 센트라스점은 한양대역에서 약 1.6km 떨어져 있어서 걸어가면 20분 정도 걸려. 걸어가기엔 좀 멀어서 대중교통을 추천해. 지하철로 가면 1정거장 거리야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리맛나곱창 가려면 한양대역 어디서 나가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 1번 출구로 나가면 돼. 그러면 '한양대역' 정류장이 바로 앞에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where can I find Wangcho BBQ in Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "Wangcho BBQ is located about 1.3km from Hanyang University. You can take Subway Line 2 from Hanyang University Station and get off at Sangwangsimni Station. Use Exit 4, and it's just a 3-minute walk from there!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "삼맛호오떡 가는 데 버스 타는 게 더 빨라?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 삼맛호오떡까지 도보로 가면 약 12분 걸리는데, 버스를 타면 훨씬 빨리 갈 수 있어. 한양대역에서 마을버스 성동03번을 타고 '성동구청'에서 내리면 1분 거리에 위치해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the bus stop to go to 유제?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus stop you need is right outside Hanyang University Station at exit 1. Just catch the 241 bus there, and you’ll be on your way to 유제 in no time!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the walking time compared to taking the bus to 아이리스피부과의원 성수?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking takes about 14 minutes, while the bus will take less than that considering the bus ride and walking combined. I’d say the bus is a good option!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "우리은행 성수동금융센터까지 어떻게 가는지 좀 더 자세히 설명해줘."
+      },
+      {
+        "role": "assistant",
+        "content": "먼저 한양대역에서 지하철 2호선을 타고 뚝섬역에서 내려. 그 후 8번 출구로 나가면 도보로 약 5분 거리에 있어. 총 소요 시간은 약 20분 정도 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What bus do I take from Hanyang University to get to Selbody PT?"
+      },
+      {
+        "role": "assistant",
+        "content": "Take the 2012 bus from Hanyang University Station. It's a direct route to where you need to go."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "무프아파트먼트 가는 버스 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 무프아파트먼트로 가려면 마을버스 성동03-1번 또는 성동08번을 타면 돼. 이 두 버스는 왕십리 KCC스위첸아파트 정류장에서 내려야 해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "걸어갈 수도 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "행당맥주까지 걸어갈 수도 있지만, 약 1.1km 거리에 있어서 도보로 가면 약 13분 정도 걸려. 그래서 대중교통, 특히 마을버스 성동03번을 타는 게 더 편안하고 빠른 방법이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the bus stop for Seongdong 03 near Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus stop for Seongdong 03 is right outside Hanyang University. However, since it's a bit far to walk to CU 현대테라스타워점, I suggest taking the subway for a quicker route."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "신당초등학교 다른 경로 없나?"
+      },
+      {
+        "role": "assistant",
+        "content": "신당초등학교까지는 주로 한양대역에서 간선 버스 241번을 타는 게 일반적이야. 다른 대체 경로는 없지만, 만약 자전거가 있다면 자전거를 타고 가는 방법도 있어. 하지만 대중교통을 이용하는 게 가장 편리할 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "무프아파트먼트까지 도보로 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "무프아파트먼트까지 도보로 가면 약 15분 정도 걸려. 하지만 버스를 타면 더 빠르게 도착할 수 있으니 대중교통 이용을 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the distance from Hanyang University to Itus 247?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's about 1.9 km from Hanyang University to Itus 247 Academy. It's a bit far to walk, so using public transport is definitely recommended to save time."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to CU 현대테라스타워점 from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach CU 현대테라스타워점, start at Hanyang University Station. Take Subway Line 2 and get off at Seongsu Station. From Exit 4, it's just a 3-minute walk. It's about 1.5 km away, so public transport is recommended instead of walking."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Muhak Middle School from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach Muhak Middle School from Hanyang University, head to Hanyang University Station and take exit 1. Then, catch the Seongdong 03 village bus at the bus stop right in front. Get off at the Muhak Middle School stop. It's a bit far to walk, so the bus is definitely recommended!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 삼맛호오떡까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 삼맛호오떡 왕십리본점까지는 한양대역 1번 출구에서 성동03번 마을버스를 타고 '성동구청' 정류장에서 내려서 1분 정도 걸어가면 돼. 대중교통 이용하는 게 더 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to 행당맥주 compared to taking the bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking to 행당맥주 takes about 13 minutes, which is a bit far. Taking the bus will only take around 10 minutes, plus a 2-minute walk after you get off. So the bus is definitely recommended!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "유제 가는데 몇 정류장 지나가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 간선 버스 241번을 타면 신당초등학교 정류장에서 하차해야 해. 정류장은 3~4개 정도 지나갈 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "스포애니 왕십리역점까지 가장 빠른 방법은?"
+      },
+      {
+        "role": "assistant",
+        "content": "가장 빠른 방법은 한양대역 1번 출구로 나와서 '한양대역' 정류장에서 지선 버스 2012번을 타는 거야. 버스를 타고 약 10분 후 '성동구청' 정류장에서 하차한 후 3분 정도 걷는다면, 총 13분이면 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which exit at Hanyang University Station should I use for the bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should use Exit 1 at Hanyang University Station. Once you’re out, head to the bus stop in front where you’ll catch the Seongdong 03 bus to Muhak Elementary School."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 성수멜팅의원까지 몇 분 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 성수멜팅의원까지는 도보로 약 21분 정도 걸려. 하지만 지하철을 타고 가면 더 빠르니까 대중교통 이용하는 걸 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "앤탑PC 가는 방법 자세히 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "앤탑PC까지 가려면 한양대역 1번 출구로 나와야 해. 그 앞에 있는 '한양대역' 정류장에서 마을버스 성동03-1 또는 성동08번을 타. '왕십리 KCC스위첸아파트' 정류장에서 하차하면 돼. 하차 후에는 도보로 약 2분 정도 걸으면 앤탑PC에 도착할 수 있어. 걸어가면 약 15분 정도 걸리니까 버스를 타는 게 더 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Do I need to take public transport to get to the Itus247 Academy?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yeah, it's a bit far to walk to Itus247 Academy, so taking public transport is recommended. It's about 1.9 km from Hanyang University, and the quickest way is to take the subway for just one stop."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there a bus that goes to 차일드북앤토이?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! You can take the Seongdong 08 village bus from Hanyang University Station, and it will take you close to 차일드북앤토이."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus should I take to get to Sangmu Sushi?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take bus number 241 from Hanyang University Station. It’s a quick and easy way to get to Sangmu Sushi, just remember to get off at the Sin-dang Elementary School stop."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "브라운팟까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "브라운팟까지는 걸어가면 약 13분 정도 걸려. 하지만 대중교통을 이용하면 버스를 타고 가는 게 더 편해. 버스를 이용하면 약 10분 이내로 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "DCT스터디카페 상왕십리점 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 지하철 2호선을 타고 '상왕십리역'에서 내리면 돼. 4번 출구로 나오면 DCT스터디카페까지 도보로 3분 거리에 있어. 대중교통 타는 게 훨씬 편해!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "투엑스휘트니스 센트라스점 걸어가면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "걸어가면 약 20분 정도 걸려. 그래서 대중교통 타는 게 더 효율적이야. 지하철이나 버스를 이용하는 게 좋아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "상무초밥 왕십리점 얼마만큼 멀어?"
+      },
+      {
+        "role": "assistant",
+        "content": "상무초밥 왕십리점은 한양대학교에서 약 1.9km 떨어져 있어. 걷기에는 약 24분 정도 걸리는데, 버스를 타면 훨씬 빠르게 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What bus should I take from Hanyang University to get to Chunhyangmien?"
+      },
+      {
+        "role": "assistant",
+        "content": "You need to take the Seongdong 03 bus from Hanyang University Station. After about a short ride, you’ll get off at the Seongdong-gu Office stop."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "스포애니 왕십리역점 걸어가면 멀어?"
+      },
+      {
+        "role": "assistant",
+        "content": "스포애니 왕십리역점까지는 걸어가면 약 14분 정도 걸려. 그래서 대중교통을 이용하는 게 더 좋고, 한양대역 1번 출구에서 2012번 버스를 타는 걸 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리맛나곱창 가려면 대중교통 이용해야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 왕십리맛나곱창은 한양대에서 약 1.2km 거리에 있어서 걸어가기는 좀 멀어. 대중교통 이용하는 게 좋아. 버스나 지하철 타면 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리맛나곱창 정류장 이름 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "'왕십리맛나곱창'에 가까운 정류장은 '성동구청' 정류장이야. 거기서 내리면 3분 정도 걸어가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "상왕십리역에서 다이클로 왕십리뉴타운센트라스점까지 걸어가면 얼마 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "상왕십리역에서 다이클로 왕십리뉴타운센트라스점까지는 걸어서 약 10분 정도 걸려. 하지만 지하철로 한 정거장 가는 게 더 편할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리 가는 버스는 몇 분 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "성동08번 마을버스를 타면 약 10분 정도 소요돼. 하지만 한양대에서 걸어가면 약 16분 걸리니까, 버스를 타는 게 더 빠르고 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is Woori Bank Seongsu a good place for students?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! The Woori Bank Seongsu Financial Center offers various banking services that are quite handy for students. It's conveniently located near Ttukseom Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕초바베큐 가는데 지하철 타는 게 좋을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕초바베큐 왕십리 본점까지 가는 가장 좋은 방법은 지하철이야. 한양대역에서 2호선을 타고 상왕십리역에서 하차 후 4번 출구로 나오면 3분 거리에 있어. 시간적으로도 더 효율적이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 용비쉼터까지 어떻게 가는지 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대에서 용비쉼터로 가려면 먼저 한양대역 1번 출구로 나가야 해. 그 다음 '한양대정문' 정류장까지 도보로 5분 정도 걸어가고, 거기서 지선 버스 2016번을 타면 돼. '응봉동주민센터' 정류장에서 내리면 거의 다 온 거야. 걸어가기엔 좀 멀어서 대중교통 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there another way to get to 대림서점 besides the Seongdong 03 bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "While the Seongdong 03 is the most direct route to 대림서점, you could also consider taking the subway to 'Haengdang Station' and walking from there. However, the bus is usually more convenient and quicker for this route!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best way to get to 아이리스피부과의원 성수?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way to get to 아이리스피부과의원 성수 is by public transport. It's a bit far to walk, so I recommend taking Line 2 from Hanyang University Station to Ttukseom Station, then exiting at 4 and walking for just a minute."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What bus should I take to Monomart from Hanyang University Station?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take bus 2012 from Hanyang University Station. It’s the best option to reach Monomart Seongdong quickly. Just remember to get off at Seongdong-gu Office!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스 정류장 이름이 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "'한양대역' 정류장에서 버스를 타면 돼. 여기서 성동03-1번이나 성동08번을 탑승할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕초바베큐까지 버스 타면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕초바베큐 왕십리 본점까지 버스를 타면 약 10분 정도 걸려. 한양대역에서 2012번 버스를 타고 '성동구청' 정류장에서 내리면 되고, 거기서 도보로 3분이면 도착해. 도보로 가는 것보다 훨씬 빠르니까 버스를 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where should I get off to reach Muhak Elementary School?"
+      },
+      {
+        "role": "assistant",
+        "content": "You need to get off at the Muhak Elementary School stop. After taking the Seongdong 03 bus from Hanyang University Station, this is your stop. It’s the perfect place to hop off since it’s right at the school!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스로 가면 시간이 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "버스로 가면 약 10분 정도 걸려. 반면에 걸어가면 15분 정도 걸리니까 시간이 절약될 수 있어. 그래서 버스 타는 걸 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is the bus a good option to reach 투엑스휘트니스 센트라스점?"
+      },
+      {
+        "role": "assistant",
+        "content": "Definitely! Since it's a bit far to walk, taking a bus can be more convenient. It's faster and you'll avoid the long walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제일곱창 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구 앞 '한양대역' 정류장에서 2012번 버스를 타면 돼. '성동구청' 정류장에서 하차한 후 도보로 3분 정도 가면 제일곱창이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리중앙새마을금고 가는 자세한 경로 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "먼저 한양대역 1번 출구로 나와. 그 후 '한양대역' 정류장에서 지선 버스 2012번을 타고 '성동구청'에 하차해. 하차 후에는 약 4분 정도 걸어가면 왕십리중앙새마을금고 본점에 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is Muhak Middle School from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "Muhak Middle School is about 1 km from Hanyang University, which is a bit far to walk, especially if you're in a hurry. I suggest taking the Seongdong 03 bus from Hanyang University Station to make it quicker!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스 타는 게 더 빠를까, 걸어가는 게 더 빠를까?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 걸어가면 19분 정도 걸리고, 지하철을 타면 1정거장이니까 훨씬 빠르지. 대중교통 이용하는 걸 추천해!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "용비쉼터 가는 버스 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "용비쉼터까지 가는 버스는 2016번이야. 한양대역에서 버스를 타면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where should I get off to reach Pastel Human Skin Clinic?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should get off at Sangwangsimni Station. Use exit 1, and the Pastel Human Skin Clinic will be on the 2nd floor of the L Building in the Centras shopping complex. It's a quick trip from Hanyang University!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to get to 앤탑PC by bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Taking the bus usually takes around 10 to 15 minutes, plus just a 2-minute walk once you get off, making it much faster than walking all the way."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me where to get off for 굴과찜사랑?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! You should get off at the 성동구청 stop. From there, it’s just a quick 2-minute walk to the restaurant."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "걸어가는 것보다 버스 타는 게 나아?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 피부공방 맑음까지 걸어가면 약 16분 정도 걸려. 그런데 버스를 타면 약 10분 정도 소요되니까 버스 타는 게 훨씬 빠르고 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the best way to get to CU 현대테라스타워점?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way is to take Subway Line 2 from Hanyang University Station to Seongsu Station. After getting off, head out of Exit 4 and walk for about 3 minutes to reach CU 현대테라스타워점. It's a bit far to walk directly from Hanyang, so public transport is recommended."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 유제 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구로 나가서 '한양대역' 정류장에서 간선 버스 241번을 타. 그 후 신당초등학교 정류장에서 하차하면 되고, 도보로 1분이면 유제에 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it easy to walk to August Chicken or should I take the bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking to August Chicken would take about 24 minutes, which is a bit far. It's recommended to take the subway instead. Just one stop from Hanyang University Station to Sangwangsimni Station is much quicker and easier!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "무학중학교 가는 버스 요금 얼마야?"
+      },
+      {
+        "role": "assistant",
+        "content": "마을버스를 타면 일반 버스 요금이 적용돼. 대략 1,200원 정도일 거야. 버스를 타고 가는 게 편해!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Do I need to take a bus to get to Brown Pot?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yeah, it's recommended to take a bus since it's a bit far to walk. You can hop on the Seongdong 03 bus from Hanyang University Station and get off at the Seongdong District Office stop. From there, it's just a 3-minute walk to Brown Pot."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 GS25 성수세대점 정류장 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "GS25 성수세대점 가려면 한양대역에서 성동03번 버스를 타고 '성수세대' 정류장에서 내려야 해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제일곱창 가는 버스 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "제일곱창에 가려면 2012번 지선 버스를 타면 돼. '한양대역' 정류장에서 출발해 '성동구청' 정류장에서 내려서 3분 정도 걸어가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to 호갱 왕십리 본점 from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach 호갱 왕십리 본점, start at Hanyang University Station (Exit 1). Take bus 2012 from the 'Hanyang Univ. Station' stop and get off at 'Seongdong District Office'. From there, it's just a 4-minute walk to the restaurant. It's a bit too far to walk directly, so taking the bus is recommended!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "우리은행 성수동금융센터 가려면 어느 출구로 나가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "뚝섬역에서 하차 후 8번 출구로 나가면 돼. 그곳에서 도보로 약 5분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to 다이클로 from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach 다이클로, hop on the subway at Hanyang University Station. Ride for one stop to Sangwangsimni Station, then exit through Door 1. The store is located in the basement level of Centras, Building L. It’s really straightforward!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there a transfer point to get to the clinic?"
+      },
+      {
+        "role": "assistant",
+        "content": "No transfer is needed! Just take the subway from Hanyang University Station to Sangwangsimni Station directly. It’s one stop and very convenient!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it better to walk or take the bus to Chunhyangmyeon Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's definitely better to take the bus to Chunhyangmyeon Wangsimni since it's about 1.2km away, which would take 14 minutes to walk. The bus will get you there much faster and easier!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 성수세대점 가려면 어떤 버스 탈까?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대에서 성수세대점으로 가려면 성동03번 버스를 타는 게 좋아. 이 버스를 타고 '성수역' 정류장에서 내리면 돼. 거기서 도보로 5분 정도 걸으면 성수세대점에 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 스포애니 왕십리역점까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 스포애니 왕십리역점까지는 버스를 타면 약 14분 정도 걸려. 도보로 가기엔 좀 멀어서 버스를 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "어거스트치킨 가는 길 알려주는 버스 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 2012번 버스나 2223번 버스를 타면 상왕십리역 정류장에서 내릴 수 있어. 그렇게 가면 어거스트치킨 왕십리센트라스점이 가까워."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "무학초등학교 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "무학초등학교는 한양대역에서 약 1.5km 떨어진 곳에 있어. 한양대역 1번 출구로 나와서 '한양대역' 정류장에서 마을버스 성동03번을 타면 돼. 그리고 '무학초등학교' 정류장에서 내려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it better to walk or take the bus to Selbody PT Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "I’d say taking the bus is better since it’s a bit far to walk. It only takes a few minutes on the bus compared to the 15-minute walk, plus you won’t get tired!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "박만배아리랑보쌈 왕십리점 가는 방법 자세히 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 박만배아리랑보쌈 왕십리점까지 가려면 한양대역 1번 출구로 나와서 '한양대역' 정류장으로 가. 거기서 마을버스 성동03-1번이나 성동08번을 타면 돼. '왕십리 KCC스위첸아파트' 정류장에서 내려서 2분 정도 걸으면 도착해. 전체적으로 도보로 가기엔 좀 멀어서 버스를 타는 게 좋아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "행당맥주 가려면 어디서 환승해야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "행당맥주까지는 환승이 필요 없어. 한양대역 1번 출구에서 바로 '한양대역' 정류장에서 성동03번을 타면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Are there any alternate routes to Red Force PC Arena?"
+      },
+      {
+        "role": "assistant",
+        "content": "The main and most convenient route is to take the Seongdong 03 bus from Hanyang University Station exit 1. If you're looking for an alternate route, you could also walk directly, but it's a longer distance. The bus is definitely the recommended option!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which subway line should I take to reach 신전떡볶이?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take Line 2 from Hanyang University Station. Get off at 상왕십리역, then exit through exit 4. It's a quick 2-minute walk to reach 신전떡볶이. Since it’s a bit far to walk directly, the subway is a great option."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "성동03-1이나 성동08번 버스는 어디서 타?"
+      },
+      {
+        "role": "assistant",
+        "content": "성동03-1번이나 성동08번 버스는 한양대역 1번 출구 앞 '한양대역' 정류장에서 탈 수 있어. 그곳에서 바로 버스를 기다리면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "레드포스PC아레나 왕십리점 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구로 나가서 '한양대역' 정류장에서 마을버스 성동03번 타면 돼. '성동구청' 정류장에서 내려서 왕십리역 쪽으로 3분 정도 걸으면 레드포스PC아레나 왕십리점이 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where should I get off to reach GS25 Seongsu?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should get off at Seongsu Station on Line 2. After you exit the train, take exit 4 and walk about 5 minutes to reach GS25 Seongsu."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Are there any alternative routes to get to Mariang Plus?"
+      },
+      {
+        "role": "assistant",
+        "content": "If you want an alternative route to Mariang Plus Wangsimni, you could take Bus 2012 from Hanyang University Station. Just make sure to check the bus schedule as it might take slightly longer than the subway, but it’s another option if you prefer buses!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 상왕십리역으로 환승은 어떻게 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 지하철 2호선으로 바로 타면 상왕십리역에 1정거장 만에 도착해. 환승할 필요 없이 직행이니까 간편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does the bus take to get to Nature Republic compared to walking?"
+      },
+      {
+        "role": "assistant",
+        "content": "Actually, it’s recommended to take the subway instead of the bus since walking takes about 20 minutes and the subway is quicker. You’ll save time and still reach Nature Republic comfortably!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "만나떡볶이 가려면 어떤 버스 타?"
+      },
+      {
+        "role": "assistant",
+        "content": "만나떡볶이 가려면 지선 버스 2012번을 타야 해. '한양대역' 정류장에서 탈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it faster to walk or take the bus to 만두전빵?"
+      },
+      {
+        "role": "assistant",
+        "content": "Taking the bus is quicker! The bus ride on Seongdong 03 will get you there in a few minutes, while walking takes about 13 minutes. So, I’d recommend the bus!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the best way to reach 셀바디PT 왕십리점?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way to reach 셀바디PT 왕십리점 is by taking bus 2012 from Hanyang University Station. It's a convenient option since walking might take about 15 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "파스텔휴먼피부과 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "파스텔휴먼피부과의원은 한양대역에서 지하철 2호선으로 상왕십리역까지 가면 돼. 한양대역에서 1정거장 이동 후, 상왕십리역 1번 출구로 나가면 '센트라스' 상가 L동 2층에 있어. 도보로 19분 정도 걸리니까 대중교통 이용하는 게 더 편할 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리 닥터쁘띠의원까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리 닥터쁘띠의원까지 도보로는 약 13분 정도 걸리지만, 버스를 타는 게 더 편해. 한양대역에서 2012번 버스를 타고 '성동구청'에서 내리면 2분 거리에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "다른 경로로 가는 방법도 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "대중교통으로는 한양대역에서 지하철 2호선 외에 버스를 타고 가는 방법도 있어. 예를 들어, 2012번 버스를 타고 '상왕십리역' 정류장에서 내리면, 거기서 1번 출구로 나와서 센트라스 상가로 가면 돼. 이 길도 괜찮아!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "춘향미엔 가는 버스 뭐 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "춘향미엔 왕십리점에 가려면 한양대역 1번 출구 앞 '한양대역' 정류장에서 마을버스 성동03번을 타면 돼. '성동구청' 정류장에서 내려서 왕십리역 방향으로 도보 3분 거리에 있어. 걸어가는 것보다 버스 타는 게 더 편해!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the nearest subway station to DCT Study Cafe?"
+      },
+      {
+        "role": "assistant",
+        "content": "The nearest subway station to DCT Study Cafe is Sangwangsimni Station on Line 2. Once you get there, you can just take Exit 4 and it's a quick 3-minute walk to the cafe. Super easy to access!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is Chunhyangmyeon from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "Chunhyangmyeon is about 1.2 km away from Hanyang University. While it's walkable in about 14 minutes, taking the bus is a lot more convenient!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스 타고 몇 정류장 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 성동구청 정류장까지 버스를 타면 약 5~6정류장 정도 가야 해. 이후에 하차하고 3분 정도 걸으면 제일곱창 본점에 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 행당맥주 가는 버스 뭐 타?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 행당맥주로 가려면 마을버스 성동03번을 타야 해. 1번 출구로 나가서 '한양대역' 정류장에서 탑승하면 돼. 성동구청 정류장에서 내리면 2분 걸어서 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕초바베큐 가는 버스 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕초바베큐 왕십리 본점에 가는 버스는 지선 2012번이야. 한양대역 1번 출구 앞 정류장에서 탑승한 후, 성동구청 정류장에서 하차하면 돼. 도보로는 3분 정도 걸리니까 대중교통 이용하는 게 더 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you break down the route to GS25 Seoul Forest D Tower for me?"
+      },
+      {
+        "role": "assistant",
+        "content": "Of course! Start at Hanyang University Station and hop on the subway Line 2. Get off at Ttukseom Station, head out through Exit 4, and walk for about 3 minutes to reach GS25."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it faster to take the bus or walk to Yangjaekang?"
+      },
+      {
+        "role": "assistant",
+        "content": "Taking the bus is definitely faster! The bus ride will save you time compared to the 17-minute walk. I recommend catching bus 2012 for a quicker trip."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Do I need to change buses to get to 굴과찜사랑?"
+      },
+      {
+        "role": "assistant",
+        "content": "No, you don’t need to change buses! Just take the Seongdong 03 directly to 성동구청, and then it's a short walk to the restaurant."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is Jeilgobchang a good place to eat?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Jeilgobchang is well-loved for its tasty grilled dishes. It's a great choice if you're looking for a satisfying meal near Hanyang University."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best way to reach Gondea Udon House?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way to reach Gondea Udon House is by taking bus 2012 from Hanyang University Station, exit 1. After getting off at Seongdong-gu Office, it’s just a 5-minute walk to the restaurant."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "행당맥주까지 버스 타는 게 좋아?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 대중교통이 더 편해. 걸어가면 13분 정도 걸리지만 버스 타면 훨씬 빠르게 도착할 수 있어. 한양대역에서 성동03번 타고 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "어거스트치킨까지 버스로 가면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "버스를 타고 가면 약 15분 정도 걸려요. 한양대역에서 성동03번 버스를 타고 상왕십리역 정류장에서 내리면 되니까 꽤 빠르게 갈 수 있을 거예요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 파스텔휴먼피부과 가는 버스 뭐 타?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대에서 파스텔휴먼피부과의원까지 가려면, '한양대역' 정류장에서 성동03 버스를 타고 상왕십리역에서 하차하면 돼. 그 후 1번 출구로 나가면 센트라스 2층에 위치해 있어. 대중교통으로 가는 게 도보보다 훨씬 빠를 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there a bus stop near Yangjagang?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes! The nearest bus stop is 'Seongdong District Office', which is just a short walk away from Yangjagang after you get off the bus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Lotte Mart from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get to Lotte Mart, start at Hanyang University Station and take the village bus Seongdong 03 from the bus stop right outside exit 1. Get off at the 'Hangdang Station' stop. It's a bit far to walk, so the bus is definitely recommended!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "셀바디PT 왕십리점까지 가는 데 대중교통이 더 편해?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 셀바디PT 왕십리점까지 가는 방법은 대중교통을 이용하는 게 더 편해. 한양대역 1번 출구에서 지선 버스 2012번을 타고 '성동구청' 정류장에서 내려서 도보로 4분만 걸으면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which exit should I use at Hanyang University Station?"
+      },
+      {
+        "role": "assistant",
+        "content": "Use exit 1 at Hanyang University Station to reach the bus stop for the Seongdong 03 bus. That’s the easiest way to get to Lotte Mart!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "삼맛호오떡 어디서 내려야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "'삼맛호오떡'에 가려면 '성동구청' 정류장에서 내려야 해. 그곳에서 왕십리역 방향으로 1분 정도 걸어가면 돼. 쉽게 찾을 수 있을 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which exit should I use to catch the bus to Okane?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should use exit number 1 at Hanyang University Station. The bus stop is directly in front of that exit."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "우리은행 성수동금융센터 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 지하철 2호선을 타고 뚝섬역에서 하차해. 8번 출구로 나오면 도보로 약 5분 거리야. 대중교통 이용하는 게 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the bus stop called near the clinic?"
+      },
+      {
+        "role": "assistant",
+        "content": "The nearest bus stop is at Sangwangsimni Station. After getting off, you just need to walk a little to reach the clinic."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "옷을입다 행당점 가려면 대중교통 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 옷을입다 행당점까지는 걸어가기엔 좀 멀어서 대중교통 타는 게 좋아. 한양대역에서 마을버스 성동03번을 타고 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역 몇 번 출구로 나가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서는 1번 출구로 나가야 해. 그 곳에서 '한양대역' 정류장으로 가면, 지선 버스 2012번을 탈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the closest bus stop to Wangsimni Central Saemaul Geumgo?"
+      },
+      {
+        "role": "assistant",
+        "content": "The closest stop is Seongdong-gu Office. It’s just a short 4-minute walk from there to the branch."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리맛나곱창 가려면 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리맛나곱창은 한양대역 1번 출구 앞의 '한양대역' 정류장에서 지선 버스 2012번을 타고 '성동구청' 정류장에서 하차하면 돼. 거기서 도보로 3분 정도 걸어가면 돼. 걸어가는 것보다는 버스 타는 게 더 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is it to walk to the Seongdonggu Rainbow Library?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's about a 12-minute walk to the Rainbow Library, but since it's a bit far, I recommend taking the bus instead for convenience."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "성동책마루도서관 가는 방법 자세히 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "성동책마루도서관은 성동구청 1층에 있어. 한양대역 1번 출구로 나가서, '한양대역' 정류장에서 마을버스 성동03번을 타면 돼. 두 정거장 가서 '성동구청' 정류장에서 내려! 도보로 가기엔 좀 멀어서 버스 타는 게 좋아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리맛나곱창 정류장 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리맛나곱창에 가려면 '한양대역' 정류장에서 지선 버스 2012번을 타야 해. '성동구청' 정류장에서 하차한 후 도보로 3분 정도 이동하면 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스 타면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "버스를 타고 가면 '왕십리 KCC스위첸아파트' 정류장까지 가는 시간은 약 10분 정도 걸려. 하차 후 도보로 3분이면 도착하니까, 총 13분 정도 걸릴 거야. 걸어가는 것보다 빠르고 편리할 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "상왕십리역에서 제일곱창 가려면 어때?"
+      },
+      {
+        "role": "assistant",
+        "content": "상왕십리역에서는 4번 출구로 나와서 도보로 3분 정도 가면 바로 제일곱창이야. 지하철 타고 가는 것도 괜찮아!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리맛나곱창까지 대중교통으로 가는 방법 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리맛나곱창은 지하철 2호선 상왕십리역 4번 출구에서 도보로 3분 거리에 있어. 한양대역에서는 한양대역 1번 출구 앞 '한양대역' 정류장에서 지선 버스 2012번을 타고 '성동구청'에서 내려서 3분 걷는 방법이 좋아. 대중교통으로 가는 게 더 빠르고 편리해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "신당초등학교 가는 길 알려줘!"
+      },
+      {
+        "role": "assistant",
+        "content": "먼저 한양대역 1번 출구로 나가서 '한양대역' 정류장에서 간선 버스 241번을 타. '신당초등학교' 정류장에서 내리면 바로 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "웅진북클럽 성동사업국은 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "웅진북클럽 성동사업국은 문화와 레저를 즐길 수 있는 공간이야. 책을 읽고, 다양한 문화 활동을 할 수 있는 곳이니 학생들이 방문하기에 좋은 장소야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "대림서점까지 걸어가도 돼?"
+      },
+      {
+        "role": "assistant",
+        "content": "대림서점까지는 걸어가려면 약 16분 정도 걸려. 하지만 조금 멀게 느껴질 수 있으니까 마을버스 성동03번을 타는 걸 추천해. 버스를 타면 훨씬 더 빨리 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the bus stop for 텐즈PC?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus stop is right in front of Hanyang Univ. Station at exit 1. Look for the village buses Seongdong 03-1 or Seongdong 08 that go to 텐즈PC."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "이투스247학원 가는 버스 몇 번인지 알아?"
+      },
+      {
+        "role": "assistant",
+        "content": "이투스247학원 가는 버스는 성동03번과 2012번이야. 버스를 타고 '상왕십리역' 정류장에서 내리면 금방 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long would it take to walk versus taking the subway to the cafe?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking would take around 20 minutes. It's better to take the subway to save time. The subway ride plus the short walk will be quicker than walking the whole way!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 오늘보쌈칼국수까지의 가장 빠른 방법 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "가장 빠른 방법은 한양대역 1번 출구로 나와서 '한양대역' 정류장에서 마을버스 성동03번을 타는 거야. 성동구청에서 내리면 2분 정도 걸으면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "차일드북앤토이 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "차일드북앤토이는 한양대역에서 약 1.4km 떨어져 있어. 한양대역 1번 출구로 나와서 '한양대역' 정류장에서 마을버스 성동08번을 타면 돼. '왕십리 KCC스위첸아파트' 정류장에서 하차하면 도보로 3분 정도 걸려."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "투엑스휘트니스 센트라스점 가는데 몇 분 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 투엑스휘트니스 센트라스점까지는 지하철로 1정거장이니까, 이동 시간은 약 5분 정도고, 상왕십리역에서 1번 출구로 나와서 센트라스 상가까지 가는 데 추가로 5분 정도 걸릴 거야. 전체적으로 10분 정도 걸릴 것 같아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "상무초밥 가려면 어떤 버스를 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 간선 버스 241번을 타면 쉽게 갈 수 있어. 신당초등학교에서 하차하면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best bus route to Yongbi Rest Area?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best route is to walk to the 'Hanyang University Main Gate' stop and board bus 2016. Get off at 'Eungbong-dong Community Center' to reach Yongbi Rest Area."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is Woongjin Book Club from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "Woongjin Book Club is about 1.8 kilometers from Hanyang University. It's a bit far to walk, so I recommend taking the Seongdong 08 bus for a quicker trip!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how to get to 만나는떡볶이 from Hanyang University Station?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! From Hanyang University Station, take exit 1 and head to the bus stop right in front. Catch bus 2012 towards Seongdong District Office. Get off at the Seongdong District Office stop, and then it’s just a 4-minute walk to 만나떡볶이!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What kind of place is 찰찰보리식빵?"
+      },
+      {
+        "role": "assistant",
+        "content": "찰찰보리식빵 왕십리점 is a popular restaurant known for its delicious bread. It’s a great spot to grab a bite if you’re in the area!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the bus stop for 호갱 왕십리 본점?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus stop is right in front of Hanyang University Station. It's the stop where you can catch bus 2012."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it really necessary to use public transport to go to Muhak Elementary?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! It's about 1.5km away, which is a bit far to walk. The bus will make your journey quicker and easier."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "성수멜팅의원 가는 법 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "성수멜팅의원에 가려면 한양대역에서 지하철 2호선을 타고 성수역에서 하차해. 3번 출구로 나가면 바로 도보 1분 거리에 있으니 쉽게 찾을 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which stop do I need for 셀바디PT 왕십리점?"
+      },
+      {
+        "role": "assistant",
+        "content": "For 셀바디PT 왕십리점, you need to get off the bus at Seongdonggu Office stop. It's super close, so you'll be there in no time!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "우리은행 성수동금융센터 가는 버스 노선 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "사실 우리은행 성수동금융센터까지 가는 버스는 없고, 한양대역에서 지하철 2호선 타고 뚝섬역에서 하차하는 게 가장 좋아. 그 후 8번 출구로 나와서 도보 5분 거리야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there a nearby subway exit to take for the bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes! You’ll want to use exit 1 at Hanyang University Station. That will lead you to the bus stop where you can catch the Seongdong 03."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Should I take public transport to Daelim Bookstore?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, public transport is the way to go! The distance makes it a bit inconvenient to walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "유제는 한양대역 몇 번 출구야?"
+      },
+      {
+        "role": "assistant",
+        "content": "유제 가려면 한양대역 1번 출구로 나가야 해. 그곳에서 '한양대역' 정류장으로 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "GS25 성수세대점 가려면 환승해야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "아니, 한양대역에서 지하철 2호선 타고 성수역에서 내려서 4번 출구로 나가면 바로 갈 수 있어. 환승 필요 없어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the nearest bus stop to the Red Force PC Arena?"
+      },
+      {
+        "role": "assistant",
+        "content": "The nearest bus stop to the Red Force PC Arena is the Seongdong District Office stop. You can easily access it by taking the Seongdong 03 bus from Hanyang University Station exit 1. After that, it's just a short walk to the arena!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus goes to 모노마트 성동점?"
+      },
+      {
+        "role": "assistant",
+        "content": "You want to take bus number 2012 from Hanyang University Station. It'll take you right to 성동구청, and from there it's just a short 6-minute walk!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "굴과찜사랑 가는 버스 뭐 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "굴과찜사랑 본점까지 가려면 한양대역 1번 출구 앞 '한양대역' 정류장에서 마을버스 성동03번을 타면 돼. 성동구청에서 내린 후 왕십리역 방향으로 도보로 2분 정도 가면 돼!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "굴과찜사랑 가는 버스 정류장 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "굴과찜사랑 본점 가려면 한양대역 1번 출구 앞에 있는 '한양대역' 정류장에서 마을버스 성동03번을 타면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the bus number to Sports Anytime Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus number you want is 2012. Just catch it from Hanyang University Station, and it will take you close to Sports Anytime Wangsimni."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리맛나곱창까지 가려면 버스는 언제 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리맛나곱창에 가려면 한양대역 1번 출구 앞 '한양대역' 정류장에서 지선 버스 2012번을 타면 좋아. 버스를 타고 '성동구청' 정류장에서 내리면 3분 정도 걸어가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you explain how to get to Pastel Human Skin Clinic?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! From Hanyang University Station, take Line 2 of the subway and travel just one station to Sangwangsimni Station. After you arrive, head out of exit 1. The clinic is located on the 2nd floor of the L Building in the 'Centras' shopping area. It's about a 19-minute walk, but the subway is faster!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "브라운팟까지 가장 빠른 방법은?"
+      },
+      {
+        "role": "assistant",
+        "content": "브라운팟까지 가장 빠른 방법은 한양대역 1번 출구에서 마을버스 성동03번을 타는 거야. '성동구청' 정류장에서 내리고 왕십리역 방향으로 3분 정도 걷는 게 가장 빠르지. 걸어가는 것보다는 버스 타는 게 더 시간 절약이 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Amorepacific Seongdong Future Branch from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach Amorepacific Seongdong Future Branch, head to Hanyang Univ. Station and use exit 1. From there, catch the Seongdong 03-1 or Seongdong 08 bus at the bus stop right in front. Get off at 'Wangsimni KCC Switcheon Apartment' stop and it's just a 1-minute walk!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the best way to get to the Mariang Plus Wangsimni?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way is to take the subway from Hanyang University Station on Line 2 for just one stop to Sangwangsimni Station. After getting off, take Exit 1 and head to the 'Centras' shopping area where Mariang Plus is located on the first floor of Block L. It's way better than walking the 1.6 km!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 셀바디PT 가는 정류장 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "정류장은 '한양대역'이야. 그곳에서 지선 버스 2012번을 타면 성동구청 정류장까지 가."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "제일곱창 어떤 음식 파?"
+      },
+      {
+        "role": "assistant",
+        "content": "제일곱창 본점에서는 주로 곱창 요리를 전문으로 해. 고소하고 맛있는 곱창과 다양한 사이드 메뉴가 있어서 친구들이랑 함께 가면 좋을 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "셀바디PT 왕십리점 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 가는 게 제일 좋아. 1번 출구로 나와서 '한양대역' 정류장에서 지선 버스 2012번을 타. '성동구청'에서 내린 다음에 도보로 약 4분이면 도착해. 걸어가기에는 좀 멀니까 버스 타는 걸 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the bus stop for the Seongdong 08 bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus stop for the Seongdong 08 bus is right outside exit 1 of Hanyang University Station. You can't miss it!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to 오늘보쌈칼국수?"
+      },
+      {
+        "role": "assistant",
+        "content": "If you decide to walk, it would take approximately 13 minutes from Hanyang University to 오늘보쌈칼국수. However, since the bus is recommended for this distance, it might be better to take the Seongdong 03 bus for a quicker trip!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "양자강 가는 정류장 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "'양자강'에 가려면 '한양대역' 정류장에서 버스를 타야 해. 한양대역 1번 출구로 나와서 정류장까지 가면, 지선 버스 2012번을 탑승할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "독학재수학원 이투스247학원 서울성동 어디 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "이투스247학원은 한양대역에서 약 1.9km 떨어져 있어. 지하철 2호선 상왕십리역 1번 출구와 바로 연결된 '센트라스 153타워' 2층에 있어. 한양대역에서 지하철로 1정거장 가는 게 제일 빠른 방법이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the address of Dr. Petit Clinic?"
+      },
+      {
+        "role": "assistant",
+        "content": "Dr. Petit Clinic is located in the Wangsimni area. If you need directions, just remember it's close to Seongdong-gu Office after taking bus 2012 from Hanyang University Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the nearest bus stop to Developer Ballet Studio?"
+      },
+      {
+        "role": "assistant",
+        "content": "The nearest bus stop to Developer Ballet Studio is 'Wangsimni KCC Switcheon Apartment.' You can catch the Seongdong 03-1 or Seongdong 08 bus from Hanyang University Station's Exit 1. Just a minute's walk from that stop will take you to the studio!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "무학중학교까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "무학중학교는 한양대역에서 약 1km 떨어져 있어. 걸어가면 12분 정도 걸리지만, 버스를 타면 훨씬 빠르게 갈 수 있어. 마을버스 성동03번을 타면 금방 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What bus should I take to go to 대림서점?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take the Seongdong 03 village bus from the Hanyang University Station bus stop. It will take you directly to 'Haengdang Station', and then it's only a minute's walk to 대림서점. This is a great option since walking from Hanyang University would take around 16 minutes!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking distance from the bus stop to 셀바디PT 왕십리점?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's only about a 4-minute walk from the Seongdonggu Office bus stop to 셀바디PT 왕십리점. Just head straight, and you’ll find it easily!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 CU 현대테라스타워점 탑승 위치 알려줘?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 지하철 2호선 타면 돼. 성수역까지 가기 위한 탑승 위치는 지하철역 안쪽이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the bus stop to catch the bus to 찰찰보리식빵?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus stop to catch the Seongdong 08 bus is right in front of Hanyang University Station at exit 1. It’s super convenient!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus should I take to get to 피부공방 맑음?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take bus 2012 from Hanyang University Station. It will drop you off at Seongdong District Office, and then it's just a short 5-minute walk to 피부공방 맑음."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "샤인더마의원 가는 버스 뭐 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "샤인더마의원에 가려면 마을버스 성동03-1번이나 성동08번을 타면 돼. 한양대역에서 출발하면 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to 옷을입다 행당점 using public transport?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach 옷을입다 행당점, start at Hanyang University Station and go out through exit 1. Then, catch the Seongdong 03 bus from the bus stop in front. After 5 minutes or so, hop off at 'Muhak Middle School' and walk for about 2 minutes to your destination."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there a direct bus from Hanyang University to Muhak Middle School?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes! The Seongdong 03 bus provides a direct route from Hanyang University Station to Muhak Middle School, making your trip simple and quick."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "춘향미엔 가기 위해 버스 타는 게 좋지?"
+      },
+      {
+        "role": "assistant",
+        "content": "맞아! 한양대역에서 대중교통을 이용하는 게 편해. 마을버스 성동03번을 타면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how to reach Woori Bank in Seongsu?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! You can take the subway from Hanyang University Station. Ride Line 2 to Ttukseom Station and exit at Exit 8. It's about a 5-minute stroll from there."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "모노마트 성동점에서 내릴 정류장이 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "모노마트 성동점에 가려면 '성동구청' 정류장에서 내려야 해. 그곳에서 도보로 약 6분 거리에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best way to reach 성수멜팅의원 from campus?"
+      },
+      {
+        "role": "assistant",
+        "content": "The easiest way is to take the subway. Go to Hanyang University Station and board Line 2. After a short ride, get off at Seongsu Station and take exit 3. You’ll see 성수멜팅의원 just a minute's walk away. Public transport is highly recommended since it's a bit far to walk."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "유제 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "유제로 가려면 한양대역 1번 출구로 나와서 '한양대역' 정류장에서 간선 버스 241번을 타야 해. '신당초등학교' 정류장에서 하차한 후 1분 정도 걸어가면 유제를 찾을 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스로 무학중학교 가면 어디서 내려야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "버스를 타고 무학중학교에 가면 '무학중학교' 정류장에서 내려야 해. 그 정류장 앞이 바로 학교야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where do I catch the bus to Yongbi Rest Area?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can catch the bus to Yongbi Rest Area at the Hanyang University Main Gate bus stop after exiting Hanyang University Station through Exit 1. Just a 5-minute walk away!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "CU 현대테라스타워점 어디에 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "CU 현대테라스타워점은 한양대역에서 약 1.5km 떨어져 있어. 한양대역에서 지하철 2호선을 타고 성수역에 가서 4번 출구로 나오면 도보로 3분 거리에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best way to get to 건대우동집 왕십리점?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way to get to 건대우동집 왕십리점 is by taking bus 2012 from Hanyang University Station. After a short ride, hop off at Seongdong District Office and walk for about 5 minutes. It's about 1.4km, so the bus is the most convenient option."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 버스 타는 곳은 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 버스 타는 곳은 정문 쪽에 있어. 정문으로 나가면 버스 정류장이 바로 보여."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "양자강 가려면 어떤 버스 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "양자강에 가려면 지선 버스 2012번을 타야 해. 한양대역 1번 출구 앞 '한양대역' 정류장에서 탑승하고, '성동구청' 정류장에서 하차하면 돼. 거기서 도보로 6분 정도 걸어가면 양자강에 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the bus stop for Soul Study Cafe?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus stop for Soul Study Cafe is right in front of Hanyang University Station, near Exit 1. You can catch the Seongdong 08 bus there!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 어떤 출구로 나가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 유제로 가려면 1번 출구로 나가야 해. 그곳에서 버스를 타야 하니까."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the nearest bus stop to 셀바디PT 왕십리점?"
+      },
+      {
+        "role": "assistant",
+        "content": "The nearest bus stop to 셀바디PT 왕십리점 is at Seongdong District Office. After getting off bus 2012, it's just a quick 4-minute stroll to your destination!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스 타는 정류장 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "양자강에 가려면 '한양대역' 정류장에서 지선 버스 2012번을 타야 해. 이 정류장은 한양대역 1번 출구 바로 앞에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역 1번 출구로 나가면 되지?"
+      },
+      {
+        "role": "assistant",
+        "content": "맞아, 한양대역 1번 출구로 나가면 돼. 거기서 '한양대역' 정류장에서 성동08번 버스를 타면 숭신초등학교에 쉽게 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where should I get off the bus for 텐즈PC?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should get off at 'Wangsimni KCC Switzen Apartment.' After that, it's just a quick 2-minute walk to 텐즈PC."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "레드포스PC아레나 왕십리점 가려면 어느 버스 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 마을버스 성동03번을 타면 돼. '성동구청' 정류장에서 하차하면 3분 거리에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the best way to get to Daerim Bookstore from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way is to take public transport. Start from Hanyang University Station, exit 1, then hop on the Seongdong 03 village bus at the nearby bus stop. Get off at 'Haengdang Station,' and it’s a short walk of about 1 minute to the bookstore."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to GS25 서울숲디타워점 from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach GS25 서울숲디타워점 from Hanyang University, take the subway line 2 from Hanyang Univ. Station. Get off at Ttukseom Station and head to exit 4. It's just a 3-minute walk from there. The total distance is about 1.3 km, so it's better to take the subway instead of walking."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best spot to catch the bus for Brown Pot?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best spot to catch the bus is right outside Hanyang University Station at Exit 1. Look for the Seongdong 03 bus, and you'll be on your way to Brown Pot!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is there a transfer needed to get to Chicken Brothers?"
+      },
+      {
+        "role": "assistant",
+        "content": "No transfer is needed! Just ride Line 2 directly to Sangwangsimni Station, and then it's a short walk to Chicken Brothers."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘보쌈칼국수 가려면 버스 몇 번 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "오늘보쌈칼국수 가려면 마을버스 성동03번을 타야 해. 한양대역 1번 출구 앞 정류장에서 타면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Do I need to take a bus to get to 굴과찜사랑 본점?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yeah, it’s a bit far to walk from Hanyang University Station, so taking a bus is recommended. You can get there comfortably with public transport!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "CU 현대테라스타워점 가는 길 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "CU 현대테라스타워점 가는 길은 한양대역에서 지하철 2호선을 타고 성수역에서 내려서 4번 출구로 나가는 거야. 그 후에 도보로 3분 정도 걸으면 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "만두전빵까지 가장 빠른 방법은?"
+      },
+      {
+        "role": "assistant",
+        "content": "가장 빠른 방법은 한양대역 1번 출구로 나가서 성동03번 마을버스를 타는 거야. 버스로 가면 약 5분 정도 소요되고, '무학중학교' 정류장에서 내린 후 1분 정도 걸으면 만두전빵에 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "춘향미엔까지 대중교통 이용하면 시간 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 춘향미엔 왕십리점까지 대중교통을 이용하면 약 10분 정도 걸려. 마을버스 성동03번을 타고 '성동구청'에서 내려서 3분 정도 도보하면 돼. 걸어가면 14분이 소요되니까, 버스를 타는 게 더 빠르고 편리해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "소울 스터디 카페 가는 가장 빠른 방법 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "소울 스터디 카페 가는 가장 빠른 방법은 한양대역 1번 출구로 나와서 '한양대역' 정류장에서 마을버스 성동08번을 타고 '텐즈힐아파트' 정류장에서 하차하는 거야. 그 후 2분 정도만 걸으면 되니까 정말 쉽고 빨라."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "치킨부라더스까지 가는데 대중교통으로 얼마 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "대중교통으로 가면 약 25분 정도 소요돼. 한양대역에서 지하철을 타고 상왕십리역에서 하차한 후 4번 출구로 나와서 도보로 3분 거리에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What type of facility is the Shine Dermatology Clinic?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Shine Dermatology Clinic is a medical facility specializing in dermatology services. Make sure to visit if you need skin care or treatment!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How far is the 금융센터 from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "The 금융센터 is about 1.4 km from Hanyang University, which is a bit far to walk. Taking the subway or a bus is a great option!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 건대우동집까지 최적의 경로 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대에서 건대우동집 왕십리점까지는 한양대역 1번 출구에서 '한양대역' 정류장으로 가서 지선 버스 2012번을 타고 '성동구청'에서 하차하면 돼. 이후 도보로 5분 정도 거리니까, 대중교통 이용하는 게 제일 빨라."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리중앙새마을금고까지 버스 타면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리중앙새마을금고 본점까지 버스를 타면 약 10분 정도 걸려. 한양대역에서 지선 버스 2012번을 타고 '성동구청' 정류장에서 하차한 후 도보로 4분 정도 가면 도착해. 반면 걸어가면 15분 정도 걸리니까 버스가 훨씬 빠른 선택이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where do I catch the bus to 오늘보쌈칼국수?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can catch the bus right in front of Hanyang University Station at Exit 1. The bus stop there has the Seongdong 03 bus that will take you to the restaurant area."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which exit should I take from Hanyang University Station?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take Exit 1 from Hanyang University Station to find the bus stop easily. It's right in front of the station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to Sammat Ho Otteok from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To reach Sammat Ho Otteok, start at Hanyang University Station. Take the village bus Seongdong 03 from the bus stop right in front of Exit 1. Get off at the Seongdong District Office stop, and it's just a short one-minute walk towards Wangsimni Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "걷는 거랑 버스 타는 거 어느 게 더 빨라?"
+      },
+      {
+        "role": "assistant",
+        "content": "앤탑PC까지는 걸어가면 15분, 버스 타면 대략 10분 정도 걸리니까 버스를 타는 게 더 빠르지. 버스를 타는 걸 추천해!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the best way to get to 셀바디PT 왕십리점 using public transport?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way is definitely to take bus 2012 from the Hanyang University Station bus stop. The ride is quick, and you’ll only have to walk for 4 minutes after getting off at Seongdonggu Office."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What bus number goes to 유제?"
+      },
+      {
+        "role": "assistant",
+        "content": "Bus number 241 is the one you need to take to reach 유제. It's a direct route from Hanyang University Station!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "투엑스휘트니스 센트라스점 가려면 몇 분 정도 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "투엑스휘트니스 센트라스점까지 걷는 데는 약 20분 정도 걸려. 좀 멀어서 대중교통 이용하는 게 좋아. 한양대역에서 지하철로 가는 게 가장 빠르고 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where's the best place to catch the subway to Nature Republic?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can catch the subway at Hanyang University Station. Just take Line 2, and after about 1.6 km, you'll arrive at Sangwangsimni Station where Nature Republic is located in the underground shopping area."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "신당초등학교 정류장 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "신당초등학교 정류장은 유제로 가는 버스인 241번을 타고 하차한 후, 도보로 1분 거리에 있어. 쉽게 찾을 수 있을 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "만나떡볶이까지 버스 타고 가면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "만나떡볶이까지 버스를 타면 한양대역에서 '성동구청' 정류장까지 약 10분 정도 걸려. 하차한 후에는 4분 정도 걸어서 도착할 수 있어. 전체적으로 대중교통 이용하는 게 시간적으로 효율적이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me how to reach CU 현대테라스타워점 using public transport?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! From 한양대역, hop on the subway Line 2 and ride it to 성수역. When you get off, take exit 4, and you’ll find CU 현대테라스타워점 just 3 minutes away on foot. Since it’s about 1.5 km, public transport is definitely the way to go."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus do I need to take to get to 행당맥주?"
+      },
+      {
+        "role": "assistant",
+        "content": "You need to take the Seongdong 03 village bus from Hanyang University Station. Just catch it at the bus stop right outside exit 1, and you'll be on your way to 행당맥주!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus should I take to go to Seongsu Melting Clinic?"
+      },
+      {
+        "role": "assistant",
+        "content": "While the subway is recommended, if you want to take a bus, you can check local buses like Seongdong 03 or 2012 that may get you nearby."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "우리은행 성수동금융센터로 가는 경로 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 2호선 지하철을 타고 뚝섬역에서 하차한 후, 8번 출구로 나와서 도보로 5분 정도 걸어가면 우리은행 성수동금융센터에 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus should I take to get to Muhak Elementary School?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take the Seongdong 03 village bus to reach Muhak Elementary School. Hop on at the 'Hanyang University Station' stop, and get off when you reach 'Muhak Elementary School'. It's a convenient bus ride for a distance of about 1.5km."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you explain the route in detail?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Start at Hanyang University Station and hop on Line 2. After just one stop, get off at Sangwangsimni Station. Use Exit 1, and you'll find Mariang Plus in the 'Centras' shopping complex on the first floor of Block L. It's a quick and easy trip, perfect for shopping!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "성수동금융센터 가는 버스 뭐 타?"
+      },
+      {
+        "role": "assistant",
+        "content": "우리은행 성수동금융센터에 가기 위해서는 버스를 타는 것보다 지하철이 더 편해. 한양대역에서 지하철 2호선을 타고 뚝섬역에서 내리는 게 좋아. 하지만 만약 버스를 타고 싶다면 성동03번 버스를 타면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 오늘보쌈칼국수까지 어떻게 가는 게 좋을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대에서 오늘보쌈칼국수 왕십리본점까지는 대중교통을 이용하는 게 좋아. 한양대역 1번 출구로 나와서 '한양대역' 정류장에서 마을버스 성동03번을 타고 '성동구청' 정류장에서 내려서 2분 정도 걸으면 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "유제까지 도보로 가면 몇 분 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "유제까지 도보로 가면 약 24분 정도 소요돼. 하지만 대중교통을 이용하면 약 30분 정도 걸리니까, 굳이 걸어갈 필요는 없을 것 같아. 버스를 타는 게 더 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the best way to reach 호갱 왕십리 본점 using public transport?"
+      },
+      {
+        "role": "assistant",
+        "content": "The best way is to take bus 2012 from the 'Hanyang Univ. Station' stop right outside Hanyang University. After about a 10-minute ride, get off at 'Seongdong District Office', then it's only a 4-minute walk to 호갱 왕십리 본점. Public transport is a great choice since it's a bit far to walk!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What kind of place is the Itus 247 Academy?"
+      },
+      {
+        "role": "assistant",
+        "content": "Itus 247 Academy is an educational institution focused on helping students prepare for exams. It's well-known in the area for its dedicated study programs."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 어디서 내려야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 버스를 타고 '성동구청' 정류장에서 내려야 해. 성동책마루도서관이 그곳에 위치해 있으니까, 바로 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "차일드북앤토이까지 걸어갈 수도 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "차일드북앤토이까지 걸어갈 수는 있지만 약 17분 정도 걸려서 좀 멀게 느껴질 수 있어. 특히 날씨가 맑지 않거나 무거운 짐이 있다면 대중교통을 이용하는 게 좋을 것 같아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕초바베큐까지 걸어가기엔 너무 멀어?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕초바베큐 왕십리 본점까지는 약 1.3km 거리가 되는데, 도보로 가면 약 16분 정도 걸려. 하지만 버스를 타면 2012번을 이용해서 '성동구청' 정류장에서 내리면 훨씬 빠르고 편하게 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to Developer Ballet Studio?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking to Developer Ballet Studio from Hanyang University Station would take about 19 minutes. Since it's a bit far, I recommend taking the bus instead to save time!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리중앙새마을금고까지 대중교통이 더 좋지?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 왕십리중앙새마을금고 본점까지는 대중교통을 이용하는 게 더 좋아. 한양대역에서 1.3km 거리라서 걸어가면 15분 걸리는데, 지선 버스 2012번 타고 '성동구청' 정류장에서 내려서 도보로 4분만 가면 돼. 버스에서 시간을 절약할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the closest bus stop to 앤탑PC?"
+      },
+      {
+        "role": "assistant",
+        "content": "The closest bus stop is '왕십리 KCC스위첸아파트.' After getting off there, it’s only a couple of minutes on foot to reach 앤탑PC."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "마리앙플러스 왕십리점 가려면 어떤 출구로 나가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "마리앙플러스 왕십리점은 상왕십리역 1번 출구로 나가면 돼. 출구 나가면 바로 앞에 위치해 있어서 찾기 쉬울 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What bus goes to Brown Pot?"
+      },
+      {
+        "role": "assistant",
+        "content": "Take the Seongdong 03 bus to get to Brown Pot. It's a simple ride, and you'll get off at the Seongdong District Office stop before walking for just 3 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to GS25 Seongsu from my dorm?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can start by walking to Hanyangdae Station and hop on Line 2. Ride to Seongsu Station and get off at exit 4. After that, it's a short 5-minute walk to the store. Overall, it’ll take about 30 minutes."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "GS25 성수세대점까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 GS25 성수세대점까지는 도보로 약 20분이 걸려. 그래서 지하철을 타고 가는 게 더 빠르고 편리해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "상왕십리역에서 투엑스휘트니스 센트라스점까지는 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "상왕십리역에서 투엑스휘트니스 센트라스점까지는 1번 출구로 나가면 바로 '센트라스' 상가가 있어. L동 3층으로 올라가면 돼. 거리도 가까워서 쉽게 찾을 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the walking distance to Spotany Wangsimni from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "Spotany Wangsimni is about 1.2 km from Hanyang University. Although you could walk, it takes around 14 minutes, which is a bit far. I recommend taking the bus for a quicker ride; it only takes about 10 minutes!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "뚝섬역에서 하차하면 어디로 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "뚝섬역에서 내리면 4번 출구로 나가서 약 3분 정도 걸으면 GS25 서울숲디타워점이 있어. 출구 나와서 잘 찾아봐!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리맛나곱창 가는 데 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 왕십리맛나곱창까지 버스를 타면 약 10분 정도 소요돼. 버스를 타고 '성동구청'에서 하차한 후 3분 정도 걸으면 되니까, 전체적으로 15분 내외가 될 거야. 걸어가는 것보다는 버스를 타는 게 더 빨라."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "유제 가는 길 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "유제는 한양대역에서 약 2km 떨어져 있어서, 걸어가긴 조금 멀어. 한양대역 1번 출구로 나가서 '한양대역' 정류장에서 간선 버스 241번을 타면 돼. 그 후 '신당초등학교' 정류장에서 하차하고, 거기서 도보로 1분 거리에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "아이리스피부과의원 성수까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "아이리스피부과는 한양대역에서 약 1.1km 떨어져 있어. 한양대역에서 지하철 2호선을 타고 '뚝섬역'에서 하차한 후 4번 출구로 나오면 도보로 1분이면 도착해. 대중교통을 이용하면 편하게 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What bus number goes to Jeilgobchang?"
+      },
+      {
+        "role": "assistant",
+        "content": "Bus 2012 is the one you need! Get it from the Hanyang University Station, and then you'll get off at Seongdong-gu Office."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where do I get off the bus for 무프아파트먼트?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should get off at the 'Wangsimni KCC Switzen Apartment' stop, and it's just a 2-minute walk from there to 무프아파트먼트!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "CU 현대테라스타워점까지 가는 다른 방법 있어?"
+      },
+      {
+        "role": "assistant",
+        "content": "CU 현대테라스타워점까지는 주로 지하철 2호선을 이용하는 게 좋지만, 만약 버스를 타고 간다면 성동03번 버스를 타고 '성수역' 정류장에서 하차 후 도보로 이동할 수 있어. 하지만 지하철이 더 빠르고 편리해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus goes to Wangsimni Matnangopchang?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can take bus 2012 to reach Wangsimni Matnangopchang. It's a short bus ride, followed by a brief walk to the restaurant from the drop-off point."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it faster to take the bus or walk to Yongbi Rest Area?"
+      },
+      {
+        "role": "assistant",
+        "content": "Taking the bus is definitely faster! While walking to Yongbi Rest Area takes about 19 minutes, the bus ride will save you some time. It's recommended to use public transport for this distance."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "옷을입다 행당점 어떤 곳이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "옷을입다 행당점은 쇼핑할 수 있는 곳이야. 다양한 옷과 액세서리를 판매하고 있어서 학생들이 자주 찾는 장소야. 한양대 근처라서 편하게 갈 수 있는 점이 매력적이야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which exit should I take at Hanyang University Station?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should use exit 1 at Hanyang University Station. The bus stop for the Seongdong 03 bus is right in front of this exit, making it really convenient to catch your ride!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "호갱 왕십리 본점 정류장은 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "'호갱 왕십리 본점'에 가려면 '성동구청' 정류장에서 하차해야 해. 그곳에서 도보로 4분 거리야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스는 어디서 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "버스는 한양대역 1번 출구 앞에 있는 '한양대역' 정류장에서 타면 돼. 그곳에서 성동03번 마을버스를 찾으면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 찰찰보리식빵까지 어떤 경로로 가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구로 나와서 '한양대역' 정류장에서 성동08번 마을버스를 타면 돼. 버스를 타고 '왕십리 KCC스위첸아파트' 정류장에서 하차한 뒤, 도보로 3분 정도 이동하면 찰찰보리식빵에 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "성동미래점 가려면 어느 정류장에서 내려야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "아모레퍼시픽 성동미래점에 가려면 '왕십리 KCC스위첸아파트' 정류장에서 내려야 해. 거기서 내려서 한 1분 정도 걷기만 하면 아모레퍼시픽을 찾을 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 어디서 내려야 차일드북앤토이에 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 마을버스 성동08번을 타고 '왕십리 KCC스위첸아파트' 정류장에서 내려야 해. 거기서 3분 정도 걸으면 차일드북앤토이에 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 소울 스터디 카페까지 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구로 나와서 '한양대역' 정류장에서 마을버스 성동08번을 탑승하면 돼. '텐즈힐아파트' 정류장에서 하차 후 도보로 2분 정도 걸으면 소울 스터디 카페에 도착할 수 있어. 걸어가면 21분 정도 소요되니까 버스를 타는 게 더 편해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리맛나곱창 가려면 한양대역에서 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구로 나가면 '한양대역' 정류장이 있어. 거기서 지선 버스 2012번을 타고 '성동구청' 정류장에서 내려. 하차 후에 3분 정도 걸으면 왕십리맛나곱창에 도착해. 지하철을 이용할 경우엔 2호선 상왕십리역 4번 출구로 나가면 3분 거리에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "거기 가려면 꼭 버스를 타야 하나?"
+      },
+      {
+        "role": "assistant",
+        "content": "네, 왕십리 닥터쁘띠의원은 한양대역에서 약 1.1km 정도 떨어져 있어서 걸어가긴 좀 힘들어. 버스를 이용하는 게 좋겠어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where do I need to get off for 옷을입다 행당점?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should get off at the 'Muhak Middle School' stop when you're on the Seongdong 03 bus. Once you step off, it's only a 2-minute walk to 옷을입다 행당점. It's a convenient drop-off point!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What bus should I take to get to the 오늘보쌈칼국수?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take the Seongdong 03 village bus from Hanyang University. It’s a convenient option since it gets you to the Seongdong District Office stop, from where it's just a quick 2-minute walk to the restaurant."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "여기 가는 길 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 지하철 2호선을 타고 상왕십리역에서 내려. 그 후 3번 출구로 나가면 쉽게 네이처리퍼블릭 메트로상왕십리역점에 도착할 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where do I catch the bus to 텐즈PC?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can catch the bus at the 'Hanyang Univ. Station' stop, right in front of exit 1 at Hanyang University Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 왕십리 가는 버스 정류장 어디서 타?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구에서 나와서 '한양대역' 정류장에서 마을버스 성동08번을 타면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What kind of food does Brown Pot serve?"
+      },
+      {
+        "role": "assistant",
+        "content": "While the exact menu isn’t specified, Brown Pot is known for its tasty dishes that appeal to students. It's a popular spot for a casual meal."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "굴과찜사랑 본점 어떤 음식 팔아?"
+      },
+      {
+        "role": "assistant",
+        "content": "굴과찜사랑 본점은 주로 해산물 요리를 팔고, 특히 굴과 찜 요리가 유명해. 신선한 재료로 정성껏 만든 음식을 즐길 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I get to 셀바디PT 왕십리점 from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get to 셀바디PT 왕십리점, exit Hanyang University Station through Exit 1. Then, catch bus 2012 at the nearby bus stop and get off at Seongdong District Office. From there, it's a 4-minute walk to your destination."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long will it take to get to CU 현대테라스타워점 from here?"
+      },
+      {
+        "role": "assistant",
+        "content": "From Hanyang University to CU 현대테라스타워점, it will take about 19 minutes if you walk. However, taking the subway from 한양대역 to 성수역 is quicker overall, as the subway ride plus the walk is less than that!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "소울 스터디 카페 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "소울 스터디 카페에 가려면 한양대역 1번 출구로 나와서 '한양대역' 정류장에서 마을버스 성동08번을 타는 게 좋아. 그걸 타고 '텐즈힐아파트' 정류장에서 내리면, 카페까지 도보로 2분 정도면 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "유제까지 대중교통으로 가는 게 나을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 유제는 한양대역에서 거리가 좀 있어서 대중교통으로 가는 게 더 편해. 버스 241번을 타고 가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where do I catch the Seongdong 08 bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can catch the Seongdong 08 bus right in front of Hanyang University Station, at exit 1. Just hop on, and after a few stops, you’ll get off at 'Tenz Hill Apartment' and walk for 2 minutes to reach the cafe."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What kind of place is 오늘보쌈칼국수?"
+      },
+      {
+        "role": "assistant",
+        "content": "오늘보쌈칼국수 왕십리본점 is a restaurant that specializes in delicious Korean dishes, particularly known for its boiled pork and knife-cut noodles."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "행당맥주 가려면 대중교통 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 행당맥주는 한양대역에서 약 1.1km 떨어져 있어서 걸어가긴 좀 멀어. 마을버스 성동03번을 타고 ‘성동구청’ 정류장에서 내려서 2분 정도 걸어가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the closest bus stop to Brown Pot?"
+      },
+      {
+        "role": "assistant",
+        "content": "The closest bus stop to Brown Pot is the Seongdong District Office stop. After you get off from the Seongdong 03 bus, just walk 3 minutes in the direction of Wangsimni Station."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "상왕십리역 정류장은 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "상왕십리역은 지하철 2호선과 연결되어 있어. 1번 출구로 나가면 어거스트치킨 왕십리센트라스점이 있는 상가로 쉽게 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역 1번 출구에서 호갱 왕십리 본점 가려면 어떻게 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구로 나와서 '한양대역' 정류장에서 지선 버스 2012번을 타면 돼. '성동구청' 정류장에서 하차한 후 4분 정도 걸어가면 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the best way to transfer to reach DCT스터디카페 상왕십리점?"
+      },
+      {
+        "role": "assistant",
+        "content": "You don't need to transfer; just take the subway from Hanyang University Station to 상왕십리역, then walk a short distance."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리중앙새마을금고 본점 어떻게 가?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리중앙새마을금고 본점은 한양대역에서 약 1.3km 떨어져 있어. 걸어가면 15분 정도 걸리는데, 좀 멀어서 대중교통을 추천해. 한양대역 1번 출구로 나와서 '한양대역' 정류장에서 지선 버스 2012번을 타고 '성동구청' 정류장에서 하차하면 돼. 거기서 도보로 4분 정도 가면 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 버스 타는 곳이 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구로 나가면 '한양대정문' 정류장이 있어. 거기서 지선 버스 2016번을 타면 용비쉼터에 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "무학중학교는 뭐야?"
+      },
+      {
+        "role": "assistant",
+        "content": "무학중학교는 옷을입다 행당점 근처에 있는 중학교야. 거기서 하차하면 옷을입다 행당점까지 도보로 2분 정도 걸려. 쇼핑할 때 버스 타고 가는 길에 참고하면 좋아."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How long does it take to walk to Soul Study Cafe?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking to Soul Study Cafe would take about 21 minutes, which is quite a bit. I recommend taking the bus instead for a quicker trip!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the bus number to get to 굴과찜사랑?"
+      },
+      {
+        "role": "assistant",
+        "content": "The bus you’re looking for is the Seongdong 03. It’s a direct route that makes it really easy to reach!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "CU 현대테라스타워점 가는 버스 노선 좀 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "CU 현대테라스타워점에 가는 버스는 성동03번이야. 한양대역에서 출발하면 성수역에서 하차할 수 있어. 그 이후에 4번 출구로 나가면 도보 3분 거리니까 쉽게 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "신당초등학교 정류장은 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "'신당초등학교' 정류장은 간선 버스 241번을 타고 가면 나오는 정류장이야. 버스에서 내리면 바로 학교가 보일 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대역에서 버스 타는 곳은 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역 1번 출구로 나가면 '한양대역' 정류장이 있어. 거기서 마을버스 성동03번을 타면 돼. 무학중학교 정류장에서 내리면 옷을입다 행당점까지 2분 정도 걸어가면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it better to take a bus to Nature Republic?"
+      },
+      {
+        "role": "assistant",
+        "content": "While a bus could work, taking the subway is your best bet to reach Nature Republic at Sangwangsimni Station quickly. It's only 1.6km away from Hanyang University, so the subway is recommended over walking or taking the bus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the fastest way to 만두전빵?"
+      },
+      {
+        "role": "assistant",
+        "content": "The quickest way to 만두전빵 is to take the Seongdong 03 bus from 'Hanyang Univ. Station' after exiting at exit 1. You'll hop off at 'Muhak Middle School' and walk just a minute to get there. Walking would take around 13 minutes, so the bus saves you some time!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "웅진북클럽 성동사업국 어떤 곳이야?"
+      },
+      {
+        "role": "assistant",
+        "content": "웅진북클럽 성동사업국은 다양한 문화 활동과 독서를 즐길 수 있는 장소야. 아늑한 분위기에서 책도 읽고, 다양한 프로그램에 참여할 수 있어 학생들에게 인기 있는 곳이지."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Where should I get off to reach Sangmu Sushi?"
+      },
+      {
+        "role": "assistant",
+        "content": "You need to get off at the Sin-dang Elementary School stop when you're on bus 241. After you get off, it’s only about a minute’s walk to get to Sangmu Sushi!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I walk to Two X Fitness Centras from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can walk, but it's about 1.6 km away, which will take you around 20 minutes. It's a bit far, so I’d recommend taking the subway for a quicker trip. Just take the subway to Sangwangsimni Station instead!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "버스 타는 곳이 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "버스를 타려면 한양대역 1번 출구 앞에 있는 '한양대역' 정류장으로 가야 해. 거기서 성동03-1번이나 성동08번 버스를 타면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which bus should I take to get to 유제?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should take bus number 241 from Hanyang University Station. It'll take you right to the stop near 유제 in no time!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "데벨로페 발레스튜디오까지 걷는 것보다 버스가 낫지?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 걷기에는 19분 정도 걸려서 버스 타는 게 훨씬 빠르고 편해. 마을버스를 이용해!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you give me the exact route to 아이리스피부과의원 성수?"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! Start at Hanyangdae Station, catch Line 2, and hop off at Ttukseom Station. Once you've exited at door 4, it's a quick 1-minute walk to the clinic."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "행당역 정류장에서 대림서점까지 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "행당역 정류장에서 대림서점까지는 도보로 약 1분 정도 걸려. 그렇게 가까우니 쉽게 찾을 수 있을 거야."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리중앙새마을금고 가려면 어떤 출구로 나가야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "한양대역에서 나가려면 1번 출구로 나가야 해. 그곳에서 '한양대역' 정류장으로 가서 2012번 버스를 타면 왕십리중앙새마을금고에 갈 수 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "왕십리센트라스점 가려면 지하철 몇 호선 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "왕십리센트라스점에 가려면 한양대역에서 지하철 2호선을 타고 상왕십리역까지 가야 해요. 그 후 1번 출구로 나오면 센트라스 상가가 보이니까 쉽게 찾아갈 수 있어요."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "성동책마루도서관 가는 길 알려줘."
+      },
+      {
+        "role": "assistant",
+        "content": "성동책마루도서관에 가려면 한양대역 1번 출구로 나와서 '한양대역' 정류장에서 마을버스 성동03번을 타고 '성동구청' 정류장에서 내려야 해. 도보로 가기에는 조금 멀어서 버스를 추천해!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "성동책마루도서관까지 도보로 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "성동책마루도서관까지 도보로 가면 약 13분 정도 걸려. 하지만 버스를 타면 2정거장만 가면 되니까 훨씬 빨라. 대중교통 이용하는 게 추천이야!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is it a long walk to 굴과찜사랑 본점?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's about a 13-minute walk to 굴과찜사랑 본점 from Hanyang University, which is why I recommend taking the Seongdong 03 village bus for a quicker trip."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What’s the easiest way to transfer to the subway from Hanyang University?"
+      },
+      {
+        "role": "assistant",
+        "content": "You can walk to Hanyang University Station and board Line 2. It's a direct route to Sangwangsimni Station without any transfers necessary!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "걸어가기엔 멀어? 치킨부라더스."
+      },
+      {
+        "role": "assistant",
+        "content": "치킨부라더스는 한양대역에서 약 1.7km 떨어져 있어서 걸어가기엔 꽤 먼 거리야. 대중교통을 이용하면 훨씬 수월하게 갈 수 있으니까 버스나 지하철을 추천해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is walking to Two X Fitness better than taking the bus?"
+      },
+      {
+        "role": "assistant",
+        "content": "Walking takes about 20 minutes, which is a bit too long for this distance. The subway is a much better option! It’s quicker and more convenient, so I recommend taking that route instead of walking or taking a bus."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "호갱 왕십리 본점 가는 버스 정류장 어디야?"
+      },
+      {
+        "role": "assistant",
+        "content": "호갱 왕십리 본점에 가려면 한양대역 1번 출구 앞에 있는 '한양대역' 정류장에서 지선 버스 2012번을 타면 돼."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 만나떡볶이까지 걸어가기 힘들어?"
+      },
+      {
+        "role": "assistant",
+        "content": "조금 멀어서 걸어가기엔 힘들 수도 있어. 한양대역에서 버스를 타고 가는 게 더 편리해. 버스를 타면 '성동구청'에서 내리고, 그곳에서 도보로 약 4분 거리에 위치해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "한양대에서 버스를 타는 게 나을까, 걸어가는 게 나을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "웅진북클럽 성동사업국까지는 약 1.8km 정도 거리야. 걸어가면 약 22분 걸리니까, 버스를 타는 게 더 편할 것 같아. 마을버스 성동08번을 타면 훨씬 빨리 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "투엑스휘트니스 센트라스점 가려면 대중교통 타야 해?"
+      },
+      {
+        "role": "assistant",
+        "content": "응, 투엑스휘트니스 센트라스점은 한양대역에서 약 1.6km 떨어져 있어서 걸어가기엔 좀 멀어. 지하철 타는 게 좋고, 한양대역에서 2호선 타고 상왕십리역으로 가면 돼. 거기서 1번 출구로 나가면 '센트라스' 상가 3층에 있어."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "오까네 제1연구소 상왕십리점까지 대중교통 이용할 때 소요 시간 얼마나 돼?"
+      },
+      {
+        "role": "assistant",
+        "content": "대중교통 이용하면 한양대역에서 약 10분 정도 걸려. 버스를 타고 '성동구청'에서 하차한 후 6분 정도 도보로 가면 되니까, 전체 약 16분 정도 걸려!"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "데벨로페 발레스튜디오까지 버스로 가면 얼마나 걸려?"
+      },
+      {
+        "role": "assistant",
+        "content": "버스를 타고 가면 약 10분 정도 걸릴 거야. 한양대역에서 마을버스 성동03-1번이나 성동08번을 타고 '왕십리 KCC스위첸아파트' 정류장에서 내리면 되는데, 그곳에서 도보로 1분만 걸으면 도착해."
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "양자강 가는 데 대중교통이 좋겠지?"
+      },
+      {
+        "role": "assistant",
+        "content": "그렇지! 양자강은 한양대역에서 1.4km 거리에 있어서 걸어가기보다는 대중교통을 이용하는 게 더 편해. 한양대역 1번 출구 앞 '한양대역' 정류장에서 2012번 버스를 타고 '성동구청'에서 내려서 도보 6분이면 돼."
+      }
+    ]
+  }
+]
