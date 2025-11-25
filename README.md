@@ -1,3 +1,24 @@
+------
+HY-건물 데이터셋을 이용한 교내 길안내 LLM 만들기
+
+과정 간단히
+-> API를 사용해 데이터셋 정보 생성
+raw데이터들은 전부 API를 사용해 얻은 기본 건물 정보들
+이를 gpt1, 2, 3.py 코드와 clean.py 통해 train_message와 val_message로 QA데이터셋을 생성함
+-> 생성한 데이터셋을 train.py로 학습시켜 모델 생성
+-> 이후 merge.py를 통해 모델을 기존 모델과 병합
+-> main_merged.py를 통해서 실행
+
+
+
+
+
+
+
+
+
+
+
 # QLoRA를 이용한 Gemma-2B의 법률 특화 파인튜닝 
 AIX 딥러닝 프로젝트
 
