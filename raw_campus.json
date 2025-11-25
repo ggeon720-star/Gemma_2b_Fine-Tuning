@@ -1,0 +1,1138 @@
+[
+  {
+    "name": "역사관(구본관)",
+    "building_code": "101",
+    "category": "행정/부속건물",
+    "floor_info": "지상 3층",
+    "nearby_buildings": {
+      "nearest": { "name": "본관", "direction": "오른쪽" },
+      "second": { "name": "한양플라자", "direction": "앞쪽" }
+    },
+    "route_description": {
+      "shortest_route": "역사관은 건물번호 101번 건물로, 한양대역 2번 출구인 예지문 앞에 위치한 한양대학교 광장에서 보이는 사자상 뒤에 위치한 건물입니다. 소요시간은 2분 정도로 예상됩니다.",
+      "second_shortest_route": "역사관은 건물번호 101번 건물로, 건물번호 102번 본관 건물 왼쪽에 위치해 있으며, 예지문 정면에 위치한 한양대학교 광장에 위치한 건물입니다. 소요시간은 2분 정도로 예상됩니다."
+    },
+    "estimated_time_walking": 2,
+    "notable_features": "대학 설립자 동상, 대학 역사 전시실"
+  },
+  {
+    "name": "본관",
+    "building_code": "102",
+    "category": "행정건물",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "역사관", "direction": "왼쪽" },
+      "second": { "name": "한양플라자", "direction": "오른쪽" }
+    },
+    "route_description": {
+      "shortest_route": "본관은 건물번호 102번 건물로, 한양대역 2번 출구인 예지문 앞에 위치한 한양대학교 광장에서 보이는 사자상 왼쪽에 위치한 건물입니다. 소요시간은 2분 정도로 예상됩니다.",
+      "second_shortest_route": "본관은 건물번호 102번 건물로, 건물번호 101번 역사관 왼쪽에 위치해 있으며, 예지문 정면에 위치한 한양대학교 광장에 위치한 건물입니다. 소요시간은 2분 정도로 예상됩니다."
+    },
+    "estimated_time_walking": 2,
+    "notable_features": "총장실, 행정부서"
+  },
+  {
+    "name": "한양플라자(학생복지관)",
+    "building_code": "105",
+    "category": "복지시설",
+    "floor_info": "지상 4층",
+    "nearby_buildings": {
+      "nearest": { "name": "예지문", "direction": "바로 옆" },
+      "second": { "name": "학생회관", "direction": "오른쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문으로 나오는 즉시 왼쪽에 위치한 건물입니다.",
+      "second_shortest_route": "한양대역 2번 출구인 예지문 밖으로 나오지 않고, 지하철역 내부 연결 통로를 통해 건물 내부로 바로 진입할 수 있습니다."
+    },
+    "estimated_time_walking": 1,
+    "notable_features": "푸드코트, 편의점, 카페"
+  },
+  {
+    "name": "학생회관",
+    "building_code": "107",
+    "category": "학생자치건물",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "한양플라자", "direction": "왼쪽" },
+      "second": { "name": "국제관", "direction": "오른쪽 아래" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 나와 왼쪽 건물번호 105번인 한양플라자 건물을 끼고 왼쪽 길로 들어서면 바로 보이는 붉은 벽돌 건물입니다.",
+      "second_shortest_route": "건물번호 105번인 한양플라자 1층을 가로질러 반대편 문으로 나온 후, 바로 우측 대각선 방향에 있는 건물로 진입합니다."
+    },
+    "estimated_time_walking": 2,
+    "notable_features": "동아리방, 학생식당"
+  },
+  {
+    "name": "국제관",
+    "building_code": "108",
+    "category": "교육건물",
+    "floor_info": "지상 6층",
+    "nearby_buildings": {
+      "nearest": { "name": "학생회관", "direction": "위쪽" },
+      "second": { "name": "박물관", "direction": "위쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 왼쪽 한양플라자 옆길을 따라 건물번호 107번인 학생회관을 지나, 내리막길로 조금 더 내려가면 나옵니다.",
+      "second_shortest_route": "건물번호 107번인 학생회관 건물 내부로 들어가서 반대편 출구로 나오면 내리막길을 조금 더 편하게 이동할 수 있습니다."
+    },
+    "estimated_time_walking": 4,
+    "notable_features": "국제교육원, 대학원"
+  },
+  {
+    "name": "박물관",
+    "building_code": "109",
+    "category": "부속건물",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "본관", "direction": "오른쪽 위" },
+      "second": { "name": "학생회관", "direction": "아래쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 정면 건물번호 102번인 본관 앞을 지나 왼쪽 내리막길로 내려가면 보입니다.",
+      "second_shortest_route": "건물번호 102번인 본관 건물 1층 로비를 통과하여 반대편 문으로 나가면 박물관 위쪽 입구와 가깝습니다."
+    },
+    "estimated_time_walking": 3,
+    "notable_features": "전시실, 세미나실"
+  },
+  {
+    "name": "재성토목관",
+    "building_code": "201",
+    "category": "교육건물",
+    "floor_info": "지상 6층",
+    "nearby_buildings": {
+      "nearest": { "name": "건축관", "direction": "오른쪽" },
+      "second": { "name": "박물관", "direction": "아래쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 정면 건물번호 102번인 본관의 오른쪽 길을 따라 올라가다가 건물번호 109번인 박물관을 지나 왼쪽 아래 길로 내려가면 위치합니다.",
+      "second_shortest_route": "건물번호 109번인 박물관 앞에서 위쪽 구름다리를 건너 건물번호 202번인 건축관 내부 복도를 통해 이동하면 연결되어 있습니다."
+    },
+    "estimated_time_walking": 5,
+    "notable_features": "공과대학"
+  },
+  {
+    "name": "건축관",
+    "building_code": "202",
+    "category": "교육건물",
+    "floor_info": "지상 6층",
+    "nearby_buildings": {
+      "nearest": { "name": "재성토목관", "direction": "왼쪽" },
+      "second": { "name": "과학기술관", "direction": "오른쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 정면 건물번호 102번인 본관의 오른쪽 길을 따라 올라가다가 건물번호 109번인 박물관 위쪽 다리를 건너면 나옵니다.",
+      "second_shortest_route": "건물번호 201번인 재성토목관 입구로 들어가서 내부 복도를 통해 이동하면 바로 옆 건물로 연결됩니다."
+    },
+    "estimated_time_walking": 5,
+    "notable_features": "건축학부"
+  },
+  {
+    "name": "과학기술관",
+    "building_code": "203",
+    "category": "교육건물",
+    "floor_info": "지상 7층",
+    "nearby_buildings": {
+      "nearest": { "name": "건축관", "direction": "왼쪽" },
+      "second": { "name": "신소재공학관", "direction": "오른쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 정면 건물번호 102번인 본관 오른쪽 언덕길을 따라 올라가면 건물번호 202번인 건축관 다음에 위치한 긴 건물입니다.",
+      "second_shortest_route": "건물번호 204번인 신소재공학관까지 이동한 후, 구름다리나 연결 통로를 통해 과학기술관 쪽으로 이동할 수 있습니다."
+    },
+    "estimated_time_walking": 6,
+    "notable_features": "이과대학, 자연과학대학"
+  },
+  {
+    "name": "신소재공학관",
+    "building_code": "204",
+    "category": "교육건물",
+    "floor_info": "지상 7층",
+    "nearby_buildings": {
+      "nearest": { "name": "과학기술관", "direction": "왼쪽" },
+      "second": { "name": "공업센터 본관", "direction": "오른쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 정면 건물번호 102번인 본관 오른쪽 길을 따라 올라가면 건물번호 203번인 과학기술관 우측에 위치합니다.",
+      "second_shortest_route": "건물번호 206번인 공업센터 본관 앞 주차장 쪽에서 계단을 통해 신소재공학관 입구로 진입할 수 있습니다."
+    },
+    "estimated_time_walking": 7,
+    "notable_features": "신소재공학부"
+  },
+  {
+    "name": "공업센터 본관",
+    "building_code": "206",
+    "category": "교육/실습건물",
+    "floor_info": "지상 6층",
+    "nearby_buildings": {
+      "nearest": { "name": "신소재공학관", "direction": "위쪽" },
+      "second": { "name": "제1공학관", "direction": "아래쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 본관 오른쪽 길로 가다가 건물번호 204번인 신소재공학관 맞은편 아래쪽 공학 단지로 내려가면 중앙에 위치합니다.",
+      "second_shortest_route": "한양대역 2번 출구인 예지문 우측 건물번호 301번인 대운동장 쪽에서 건물번호 211번인 제2공학관 옆길로 올라오면 건물번호 212번인 제1공학관 뒤편에 위치합니다."
+    },
+    "estimated_time_walking": 8,
+    "notable_features": "공과대학 실습실"
+  },
+  {
+    "name": "공업센터 별관",
+    "building_code": "207",
+    "category": "교육/실습건물",
+    "floor_info": "지상 4층",
+    "nearby_buildings": {
+      "nearest": { "name": "공업센터 본관", "direction": "앞쪽" },
+      "second": { "name": "제1공학관", "direction": "뒤쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 건물번호 206번인 공업센터 본관으로 이동 후, 본관 바로 뒤쪽에 연결된 건물로 진입합니다.",
+      "second_shortest_route": "건물번호 212번인 제1공학관 건물 뒤편 주차장 쪽에서 공업센터 별관 입구로 바로 들어갈 수 있습니다."
+    },
+    "estimated_time_walking": 9,
+    "notable_features": "실습실"
+  },
+  {
+    "name": "퓨전테크센터(FTC)",
+    "building_code": "208",
+    "category": "연구/교육건물",
+    "floor_info": "지상 13층",
+    "nearby_buildings": {
+      "nearest": { "name": "신소재공학관", "direction": "왼쪽" },
+      "second": { "name": "HIT", "direction": "오른쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 건물번호 102번인 본관 오른쪽 길 끝까지 이동하면 나오는 높은 유리 건물입니다. 건물번호 701번인 HIT 건물 바로 옆입니다.",
+      "second_shortest_route": "건물번호 706번인 경영관 건물의 엘리베이터를 타고 3층 또는 4층으로 이동하여 건물번호 707번인 행원파크 쪽으로 나오면 쉽게 접근할 수 있습니다."
+    },
+    "estimated_time_walking": 8,
+    "notable_features": "융합전자공학부, 반도체 연구실"
+  },
+  {
+    "name": "노천극장",
+    "building_code": "209",
+    "category": "야외시설",
+    "floor_info": "야외",
+    "nearby_buildings": {
+      "nearest": { "name": "백남학술정보관", "direction": "위쪽" },
+      "second": { "name": "재성토목관", "direction": "오른쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 정면 건물번호 102번인 본관을 지나 더 위쪽 언덕인 도서관 방향으로 가면 도서관 바로 아래에 펼쳐진 야외 극장입니다.",
+      "second_shortest_route": "건물번호 109번인 박물관 앞쪽 길을 통해 건물번호 201번인 재성토목관 쪽으로 이동하면 노천극장 아래쪽 입구로 진입할 수 있습니다."
+    },
+    "estimated_time_walking": 5,
+    "notable_features": "축제, 공연"
+  },
+  {
+    "name": "정몽구 미래자동차연구센터",
+    "building_code": "210",
+    "category": "연구/교육건물",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "HIT", "direction": "왼쪽" },
+      "second": { "name": "대운동장", "direction": "아래쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 오른쪽 대운동장 쪽 길을 따라 끝까지 가서 언덕을 오르면 나옵니다.",
+      "second_shortest_route": "건물번호 102번인 본관 오른쪽 길 끝 건물번호 701번인 HIT 건물 뒤편으로 가면 연결 통로가 있습니다."
+    },
+    "estimated_time_walking": 11,
+    "notable_features": "미래자동차공학과, 옥상정원"
+  },
+  {
+    "name": "제2공학관",
+    "building_code": "211",
+    "category": "교육건물",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "제1공학관", "direction": "왼쪽" },
+      "second": { "name": "공업센터", "direction": "위쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 오른쪽 대운동장을 지나 공학관 진입로로 올라가면 건물번호 206번인 공업센터 아래쪽에 위치합니다.",
+      "second_shortest_route": "건물번호 212번인 제1공학관 입구로 들어가 내부 복도를 통해 이동하면 제2공학관과 연결됩니다."
+    },
+    "estimated_time_walking": 10,
+    "notable_features": "공과대학 강의실"
+  },
+  {
+    "name": "제1공학관",
+    "building_code": "212",
+    "category": "교육건물",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "제2공학관", "direction": "오른쪽" },
+      "second": { "name": "공업센터 별관", "direction": "위쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 오른쪽 길로 이동해 건물번호 211번인 제2공학관 안쪽으로 들어가면 위치한 긴 건물입니다.",
+      "second_shortest_route": "건물번호 206번인 공업센터 본관 엘리베이터를 타고 지하층으로 내려와 후문으로 나가면 제1공학관과 바로 연결됩니다."
+    },
+    "estimated_time_walking": 10,
+    "notable_features": "건축공학부, 토목공학"
+  },
+  {
+    "name": "대운동장",
+    "building_code": "301",
+    "category": "체육시설",
+    "floor_info": "야외",
+    "nearby_buildings": {
+      "nearest": { "name": "한양대역", "direction": "왼쪽" },
+      "second": { "name": "제1의학관", "direction": "오른쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문으로 나오면 바로 오른편에 펼쳐진 넓은 인조잔디 운동장입니다.",
+      "second_shortest_route": "건물번호 102번인 본관 앞에서 우측 내리막길을 따라 내려오면 운동장 본부석 방향으로 진입할 수 있습니다."
+    },
+    "estimated_time_walking": 1,
+    "notable_features": "트랙, 축구장"
+  },
+  {
+    "name": "산학기술관",
+    "building_code": "304",
+    "category": "연구/교육건물",
+    "floor_info": "지상 6층",
+    "nearby_buildings": {
+      "nearest": { "name": "IT/BT관", "direction": "오른쪽" },
+      "second": { "name": "올림픽체육관", "direction": "아래쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 왼쪽 건물번호 306번인 올림픽체육관 왼쪽 길로 올라가면 체육관 뒤편에 위치합니다.",
+      "second_shortest_route": "건물번호 105번인 한양플라자 뒤쪽 길을 통해 올림픽체육관 주차장 쪽으로 이동하면 접근이 가능합니다."
+    },
+    "estimated_time_walking": 5,
+    "notable_features": "오픈소스SW센터"
+  },
+  {
+    "name": "IT/BT관",
+    "building_code": "305",
+    "category": "연구/교육건물",
+    "floor_info": "지상 7층",
+    "nearby_buildings": {
+      "nearest": { "name": "산학기술관", "direction": "왼쪽" },
+      "second": { "name": "올림픽체육관", "direction": "앞쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 왼쪽 건물번호 306번인 올림픽체육관 뒤쪽에 솟아 있는 높은 건물입니다. 체육관 왼쪽 길로 올라가면 됩니다.",
+      "second_shortest_route": "건물번호 304번인 산학기술관 내부 통로를 통해 이동하면 IT/BT관 로비와 연결됩니다."
+    },
+    "estimated_time_walking": 5,
+    "notable_features": "정보통신, 생명공학 관련"
+  },
+  {
+    "name": "올림픽체육관",
+    "building_code": "306",
+    "category": "체육시설",
+    "floor_info": "지상 4층",
+    "nearby_buildings": {
+      "nearest": { "name": "한양플라자", "direction": "오른쪽" },
+      "second": { "name": "IT/BT관", "direction": "뒤쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문으로 나오면 바로 왼편, 건물번호 105번인 한양플라자 뒤쪽으로 보이는 돔 형태의 거대한 체육관입니다.",
+      "second_shortest_route": "건물번호 105번인 한양플라자 1층 뒷문으로 나가면 바로 체육관 입구와 마주하게 됩니다."
+    },
+    "estimated_time_walking": 2,
+    "notable_features": "실내체육관"
+  },
+  {
+    "name": "생활과학대학",
+    "building_code": "401",
+    "category": "교육건물",
+    "floor_info": "지상 7층",
+    "nearby_buildings": {
+      "nearest": { "name": "백남학술정보관", "direction": "오른쪽 아래" },
+      "second": { "name": "제1법학관", "direction": "왼쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 정면 언덕을 끝까지 올라가 건물번호 501번인 백남학술정보관 왼쪽 길로 넘어가면 나오는 첫 번째 건물입니다.",
+      "second_shortest_route": "건물번호 105번인 한양플라자 4층 엘리베이터를 이용해 건물번호 504번인 사회과학관으로 이동한 후, 언덕을 조금 더 올라가면 도착합니다."
+    },
+    "estimated_time_walking": 7,
+    "notable_features": "생활과학대학"
+  },
+  {
+    "name": "제1음악관",
+    "building_code": "402",
+    "category": "교육건물",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "백남음악관", "direction": "옆" },
+      "second": { "name": "제2음악관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕을 넘어 건물번호 401번인 생활과학대학을 지나 더 안쪽으로 들어가면 음악대학 단지 내에 있습니다.",
+      "second_shortest_route": "건물번호 505번인 사범대학 본관 앞쪽 길을 따라 이동하다가 음악대학 이정표를 따라 우측으로 진입합니다."
+    },
+    "estimated_time_walking": 10,
+    "notable_features": "음대 강의실"
+  },
+  {
+    "name": "제2음악관",
+    "building_code": "403",
+    "category": "교육건물",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "제1음악관", "direction": "옆" },
+      "second": { "name": "백남음악관", "direction": "오른쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 음악대학 단지 가장 안쪽에 위치합니다. 건물번호 402번인 제1음악관 옆입니다.",
+      "second_shortest_route": "건물번호 402번인 제1음악관 건물 내부를 통과하거나 건물 사이 통로를 이용하면 바로 보입니다."
+    },
+    "estimated_time_walking": 10,
+    "notable_features": "연습실"
+  },
+  {
+    "name": "백남음악관",
+    "building_code": "405",
+    "category": "문화시설",
+    "floor_info": "지상 4층",
+    "nearby_buildings": {
+      "nearest": { "name": "제1음악관", "direction": "옆" },
+      "second": { "name": "학군단", "direction": "근처" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 건물번호 401번인 생활과학대를 지나면 보이는 콘서트홀 건물입니다.",
+      "second_shortest_route": "차량을 이용할 경우 동문회관 쪽이나 후문 쪽에서 진입하여 음악대학 주차장을 이용하면 가깝습니다."
+    },
+    "estimated_time_walking": 10,
+    "notable_features": "콘서트홀"
+  },
+  {
+    "name": "학군단",
+    "building_code": "406",
+    "category": "군사/교육",
+    "floor_info": "지상 3층",
+    "nearby_buildings": {
+      "nearest": { "name": "백남음악관", "direction": "옆" },
+      "second": { "name": "제1학생생활관", "direction": "아래쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 음악관 단지 아래쪽, 기숙사 가는 길목에 위치합니다.",
+      "second_shortest_route": "후문 쪽에서 올라올 경우 건물번호 801번인 제1학생생활관을 지나 언덕을 조금 오르면 우측에 보입니다."
+    },
+    "estimated_time_walking": 11,
+    "notable_features": "ROTC"
+  },
+  {
+    "name": "제1법학관",
+    "building_code": "407",
+    "category": "교육건물",
+    "floor_info": "지상 6층",
+    "nearby_buildings": {
+      "nearest": { "name": "제2법학관", "direction": "옆" },
+      "second": { "name": "경제금융대학", "direction": "아래쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕을 넘어 건물번호 401번인 생활과학대학 맞은편에 위치합니다.",
+      "second_shortest_route": "건물번호 706번인 경영관 쪽에서 후문 방향으로 가다가 언덕 위로 올라가면 건물번호 410번인 경제금융대학 위에 있습니다."
+    },
+    "estimated_time_walking": 9,
+    "notable_features": "법학전문대학원"
+  },
+  {
+    "name": "제2법학관",
+    "building_code": "408",
+    "category": "교육건물",
+    "floor_info": "지상 7층",
+    "nearby_buildings": {
+      "nearest": { "name": "제1법학관", "direction": "옆" },
+      "second": { "name": "제3법학관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 건물번호 407번인 제1법학관과 연결된 건물입니다.",
+      "second_shortest_route": "건물번호 407번인 제1법학관 내부 3층이나 4층 연결 통로를 통해 이동하면 편리합니다."
+    },
+    "estimated_time_walking": 9,
+    "notable_features": "강의실"
+  },
+  {
+    "name": "제3법학관",
+    "building_code": "409",
+    "category": "교육건물",
+    "floor_info": "지상 7층",
+    "nearby_buildings": {
+      "nearest": { "name": "제2법학관", "direction": "옆" },
+      "second": { "name": "경제금융대학", "direction": "아래쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 법학관 단지 가장 안쪽에 있는 건물입니다.",
+      "second_shortest_route": "건물번호 408번인 제2법학관을 통해 내부로 이동하면 연결되어 있습니다."
+    },
+    "estimated_time_walking": 10,
+    "notable_features": "연구실"
+  },
+  {
+    "name": "경제금융대학",
+    "building_code": "410",
+    "category": "교육건물",
+    "floor_info": "지상 6층",
+    "nearby_buildings": {
+      "nearest": { "name": "제1법학관", "direction": "위쪽" },
+      "second": { "name": "경영관", "direction": "왼쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 오른쪽 건물번호 706번인 경영관 방향으로 이동 후, 경영관 오른쪽 길로 들어가면 나오는 건물입니다.",
+      "second_shortest_route": "건물번호 706번인 경영관 건물 2층 로비에서 연결된 외부 통로를 이용하면 경제금융대학 입구로 쉽게 갈 수 있습니다."
+    },
+    "estimated_time_walking": 5,
+    "notable_features": "경제금융학부"
+  },
+  {
+    "name": "백남학술정보관",
+    "building_code": "501",
+    "category": "도서관",
+    "floor_info": "지하 3층, 지상 6층",
+    "nearby_buildings": {
+      "nearest": { "name": "본관", "direction": "아래쪽" },
+      "second": { "name": "인문관", "direction": "왼쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 정면 건물번호 102번인 본관 뒤쪽 언덕을 끝까지 올라가면 캠퍼스 정중앙 가장 높은 곳에 위치한 하얀색 큰 건물입니다.",
+      "second_shortest_route": "건물번호 105번인 한양플라자 엘리베이터를 타고 4층으로 올라가서 건물번호 504번인 사회과학관 쪽 평지 길을 이용하면 언덕을 덜 오를 수 있습니다."
+    },
+    "estimated_time_walking": 6,
+    "notable_features": "중앙도서관"
+  },
+  {
+    "name": "사자가 군것질 할 때",
+    "building_code": "503",
+    "category": "편의시설",
+    "floor_info": "지상 1층",
+    "nearby_buildings": {
+      "nearest": { "name": "백남학술정보관", "direction": "옆" },
+      "second": { "name": "사회과학관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 정면 언덕 끝까지 올라가 건물번호 501번인 백남학술정보관 바로 왼쪽, 사회과학관 가는 길목에 있는 작은 매점 건물입니다.",
+      "second_shortest_route": "건물번호 504번인 사회과학관 입구에서 도서관 방향으로 나오면 바로 앞에 보입니다."
+    },
+    "estimated_time_walking": 6,
+    "notable_features": "편의점"
+  },
+  {
+    "name": "사회과학관",
+    "building_code": "504",
+    "category": "교육건물",
+    "floor_info": "지상 6층",
+    "nearby_buildings": {
+      "nearest": { "name": "인문관", "direction": "오른쪽" },
+      "second": { "name": "사범대학 본관", "direction": "아래쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 정면 언덕을 끝까지 올라가 건물번호 501번인 백남학술정보관 왼쪽 길로 가면 건물번호 508번인 인문관 맞은편에 있습니다.",
+      "second_shortest_route": "한양대역 2번 출구인 예지문 왼쪽 건물번호 105번인 한양플라자 엘리베이터를 타고 4층으로 올라가서 밖으로 나오면 가장 빠르게 도착합니다."
+    },
+    "estimated_time_walking": 7,
+    "notable_features": "사회과학대학"
+  },
+  {
+    "name": "사범대학 본관",
+    "building_code": "505",
+    "category": "교육건물",
+    "floor_info": "지상 6층",
+    "nearby_buildings": {
+      "nearest": { "name": "사범대학 별관", "direction": "옆" },
+      "second": { "name": "사회과학관", "direction": "위쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 정면 건물번호 102번인 본관 왼쪽 길을 따라 올라가다가 건물번호 508번인 인문관 아래쪽 길로 빠지면 나옵니다.",
+      "second_shortest_route": "건물번호 105번인 한양플라자 4층으로 올라가 건물번호 504번인 사회과학관 옆 내리막길을 이용하면 위쪽에서 접근할 수 있습니다."
+    },
+    "estimated_time_walking": 8,
+    "notable_features": "사범대학"
+  },
+  {
+    "name": "사범대학 별관",
+    "building_code": "506",
+    "category": "교육건물",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "사범대학 본관", "direction": "옆" },
+      "second": { "name": "자연과학대학", "direction": "위쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 건물번호 505번인 사범대학 본관으로 이동 후 그 옆에 붙어있는 건물로 진입합니다.",
+      "second_shortest_route": "건물번호 505번인 사범대학 본관 2층이나 3층의 연결 통로를 이용하면 별관으로 쉽게 이동할 수 있습니다."
+    },
+    "estimated_time_walking": 8,
+    "notable_features": "강의실"
+  },
+  {
+    "name": "자연과학대학",
+    "building_code": "507",
+    "category": "교육건물",
+    "floor_info": "지상 7층",
+    "nearby_buildings": {
+      "nearest": { "name": "인문관", "direction": "위쪽" },
+      "second": { "name": "사범대학", "direction": "아래쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 정면 건물번호 102번인 본관 왼쪽 길을 따라 올라가다 보면 건물번호 508번인 인문관 아래, 사범대 위에 위치합니다.",
+      "second_shortest_route": "건물번호 508번인 인문관 앞쪽 계단을 통해 내려가면 자연과학대학 상층부 입구와 연결됩니다."
+    },
+    "estimated_time_walking": 7,
+    "notable_features": "자연과학대학"
+  },
+  {
+    "name": "인문관",
+    "building_code": "508",
+    "category": "교육건물",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "백남학술정보관", "direction": "오른쪽" },
+      "second": { "name": "사회과학관", "direction": "왼쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 정면 언덕을 끝까지 올라 건물번호 501번인 백남학술정보관 바로 왼쪽 아래에 보이는 건물입니다.",
+      "second_shortest_route": "건물번호 105번인 한양플라자 엘리베이터를 타고 4층으로 이동하여 건물번호 504번인 사회과학관을 지나면 인문관 옆쪽으로 도착합니다."
+    },
+    "estimated_time_walking": 6,
+    "notable_features": "인문과학대학"
+  },
+  {
+    "name": "제1의학관",
+    "building_code": "604",
+    "category": "의료/교육건물",
+    "floor_info": "지상 6층",
+    "nearby_buildings": {
+      "nearest": { "name": "제2의학관", "direction": "옆" },
+      "second": { "name": "의과대학 본관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 오른쪽 대운동장을 가로질러 병원 방향 계단으로 올라가면 나옵니다.",
+      "second_shortest_route": "한양대역 2번 출구인 예지문 3번 출구 쪽 셔틀버스 정류장에서 병원 셔틀버스를 이용하면 편하게 이동 가능합니다."
+    },
+    "estimated_time_walking": 10,
+    "notable_features": "의과대학"
+  },
+  {
+    "name": "제2의학관",
+    "building_code": "605",
+    "category": "의료/교육건물",
+    "floor_info": "지상 6층",
+    "nearby_buildings": {
+      "nearest": { "name": "제1의학관", "direction": "옆" },
+      "second": { "name": "의과대학 본관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 오른쪽 대운동장 건너편 병원 단지로 이동하여 건물번호 604번인 제1의학관 옆으로 가면 됩니다.",
+      "second_shortest_route": "건물번호 606번인 의과대학 본관을 통해 내부 복도로 이동하면 제2의학관과 연결됩니다."
+    },
+    "estimated_time_walking": 10,
+    "notable_features": "의대 강의실"
+  },
+  {
+    "name": "의과대학 본관",
+    "building_code": "606",
+    "category": "의료/교육건물",
+    "floor_info": "지상 7층",
+    "nearby_buildings": {
+      "nearest": { "name": "제1의학관", "direction": "옆" },
+      "second": { "name": "동문회관", "direction": "근처" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 오른쪽 대운동장을 지나 병원 단지 중앙으로 가면 위치합니다.",
+      "second_shortest_route": "병원 셔틀버스를 타고 병원 본관 앞에서 내려서 의대 쪽으로 걸어가는 방법이 있습니다."
+    },
+    "estimated_time_walking": 10,
+    "notable_features": "의대 행정"
+  },
+  {
+    "name": "동문회관",
+    "building_code": "607",
+    "category": "행사/웨딩",
+    "floor_info": "지상 6층",
+    "nearby_buildings": {
+      "nearest": { "name": "한양대학교병원", "direction": "옆" },
+      "second": { "name": "의과대학", "direction": "위쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 오른쪽 대운동장을 지나 병원 입구 사거리 쪽으로 나가면 큰 도로변에 있습니다.",
+      "second_shortest_route": "왕십리역이나 한양대역 1번 출구 쪽에서 도보나 택시를 이용해 도로변으로 접근하는 것이 빠를 수 있습니다."
+    },
+    "estimated_time_walking": 12,
+    "notable_features": "웨딩홀, 동문회"
+  },
+  {
+    "name": "병원서관(국제병원, 장례식장)",
+    "building_code": "609",
+    "category": "의료시설",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "병원본관", "direction": "옆" },
+      "second": { "name": "동문회관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 오른쪽 대운동장 너머 병원 단지 내 서쪽 학교 쪽에 위치합니다.",
+      "second_shortest_route": "건물번호 610번인 병원본관 로비를 통해 서관 방향 연결 통로를 이용하면 편리합니다."
+    },
+    "estimated_time_walking": 12,
+    "notable_features": "국제병원"
+  },
+  {
+    "name": "병원본관",
+    "building_code": "610",
+    "category": "의료시설",
+    "floor_info": "대형 건물",
+    "nearby_buildings": {
+      "nearest": { "name": "병원동관", "direction": "옆" },
+      "second": { "name": "병원서관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 오른쪽 대운동장을 지나면 보이는 가장 큰 병원 건물입니다.",
+      "second_shortest_route": "한양대역 2번 출구인 예지문 3번 출구 근처 셔틀버스 정류장에서 셔틀버스를 이용하면 본관 바로 앞에서 하차할 수 있습니다."
+    },
+    "estimated_time_walking": 13,
+    "notable_features": "진료실, 병동"
+  },
+  {
+    "name": "권역응급의료센터",
+    "building_code": "611",
+    "category": "의료시설",
+    "floor_info": "지상 3층",
+    "nearby_buildings": {
+      "nearest": { "name": "병원본관", "direction": "옆" },
+      "second": { "name": "의대계단강의동", "direction": "근처" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 건물번호 610번인 병원 본관으로 이동하면 본관 우측에 연결되어 있습니다.",
+      "second_shortest_route": "병원 정문으로 진입하여 본관 오른쪽 응급실 전용 입구를 이용하면 빠릅니다."
+    },
+    "estimated_time_walking": 13,
+    "notable_features": "응급실"
+  },
+  {
+    "name": "병원동관(류마티스병원)/신한플라자",
+    "building_code": "614",
+    "category": "의료시설",
+    "floor_info": "지상 8층",
+    "nearby_buildings": {
+      "nearest": { "name": "병원본관", "direction": "옆" },
+      "second": { "name": "미래교육관", "direction": "근처" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 병원 본관을 지나 더 안쪽 동쪽으로 들어가면 나옵니다.",
+      "second_shortest_route": "건물번호 610번인 병원본관 내부 통로를 통해 이동하면 밖으로 나가지 않고 접근할 수 있습니다."
+    },
+    "estimated_time_walking": 13,
+    "notable_features": "류마티스병원"
+  },
+  {
+    "name": "미래교육관",
+    "building_code": "617",
+    "category": "교육/의료",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "의대계단강의동", "direction": "옆" },
+      "second": { "name": "병원동관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 병원 단지 가장 안쪽 간호대 쪽에 위치합니다.",
+      "second_shortest_route": "건물번호 614번인 병원동관 뒤편 길을 따라 이동하면 찾기 쉽습니다."
+    },
+    "estimated_time_walking": 14,
+    "notable_features": "간호학부"
+  },
+  {
+    "name": "의대계단강의동",
+    "building_code": "618",
+    "category": "교육건물",
+    "floor_info": "지상 4층",
+    "nearby_buildings": {
+      "nearest": { "name": "미래교육관", "direction": "옆" },
+      "second": { "name": "제1의학관", "direction": "위쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 오른쪽 대운동장 길 끝, 병원 주차장 근처에 위치합니다.",
+      "second_shortest_route": "건물번호 604번인 제1의학관에서 병원 주차장 쪽으로 내려오는 계단을 이용하면 바로 도착합니다."
+    },
+    "estimated_time_walking": 14,
+    "notable_features": "대형 강의실"
+  },
+  {
+    "name": "한양종합기술연구원(HIT)",
+    "building_code": "701",
+    "category": "연구건물",
+    "floor_info": "지상 6층",
+    "nearby_buildings": {
+      "nearest": { "name": "퓨전테크센터(FTC)", "direction": "왼쪽" },
+      "second": { "name": "행원파크", "direction": "오른쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 정면 건물번호 102번인 본관 오른쪽 길을 따라 언덕을 끝까지 올라가면 정면에 보이는 거대한 유리 건물입니다.",
+      "second_shortest_route": "건물번호 706번인 경영관 엘리베이터를 타고 상층부로 이동해 건물번호 707번인 행원파크 쪽으로 나오면 HIT 건물 앞과 평지로 연결됩니다."
+    },
+    "estimated_time_walking": 12,
+    "notable_features": "산학협력단, 연구실"
+  },
+  {
+    "name": "한양사이버대학교 1관",
+    "building_code": "702",
+    "category": "교육건물",
+    "floor_info": "지상 8층",
+    "nearby_buildings": {
+      "nearest": { "name": "HIT", "direction": "왼쪽" },
+      "second": { "name": "한양사이버대학교 2관", "direction": "오른쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 정면 건물번호 102번인 본관 오른쪽 길 끝 건물번호 701번인 HIT 건물 맞은편에 위치합니다.",
+      "second_shortest_route": "건물번호 706번인 경영관과 건물번호 707번인 행원파크를 통해 언덕을 올라온 후 HIT 건물 앞에서 우측으로 이동하면 됩니다."
+    },
+    "estimated_time_walking": 12,
+    "notable_features": "사이버대"
+  },
+  {
+    "name": "한양사이버대학교 2관",
+    "building_code": "703",
+    "category": "교육건물",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "한양사이버대학교 1관", "direction": "왼쪽" },
+      "second": { "name": "경영관", "direction": "아래쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 오른쪽 건물번호 706번인 경영관 뒤편 언덕으로 올라가면 사이버대 1관 옆에 있습니다.",
+      "second_shortest_route": "건물번호 702번인 한양사이버대학교 1관 내부 연결 통로를 이용하면 편리하게 이동할 수 있습니다."
+    },
+    "estimated_time_walking": 13,
+    "notable_features": "사이버대"
+  },
+  {
+    "name": "융합교육관",
+    "building_code": "705",
+    "category": "교육건물",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "경영관", "direction": "옆" },
+      "second": { "name": "행원파크", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 예지문 오른쪽 건물번호 706번인 경영관 방향으로 올라가 경영관 근처에서 찾을 수 있습니다.",
+      "second_shortest_route": "건물번호 707번인 행원파크 지하주차장 엘리베이터를 이용해 지상으로 올라오면 바로 보입니다."
+    },
+    "estimated_time_walking": 4,
+    "notable_features": "강의실"
+  },
+  {
+    "name": "경영관",
+    "building_code": "706",
+    "category": "교육건물",
+    "floor_info": "지상 7층",
+    "nearby_buildings": {
+      "nearest": { "name": "경제금융대학", "direction": "옆" },
+      "second": { "name": "행원파크", "direction": "뒤쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 오른쪽으로 고개를 돌리면 언덕 위 건물번호 707번인 행원파크 위에 보이는 큰 건물입니다.",
+      "second_shortest_route": "한양대역 2번 출구인 예지문 우측 길을 따라 조금 올라가면 나오는 경영관 1층 로비 입구를 통해 엘리베이터를 이용하면 편리합니다."
+    },
+    "estimated_time_walking": 5,
+    "notable_features": "경영대학"
+  },
+  {
+    "name": "행원파크",
+    "building_code": "707",
+    "category": "주차장/편의시설",
+    "floor_info": "지하 주차장",
+    "nearby_buildings": {
+      "nearest": { "name": "경영관", "direction": "앞쪽" },
+      "second": { "name": "HIT", "direction": "위쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 오른쪽으로 가면 나오는 건물번호 706번인 경영관 아래쪽 지하주차장 입구 및 공원 구역입니다.",
+      "second_shortest_route": "차량을 이용할 경우 경영관 방면 지하주차장 입구로 바로 진입할 수 있습니다."
+    },
+    "estimated_time_walking": 5,
+    "notable_features": "지하주차장"
+  },
+  {
+    "name": "제1학생생활관",
+    "building_code": "801",
+    "category": "기숙사",
+    "floor_info": "지상 7층",
+    "nearby_buildings": {
+      "nearest": { "name": "제2학생생활관", "direction": "옆" },
+      "second": { "name": "개나리관", "direction": "근처" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕을 넘어 사범대와 법학관을 지나 후문 쪽으로 한참 내려가면 나오는 기숙사 단지에 있습니다.",
+      "second_shortest_route": "건물번호 706번인 경영관 뒤편 길을 통해 건물번호 407번인 제1법학관 뒤쪽으로 이동하여 내려가면 조금 더 완만합니다."
+    },
+    "estimated_time_walking": 15,
+    "notable_features": "남학생 기숙사"
+  },
+  {
+    "name": "제3학생생활관",
+    "building_code": "802",
+    "category": "기숙사",
+    "floor_info": "지상 7층",
+    "nearby_buildings": {
+      "nearest": { "name": "제1학생생활관", "direction": "옆" },
+      "second": { "name": "제5학생생활관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 기숙사 단지 내에 위치합니다.",
+      "second_shortest_route": "기숙사 단지 입구에서 건물번호 801번인 제1학생생활관을 지나 안쪽으로 조금 더 들어가면 나옵니다."
+    },
+    "estimated_time_walking": 15,
+    "notable_features": "기숙사"
+  },
+  {
+    "name": "제5학생생활관",
+    "building_code": "803",
+    "category": "기숙사",
+    "floor_info": "고층",
+    "nearby_buildings": {
+      "nearest": { "name": "제3학생생활관", "direction": "옆" },
+      "second": { "name": "제2학생생활관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 가장 서쪽 끝 기숙사 구역에 있는 고층 건물입니다.",
+      "second_shortest_route": "사근동 방향 쪽문을 통해 외부에서 진입하면 언덕을 오르내리지 않고 바로 접근할 수 있습니다."
+    },
+    "estimated_time_walking": 16,
+    "notable_features": "기숙사, 고시반"
+  },
+  {
+    "name": "제2학생생활관",
+    "building_code": "804",
+    "category": "기숙사",
+    "floor_info": "지상 5층",
+    "nearby_buildings": {
+      "nearest": { "name": "제5학생생활관", "direction": "옆" },
+      "second": { "name": "개나리관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 기숙사 단지로 이동하면 찾을 수 있는 여학생 기숙사입니다.",
+      "second_shortest_route": "건물번호 805번인 개나리관 앞쪽 길을 따라 이동하면 바로 옆에 위치합니다."
+    },
+    "estimated_time_walking": 16,
+    "notable_features": "여학생 기숙사"
+  },
+  {
+    "name": "개나리관",
+    "building_code": "805",
+    "category": "기숙사",
+    "floor_info": "지상 4층",
+    "nearby_buildings": {
+      "nearest": { "name": "제2학생생활관", "direction": "옆" },
+      "second": { "name": "한누리관", "direction": "아래쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 후문 근처 기숙사 단지에 위치합니다.",
+      "second_shortest_route": "건물번호 806번인 한누리관 쪽에서 계단을 통해 올라오면 바로 진입할 수 있습니다."
+    },
+    "estimated_time_walking": 16,
+    "notable_features": "기숙사"
+  },
+  {
+    "name": "한누리관",
+    "building_code": "806",
+    "category": "기숙사",
+    "floor_info": "지상 7층",
+    "nearby_buildings": {
+      "nearest": { "name": "개나리관", "direction": "위쪽" },
+      "second": { "name": "게스트하우스", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 건물번호 707번인 행원파크 뒤쪽 길을 통해 기숙사 쪽으로 가면 나옵니다.",
+      "second_shortest_route": "건물번호 706번인 경영관 뒤편 주차장 쪽 길을 따라 내려가면 한누리관 입구로 이어집니다."
+    },
+    "estimated_time_walking": 14,
+    "notable_features": "기숙사"
+  },
+  {
+    "name": "게스트하우스",
+    "building_code": "807",
+    "category": "숙박시설",
+    "floor_info": "지상 8층",
+    "nearby_buildings": {
+      "nearest": { "name": "한누리관", "direction": "옆" },
+      "second": { "name": "한양여대", "direction": "아래쪽" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 한양여대 가는 길목 혹은 건물번호 607번인 동문회관 건너편 쪽에 위치합니다.",
+      "second_shortest_route": "택시나 차량 이용 시 동문회관 맞은편 게스트하우스 입구로 바로 진입하는 것이 가장 편합니다."
+    },
+    "estimated_time_walking": 15,
+    "notable_features": "숙소, 컨벤션"
+  },
+  {
+    "name": "제6학생생활관",
+    "building_code": "809",
+    "category": "기숙사",
+    "floor_info": "신축",
+    "nearby_buildings": {
+      "nearest": { "name": "제7학생생활관", "direction": "옆" },
+      "second": { "name": "한양여대", "direction": "방향" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 한양여대 쪽으로 내려가는 길목에 있는 신축 기숙사입니다.",
+      "second_shortest_route": "건물번호 810번인 제7학생생활관과 연결된 통로를 이용하면 이동하기 쉽습니다."
+    },
+    "estimated_time_walking": 17,
+    "notable_features": "행복기숙사"
+  },
+  {
+    "name": "제7학생생활관",
+    "building_code": "810",
+    "category": "기숙사",
+    "floor_info": "신축",
+    "nearby_buildings": {
+      "nearest": { "name": "제6학생생활관", "direction": "옆" },
+      "second": { "name": "사근동", "direction": "방향" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 가장 안쪽 사근동 방향에 위치한 신축 기숙사입니다.",
+      "second_shortest_route": "사근동 주민센터 쪽 외부 도로를 통해 접근하면 학교 언덕을 넘지 않고도 도착할 수 있습니다."
+    },
+    "estimated_time_walking": 17,
+    "notable_features": "행복기숙사"
+  },
+  {
+    "name": "한양여자대학교 본관",
+    "building_code": "901",
+    "category": "한양여대",
+    "floor_info": "여대 캠퍼스",
+    "nearby_buildings": {
+      "nearest": { "name": "한양여대 디자인관", "direction": "옆" },
+      "second": { "name": "한양초등학교", "direction": "근처" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕을 넘어 캠퍼스 북쪽 끝 한양여대 입구로 들어가면 나옵니다.",
+      "second_shortest_route": "건물번호 306번인 올림픽체육관 뒤편 길을 따라 건물번호 905번인 한양초등학교를 지나면 한양여대 정문이 나옵니다."
+    },
+    "estimated_time_walking": 20,
+    "notable_features": "한양여대"
+  },
+  {
+    "name": "한양여자대학교 디자인관",
+    "building_code": "902",
+    "category": "한양여대",
+    "floor_info": "여대 캠퍼스",
+    "nearby_buildings": {
+      "nearest": { "name": "한양여대 본관", "direction": "옆" },
+      "second": { "name": "한양여대 도서관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 한양여대 캠퍼스 내에 위치합니다.",
+      "second_shortest_route": "건물번호 901번인 한양여대 본관 옆길을 통해 이동하면 바로 옆 건물입니다."
+    },
+    "estimated_time_walking": 20,
+    "notable_features": "디자인관"
+  },
+  {
+    "name": "한양여자대학교 도서관",
+    "building_code": "903",
+    "category": "한양여대",
+    "floor_info": "여대 캠퍼스",
+    "nearby_buildings": {
+      "nearest": { "name": "한양여대 디자인관", "direction": "옆" },
+      "second": { "name": "행원스퀘어", "direction": "근처" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 한양여대 캠퍼스로 진입하여 찾을 수 있습니다.",
+      "second_shortest_route": "건물번호 902번인 디자인관과 건물번호 904번인 행원스퀘어 사이에 위치하여 캠퍼스 중앙에서 접근하기 좋습니다."
+    },
+    "estimated_time_walking": 21,
+    "notable_features": "도서관"
+  },
+  {
+    "name": "행원스퀘어",
+    "building_code": "904",
+    "category": "한양여대",
+    "floor_info": "광장/복지",
+    "nearby_buildings": {
+      "nearest": { "name": "한양여대 본관", "direction": "앞" },
+      "second": { "name": "한양여대 도서관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 한양여대 캠퍼스 내 광장 구역입니다.",
+      "second_shortest_route": "한양여대 정문으로 들어와서 직진하면 나오는 넓은 광장과 지하 시설입니다."
+    },
+    "estimated_time_walking": 20,
+    "notable_features": "광장"
+  },
+  {
+    "name": "한양초등학교",
+    "building_code": "905",
+    "category": "부속학교",
+    "floor_info": "초등학교",
+    "nearby_buildings": {
+      "nearest": { "name": "한양여대 본관", "direction": "옆" },
+      "second": { "name": "올림픽체육관", "direction": "멀리" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 한양여대와 사범대 부속학교 구역에 위치합니다.",
+      "second_shortest_route": "건물번호 306번인 올림픽체육관 뒤편 길을 따라 조금만 걸어가면 초등학교 정문이 나옵니다."
+    },
+    "estimated_time_walking": 18,
+    "notable_features": "초등학교"
+  },
+  {
+    "name": "한양여자대학교 교수회관",
+    "building_code": "906",
+    "category": "한양여대",
+    "floor_info": "여대 캠퍼스",
+    "nearby_buildings": {
+      "nearest": { "name": "행원스퀘어", "direction": "옆" },
+      "second": { "name": "정보문화관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 한양여대 캠퍼스 안쪽에 위치합니다.",
+      "second_shortest_route": "건물번호 904번인 행원스퀘어 광장을 지나 안쪽으로 이동하면 보입니다."
+    },
+    "estimated_time_walking": 21,
+    "notable_features": "교수회관"
+  },
+  {
+    "name": "한양여자대학교 정보문화관",
+    "building_code": "907",
+    "category": "한양여대",
+    "floor_info": "여대 캠퍼스",
+    "nearby_buildings": {
+      "nearest": { "name": "교수회관", "direction": "옆" },
+      "second": { "name": "식품영양관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 한양여대 캠퍼스 내에 위치합니다.",
+      "second_shortest_route": "건물번호 906번인 교수회관을 지나면 바로 옆에 위치하고 있습니다."
+    },
+    "estimated_time_walking": 22,
+    "notable_features": "정보문화관"
+  },
+  {
+    "name": "한양여자대학교 식품영양관",
+    "building_code": "908",
+    "category": "한양여대",
+    "floor_info": "여대 캠퍼스",
+    "nearby_buildings": {
+      "nearest": { "name": "정보문화관", "direction": "옆" },
+      "second": { "name": "유아교육관", "direction": "옆" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 한양여대 캠퍼스 안쪽에 위치합니다.",
+      "second_shortest_route": "건물번호 907번인 정보문화관을 지나 더 안쪽으로 들어가면 나옵니다."
+    },
+    "estimated_time_walking": 22,
+    "notable_features": "식품영양관"
+  },
+  {
+    "name": "한양여자대학교 유아교육관",
+    "building_code": "909",
+    "category": "한양여대",
+    "floor_info": "여대 캠퍼스",
+    "nearby_buildings": {
+      "nearest": { "name": "식품영양관", "direction": "옆" },
+      "second": { "name": "한양여대 본관", "direction": "멀리" }
+    },
+    "route_description": {
+      "shortest_route": "한양대역 2번 출구인 에지문에서 언덕 넘어 한양여대 캠퍼스 가장 안쪽에 위치합니다.",
+      "second_shortest_route": "캠퍼스 가장 깊숙한 곳에 있으며 건물번호 908번인 식품영양관을 지나면 도착합니다."
+    },
+    "estimated_time_walking": 23,
+    "notable_features": "유아교육관"
+  }
+]
