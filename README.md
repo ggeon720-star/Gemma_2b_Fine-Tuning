@@ -414,77 +414,15 @@ print("\n✅ 스크립트 종료")
 print("=" * 70)
 ```
 
-#### 7. Formatting_function 정의
+
+### 4. 학습된 LoRA 어댑터를 Drive에 백업
 ```python
-
-```
-
-#### 7. Formatting_function 정의
-```python
-
+!mkdir -p /content/drive/MyDrive/Gemma_2B_Trained
+!cp -r /content/output/gemma-2b-hanyang-guide-lora-final /content/drive/MyDrive/Gemma_2B_Trained/
 ```
 
 
-
-### 4. 법률 JSON 데이터를 'Question', 'Answer', 'Commentary'로 텍스트화
-#### 1. load_and_format_data 함수 정의
-```python
-def load_and_format_data(data_dir):
-    processed_data = []
-
-    qa_files_pattern = os.path.join(data_dir, "**", "*.json")
-    qa_files = glob.glob(qa_files_pattern, recursive=True)
-    print(f"총 {len(qa_files)}개의 JSON 파일을 찾았습니다 (하위 디렉토리 포함)...")
-
-    if not qa_files:
-        raise ValueError(f"데이터를 찾을 수 없습니다. {data_dir} 경로를 확인하세요.")
-    for file_path in qa_files:
-        try:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                item = json.load(f)
-
-            question = item.get('question')
-            simple_answer = item.get('answer')
-            commentary = item.get('commentary') # 없으면 None
-            if question and simple_answer:
-
-                full_answer = simple_answer
-                if commentary and commentary.strip():
-                    full_answer += f"\n\n[근거]\n{commentary}"
-                text = f"""<bos><start_of_turn>user
-{question}
-<end_of_turn>
-<start_of_turn>model
-{full_answer}<end_of_turn><eos>"""
-                processed_data.append({"text": text})
-            else:
-                 print(f"[경고] {file_path} 파일에 'question' 또는 'answer' 키가 없어 건너뜁니다.")
-        except Exception as e:
-            print(f"QA 파일 처리 오류 ({file_path}): {e}")
-    if not processed_data:
-        raise ValueError("학습할 유효한 데이터가 없습니다. JSON 파일 내용을 확인하세요.")
-
-    print(f"총 {len(processed_data)}개의 유효한 학습 데이터를 로드했습니다.")
-
-    df = pd.DataFrame(processed_data)
-    train_df, eval_df = train_test_split(df, test_size=0.1, random_state=42)
-    train_dataset = Dataset.from_pandas(train_df)
-    eval_dataset = Dataset.from_pandas(eval_df)
-
-    return train_dataset, eval_dataset
-```
-#### 2. 실제 데이터 로드
-```python
-train_dataset, eval_dataset = load_and_format_data(QA_DATA_DIR)
-
-print(f"\nTrain 셋: {len(train_dataset)}개, Eval 셋: {len(eval_dataset)}개")
-print("\n--- 데이터 로드 및 포맷팅 완료 ---")
-if len(train_dataset) > 0:
-    print("샘플 데이터 (Train):")
-    print(train_dataset[0]['text'])
-```
-
-### 5. SFTTrainer 설정
+### 5. 베이스 모델 및 LoRA 어댑터 Merged 모델 병합
 ```python
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 training_args = TrainingArguments(
