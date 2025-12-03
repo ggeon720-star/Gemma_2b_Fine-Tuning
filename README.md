@@ -56,74 +56,375 @@ What do you want to see at the end? :
 
 # Methodology 
 대략적인 알고리즘
-> 1. 기본 Import / 환경 변수 설정 / 경로 및 모델 ID 설정
-> 2. QLoRA용 설정
-> 3. 모델 및 토크나이저 로드
-> 4. 법률 JSON 데이터를 'Question', 'Answer', 'Commentary'로 텍스트화 
-> 5. SFTTrainer 설정
-> 6. 학습 실행 및 LoRA 어댑터 저장
+> 1. 패키지 설치
+> 2. Google Drive 마운트
+> 3. QLoRA 학습 및 LoRA 어댑터 저장
+> 4. 학습된 LoRA 어댑터를 Drive에 백업 
+> 5. 베이스 모델 및 LoRA 어댑터로 Merged 모델 병합
+> 6. 테스트
 
-### 1. 기본 Import / 환경 변수 설정 / 경로 및 모델 ID 설정
-#### 1. 기본 Import 및 환경 변수 설정
+### 1. 패키지 설치
 ```python
-import torch
+!pip install -q transformers accelerate bitsandbytes peft trl datasets huggingface_hub ipywidgets
+```
+
+### 2. Google Drive 마운트
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+### 3. QLoRA 학습 및 LoRA 어댑터 저장
+#### 1. 라이브러리 임포트 및 로그인
+```python
 import os
-import glob
 import json
-import pandas as pd
-from transformers import (AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, TrainingArguments)
-from peft import LoraConfig, PeftModel, get_peft_model
-from datasets import Dataset, load_dataset
+import random
+import torch
+
+from transformers import (
+    AutoTokenizer,
+    AutoModelForCausalLM,
+    BitsAndBytesConfig,
+    TrainingArguments,
+    EarlyStoppingCallback,
+)
+from peft import LoraConfig
+from datasets import Dataset
 from trl import SFTTrainer
-from sklearn.model_selection import train_test_split
+from huggingface_hub import login
+
+# Hugging Face 액세스 토큰 (실제 사용 시 환경변수 등으로 관리 권장)
+HF_TOKEN = "<YOUR_HF_TOKEN>"
+
+try:
+    login(token=HF_TOKEN)
+    print("✅ HuggingFace 로그인 성공\n")
+except Exception as e:
+    print(f"⚠️  로그인 실패: {e}\n")
 ```
-#### 2. 경로 및 모델 ID 설정
+
+#### 2. 라이브러리 임포트 및 로그인
 ```python
-QA_DATA_DIR = "/content/drive/MyDrive/QA데이터"
-MODEL_ID = "RangDev/gemma-2b-it-legal-sum-ko"
-BASE_MODEL = MODEL_ID
+print("=" * 70)
+print("🎓 한양대학교 길안내 AI 학습 (Colab + QLoRA)")
+print("=" * 70)
 
-OUTPUT_DIR = "/content/drive/MyDrive/gemma_law/gemma-2b-law-finetune"
-ADAPTER_PATH = "/content/drive/MyDrive/gemma_law/gemma-2b-law-lora-adapter"
-MERGED_PATH = "/content/drive/MyDrive/gemma_law/gemma-2b-law-finetuned-merged"
+BASE_DIR = "/content/drive/MyDrive/Gemma_2b_Fine-Tuning"
+DATASET_DIR = BASE_DIR
+
+QA_TRAIN_FILES = [
+    os.path.join(DATASET_DIR, "train_data_1km_messages.json"),
+    os.path.join(DATASET_DIR, "train_data_2km_messages.json"),
+    os.path.join(DATASET_DIR, "train_data_in_messages.json"),
+]
+
+QA_VAL_FILES = [
+    os.path.join(DATASET_DIR, "val_data_1km_messages.json"),
+    os.path.join(DATASET_DIR, "val_data_2km_messages.json"),
+    os.path.join(DATASET_DIR, "val_data_in_messages.json"),
+]
+
+MODEL_ID = "nlpai-lab/ko-gemma-2b-v1"
+OUTPUT_DIR = "/content/output/gemma-2b-hanyang-guide-final"
+ADAPTER_PATH = "/content/output/gemma-2b-hanyang-guide-lora-final"
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(ADAPTER_PATH, exist_ok=True)
+
+print(f"📦 베이스 모델: {MODEL_ID}")
+print(f"💾 출력 경로: {OUTPUT_DIR}")
+print(f"📁 데이터 폴더: {DATASET_DIR}")
+print("=" * 70 + "\n")
 ```
 
-### 2. QLoRA용 설정
-#### 1. BitsAndBytesConfig (4bit 양자화)
+#### 3. GPU 확인
+```python
+print("🖥️  시스템 환경 확인")
+if torch.cuda.is_available():
+    print(f"✅ GPU: {torch.cuda.get_device_name(0)}")
+    print(f"💾 GPU 메모리: {torch.cuda.get_device_properties(0).total_memory / 1024**3:.2f} GB")
+    USE_GPU = True
+else:
+    print("⚠️  GPU를 찾을 수 없습니다. Colab에서 GPU 런타임을 설정하세요.")
+    USE_GPU = False
+print()
+```
+
+#### 4. QLoRA 및 LORA 설정
 ```python
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_quant_type="nf4",
-    bnb_4bit_compute_dtype=torch.bfloat16,
-    bnb_4bit_use_double_quant=False
+    bnb_4bit_compute_dtype=torch.float16,
+    bnb_4bit_use_double_quant=True,
 )
-```
-#### 2. LoRA 설정
-```python
+
 lora_config = LoraConfig(
-    r=16,                                                     # LoRA 랭크
-    lora_alpha=32,                                            # LoRA Scaling Factor
-    lora_dropout=0.05,                                        # 드롭아웃 비율
+    r=16,
+    lora_alpha=32,
+    lora_dropout=0.05,
     target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
     bias="none",
     task_type="CAUSAL_LM",
 )
+
+print("=" * 70)
+print("📋 학습 설정 (QLoRA + LoRA)")
+print("=" * 70)
+print("모델 크기: 2B parameters")
+print("LoRA rank: 16")
+print("LoRA alpha: 32")
+print("=" * 70 + "\n")
 ```
 
-### 3. 모델 & 토크나이저 로드
+#### 5. 모델 및 토크나이저 로드
 ```python
-tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
-if tokenizer.pad_token is None:
-    tokenizer.add_special_tokens({'pad_token': '[PAD]'})
-tokenizer.padding_side = 'right'
+print(f"📦 모델 로드 중... ({MODEL_ID})")
+
+tokenizer = AutoTokenizer.from_pretrained(
+    MODEL_ID,
+    local_files_only=False,
+)
+tokenizer.padding_side = "right"
+
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_ID,
     quantization_config=bnb_config,
     device_map="auto",
-    torch_dtype=torch.bfloat16
+    torch_dtype=torch.float16,
+    local_files_only=False,
 )
-model.resize_token_embeddings(len(tokenizer))
+
+print("✅ 모델 로드 완료")
+print(f"📝 Chat template 존재: {tokenizer.chat_template is not None}")
+print(f"🔢 Vocab size: {tokenizer.vocab_size:,}")
+print()
 ```
+
+#### 6. 데이터셋 로드 (message 포맷)
+```python
+print("=" * 70)
+print("📂 데이터 로드 (messages 포맷)")
+print("=" * 70)
+
+def load_messages_data(file_paths, dataset_type="Train"):
+    """messages 형식 json 파일을 로드하고 chat template로 하나의 text로 변환"""
+    all_texts = []
+
+    for file_path in file_paths:
+        if not os.path.exists(file_path):
+            print(f"⚠️  {file_path} 파일을 찾을 수 없습니다.")
+            continue
+
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            if isinstance(data, list):
+                for item in data:
+                    if "messages" in item and isinstance(item["messages"], list):
+                        try:
+                            text = tokenizer.apply_chat_template(
+                                item["messages"],
+                                tokenize=False,
+                                add_generation_prompt=False,
+                            )
+                            all_texts.append(text)
+                        except Exception as e:
+                            print(f"⚠️  Chat template 적용 실패: {e}")
+                            print(f"   Messages: {item['messages']}")
+                    else:
+                        print(f"⚠️  잘못된 포맷: {item}")
+
+                print(f"✅ {os.path.basename(file_path)}: {len(data)}개 로드")
+            else:
+                print(f"⚠️  {file_path} 형식이 올바르지 않습니다 (list 아님).")
+
+        except Exception as e:
+            print(f"❌ {file_path} 로드 실패: {e}")
+
+    print(f"\n📊 총 {dataset_type} 데이터: {len(all_texts)}개")
+    return all_texts
+
+print("\n[Train 데이터]")
+train_texts = load_messages_data(QA_TRAIN_FILES, "Train")
+
+print("\n[Validation 데이터]")
+val_texts = load_messages_data(QA_VAL_FILES, "Validation")
+
+# Validation 데이터가 없으면 Train에서 10%를 분리
+if not val_texts and train_texts:
+    print("⚠️  Validation 데이터가 없어 Train에서 10%를 분리합니다.")
+    split_idx = int(len(train_texts) * 0.9)
+    val_texts = train_texts[split_idx:]
+    train_texts = train_texts[:split_idx]
+
+train_dataset = Dataset.from_dict({"text": train_texts}) if train_texts else Dataset.from_dict({"text": []})
+eval_dataset = Dataset.from_dict({"text": val_texts}) if val_texts else Dataset.from_dict({"text": []})
+
+print("\n" + "=" * 70)
+print("📊 최종 데이터셋 크기")
+print("=" * 70)
+print(f"Train: {len(train_dataset):,}개")
+print(f"Eval:  {len(eval_dataset):,}개")
+print(f"Total: {len(train_dataset) + len(eval_dataset):,}개")
+print("=" * 70 + "\n")
+
+if len(train_dataset) > 0:
+    print("📝 샘플 데이터:")
+    print("-" * 70)
+    sample_text = train_dataset[0]["text"]
+    print("포맷팅된 텍스트 (처음 500자):")
+    print(sample_text[:500])
+    print("...")
+    print("-" * 70 + "\n")
+else:
+    print("⚠️  Train 데이터가 0개입니다. 경로와 json 구조를 확인하세요.\n")
+```
+
+#### 7. formatting_func 정의
+```python
+def formatting_func(example):
+    """text 필드를 그대로 사용"""
+    return example["text"]
+```
+
+
+
+#### 8. SFTTrainer 설정
+```python
+print("⚙️  Trainer 설정 중...\n")
+
+training_args = TrainingArguments(
+    output_dir=OUTPUT_DIR,
+
+    num_train_epochs=3,
+    per_device_train_batch_size=2,
+    per_device_eval_batch_size=2,
+    gradient_accumulation_steps=8,
+
+    gradient_checkpointing=True,
+    max_grad_norm=1.0,
+
+    optim="paged_adamw_8bit",
+
+    learning_rate=2e-4,
+    lr_scheduler_type="cosine",
+    warmup_ratio=0.03,
+    weight_decay=0.01,
+
+    eval_strategy="steps",
+    eval_steps=100,
+    save_steps=100,
+    save_total_limit=3,
+
+    fp16=True,
+    bf16=False,
+
+    load_best_model_at_end=True,
+    metric_for_best_model="eval_loss",
+    greater_is_better=False,
+
+    logging_dir=f"{OUTPUT_DIR}/logs",
+    logging_steps=10,
+    report_to="tensorboard",
+)
+
+print("=" * 70)
+print("📋 최종 학습 설정 요약")
+print("=" * 70)
+effective_batch = training_args.per_device_train_batch_size * training_args.gradient_accumulation_steps
+print(f"실질 배치 크기: {effective_batch}")
+if len(train_dataset) > 0:
+    total_steps = len(train_dataset) * training_args.num_train_epochs // effective_batch
+else:
+    total_steps = 0
+print(f"예상 스텝 수: {total_steps:,}")
+print(f"학습률: {training_args.learning_rate}")
+print("=" * 70 + "\n")
+
+early_stopping = EarlyStoppingCallback(early_stopping_patience=3)
+
+trainer = SFTTrainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+    eval_dataset=eval_dataset,
+    peft_config=lora_config,
+    formatting_func=formatting_func,
+    callbacks=[early_stopping],
+)
+```
+
+
+
+
+#### 9. Training
+```python
+print("=" * 70)
+print("🚀 학습 시작")
+print("=" * 70)
+print("💡 구성 요약:")
+print("   - messages 포맷 json 6개 사용")
+print("   - tokenizer.apply_chat_template()로 text 생성")
+print("   - QLoRA (4bit) + LoRA")
+print("=" * 70 + "\n")
+
+if len(train_dataset) == 0:
+    print("⚠️  Train 데이터가 0개라 학습을 시작하지 않습니다.")
+else:
+    try:
+        trainer.train()
+
+        print("\n" + "=" * 70)
+        print("✅ 학습 완료")
+        print("=" * 70)
+
+    except KeyboardInterrupt:
+        print("\n⚠️  학습이 중단되었습니다.")
+    except Exception as e:
+        print(f"\n❌ 학습 중 오류 발생: {e}")
+        import traceback
+        traceback.print_exc()
+
+#%% ==========================
+# 9. LoRA 어댑터 저장
+#==============================
+print("\n" + "=" * 70)
+print("💾 LoRA 어댑터 저장")
+print("=" * 70)
+
+try:
+    trainer.model.save_pretrained(ADAPTER_PATH)
+    tokenizer.save_pretrained(ADAPTER_PATH)
+    print(f"✅ 저장 완료: {ADAPTER_PATH}")
+
+    print("\n" + "=" * 70)
+    print("🎉 전체 파이프라인 완료")
+    print("=" * 70)
+    print(f"📁 LoRA 어댑터 경로: {ADAPTER_PATH}")
+    print("\n⚠️  추론 시에도 tokenizer.apply_chat_template()를 사용해야 합니다.")
+    print("=" * 70)
+
+except Exception as e:
+    print(f"❌ 저장 실패: {e}")
+
+print("\n✅ 스크립트 종료")
+print("=" * 70)
+```
+
+#### 7. Formatting_function 정의
+```python
+
+```
+
+#### 7. Formatting_function 정의
+```python
+
+```
+
+
 
 ### 4. 법률 JSON 데이터를 'Question', 'Answer', 'Commentary'로 텍스트화
 #### 1. load_and_format_data 함수 정의
