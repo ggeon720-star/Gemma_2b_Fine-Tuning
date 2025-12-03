@@ -636,8 +636,136 @@ print("\n최종 저장 경로:", MERGED_PATH)
 print("=" * 70)
 ```
 
+### 7. 테스트
+#### 1. 병합 모델 경로 설정
+```python
+MERGED_MODEL_PATH = "/content/drive/MyDrive/Gemma_2b_Merged"
+```
 
+#### 2. 디바이스 설정
+```python
 
+```
+
+#### 2. 디바이스 설정
+```python
+if torch.cuda.is_available():
+    device = "cuda"
+    print(f"✅ GPU 사용: {torch.cuda.get_device_name(0)}")
+else:
+    device = "cpu"
+    print("⚠️ GPU 없음, CPU로 추론합니다. (속도 느릴 수 있음)")
+print()
+```
+
+#### 3. 토크나이저 & 모델 로드
+```python
+print("📦 토크나이저 로드 중...")
+tokenizer = AutoTokenizer.from_pretrained(MERGED_MODEL_PATH)
+print("✅ 토크나이저 로드 완료")
+print(f"   BOS: {repr(tokenizer.bos_token)} (ID: {tokenizer.bos_token_id})")
+print(f"   EOS: {repr(tokenizer.eos_token)} (ID: {tokenizer.eos_token_id})")
+print(f"   PAD: {repr(tokenizer.pad_token)} (ID: {tokenizer.pad_token_id})")
+print(f"   Chat template 존재 여부: {tokenizer.chat_template is not None}")
+print()
+
+print("📦 병합된 모델 로드 중...")
+dtype = torch.float16 if device == "cuda" else torch.float32
+
+model = AutoModelForCausalLM.from_pretrained(
+    MERGED_MODEL_PATH,
+    torch_dtype=dtype,
+    device_map="auto" if device == "cuda" else None,  # GPU 있으면 자동, 없으면 CPU
+)
+model.eval()
+
+print("✅ 모델 로드 완료")
+print(f"   디바이스: {next(model.parameters()).device}")
+print("=" * 70 + "\n")
+```
+
+#### 4. 응답 생성 함수 (chat template)
+```python
+def hanyang_guide_chat(
+    user_query: str,
+    history=None,
+    max_new_tokens: int = 256,
+    temperature: float = 0.7,
+    top_p: float = 0.9,
+    repetition_penalty: float = 1.1,
+):
+    """
+    병합된 Ko-Gemma 한양 길안내 LLM으로 답변 생성.
+    ko-gemma chat_template은 system role을 지원하지 않으므로,
+    system_prompt를 첫 user 발화에 텍스트로 포함시키는 방식 사용.
+    """
+    if history is None:
+        history = []
+
+    # 원래 system으로 넣고 싶던 지침을 그냥 텍스트로 포함
+    system_prompt = (
+        "당신은 한양대학교(서울/ERICA 포함)의 길안내와 건물, 시설 정보를 도와주는 AI입니다. "
+        "모르는 정보는 지어내지 말고 '모르겠습니다'라고 답하세요. "
+        "길을 설명할 때는 랜드마크를 활용해서 차분하고 구체적으로 설명하세요."
+    )
+
+    messages = []
+
+    # 과거 대화 복원 (ko-gemma 템플릿은 user / assistant 조합을 지원)
+    for u, a in history:
+        messages.append({"role": "user", "content": u})
+        messages.append({"role": "assistant", "content": a})
+
+    # 이번 질문: system_prompt를 앞에 붙여서 컨텍스트로 줌
+    full_user_content = system_prompt + "\n\n" + user_query
+    messages.append({"role": "user", "content": full_user_content})
+
+    # Gemma chat template 적용
+    prompt = tokenizer.apply_chat_template(
+        messages,
+        tokenize=False,
+        add_generation_prompt=True,  # 마지막에 <start_of_turn>model\n 추가
+    )
+
+    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+
+    with torch.no_grad():
+        output_ids = model.generate(
+            **inputs,
+            max_new_tokens=max_new_tokens,
+            do_sample=True,
+            temperature=temperature,
+            top_p=top_p,
+            repetition_penalty=repetition_penalty,
+            pad_token_id=tokenizer.eos_token_id,
+            eos_token_id=tokenizer.eos_token_id,
+        )
+
+    gen_ids = output_ids[0][inputs["input_ids"].shape[-1]:]
+    answer = tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
+
+    return answer
+```
+
+#### 5. 간단 테스트
+```python
+test_questions = [
+    "한양대학교 ERICA 정문에서 제2공학관까지 어떻게 가야 해?",
+    "제2공학관 근처에 편의점이나 카페 있어?",
+]
+
+print("=" * 70)
+print("🧪 간단 테스트")
+print("=" * 70)
+
+for i, q in enumerate(test_questions, 1):
+    print(f"\n[질문 {i}] {q}")
+    ans = hanyang_guide_chat(q)
+    print(f"[답변] {ans}")
+    print("-" * 70)
+
+print("\n✅ 테스트 완료. 이제 hanyang_guide_chat(질문) 으로 자유롭게 사용할 수 있습니다.")
+```
 
 
 # LLM의 성능 평가 기준/방식
