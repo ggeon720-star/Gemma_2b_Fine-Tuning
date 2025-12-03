@@ -456,24 +456,189 @@ trainer = SFTTrainer(
 ```
 
 ### 6. 학습 실행 및 LoRA 어댑터 저장, 베이스 모델과 병합
+#### 1. 경로 설정
 ```python
-trainer.train()
-os.makedirs(ADAPTER_PATH, exist_ok=True)
-trainer.model.save_pretrained(ADAPTER_PATH)
+BASE_MODEL = "nlpai-lab/ko-gemma-2b-v1"
 
-base_model = AutoModelForCausalLM.from_pretrained(
-    BASE_MODEL,
-    device_map='auto',
-    torch_dtype=torch.bfloat16
-)
+# ⬇⬇⬇ 여기 두 줄만 네 드라이브 구조에 맞게 수정해줘 ⬇⬇⬇
+ADAPTER_PATH = "/content/drive/MyDrive/Gemma_2b_Fine-Tuning/gemma-2b-hanyang-guide-lora-final"
+MERGED_PATH  = "/content/drive/MyDrive/Gemma_2b_Fine-Tuning/gemma-2b-hanyang-final-merged"
+# ⬆⬆⬆ 폴더 이름/경로만 정확히 맞추면 됨 ⬆⬆⬆
 
-model = PeftModel.from_pretrained(base_model, ADAPTER_PATH, device_map='auto', torch_dtype=torch.bfloat16)
-model = model.merge_and_unload()
+# 어댑터 경로 확인
+if not os.path.exists(ADAPTER_PATH):
+    raise FileNotFoundError(f"❌ 어댑터 폴더를 찾을 수 없습니다: {ADAPTER_PATH}")
 
 os.makedirs(MERGED_PATH, exist_ok=True)
-model.save_pretrained(MERGED_PATH)
-tokenizer.save_pretrained(MERGED_PATH)
+
+print("=" * 70)
+print("🔄 Gemma LoRA → Merged 모델 병합 (Colab/GPU 버전)")
+print("=" * 70)
+print(f"📦 베이스 모델: {BASE_MODEL}")
+print(f"🔗 LoRA 어댑터: {ADAPTER_PATH}")
+print(f"💾 병합 모델 저장 경로: {MERGED_PATH}")
+print("=" * 70 + "\n")
 ```
+
+#### 2. 디바이스 및 메모리 정보
+```python
+if torch.cuda.is_available():
+    device = "cuda"
+    print(f"✅ GPU 사용: {torch.cuda.get_device_name(0)}")
+else:
+    device = "cpu"
+    print("⚠️ GPU를 찾을 수 없습니다. CPU로 병합 시 메모리 부족(OOM)이 날 수 있습니다.")
+
+print()
+```
+
+#### 3. 베이스 모델 및 토크나이저 로드
+```python
+print("1단계: 베이스 모델 로드 중...")
+base_model = AutoModelForCausalLM.from_pretrained(
+    BASE_MODEL,
+    device_map="auto",          # GPU 자동 사용
+    torch_dtype=torch.float16,  # fp16으로 메모리 절약
+)
+
+print("✅ 베이스 모델 로드 완료\n")
+
+print("2단계: 토크나이저 로드 중...")
+# 어댑터 쪽에 저장된 tokenizer를 우선 사용
+tokenizer = AutoTokenizer.from_pretrained(ADAPTER_PATH)
+
+if tokenizer.pad_token is None:
+    tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+    base_model.resize_token_embeddings(len(tokenizer))
+    print("   ⚠️ pad_token이 없어 새로 추가했습니다.")
+
+print("✅ 토크나이저 로드 완료\n")
+```
+
+#### 4. LoRA 어댑터 로드 및 병합
+```python
+print("3단계: LoRA 어댑터 로드 중...")
+model = PeftModel.from_pretrained(
+    base_model,
+    ADAPTER_PATH,
+    device_map="auto"
+)
+print("✅ LoRA 어댑터 로드 완료\n")
+
+print("4단계: merge_and_unload() 실행 중...")
+merged_model = model.merge_and_unload()   # LoRA 가중치를 베이스에 굽기
+merged_model.to(device)
+print("✅ merge_and_unload() 성공\n")
+
+# (선택) PEFT 관련 속성 정리 - 꼭 없어도 되지만 깔끔하게 정리
+attrs_to_remove = [
+    'peft_config',
+    'active_adapter',
+    'active_adapters',
+    '_hf_peft_config_loaded',
+    'peft_type',
+    'base_model_prefix'
+]
+for attr in attrs_to_remove:
+    if hasattr(merged_model, attr):
+        try:
+            delattr(merged_model, attr)
+            print(f"   ✓ {attr} 제거됨")
+        except Exception:
+            pass
+
+print("✅ 속성 정리 완료\n")
+```
+
+#### 5. 병합 모델 저장
+```python
+print("5단계: 병합된 모델 저장 중...")
+
+try:
+    merged_model.save_pretrained(
+        MERGED_PATH,
+        safe_serialization=True,   # safetensors로 저장
+        max_shard_size="2GB",
+    )
+    tokenizer.save_pretrained(MERGED_PATH)
+    print(f"✅ 병합 모델이 {MERGED_PATH} 에 저장되었습니다!\n")
+except Exception as e:
+    print(f"⚠️ safe_serialization 방식 저장 실패: {e}")
+    print("   → PyTorch 기본 포맷으로 다시 저장 시도...")
+    merged_model.save_pretrained(
+        MERGED_PATH,
+        safe_serialization=False,
+        max_shard_size="2GB",
+    )
+    tokenizer.save_pretrained(MERGED_PATH)
+    print(f"✅ PyTorch 포맷으로 {MERGED_PATH} 에 저장 완료!\n")
+
+print("=" * 70)
+print("✅ 모델 병합 완료 (Colab)")
+print("=" * 70)
+```
+
+#### 6. 검증
+```python
+print("\n" + "=" * 70)
+print("🧪 저장된 Merged 모델 검증 (간단 테스트)")
+print("=" * 70)
+
+try:
+    test_tokenizer = AutoTokenizer.from_pretrained(MERGED_PATH)
+    test_model = AutoModelForCausalLM.from_pretrained(
+        MERGED_PATH,
+        device_map="auto",
+        torch_dtype=torch.float16,
+    )
+    test_model.eval()
+    print("✅ 저장된 모델 로드 성공!\n")
+
+    from textwrap import shorten
+
+    test_questions = [
+        "한양대학교 ERICA 정문에서 제2공학관까지 어떻게 가?",
+        "어디에서 학생회관(학생회관 건물)을 찾을 수 있어?"
+    ]
+
+    for i, q in enumerate(test_questions, 1):
+        print(f"[테스트 {i}] Q: {q}")
+        messages = [{"role": "user", "content": q}]
+        prompt = test_tokenizer.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True,
+        )
+        inputs = test_tokenizer(prompt, return_tensors="pt").to(test_model.device)
+
+        with torch.no_grad():
+            out_ids = test_model.generate(
+                **inputs,
+                max_new_tokens=64,
+                temperature=0.7,
+                top_p=0.9,
+                do_sample=True,
+                pad_token_id=test_tokenizer.eos_token_id,
+            )
+
+        gen_ids = out_ids[0][inputs["input_ids"].shape[-1]:]
+        ans = test_tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
+        print("A:", shorten(ans, width=150, placeholder="..."))
+        print("-" * 70)
+
+    print("\n✅ 간단 추론 테스트까지 완료!")
+
+except Exception as e:
+    print(f"⚠️ 검증 중 오류 발생: {e}")
+    print("   (그래도 병합 모델 파일은 MERGED_PATH에 저장되어 있습니다.)")
+
+print("\n최종 저장 경로:", MERGED_PATH)
+print("=" * 70)
+```
+
+
+
+
 
 # LLM의 성능 평가 기준/방식
 ## 1. Intrinsic / Extrinsic Evaluation : 모델이 언어를 얼마나 잘 예측하는지를 수치적으로 평가
