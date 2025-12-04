@@ -101,153 +101,89 @@ os.makedirs(ADAPTER_PATH, exist_ok=True)
 
 #### 3. GPU 확인
 ```python
-print("🖥️  시스템 환경 확인")
 if torch.cuda.is_available():
-    print(f"✅ GPU: {torch.cuda.get_device_name(0)}")
-    print(f"💾 GPU 메모리: {torch.cuda.get_device_properties(0).total_memory / 1024**3:.2f} GB")
     USE_GPU = True
 else:
-    print("⚠️  GPU를 찾을 수 없습니다. Colab에서 GPU 런타임을 설정하세요.")
     USE_GPU = False
-print()
 ```
 
 #### 4. QLoRA 및 LORA 설정
 ```python
-bnb_config = BitsAndBytesConfig(
-    load_in_4bit=True,
-    bnb_4bit_quant_type="nf4",
-    bnb_4bit_compute_dtype=torch.float16,
-    bnb_4bit_use_double_quant=True,
+bnb_config = BitsAndBytesConfig(                               
+    load_in_4bit=True,                                        # 4bit 정밀도로 모델 로드 
+    bnb_4bit_quant_type="nf4",                                # NormalFloat4 양자화 사용 (기존 4bit 방식보다 재현율 높음 -> 품질 더 잘 유지)
+    bnb_4bit_compute_dtype=torch.float16,                     # 실제 연산은 FP16으로 수행
+    bnb_4bit_use_double_quant=True,                           # Double quantization으로, 양자화된 weight를 1번 더 압축 -> 성능 감소 없이 더 작게 저장
 )
 
 lora_config = LoraConfig(
-    r=16,
-    lora_alpha=32,
-    lora_dropout=0.05,
-    target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
-    bias="none",
-    task_type="CAUSAL_LM",
+    r=16,                                                     # LoRA Rank 
+    lora_alpha=32,                                            # LoRA Scaling Factor (통상적으로 Rank의 2배)
+    lora_dropout=0.05,                                        # 과적합 방지
+    target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],  # LoRA를 적용할 모듈 지정 (Attention 내 Projection만 적용)
+    bias="none",                                              # 편향 학습 X
+    task_type="CAUSAL_LM",                                    # Casual Language Model로 학습
 )
-
-print("=" * 70)
-print("📋 학습 설정 (QLoRA + LoRA)")
-print("=" * 70)
-print("모델 크기: 2B parameters")
-print("LoRA rank: 16")
-print("LoRA alpha: 32")
-print("=" * 70 + "\n")
 ```
 
 #### 5. 모델 및 토크나이저 로드
 ```python
-print(f"📦 모델 로드 중... ({MODEL_ID})")
-
-tokenizer = AutoTokenizer.from_pretrained(
+tokenizer = AutoTokenizer.from_pretrained(                    # HuggingFace에서 MODEL_ID에 해당되는 토크나이저 파일 다운
     MODEL_ID,
     local_files_only=False,
 )
-tokenizer.padding_side = "right"
+tokenizer.padding_side = "right"                              # 패딩 방향 설정 (입력 시퀀스를 오른쪽으로 패딩)
 
-model = AutoModelForCausalLM.from_pretrained(
+model = AutoModelForCausalLM.from_pretrained(                 # HuggingFace에서 모델 가중치 다운로드 및 로드
     MODEL_ID,
-    quantization_config=bnb_config,
-    device_map="auto",
-    torch_dtype=torch.float16,
-    local_files_only=False,
+    quantization_config=bnb_config,                           # NF4 기반 QLoRA 설정
+    device_map="auto",                                        # GPU 및 CPU 자동감지
+    torch_dtype=torch.float16,                                # 계산 시 데이터 타입을 FP16으로 설정
+    local_files_only=False,                                   # 로컬에 모델 없을 시 HuggingFace에서 다운 
 )
-
-print("✅ 모델 로드 완료")
-print(f"📝 Chat template 존재: {tokenizer.chat_template is not None}")
-print(f"🔢 Vocab size: {tokenizer.vocab_size:,}")
-print()
 ```
 
 #### 6. 데이터셋 로드 (message 포맷)
 ```python
-print("=" * 70)
-print("📂 데이터 로드 (messages 포맷)")
-print("=" * 70)
-
-def load_messages_data(file_paths, dataset_type="Train"):
-    """messages 형식 json 파일을 로드하고 chat template로 하나의 text로 변환"""
-    all_texts = []
-
+def load_messages_data(file_paths, dataset_type="Train"):                          # JSON 파일들로 내부 메시지를 텍스트로 변환
+    all_texts = []                                                                 # 변환된 텍스트를 누적시킬 리스트
     for file_path in file_paths:
         if not os.path.exists(file_path):
-            print(f"⚠️  {file_path} 파일을 찾을 수 없습니다.")
             continue
-
         try:
-            with open(file_path, "r", encoding="utf-8") as f:
+            with open(file_path, "r", encoding="utf-8") as f:                      # UTF-8로 JSON 파일 읽고, 리스트로 변환
                 data = json.load(f)
-
             if isinstance(data, list):
                 for item in data:
                     if "messages" in item and isinstance(item["messages"], list):
                         try:
-                            text = tokenizer.apply_chat_template(
+                            text = tokenizer.apply_chat_template(                  # 대화형 텍스트 형태로 변환 (message 리스트 -> 하나의 문자열로 합쳐서 사용)
                                 item["messages"],
                                 tokenize=False,
                                 add_generation_prompt=False,
                             )
                             all_texts.append(text)
                         except Exception as e:
-                            print(f"⚠️  Chat template 적용 실패: {e}")
-                            print(f"   Messages: {item['messages']}")
-                    else:
-                        print(f"⚠️  잘못된 포맷: {item}")
-
-                print(f"✅ {os.path.basename(file_path)}: {len(data)}개 로드")
-            else:
-                print(f"⚠️  {file_path} 형식이 올바르지 않습니다 (list 아님).")
-
+                            pass
         except Exception as e:
-            print(f"❌ {file_path} 로드 실패: {e}")
-
-    print(f"\n📊 총 {dataset_type} 데이터: {len(all_texts)}개")
+            pass
     return all_texts
 
-print("\n[Train 데이터]")
-train_texts = load_messages_data(QA_TRAIN_FILES, "Train")
+train_texts = load_messages_data(QA_TRAIN_FILES, "Train")                          # Train용 JSON 3개 파일을 읽은 뒤, 텍스트 리스트 생성
+val_texts = load_messages_data(QA_VAL_FILES, "Validation")                         # Validation용 JSON 3개 파일을 읽은 뒤, 텍스트 리스트 생성
 
-print("\n[Validation 데이터]")
-val_texts = load_messages_data(QA_VAL_FILES, "Validation")
-
-# Validation 데이터가 없으면 Train에서 10%를 분리
-if not val_texts and train_texts:
-    print("⚠️  Validation 데이터가 없어 Train에서 10%를 분리합니다.")
+if not val_texts and train_texts:                                                  # Validation JSON이 없는 경우, Train data를 90/10으로 Split 시키기
     split_idx = int(len(train_texts) * 0.9)
     val_texts = train_texts[split_idx:]
     train_texts = train_texts[:split_idx]
 
-train_dataset = Dataset.from_dict({"text": train_texts}) if train_texts else Dataset.from_dict({"text": []})
+train_dataset = Dataset.from_dict({"text": train_texts}) if train_texts else Dataset.from_dict({"text": []})   # SFTTrainer용 형식으로 변환
 eval_dataset = Dataset.from_dict({"text": val_texts}) if val_texts else Dataset.from_dict({"text": []})
-
-print("\n" + "=" * 70)
-print("📊 최종 데이터셋 크기")
-print("=" * 70)
-print(f"Train: {len(train_dataset):,}개")
-print(f"Eval:  {len(eval_dataset):,}개")
-print(f"Total: {len(train_dataset) + len(eval_dataset):,}개")
-print("=" * 70 + "\n")
-
-if len(train_dataset) > 0:
-    print("📝 샘플 데이터:")
-    print("-" * 70)
-    sample_text = train_dataset[0]["text"]
-    print("포맷팅된 텍스트 (처음 500자):")
-    print(sample_text[:500])
-    print("...")
-    print("-" * 70 + "\n")
-else:
-    print("⚠️  Train 데이터가 0개입니다. 경로와 json 구조를 확인하세요.\n")
 ```
 
 #### 7. formatting_func 정의
 ```python
-def formatting_func(example):
-    """text 필드를 그대로 사용"""
+def formatting_func(example):   # 데이터셋의 1개의 샘플을 받아, 모델에 넘길 형태로 가공
     return example["text"]
 ```
 
@@ -255,57 +191,34 @@ def formatting_func(example):
 
 #### 8. SFTTrainer 설정
 ```python
-print("⚙️  Trainer 설정 중...\n")
-
 training_args = TrainingArguments(
-    output_dir=OUTPUT_DIR,
-
-    num_train_epochs=3,
-    per_device_train_batch_size=2,
-    per_device_eval_batch_size=2,
-    gradient_accumulation_steps=8,
-
-    gradient_checkpointing=True,
-    max_grad_norm=1.0,
-
-    optim="paged_adamw_8bit",
-
-    learning_rate=2e-4,
-    lr_scheduler_type="cosine",
-    warmup_ratio=0.03,
-    weight_decay=0.01,
-
-    eval_strategy="steps",
-    eval_steps=100,
-    save_steps=100,
-    save_total_limit=3,
-
-    fp16=True,
-    bf16=False,
-
-    load_best_model_at_end=True,
-    metric_for_best_model="eval_loss",
+    output_dir=OUTPUT_DIR,              # 학습결과 저장할 폴더
+    num_train_epochs=3,                 # Epoch
+    per_device_train_batch_size=2,      # GPU 1개당 2개 샘플씩 학습에 넣음 (Train)
+    per_device_eval_batch_size=2,       # GPU 1개당 2개 샘플씩 학습에 넣음 (Validation)
+    gradient_accumulation_steps=8,      # 8번 누적한 뒤 업데이트
+    gradient_checkpointing=True,        # 중간 계산을 저장하지 않고 역전파 때 다시 계산 -> 메모리 절약
+    max_grad_norm=1.0,                  # Gradient Clipping 방지
+    optim="paged_adamw_8bit",           # 옵티마이저 (파라미터 업데이트 규칙) 설정 / paged_adamw_8bit
+    learning_rate=2e-4,                 # 학습률
+    lr_scheduler_type="cosine",         # Scheduler (학습률 줄이는 함수)를 Cosine로 설정
+    warmup_ratio=0.03,                  # 전체 스텝의 3% 구간까지는 학습률 0으로 설정
+    weight_decay=0.01,                  # 과적합 방지
+    eval_strategy="steps",              
+    eval_steps=100,                     # 100 Step마다 Validation 실행
+    save_steps=100,                     # 100 Step마다 체크포인트 저장
+    save_total_limit=3,                 # 가장 최근의 체크포인트 3개를 제외한 나머지 삭제
+    fp16=True,                          # 학습을 Float16으로 수행
+    bf16=False,                         
+    load_best_model_at_end=True,        # 학습 종료 후 Validation에서 가장 좋은 성능 체크포인트 로드
+    metric_for_best_model="eval_loss",  # Eval_Loss로 모델 평가 기준 설정
     greater_is_better=False,
-
-    logging_dir=f"{OUTPUT_DIR}/logs",
-    logging_steps=10,
-    report_to="tensorboard",
+    logging_dir=f"{OUTPUT_DIR}/logs",   # 로그 저장 폴더
+    logging_steps=10,                   # 10 Step마다 학습 로그 출력
+    report_to="tensorboard",            # Tensorboard에 로그 기록
 )
 
-print("=" * 70)
-print("📋 최종 학습 설정 요약")
-print("=" * 70)
-effective_batch = training_args.per_device_train_batch_size * training_args.gradient_accumulation_steps
-print(f"실질 배치 크기: {effective_batch}")
-if len(train_dataset) > 0:
-    total_steps = len(train_dataset) * training_args.num_train_epochs // effective_batch
-else:
-    total_steps = 0
-print(f"예상 스텝 수: {total_steps:,}")
-print(f"학습률: {training_args.learning_rate}")
-print("=" * 70 + "\n")
-
-early_stopping = EarlyStoppingCallback(early_stopping_patience=3)
+early_stopping = EarlyStoppingCallback(early_stopping_patience=3)              # Eval_Loss가 3번 이상 향상하지 않는다면 학습 중단
 
 trainer = SFTTrainer(
     model=model,
@@ -323,63 +236,17 @@ trainer = SFTTrainer(
 
 #### 9. Training
 ```python
-print("=" * 70)
-print("🚀 학습 시작")
-print("=" * 70)
-print("💡 구성 요약:")
-print("   - messages 포맷 json 6개 사용")
-print("   - tokenizer.apply_chat_template()로 text 생성")
-print("   - QLoRA (4bit) + LoRA")
-print("=" * 70 + "\n")
-
-if len(train_dataset) == 0:
-    print("⚠️  Train 데이터가 0개라 학습을 시작하지 않습니다.")
-else:
-    try:
-        trainer.train()
-
-        print("\n" + "=" * 70)
-        print("✅ 학습 완료")
-        print("=" * 70)
-
-    except KeyboardInterrupt:
-        print("\n⚠️  학습이 중단되었습니다.")
-    except Exception as e:
-        print(f"\n❌ 학습 중 오류 발생: {e}")
-        import traceback
-        traceback.print_exc()
-
-#%% ==========================
-# 9. LoRA 어댑터 저장
-#==============================
-print("\n" + "=" * 70)
-print("💾 LoRA 어댑터 저장")
-print("=" * 70)
-
+trainer.train()                                  # 위의 설정 따라 학습
 try:
-    trainer.model.save_pretrained(ADAPTER_PATH)
-    tokenizer.save_pretrained(ADAPTER_PATH)
-    print(f"✅ 저장 완료: {ADAPTER_PATH}")
-
-    print("\n" + "=" * 70)
-    print("🎉 전체 파이프라인 완료")
-    print("=" * 70)
-    print(f"📁 LoRA 어댑터 경로: {ADAPTER_PATH}")
-    print("\n⚠️  추론 시에도 tokenizer.apply_chat_template()를 사용해야 합니다.")
-    print("=" * 70)
-
-except Exception as e:
-    print(f"❌ 저장 실패: {e}")
-
-print("\n✅ 스크립트 종료")
-print("=" * 70)
+    trainer.model.save_pretrained(ADAPTER_PATH)  # LoRA 가중치 저장
+    tokenizer.save_pretrained(ADAPTER_PATH)      # 토크나이저 저장 (토큰화된 문장)
 ```
 
 
 ### 4. 학습된 LoRA 어댑터를 Drive에 백업
 ```python
-!mkdir -p /content/drive/MyDrive/Gemma_2B_Trained
-!cp -r /content/output/gemma-2b-hanyang-guide-lora-final /content/drive/MyDrive/Gemma_2B_Trained/
+!mkdir -p /content/drive/MyDrive/Gemma_2B_Trained                                                   # Google Drive에 Gemma_2B_Trained 폴더 생성
+!cp -r /content/output/gemma-2b-hanyang-guide-lora-final /content/drive/MyDrive/Gemma_2B_Trained/   # LoRA Adapter 및 토크나이저 저장
 ```
 
 
