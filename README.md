@@ -28,7 +28,14 @@ What do you want to see at the end? :
 2. 한양대학교 학생들만 알고 있는 '포탈 데이터'를 학습시키기
 3. 누구나 편하게 실행 가능한 파이프라인 정립하기 (학습부터 실행까지) 
 
+# 모델 선정
+
+
+
+
 # Datasets
+
+
 
 # Methodology 
 대략적인 알고리즘
