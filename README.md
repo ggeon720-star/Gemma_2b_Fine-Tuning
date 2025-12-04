@@ -31,7 +31,9 @@ What do you want to see at the end? :
 
 # base-model 모델 선정
 &nbsp; 모델 학습을 진행할 수 있는 환경이 Local PC(RTX 3060ti 8GB VRAM)과 Google Colab(T4 GPU 15GB)로 메모리가 한정되어 있기 때문에 큰 LLM모델을 학습하기에는 무리가 있었습니다. 따라서, 학습을 진행하기 위해서 크기가 작으면서도 성능이 준수한 모델을 선정하는 것이 중요하였으며, 이를 결정하기 위해 아래 NVIDIDA에서 제시한 SLM(Small Language Model)모델 별 초당 토큰 수를 비교한 표를 참고하였습니다.
+
 <img width="896" height="484" alt="image" src="https://github.com/user-attachments/assets/e627db24-fff9-4739-8bd6-cfeae036fe64" />
+
 [&nbsp;](https://www.jetson-ai-lab.com/tutorial_slm.html) 
 
 &nbsp; 저희 프로젝트는 한양대학교의 정보, 특히 길안내 정보에 대해서 안내하는 종합 모델을 만드는 것입니다. 따라서, 이 모델을 활용하기 위해서는 인터넷이나 클라우드 시스템이 아닌, Local 임베디드 시스템에 탑재하여 지정된 장소를 기준으로 길을 안내하는 시스템을 구성하려고 하였습니다. 위의 표는 임베디드 시스템인 NVIDIA Jetson orin nano / AGX orin 에서 SLM모델을 작동시키고 측정한 데이터이기에 활용하여 모델을 선택하는 것이 적합하다고 생각하였습니다. 위의 표를 보았을 때, Google의 Gemma모델이 파라미터 개수가 2B이고 초당 토큰 생성 개수가 27/75개로 크기와 성능에 비해 빠르게 작동한다는 것을 알 수 있습니다.
@@ -45,8 +47,11 @@ https://github.com/KU-HIAI/Ko-Gemma
 
 # Datasets
 &nbsp; 한양대학교 주변 건물들에 대한 길안내 데이터 셋이 존재하지 않기 때문에 자체적으로 제작한 다음 학습을 진행하기로 결정하였습니다. 보다 정확한 데이터셋을 제작하기 위해 Naver API를 기반으로 건물 및 길안내 정보를 수집하고 이를 OPENAI API를 활용해 질문-대답 쌍의 QA데이터셋으로 재구성하여 학습 데이터셋을 생성하였습니다. Naver API의 네이버 지도, 네이버 검색 기능을 활용해 한양대 내부 건물들과 한양대학교 2번출구인 예지문을 기준으로 반경 2km내의 주요 시설들의 이름과 예지문으로부터의 거리, 길안내 경로, 소요 시간 등의 정보를 제공받아 json파일로 1차적인 데이터를 구축하였습니다. 데이터는 다음과 같이 교내 건물 71개, 에지문 기준 반경 1km의 교외 주요 건물 36개, 예지문 기준 반경 1~2km의 교외 주요 건물 62개로 구성하였으며, 건물의 위치 특성에 따라 서로 다른 정보를 담았습니다. 공통적으로는 건물 이름, 소요 시간, 경로 안내 등의 데이터를 담고 있지만, 교내 건물의 경우 건물과 인접한 다른 건물들과의 위치 관계와 건물 번호라는 데이터를, 교외 건물은 건물의 카테고리와 1~2km에 위치한 건물은 대중교통을 이용한 경로 데이터를 추가적으로 구성하였습니다.
+
 <img width="477" height="171" alt="image" src="https://github.com/user-attachments/assets/ce6bd13d-e802-4341-b54a-f29534af89b4" />
+
 &nbsp; Naver API를 이용해 생성한 정보 데이터를 모델 학습을 위한 QA데이터로 재구성하기 위해 OPENAI API를 활용하였습니다. OPENAI API의 GPT-4o-mini의 프롬프트를 통해 한 건물당 40개의 질문-대답 쌍을 생성하였으며, 효율적인 학습을 위해 40개의 질문-대답을 Basic(건물 기본 정보), Route(경로 안내), Location(건물 위치, 주변 건물), Complex(복합 질문) 4개의 type으로 나누어서 구성하였습니다. 이를 통해 정해진 질문이 아닌 다양한 복합 질문에도 자연스러운 응답을 생성할 수 있도록 데이터셋을 구성하였으며, 모델의 overfitting을 방지할 수 있도록 구성하였습니다. 영어 데이터셋은 한국어 데이터셋을 OPENAI API로 번역하여 제작하였으며, Ko-gemma모델의 tokenizer_config.json을 확인해보면, 모델의 학습과 입력 데이터를 message구조로 받는다는 것을 확인하여 이에 맞추어 데이터셋을 messgae구조로 재구성하였으며, 효율적인 학습을 위해 데이터의 순서를 무작위적으로 배치하였습니다. 이 과정을 거쳐 총 13343개의 QA데이터셋을 구성하였으며 모델학습에 사용하였습니다.
+
 <img width="475" height="201" alt="image" src="https://github.com/user-attachments/assets/aca21fb8-d8c4-4026-aa4b-63e2df90dd75" /><img width="352" height="349" alt="image" src="https://github.com/user-attachments/assets/57137563-6c42-46d5-a24e-d4b6813c34e1" />
 
 
