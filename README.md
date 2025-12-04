@@ -32,10 +32,14 @@ What do you want to see at the end? :
 # base-model 모델 선정
 &nbsp; 모델 학습을 진행할 수 있는 환경이 Local PC(RTX 3060ti 8GB VRAM)과 Google Colab(T4 GPU 15GB)로 메모리가 한정되어 있기 때문에 큰 LLM모델을 학습하기에는 무리가 있었습니다. 따라서, 학습을 진행하기 위해서 크기가 작으면서도 성능이 준수한 모델을 선정하는 것이 중요하였으며, 이를 결정하기 위해 아래 NVIDIDA에서 제시한 SLM(Small Language Model)모델 별 초당 토큰 수를 비교한 표를 참고하였습니다.
 <img width="896" height="484" alt="image" src="https://github.com/user-attachments/assets/e627db24-fff9-4739-8bd6-cfeae036fe64" />
-[&nbsp;](https://www.jetson-ai-lab.com/tutorial_slm.html) </n>
+[&nbsp;](https://www.jetson-ai-lab.com/tutorial_slm.html) 
+
 &nbsp; 저희 프로젝트는 한양대학교의 정보, 특히 길안내 정보에 대해서 안내하는 종합 모델을 만드는 것입니다. 따라서, 이 모델을 활용하기 위해서는 인터넷이나 클라우드 시스템이 아닌, Local 임베디드 시스템에 탑재하여 지정된 장소를 기준으로 길을 안내하는 시스템을 구성하려고 하였습니다. 위의 표는 임베디드 시스템인 NVIDIA Jetson orin nano / AGX orin 에서 SLM모델을 작동시키고 측정한 데이터이기에 활용하여 모델을 선택하는 것이 적합하다고 생각하였습니다. 위의 표를 보았을 때, Google의 Gemma모델이 파라미터 개수가 2B이고 초당 토큰 생성 개수가 27/75개로 크기와 성능에 비해 빠르게 작동한다는 것을 알 수 있습니다.
+
 &nbsp; 추가적으로 Gemma-2B모델은 다국어 모델이지만, 한국어 데이터에 대한 학습이 부족하여 한양대학교 길안내라는 특정한 정보에 대한 학습이 부정확할 가능성이 높습니다. 따라서, Gemma-2B-it모델을 한국어 데이터셋으로 파인튜닝한 고려대학교의 Ko-gemma(gemma-ko-2B-v1)모델을 최종 base-model로 선정하여 한양대학교 길안내라는 특정한 한국어 데이터셋에 대한 학습 효율을 높였습니다.
+
 <img width="675" height="279" alt="image" src="https://github.com/user-attachments/assets/2e1480e6-0f2a-494c-b525-90509924d0d5" />
+
 https://github.com/KU-HIAI/Ko-Gemma
 
 
