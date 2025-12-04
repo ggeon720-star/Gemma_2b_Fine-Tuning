@@ -46,72 +46,57 @@ What do you want to see at the end? :
 
 ### 2. Google Drive 마운트
 ```python
-from google.colab import drive
+from google.colab import drive  # Colab에서 Google Drive 연결
 drive.mount('/content/drive')
 ```
 
 ### 3. QLoRA 학습 및 LoRA 어댑터 저장
 #### 1. 라이브러리 임포트 및 로그인
 ```python
-import os
-import json
-import random
-import torch
+import os                           # 파일 / 폴더 경로
+import json                         # JSON 데이터 읽기 및 쓰기
+import random                       # 랜덤 시드 고정
+import torch                        # 파이토치 기반 모델
 
 from transformers import (
-    AutoTokenizer,
-    AutoModelForCausalLM,
-    BitsAndBytesConfig,
-    TrainingArguments,
-    EarlyStoppingCallback,
+    AutoTokenizer,                  # 자동으로 모델에 맞는 토크나이저 로드
+    AutoModelForCausalLM,           # LLM모델 로드
+    BitsAndBytesConfig,             # QLoRA용 4bit / 8bit 양자화 설정
+    TrainingArguments,              # 학습 파라미터 설정
+    EarlyStoppingCallback,          # 성능 상승 한계 -> 학습 중단
 )
-from peft import LoraConfig
-from datasets import Dataset
-from trl import SFTTrainer
-from huggingface_hub import login
+from peft import LoraConfig         # 경량 학습 설정 객체
+from datasets import Dataset        # 데이터 -> Dataset 객체
+from trl import SFTTrainer          # Supervised Fine-Tuning (SFT) 
+from huggingface_hub import login   # HuggingFace 모델 다운로드
 
-# Hugging Face 액세스 토큰 (실제 사용 시 환경변수 등으로 관리 권장)
+# Hugging Face 액세스 토큰 
 HF_TOKEN = "<YOUR_HF_TOKEN>"
-
-try:
-    login(token=HF_TOKEN)
-    print("✅ HuggingFace 로그인 성공\n")
-except Exception as e:
-    print(f"⚠️  로그인 실패: {e}\n")
 ```
 
 #### 2. 라이브러리 임포트 및 로그인
 ```python
-print("=" * 70)
-print("🎓 한양대학교 길안내 AI 학습 (Colab + QLoRA)")
-print("=" * 70)
-
-BASE_DIR = "/content/drive/MyDrive/Gemma_2b_Fine-Tuning"
+BASE_DIR = "/content/drive/MyDrive/Gemma_2b_Fine-Tuning"            # Google Drive에 저장된 파인튜닝 프로젝트 경로
 DATASET_DIR = BASE_DIR
 
 QA_TRAIN_FILES = [
-    os.path.join(DATASET_DIR, "train_data_1km_messages.json"),
-    os.path.join(DATASET_DIR, "train_data_2km_messages.json"),
-    os.path.join(DATASET_DIR, "train_data_in_messages.json"),
+    os.path.join(DATASET_DIR, "train_data_1km_messages.json"),      # 1km 길찾기 Train 데이터
+    os.path.join(DATASET_DIR, "train_data_2km_messages.json"),      # 2km 길찾기 Train 데이터
+    os.path.join(DATASET_DIR, "train_data_in_messages.json"),       # 학교 내 길찾기 Train 데이터
 ]
 
 QA_VAL_FILES = [
-    os.path.join(DATASET_DIR, "val_data_1km_messages.json"),
-    os.path.join(DATASET_DIR, "val_data_2km_messages.json"),
-    os.path.join(DATASET_DIR, "val_data_in_messages.json"),
+    os.path.join(DATASET_DIR, "val_data_1km_messages.json"),        # 1km 길찾기 Validation 데이터
+    os.path.join(DATASET_DIR, "val_data_2km_messages.json"),        # 1km 길찾기 Validation 데이터
+    os.path.join(DATASET_DIR, "val_data_in_messages.json"),         # 1km 길찾기 Validation 데이터
 ]
 
-MODEL_ID = "nlpai-lab/ko-gemma-2b-v1"
-OUTPUT_DIR = "/content/output/gemma-2b-hanyang-guide-final"
-ADAPTER_PATH = "/content/output/gemma-2b-hanyang-guide-lora-final"
+MODEL_ID = "nlpai-lab/ko-gemma-2b-v1"                               # HuggingFace에 올라온 한국어로 Fine-tuning된 Gemma 2B 모델
+OUTPUT_DIR = "/content/output/gemma-2b-hanyang-guide-final"         # 전체 모델 저장할 경로
+ADAPTER_PATH = "/content/output/gemma-2b-hanyang-guide-lora-final"  # LoRA 어댑터 (LoRA 가중치) 저장할 경로
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(ADAPTER_PATH, exist_ok=True)
-
-print(f"📦 베이스 모델: {MODEL_ID}")
-print(f"💾 출력 경로: {OUTPUT_DIR}")
-print(f"📁 데이터 폴더: {DATASET_DIR}")
-print("=" * 70 + "\n")
 ```
 
 #### 3. GPU 확인
