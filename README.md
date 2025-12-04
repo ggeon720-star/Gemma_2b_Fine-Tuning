@@ -29,7 +29,7 @@ What do you want to see at the end? :
 3. 누구나 편하게 실행 가능한 파이프라인 정립하기 (학습부터 실행까지) 
 
 # 모델 선정
-
+&nbsp; 모델 학습을 진행할 수 있는 환경이 Local PC(RTX 3060ti 8GB VRAM)과 Google Colab(T4 GPU 15GB)로 메모리가 한정되어 있기 때문에 큰 LLM모델을 학습하기에는 무리가 있었습니다. 따라서, 모델의 크기가 작고 성능이 준수한 LLM모델을 base-model로 선정하여 학습을 진행하여야 환경에 맞는 LLM모델을 구축할 수 있다고 생각하였습니다. 
 
 
 
