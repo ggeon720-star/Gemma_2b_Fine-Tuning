@@ -617,7 +617,7 @@ for i, q in enumerate(test_questions, 1):
     print("-" * 70)
 
 print("\n✅ 테스트 완료. 이제 hanyang_guide_chat(질문) 으로 자유롭게 사용할 수 있습상
-'''
+```
 
 
 
