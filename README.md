@@ -16,7 +16,7 @@ AI+X 딥러닝 프로젝트
 6. direction for improvement
 7. Model use(additional progress)
   
-# Proposal
+# 1. Proposal
 - 동기 및 목표
   
 &nbsp; 다들 새내기 때에 가고자 하는 건물까지의 경로를 잘 알지 못해 당황했던 경우가 있었을 것입니다. 저희는 교내 건물과 한양대학교 주변 건물에 대한 정보를 안내해주는 챗봇을 만드는데 목적을 두고 프로젝트를 진행하였습니다. 교내 건물들의 위치를 기반으로 경로 데이터셋을 구성하고 이를 Ko-gemma모델을 base-model로 하여 파인튜닝함으로서 한양대 길안내에 특화된 SLM(Small Language Model)을 구성하는데 초점을 두었습니다.
@@ -30,7 +30,7 @@ AI+X 딥러닝 프로젝트
 5. 모델 활용 프로젝트(additional progress)
 
 
-# Base-model
+# 2. Base-model
 &nbsp; 모델 학습을 진행할 수 있는 환경이 Local PC(RTX 3060ti 8GB VRAM)과 Google Colab(T4 GPU 15GB)로 메모리가 한정되어 있기 때문에 큰 LLM모델을 학습하기에는 무리가 있었습니다. 따라서, 학습을 진행하기 위해서 크기가 작으면서도 성능이 준수한 모델을 선정하는 것이 중요하였으며, 이를 결정하기 위해 아래 NVIDIDA에서 제시한 SLM(Small Language Model)모델 별 초당 토큰 수를 비교한 표를 참고하였습니다.
 
 <img width="896" height="484" alt="image" src="https://github.com/user-attachments/assets/e627db24-fff9-4739-8bd6-cfeae036fe64" />
@@ -46,7 +46,7 @@ AI+X 딥러닝 프로젝트
 https://github.com/KU-HIAI/Ko-Gemma
 
 
-# Datasets
+# 3. Datasets
 순서
 >1. 개요
 >2. gpt.py코드 설명
@@ -560,7 +560,7 @@ if __name__ == "__main__":
 
 
 
-# Methodology 
+# 4. Methodology 
 대략적인 알고리즘
 > 1. 패키지 설치
 > 2. Google Drive 마운트
