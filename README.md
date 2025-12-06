@@ -501,11 +501,6 @@ MERGED_MODEL_PATH = "/content/drive/MyDrive/Gemma_2b_Merged"
 
 #### 2. 디바이스 설정
 ```python
-
-```
-
-#### 2. 디바이스 설정
-```python
 if torch.cuda.is_available():
     device = "cuda"
     print(f"✅ GPU 사용: {torch.cuda.get_device_name(0)}")
@@ -621,21 +616,12 @@ for i, q in enumerate(test_questions, 1):
     print(f"[답변] {ans}")
     print("-" * 70)
 
-print("\n✅ 테스트 완료. 이제 hanyang_guide_chat(질문) 으로 자유롭게 사용할 수 있습니다.")
-```
+print("\n✅ 테스트 완료. 이제 hanyang_guide_chat(질문) 으로 자유롭게 사용할 수 있습상
+
+<img width="1224" height="486" alt="image (6)" src="https://github.com/user-attachments/assets/4717a784-7d4a-4407-a1c9-bddfbdd4ab6f" />
 
 
-# 5. Evaluation & Analysis
-
-- 모델 추론 결과
-<img width="928" height="264" alt="image" src="https://github.com/user-attachments/assets/5d3bcaa0-c366-455a-abe2-40b4055aee9b" />
-
-
-
-
-# 6. direction for improvement
-&nbsp; 
-
+<img width="950" height="290" alt="image (7)" src="https://github.com/user-attachments/assets/0f8e502d-980b-43e0-b0ca-fef582abb3ae" />
 
 
 # LLM의 성능 평가 기준/방식
