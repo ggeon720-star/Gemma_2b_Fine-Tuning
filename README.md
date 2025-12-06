@@ -1,5 +1,5 @@
 # QLoRA를 이용한 Gemma-2B의 한양대학교 길안내 특화 파인튜닝 
-AIX 딥러닝 프로젝트
+AI+X 딥러닝 프로젝트
 
 # Members
 - 고재윤, 융합전자공학부, jaeyun2448@naver.com
@@ -26,7 +26,10 @@ What do you want to see at the end? :
 
 1. 한양대학교 서울캠퍼스 길안내에 특화된 대화형 모델 구축 : 사용자의 길안내 요청에 대해 정확하고 자연스러운 경로 설명
 2. 한양대학교 학생들만 알고 있는 '포탈 데이터'를 학습시키기
-3. 누구나 편하게 실행 가능한 파이프라인 정립하기 (학습부터 실행까지) 
+3. 누구나 편하게 실행 가능한 파이프라인 정립하기 (학습부터 실행까지)
+
+
+
 
 
 # base-model 모델 선정
@@ -659,3 +662,74 @@ print("\n✅ 테스트 완료. 이제 hanyang_guide_chat(질문) 으로 자유�
 #### Guo, Z., Jin, R., Liu, C., Huang, Y., Shi, D., Supryadi, Yu, L., Liu, Y., Li, J., Xiong, B., & Xiong, D. (2023, November 25). Evaluating large language models: A comprehensive survey (arXiv pre-print arXiv:2310.19736).
 #### 강봉준, & 김영준. (2025). 국내 법률 LLM의 활용과 연구동향 : 환각과 보안 리스크를 중심으로. 산업기술연구논문지, 30(3), 227-240.
 # Conclusion : Discussion
+
+
+# 모델의 활용
+&nbsp; 제작된 모델은 한양학술타운 프로젝트의 일환으로 사용되었으며, 이에 대해 간단히 소개하려고 합니다.
+
+1. 학술타운 E2E모델 갸요
+2. 양자화 
+3. 보드 탑재 
+4. 결과 
+
+### 학술타운 E2E모델 개요
+&nbsp; 제작된 모델은 학술타운 프로젝트로 진행했었던 Whisper모델과 TTS모델을 결합히여 음성 입력에서 음성 출력으로 내보내는 하나의 E2E모델로 구성하는데 사용하였습니다. Whisper는 ASR모델로 음성 입력을 특정 언어로 번역해주는 딥러닝 모델로, 프로젝트에선 한국어 입력을 받기 더 정확히 인식하기 위해서 한국어 데이터셋으로 파인튜닝을 진행하였으며, 작동원리는 다음과 같습니다.
+
+1. Whisper모델과 VAD를 사용하여 음성 입력이 끝나는 시점을 측정하여 음성인식 후 transcript 진행
+2. 이후 transcript를 LLM의 입력으로 받아 질문에 대한 응답 생성
+3. LLM모델의 응답을 TTS를 이용해 음성으로 출력
+
+&nbsp; 이 E2E모델의 LLM부분에 파인튜닝한 Gemma모델을 사용하였으며, 모든 모델은 NVIDIA Jetson orin nano developer kit(8GB) 임베디드 Device에서 동작시켜 한양대 Local 음성 챗봇을 완성시키려고 하였습니다. 따라서, 8GB RAM에서 네 개의 모델을 동작시키기 위해 LLM모델을 양자화를 진행한 후 탑재하였습니다.
+
+
+### 양자화
+&nbsp; 보드에서 LLM모델을 빠르고 적은 메모리로 작동시키기 위해 llama.cpp을 활용하여 Gemma모델을 INT4 GGUF형태로 양자화를 진행하였습니다. llama.cpp을 LLM모델을 C/C++로 인코딩하여 로컬에서 모델이 적은 메모리로 빠르게 동작하도록 돕는 라이브러리입니다. GGUF형식은 LLM모델에 최적화된 바이너리 파일 형식으로 LLM 로컬 추론에 특화된 가중치 파일 형태입니다. 따라서 llama.cpp의 Q4_0, Q4_K_M, Q4_s의 네 가지 INT4양자화를 진행한 다음 성능을 비교한 후 최종적으로 Q4_K_M모델을 선정하였습니다.
+
+- 양자화 후 용량 비교
+<img width="593" height="588" alt="image" src="https://github.com/user-attachments/assets/e15b60e4-d3ab-420a-947c-be7fe5814227" /><img width="386" height="209" alt="image" src="https://github.com/user-attachments/assets/9eb82b99-3d48-479e-b26a-05a77039cd18" />
+
+
+- 양자화 후 결과 비교
+> 원본모델(Gemma-2b-hanyang-final-merged)
+><img width="928" height="264" alt="image" src="https://github.com/user-attachments/assets/411bbe45-bd81-4d36-9a6e-436be2f73489" />
+
+> gemma-2b-hanyang-Q4_K_M.gguf
+<img width="972" height="235" alt="image" src="https://github.com/user-attachments/assets/49af578d-1bc0-42ae-9891-fabf87ea302e" />
+
+> gemma-2b-hanyang-Q4_0.gguf
+<img width="1188" height="256" alt="image" src="https://github.com/user-attachments/assets/8373a25e-ebe5-4c6b-b1c1-3fe72508822e" />
+
+> gemma-2b-hanyang-Q4_K_s.gguf
+<img width="777" height="246" alt="image" src="https://github.com/user-attachments/assets/913ef302-6df7-4352-9d82-7bb2c97b83ae" />
+
+### 보드 탑재
+&nbsp; NVIDIA Jetson orin nano(8GB) 보드는 1,024개의 CUDA  Core, 32개의 Tensor Core를 가진 AI 추론 및 학습에 특화된 보드로 저전력 및 고속으로 모델을 Local로 동작시키는데 특화되어 있습니다. 모델이 8GB RAM을 가지고 있지만, CPU와 GPU가 하나의 8GB RAM을 공유하기 때문에 RAM용량이 부족하다는 한계가 존재했습니다. 사용가능한 총 RAM 메모리 용량은 6.5GB로 6.5GB내에서 Whisper, VAD, Gemma, TTS모델이 모두 작동할 수 있도록 코드를 설계하였으며, 메모리를 효율적으로 사용하도록 구성하였습니다.
+
+- 보드 구성
+<img width="489" height="322" alt="image" src="https://github.com/user-attachments/assets/55fc32dd-f4cb-4702-815e-46aa62606e59" />
+
+- 보드 내 사용 가능한 메모리 용량
+  <img width="995" height="130" alt="image" src="https://github.com/user-attachments/assets/f8fb59fa-d662-403c-a79b-eaa272f7a6b1" />
+
+  ### 결과
+  &nbsp; 코드를 구성한 후 모델을 작동시킨 결과는 다음과 같습니다. 모델은 Ubuntu기반 노트북에서 SSH통신을 통해 원격으로 보드 내의 코드를 작동시켰습니다.
+
+  - 보드 내 모델 로드
+<img width="686" height="516" alt="image" src="https://github.com/user-attachments/assets/fa20084f-f018-404e-a843-9778da14a375" />
+
+- 실행 결과
+  <img width="621" height="353" alt="image" src="https://github.com/user-attachments/assets/e8732607-5036-4864-bd84-a9e4ea2a697f" />
+
+- 실행 영상
+  <img width="982" height="554" alt="image" src="https://github.com/user-attachments/assets/01aa06a2-f72a-4d8d-8094-56d07259f3a6" />
+
+
+### 마무리
+&nbsp; 이 프로젝트를 통해 상용화가 가능한 E2E모델은 아니었지만, 한양대 음성 길안내 시스템을 구성할 수 있었습니다. 추후에 LLM모델과 TTS모델의 개선을 통해 실제로 설치해서 사용할 수 있는 한양대 Local 음성 챗봇을 만드는 것이 향후 목표입니다.
+
+
+
+
+
+
+
