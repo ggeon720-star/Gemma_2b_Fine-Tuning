@@ -625,6 +625,19 @@ print("\n✅ 테스트 완료. 이제 hanyang_guide_chat(질문) 으로 자유�
 ```
 
 
+# 5. Evaluation & Analysis
+
+- 모델 추론 결과
+<img width="928" height="264" alt="image" src="https://github.com/user-attachments/assets/5d3bcaa0-c366-455a-abe2-40b4055aee9b" />
+
+
+
+
+# 6. direction for improvement
+&nbsp; 
+
+
+
 # LLM의 성능 평가 기준/방식
 ## 1. Intrinsic / Extrinsic Evaluation : 모델이 언어를 얼마나 잘 예측하는지를 수치적으로 평가
 ### - perplextiy
