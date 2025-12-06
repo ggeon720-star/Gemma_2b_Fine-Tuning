@@ -56,24 +56,17 @@ https://github.com/KU-HIAI/Ko-Gemma
 
 <img width="475" height="201" alt="image" src="https://github.com/user-attachments/assets/aca21fb8-d8c4-4026-aa4b-63e2df90dd75" /><img width="309" height="232" alt="image" src="https://github.com/user-attachments/assets/82078196-e280-47b2-bb48-8e6ae61fd689" />
 
-OPENAI API사용 json데이터셋 생성 코드
-gpt,py (교내 건물에 대한 QA데이터셋 생성)
-```
-import json, os
-import re
-from openai import OpenAI
-from tqdm import tqdm
-from time import sleep
-from dotenv import load_dotenv
+OPENAI API사용 json데이터셋 생성 코드 간단 설명
 
+gpt,py (교내 건물에 대한 QA데이터셋 생성)
+
+### 1. 필요한 라이브러리를 로드하고 OPENAI API에서 발급받은 키를 통해 gpt-4o-mini모델 로드
+```
 # .env 파일 로드
 load_dotenv()
 
 # OpenAI API 키 설정
 api_key = os.getenv("OPENAI_API_KEY")
-
-if not api_key:
-    raise ValueError("❌ OPENAI_API_KEY not found in .env file. Please check your .env file.")
 
 model_name = "gpt-4o-mini"
 
@@ -82,23 +75,23 @@ client = OpenAI(api_key=api_key)
 print(f"✓ API key loaded successfully")
 print(f"✓ Using model: {model_name}")
 print(f"✓ Generating bilingual QA pairs (Korean + English)\n")
+'''
 
-
+### 2. NAVER API로 생성한 기초 데이터 json 로드
+```
 def load_input_json(json_path):
     """지정된 경로의 JSON 파일을 읽어 데이터를 반환합니다."""
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
     print(f"Loaded {len(data)} buildings from {json_path}")
     return data
+'''
 
+### 3. 건물 정보당 생성할 정보 type구분
+&nbsp; QA데이터 type은 basic 10개, route 12개, location10개, complex8개로 구성하였으며, 프롬프트를 제작하여 각 type별 구체적인 데이터 구성 방식을 설정하였습니다.
 
 def generate_qa_batch(building_info, batch_type, batch_num, language="korean", max_retries=3):
-    """
-    건물 정보를 바탕으로 특정 유형의 QA 쌍을 배치로 생성합니다.
-    
-    batch_type: 'basic', 'route', 'location', 'complex' 중 하나
-    language: 'korean' 또는 'english'
-    """
+
     building_str = json.dumps(building_info, ensure_ascii=False, indent=2)
     
     # 언어별 설정
@@ -171,7 +164,10 @@ def generate_qa_batch(building_info, batch_type, batch_num, language="korean", m
     }
     
     batch_config = prompts[batch_type]
-    
+'''
+&nbsp; 정확한 프롬프트를 설정하여 자연스러운 데이터셋을 구성하였습니다.
+
+'''
     if language == "korean":
         prompt = f"""
 당신은 한양대학교 캠퍼스 안내 전문가입니다.
@@ -261,7 +257,7 @@ Output ONLY in the following JSON array format:
   }}
 ]
 ```
-
+'''
 Generate exactly {batch_config['count']} QA pairs.
 """
 
@@ -471,9 +467,10 @@ def print_statistics(korean_qa, english_qa):
     print(f"English: {len(english_qa)} ({len(english_qa)/(len(korean_qa)+len(english_qa))*100:.1f}%)")
     
     print("="*70 + "\n")
+'''
 
-
-# --- 메인 실행 로직 ---
+### main함수 구성성
+'''
 if __name__ == "__main__":
     
     # 입력/출력 경로 설정
@@ -559,6 +556,16 @@ if __name__ == "__main__":
         traceback.print_exc()
 ```
 
+### clean.py로 최종 데이터셋 구성
+
+&nbsp; 이 방식을 이용해 교내 건물 뿐만 아니라 예지문 기준 반경 1km의 교외 건물과 예지문 기준 반경 1~2km의 건물도 프롬프트만 수정하여 생성하였습니다. 이후애는 train과 val데이터를 9:1로 나누어 최종적으로 다음 6개의 데이터를 구성하였습니다. 이후는 clean.py를 통해 QA데이터만으로 구성하였으며 Base-model이 요구하는 message형식으로 변형하여 최종 데이터셋을 구성하였습니다.
+
+1. train_data_1km_messages.json (예지문 기준 반경 1km 교외 건물 train 데이터)
+2. train_data_2km_messages.json (예지문 기준 교내 건물 train 데이터)
+3. train_data_in_messages.json (예지문 기준 반경 1km 교외 건물 train 데이터)
+4. val_data_1km_messages.json (예지문 기준 반경 1km 교외 건물 val 데이터)
+5. val_data_2km_messages.json (예지문 기준 반경 1km~2km 교외 건물 val 데이터)
+6. val_data_in_messages.json (예지문 기준 교내 건물 val 데이터)
 
 # Methodology 
 대략적인 알고리즘
