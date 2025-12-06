@@ -824,10 +824,8 @@ trainer = SFTTrainer(
 ```python
 BASE_MODEL = "nlpai-lab/ko-gemma-2b-v1"
 
-# ⬇⬇⬇ 여기 두 줄만 네 드라이브 구조에 맞게 수정해줘 ⬇⬇⬇
 ADAPTER_PATH = "/content/drive/MyDrive/Gemma_2b_Fine-Tuning/gemma-2b-hanyang-guide-lora-final"
 MERGED_PATH  = "/content/drive/MyDrive/Gemma_2b_Fine-Tuning/gemma-2b-hanyang-final-merged"
-# ⬆⬆⬆ 폴더 이름/경로만 정확히 맞추면 됨 ⬆⬆⬆
 
 # 어댑터 경로 확인
 if not os.path.exists(ADAPTER_PATH):
@@ -961,8 +959,8 @@ try:
     from textwrap import shorten
 
     test_questions = [
-        "한양대학교 ERICA 정문에서 제2공학관까지 어떻게 가?",
-        "어디에서 학생회관(학생회관 건물)을 찾을 수 있어?"
+        "역사관 어디 있어?",
+        "Where is the History Hall?"
     ]
 
     for i, q in enumerate(test_questions, 1):
@@ -1045,30 +1043,35 @@ print("=" * 70 + "\n")
 
 #### 4. 응답 생성 함수 (chat template)
 ```python
-def hanyang_guide_chat(
-    user_query: str,
-    history=None,
-    max_new_tokens: int = 256,
-    temperature: float = 0.7,
-    top_p: float = 0.9,
-    repetition_penalty: float = 1.1,
+def generate_response(
+    question, 
+    max_new_tokens=512, 
+    temperature=0.7, 
+    top_p=0.9,
+    repetition_penalty=1.1
 ):
     """
-    병합된 Ko-Gemma 한양 길안내 LLM으로 답변 생성.
-    ko-gemma chat_template은 system role을 지원하지 않으므로,
-    system_prompt를 첫 user 발화에 텍스트로 포함시키는 방식 사용.
+    Ko-Gemma의 chat_template을 사용한 응답 생성
+    
+    chat_template 규칙:
+    - <bos>로 시작
+    - user → user, assistant → model로 변환
+    - add_generation_prompt=True로 <start_of_turn>model\n 추가
     """
+
+    # 토크나이저를 활용하여 prompt 생성
+    prompt = tokenizer.apply_chat_template(
+        messages,
+        tokenize=False,
+        add_generation_prompt=True  # 마지막에 <start_of_turn>model\n 추가
+    )
+
     if history is None:
         history = []
 
-    # 원래 system으로 넣고 싶던 지침을 그냥 텍스트로 포함
-    system_prompt = (
-        "당신은 한양대학교(서울/ERICA 포함)의 길안내와 건물, 시설 정보를 도와주는 AI입니다. "
-        "모르는 정보는 지어내지 말고 '모르겠습니다'라고 답하세요. "
-        "길을 설명할 때는 랜드마크를 활용해서 차분하고 구체적으로 설명하세요."
-    )
-
-    messages = []
+    messages = [
+        {"role": "user", "content": question}
+    ]
 
     # 과거 대화 복원 (ko-gemma 템플릿은 user / assistant 조합을 지원)
     for u, a in history:
@@ -1079,12 +1082,6 @@ def hanyang_guide_chat(
     full_user_content = system_prompt + "\n\n" + user_query
     messages.append({"role": "user", "content": full_user_content})
 
-    # Gemma chat template 적용
-    prompt = tokenizer.apply_chat_template(
-        messages,
-        tokenize=False,
-        add_generation_prompt=True,  # 마지막에 <start_of_turn>model\n 추가
-    )
 
     inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 
@@ -1109,10 +1106,12 @@ def hanyang_guide_chat(
 #### 5. 간단 테스트
 ```python
 test_questions = [
-    "한양대학교 ERICA 정문에서 제2공학관까지 어떻게 가야 해?",
-    "제2공학관 근처에 편의점이나 카페 있어?",
+    "How do I get to the College of Human Sciences from Aeji Gate?",
+    "한양여대 본관에서 행원스퀘어 어떻게 가?",
+    "Which building is further away, HIT or the FTC?",
+    "507관은 뭐야?",
+    "본관은 박물관 어느 쪽에 있어?",
 ]
-
 print("=" * 70)
 print("🧪 간단 테스트")
 print("=" * 70)
