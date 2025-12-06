@@ -9,30 +9,27 @@ AI+X 딥러닝 프로젝트
   
 # Index
 1. Proposal
-2. Datasets
-3. Methodology
-4. Evaluation & Analysis
-5. Related Work
-6. Conclusion: Discussion
+2. Base-model
+3. Datasets
+4. Methodology
+5. Evaluation & Analysis
+6. direction for improvement
+7. Model use(additional process)
   
 # Proposal
-Motivation (Why are you doing this?) :  
+- 동기 및 목표
+&nbsp; 다들 새내기 때에 가고자 하는 건물까지의 경로를 잘 알지 못해 당황했던 경우가 있었을 것입니다. 저희는 교내 건물과 한양대학교 주변 건물에 대한 정보를 안내해주는 챗봇을 만드는데 목적을 두고 프로젝트를 진행하였습니다. 교내 건물들의 위치를 기반으로 경로 데이터셋을 구성하고 이를 Ko-gemma모델을 base-model로 하여 파인튜닝함으로서 한양대 길안내에 특화된 SLM(Small Language Model)을 구성하는데 초점을 두었습니다.
 
-&nbsp; 한양대학교 서울캠퍼스는 평평하지 않은 지형 및 건물끼리 붙어있는 경우가 많아 가고자 하는 건물을 찾기가 어렵습니다. 특히 '2공학관-공학센터 포탈', '사회과학대 포탈' 등을 이용한다면 더 쉽고 빠르게 원하는 장소로 갈 수 있습니다.<br> 
-&nbsp; 하지만 이러한 포탈 정보들은 신입생이나 학교를 처음 방문하신 분들께선 이용하기 어렵고, 고학년들도 익숙하지 않은 경우가 많습니다.<br> 
-&nbsp; 그래서 저희는 이러한 한양대학교 주변의 지역 & 도메인 특화 지식을 이용해, 한양대학교 캠퍼스 내 길안내를 전문적으로 수행하는 대화형 모델을 구축해보자는 결론을 내리게 되었습니다.
+- 진행 과정 개요
 
-What do you want to see at the end? : 
-
-1. 한양대학교 서울캠퍼스 길안내에 특화된 대화형 모델 구축 : 사용자의 길안내 요청에 대해 정확하고 자연스러운 경로 설명
-2. 한양대학교 학생들만 알고 있는 '포탈 데이터'를 학습시키기
-3. 누구나 편하게 실행 가능한 파이프라인 정립하기 (학습부터 실행까지)
+1. 파인튜닝할 Base-model을 선정하고 모델 토크나이저에 맞는 자체적인 한양대 주변 건물 길안내 데이터셋 구축
+2. 생성한 데이터셋을 통해 Ko-과
 
 
 
 
 
-# base-model 모델 선정
+# Base-model
 &nbsp; 모델 학습을 진행할 수 있는 환경이 Local PC(RTX 3060ti 8GB VRAM)과 Google Colab(T4 GPU 15GB)로 메모리가 한정되어 있기 때문에 큰 LLM모델을 학습하기에는 무리가 있었습니다. 따라서, 학습을 진행하기 위해서 크기가 작으면서도 성능이 준수한 모델을 선정하는 것이 중요하였으며, 이를 결정하기 위해 아래 NVIDIDA에서 제시한 SLM(Small Language Model)모델 별 초당 토큰 수를 비교한 표를 참고하였습니다.
 
 <img width="896" height="484" alt="image" src="https://github.com/user-attachments/assets/e627db24-fff9-4739-8bd6-cfeae036fe64" />
@@ -664,7 +661,7 @@ print("\n✅ 테스트 완료. 이제 hanyang_guide_chat(질문) 으로 자유�
 # Conclusion : Discussion
 
 
-# 모델의 활용
+# Model use
 &nbsp; 제작된 모델은 한양학술타운 프로젝트의 일환으로 사용되었으며, 이에 대해 간단히 소개하려고 합니다.
 
 1. 학술타운 E2E모델 갸요
