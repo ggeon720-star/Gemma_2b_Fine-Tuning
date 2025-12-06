@@ -75,7 +75,7 @@ client = OpenAI(api_key=api_key)
 print(f"✓ API key loaded successfully")
 print(f"✓ Using model: {model_name}")
 print(f"✓ Generating bilingual QA pairs (Korean + English)\n")
-'''
+```
 
 ### 2. NAVER API로 생성한 기초 데이터 json 로드
 ```
@@ -85,11 +85,12 @@ def load_input_json(json_path):
         data = json.load(f)
     print(f"Loaded {len(data)} buildings from {json_path}")
     return data
-'''
+```
 
 ### 3. 건물 정보당 생성할 정보 type구분
 &nbsp; QA데이터 type은 basic 10개, route 12개, location10개, complex8개로 구성하였으며, 프롬프트를 제작하여 각 type별 구체적인 데이터 구성 방식을 설정하였습니다.
 
+```
 def generate_qa_batch(building_info, batch_type, batch_num, language="korean", max_retries=3):
 
     building_str = json.dumps(building_info, ensure_ascii=False, indent=2)
@@ -164,20 +165,19 @@ def generate_qa_batch(building_info, batch_type, batch_num, language="korean", m
     }
     
     batch_config = prompts[batch_type]
-'''
+```
+
 &nbsp; 정확한 프롬프트를 설정하여 자연스러운 데이터셋을 구성하였습니다.
 
-'''
+```
     if language == "korean":
         prompt = f"""
 당신은 한양대학교 캠퍼스 안내 전문가입니다.
 아래 건물 정보를 바탕으로 학생들이 실제로 물어볼 법한 자연스러운 질문-답변 쌍을 한국어로 생성해주세요.
+"""
 
 [건물 정보]
-```json
-{building_str}
-```
-
+json {building_str}
 [생성 지침]
 {batch_config['instruction']}
 
@@ -195,7 +195,7 @@ def generate_qa_batch(building_info, batch_type, batch_num, language="korean", m
 [출력 형식]
 반드시 다음 JSON 배열 형식으로만 출력하세요:
 
-```json
+  json
 [
   {{
     "question": "생성된 질문 1",
@@ -210,7 +210,7 @@ def generate_qa_batch(building_info, batch_type, batch_num, language="korean", m
     "building_code": "{building_info.get('building_code', '')}"
   }}
 ]
-```
+
 
 정확히 {batch_config['count']}개의 QA 쌍을 생성해주세요.
 """
@@ -220,9 +220,8 @@ You are a Hanyang University campus guide expert.
 Based on the building information below, generate natural question-answer pairs in English that students would actually ask.
 
 [Building Information]
-```json
-{building_str}
-```
+json{building_str}
+
 
 [Generation Guidelines]
 {batch_config['instruction']}
@@ -256,8 +255,8 @@ Output ONLY in the following JSON array format:
     "building_code": "{building_info.get('building_code', '')}"
   }}
 ]
-```
-'''
+
+
 Generate exactly {batch_config['count']} QA pairs.
 """
 
@@ -467,10 +466,10 @@ def print_statistics(korean_qa, english_qa):
     print(f"English: {len(english_qa)} ({len(english_qa)/(len(korean_qa)+len(english_qa))*100:.1f}%)")
     
     print("="*70 + "\n")
-'''
+```
 
 ### main함수 구성성
-'''
+```
 if __name__ == "__main__":
     
     # 입력/출력 경로 설정
