@@ -688,7 +688,7 @@ print("\n✅ 테스트 완료. 이제 hanyang_guide_chat(질문) 으로 자유�
   
 > 원본모델(Gemma-2b-hanyang-final-merged)
 
-><img width="928" height="264" alt="image" src="https://github.com/user-attachments/assets/411bbe45-bd81-4d36-9a6e-436be2f73489" />
+<img width="928" height="264" alt="image" src="https://github.com/user-attachments/assets/411bbe45-bd81-4d36-9a6e-436be2f73489" />
 
 > gemma-2b-hanyang-Q4_K_M.gguf
 
