@@ -14,7 +14,7 @@ AI+X 딥러닝 프로젝트
 4. Methodology
 5. Evaluation & Analysis
 6. direction for improvement
-7. Model use(additional process)
+7. Model use(additional progress)
   
 # Proposal
 - 동기 및 목표
@@ -23,10 +23,10 @@ AI+X 딥러닝 프로젝트
 - 진행 과정 개요
 
 1. 파인튜닝할 Base-model을 선정하고 모델 토크나이저에 맞는 자체적인 한양대 주변 건물 길안내 데이터셋 구축
-2. 생성한 데이터셋을 통해 Ko-과
-
-
-
+2. 생성한 데이터셋을 통해 모델 파인튜닝 및 전이학습 진행
+3. 모델 학습 결과 분석 및 추론 결과
+4. 모델 성능 향상을 위한 개선 방향 제시
+5. 모델 활용 프로젝트(additional progress)
 
 
 # Base-model
