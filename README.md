@@ -1,4 +1,4 @@
-# QLoRA를 이용한 Gemma-2B의 한양대학교 길안내 특화 파인튜닝 
+# QLoRA를 이용한 Gemma-2B base 한양대학교 길안내 특화 파인튜닝 
 AI+X 딥러닝 프로젝트
 
 # Members
