@@ -625,12 +625,17 @@ print("\n✅ 테스트 완료. 이제 hanyang_guide_chat(질문) 으로 자유�
 - 원본 데이터에서 질문과 응답
 1.
 입력 : "한양플라자 건물 번호가 뭐야?"
+
 정답 : "한양플라자의 건물 번호는 105번이야."
+
 2.
 입력 : "여기서 비트플렉스약국 어떻게 가?"
+
 정답 : "한양대역 2번 출구로 나와서, 1번 출구 방향으로 길을 건너세요. 그 후 왕십리역 방향으로 약 650m를 직진하면 '왕십리역(비트플렉스)' 건물 2층에 위치해 있어요. 도보로 약 14분 정도 걸려요."
+
 3.
 입력 : "What's near the Natural Sciences Building?"
+
 정답 : "The Natural Sciences Building is near the Humanities Hall above and the College of Education below."
 
 - 모델 결과 사진
