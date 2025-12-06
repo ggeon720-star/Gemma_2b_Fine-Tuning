@@ -617,6 +617,9 @@ for i, q in enumerate(test_questions, 1):
     print("-" * 70)
 
 print("\n✅ 테스트 완료. 이제 hanyang_guide_chat(질문) 으로 자유롭게 사용할 수 있습상
+'''
+
+
 
 <img width="1224" height="486" alt="image (6)" src="https://github.com/user-attachments/assets/4717a784-7d4a-4407-a1c9-bddfbdd4ab6f" />
 
