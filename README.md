@@ -61,7 +61,7 @@ OPENAI API사용 json데이터셋 생성 코드 간단 설명
 gpt,py (교내 건물에 대한 QA데이터셋 생성)
 
 ### 1. 필요한 라이브러리를 로드하고 OPENAI API에서 발급받은 키를 통해 gpt-4o-mini모델 로드
-```
+```python
 # .env 파일 로드
 load_dotenv()
 
@@ -78,7 +78,7 @@ print(f"✓ Generating bilingual QA pairs (Korean + English)\n")
 ```
 
 ### 2. NAVER API로 생성한 기초 데이터 json 로드
-```
+```python
 def load_input_json(json_path):
     """지정된 경로의 JSON 파일을 읽어 데이터를 반환합니다."""
     with open(json_path, 'r', encoding='utf-8') as f:
@@ -90,7 +90,7 @@ def load_input_json(json_path):
 ### 3. 건물 정보당 생성할 정보 type구분
 &nbsp; QA데이터 type은 basic 10개, route 12개, location10개, complex8개로 구성하였으며, 프롬프트를 제작하여 각 type별 구체적인 데이터 구성 방식을 설정하였습니다.
 
-```
+```python
 def generate_qa_batch(building_info, batch_type, batch_num, language="korean", max_retries=3):
 
     building_str = json.dumps(building_info, ensure_ascii=False, indent=2)
@@ -169,7 +169,7 @@ def generate_qa_batch(building_info, batch_type, batch_num, language="korean", m
 
 &nbsp; 정확한 프롬프트를 설정하여 자연스러운 데이터셋을 구성하였습니다.
 
-```
+```python
     if language == "korean":
         prompt = f"""
 당신은 한양대학교 캠퍼스 안내 전문가입니다.
@@ -240,7 +240,7 @@ json{building_str}
 [Output Format]
 Output ONLY in the following JSON array format:
 
-```json
+json
 [
   {{
     "question": "Generated question 1",
@@ -469,7 +469,7 @@ def print_statistics(korean_qa, english_qa):
 ```
 
 ### main함수 구성성
-```
+```python
 if __name__ == "__main__":
     
     # 입력/출력 경로 설정
