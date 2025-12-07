@@ -1042,6 +1042,7 @@ for i, q in enumerate(test_questions, 1):
 
 # 5. Evaluation & Analysis
 #### 다음은 모델 학습 과정에 따른 Loss 및 Entropy 입니다.
+
 <img width="1387" height="947" alt="1" src="https://github.com/user-attachments/assets/a43cc64d-807f-402a-b0a6-1debd17e9863" />
 <img width="1387" height="947" alt="2" src="https://github.com/user-attachments/assets/6c692fd8-2af2-4638-a016-dff8823df753" />
 <img width="1408" height="947" alt="3" src="https://github.com/user-attachments/assets/e581cce8-c88e-4ca7-9d4d-a1f591d63c19" />
