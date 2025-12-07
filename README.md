@@ -547,7 +547,21 @@ if __name__ == "__main__":
         traceback.print_exc()
 ```
 
-### 6. clean.py로 최종 데이터셋 구성
+### 6. 코드 실행 결과
+
+- 교내 데이터(gpt1.py)
+
+<img width="615" height="362" alt="image (8)" src="https://github.com/user-attachments/assets/e61b158b-8bec-4931-bfbe-c926aa45da71" />
+
+- 1km 데이터(gpt2.py)
+
+<img width="607" height="361" alt="image (9)" src="https://github.com/user-attachments/assets/bf149755-efce-45b9-b890-8b56f9275276" />
+
+- 1~2km 데이터(gpt3.py)
+
+<img width="623" height="379" alt="image (10)" src="https://github.com/user-attachments/assets/58b9293d-bcc1-46f1-af52-ba0d7e3bae79" />
+
+### 7. clean.py로 최종 데이터셋 구성
 
 &nbsp; 이 방식을 이용해 교내 건물 뿐만 아니라 애지문 기준 반경 1km의 교외 건물과 애지문 기준 반경 1~2km의 건물도 프롬프트만 수정하여 생성하였습니다. 이후애는 train과 val데이터를 9:1로 나누어 최종적으로 다음 6개의 데이터를 구성하였습니다. 이후는 clean.py를 통해 QA데이터만으로 구성하였으며 Base-model이 요구하는 message형식으로 변형하여 최종 데이터셋을 구성하였습니다.
 
@@ -557,6 +571,9 @@ if __name__ == "__main__":
 4. val_data_1km_messages.json (애지문 기준 반경 1km 교외 건물 val 데이터)
 5. val_data_2km_messages.json (애지문 기준 반경 1km~2km 교외 건물 val 데이터)
 6. val_data_in_messages.json (애지문 기준 교내 건물 val 데이터)
+
+
+
 
 
 
