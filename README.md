@@ -1105,40 +1105,10 @@ for i, q in enumerate(test_questions, 1):
 
 
 
-# LLM의 성능 평가 기준/방식
-## 1. Intrinsic / Extrinsic Evaluation : 모델이 언어를 얼마나 잘 예측하는지를 수치적으로 평가
-### - perplextiy
-#### <img width="172" height="42" alt="image" src="https://github.com/user-attachments/assets/6155d5ed-3fab-4560-9378-0f369d9841b3" />
-#### N은 총 토큰 수 p(x_i)는 x_i번째 정답 토큰을 이 모델이 맞출 확률
-#### 평균적으로 모델이 정답 토큰에 대해 얼마나 낮은 혼란도를 갖는지 계산함
-
-## 2. Task-based Evaluation 모델의 실제 문제 해결 능력을 평가하는 지표
-### - MMLU
-#### 57개 분야의 시험 문제의 정확도를 평가
-#### 사람 / GPT-4등의 수준 비교에 사용
-
-### - GSM8K
-#### Grade-school math 문제 풀이 정확도를 평가
-#### LLM의 수학적 추론을 직접적으로 평가함
-
-### - ARC / HellaSwag / WinoGrande 등...
-
-## 3. Safty / Alignment Evaluation
-### - Hallucination Rate
-#### 모델의 출력이 사실과 맞지 않을 때의 비율
-#### 오류 응답 수 / 전체 응답 수
-
-## 4. Text Genration Quality
-### - BLEU
-#### n-gram precision 기반
-#### <img width="172" height="42" alt="518252181-4e280d64-cc25-4b3b-a31b-2fcd956d9266" src="https://github.com/user-attachments/assets/b5694356-043b-4605-8d55-d306905199de" />
-#### p_n은 예측 문장과 참조 문장에서 일치한 수 / 예측문장의 전체 n-gram 수 / w_n은 가중치
-
-## 5. System-level Evaluation
 
 # Related Work (e.g., existing studies)
 #### Guo, Z., Jin, R., Liu, C., Huang, Y., Shi, D., Supryadi, Yu, L., Liu, Y., Li, J., Xiong, B., & Xiong, D. (2023, November 25). Evaluating large language models: A comprehensive survey (arXiv pre-print arXiv:2310.19736).
-#### 강봉준, & 김영준. (2025). 국내 법률 LLM의 활용과 연구동향 : 환각과 보안 리스크를 중심으로. 산업기술연구논문지, 30(3), 227-240.
+#### 안효준, 김지호, 전정운, 박혜연, 최성필. (2025). 지식증류와 LoRA 기반 튜닝을 활용한 LLM 경량화 및 뉴스 요약 성능 평가. 2025 한국컴퓨터종합학술대회 논문집, 599–601.
 
 
 # Model use
