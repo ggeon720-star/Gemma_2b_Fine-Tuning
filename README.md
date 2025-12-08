@@ -1108,7 +1108,7 @@ for i, q in enumerate(test_questions, 1):
 
 
 # 7. Model use
-&nbsp; 제작된 모델은 한양학술타운 프로젝트의 일환으로 사용되었으며, 이에 대해 간단히 소개하려고 합니다.
+&nbsp; 제작된 모델은 한양학술타운 프로젝트에서 진행한 내용을 발전시키는 데에에 사용되었으며, 이에 대해 간단히 소개하려고 합니다.
 
 ##### 1. 학술타운 E2E모델 개요
 ##### 2. 양자화 후 보드 탑재 
@@ -1166,7 +1166,7 @@ for i, q in enumerate(test_questions, 1):
   
 <img width="621" height="353" alt="image" src="https://github.com/user-attachments/assets/e8732607-5036-4864-bd84-a9e4ea2a697f" />
 
-- 실행 영상
+- LLM 결합 실행 영상
   
 https://github.com/user-attachments/assets/cf74bdcc-a74e-4a7b-aecc-20a81747ff87
 
