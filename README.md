@@ -1193,7 +1193,7 @@ https://github.com/architectyou/gemma-2-ko-QA-Instruct/blob/main/dataset_maker.p
 
 ### 인원별 프로젝트 활동 내용
 
-고재윤 : API를 활용하여 데이터 생성 코드 구현 및 데이터셋 구축, Local (RTX 3060Ti VRAM 8GB) 학습 코드 구현 및 학습 진행, Local 및 보드(NVIDIA Jetson orin nano) 내에서 모델 작동 및 양자화 후 활용, 블로그 내 Proposal, Dataset, direction for improvement, Model use 및 결과 작성
+고재윤 : API를 활용하여 데이터 생성 코드 구현 및 데이터셋 구축, Local 학습 코드 구현 및 학습 진행, Local 및 보드 내에서 모델 작동 및 활용, 블로그 내 Proposal, Dataset, direction for improvement, Model use 및 결과 작성
 
 권성근
 
