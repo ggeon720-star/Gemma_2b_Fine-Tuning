@@ -53,6 +53,7 @@ https://github.com/KU-HIAI/Ko-Gemma
 >2. gpt.py코드 설명
 >3. clean.py로 최종 데아터셋 생성
 
+### 1. 개요요
 
 &nbsp; 한양대학교 주변 건물들에 대한 길안내 데이터 셋이 존재하지 않기 때문에 자체적으로 제작한 다음 학습을 진행하기로 결정하였습니다. 보다 정확한 데이터셋을 제작하기 위해 Naver API를 기반으로 건물 및 길안내 정보를 수집하고 이를 OPENAI API를 활용해 질문-대답 쌍의 QA데이터셋으로 재구성하여 학습 데이터셋을 생성하였습니다. Naver API의 네이버 지도, 네이버 검색 기능을 활용해 한양대 내부 건물들과 한양대학교 2번출구인 애지문을 기준으로 반경 2km내의 주요 시설들의 이름과 애지문으로부터의 거리, 길안내 경로, 소요 시간 등의 정보를 제공받아 json파일로 1차적인 데이터를 구축하였습니다. 데이터는 다음과 같이 교내 건물 71개, 에지문 기준 반경 1km의 교외 주요 건물 36개, 애지문 기준 반경 1-2km의 교외 주요 건물 62개로 구성하였으며, 건물의 위치 특성에 따라 서로 다른 정보를 담았습니다. 공통적으로는 건물 이름, 소요 시간, 경로 안내 등의 데이터를 담고 있지만, 교내 건물의 경우 건물과 인접한 다른 건물들과의 위치 관계와 건물 번호라는 데이터를, 교외 건물은 건물의 카테고리와 1-2km에 위치한 건물은 대중교통을 이용한 경로 데이터를 추가적으로 구성하였습니다. NAVER API로 생성한 데이터는 raw_campus.json, raw_2km_en_ko.json, raw_1km_en_ko.json로 구성하여 사용하였습니다.
 
@@ -69,12 +70,10 @@ https://github.com/KU-HIAI/Ko-Gemma
 
 OPENAI API사용 json데이터셋 생성 코드 간단 설명
 
-## 2. gpt,py코드 설명 (교내 건물에 대한 QA데이터셋 생성)
-
-OPENAI API사용 json데이터셋 생성 코드 간단 설명
+### 2. gpt.py코드 설명 (교내 건물에 대한 QA데이터셋 생성)
 
 
-gpt.py 대략적인 알고리즘
+&nbsp; gpt.py 대략적인 알고리즘
 > 1. 필요한 라이브러리를 로드하고 OPENAI API에서 발급받은 키를 통해 gpt-4o-mini모델 로드
 > 2. NAVER API로 생성한 기초 데이터 json 로드
 > 3. 건물 정보당 생성할 정보 type구분
@@ -82,7 +81,7 @@ gpt.py 대략적인 알고리즘
 > 5. 위의 함수를 이용한 최종 main함수 구성
 > 6. clean.py로 최종 데이터셋 구성
 
-### 1. 필요한 라이브러리를 로드하고 OPENAI API에서 발급받은 키를 통해 gpt-4o-mini모델 로드
+### 1) 필요한 라이브러리를 로드하고 OPENAI API에서 발급받은 키를 통해 gpt-4o-mini모델 로드
 ```python
 # .env 파일 로드
 load_dotenv()
@@ -99,7 +98,7 @@ print(f"✓ Using model: {model_name}")
 print(f"✓ Generating bilingual QA pairs (Korean + English)\n")
 ```
 
-### 2. NAVER API로 생성한 기초 데이터 json 로드
+### 2) NAVER API로 생성한 기초 데이터 json 로드
 ```python
 def load_input_json(json_path):
     """지정된 경로의 JSON 파일을 읽어 데이터를 반환합니다."""
@@ -109,7 +108,7 @@ def load_input_json(json_path):
     return data
 ```
 
-### 3. 건물 정보당 생성할 정보 type구분
+### 3) 건물 정보당 생성할 정보 type구분
 &nbsp; QA데이터 type은 basic 10개, route 12개, location10개, complex8개로 구성하였으며, 프롬프트를 제작하여 각 type별 구체적인 데이터 구성 방식을 설정하였습니다. 또한 자세한 규칙을 지정하여 gpt-4o-mini가 정확한 데이터셋을 구성할 수 있도록 설정하였습니다.
 
 ```python
@@ -301,7 +300,7 @@ Generate exactly {batch_config['count']} QA pairs.
                     continue
                 return []
 ```          
-### 4. 규칙에 맞는 최종 데이터셋을 json파일로 생성
+### 4) 규칙에 맞는 최종 데이터셋을 json파일로 생성
 ```python
 def generate_qa_pairs_for_building(building_info, language="korean"):
     """
@@ -465,7 +464,7 @@ def print_statistics(korean_qa, english_qa):
     print("="*70 + "\n")
 ```
 
-### 5. 위의 함수를 이용한 최종 main함수 구성
+### 5) 위의 함수를 이용한 최종 main함수 구성
 ```python
 if __name__ == "__main__":
     
@@ -552,7 +551,7 @@ if __name__ == "__main__":
         traceback.print_exc()
 ```
 
-### 6. 코드 실행 결과
+### 6) 코드 실행 결과
 
 - 교내 데이터(gpt1.py)
 
@@ -566,7 +565,7 @@ if __name__ == "__main__":
 
 <img width="623" height="379" alt="image (10)" src="https://github.com/user-attachments/assets/58b9293d-bcc1-46f1-af52-ba0d7e3bae79" />
 
-### 7. clean.py로 최종 데이터셋 구성
+### 7) clean.py로 최종 데이터셋 구성
 
 &nbsp; 이 방식을 이용해 교내 건물 뿐만 아니라 애지문 기준 반경 1km의 교외 건물과 애지문 기준 반경 1~2km의 건물도 프롬프트만 수정하여 생성하였습니다. 이후애는 train과 val데이터를 9:1로 나누어 최종적으로 다음 6개의 데이터를 구성하였습니다. 이후는 clean.py를 통해 QA데이터만으로 구성하였으며 Base-model이 요구하는 message형식으로 변형하여 최종 데이터셋을 구성하였습니다.
 
