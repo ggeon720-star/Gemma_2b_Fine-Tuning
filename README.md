@@ -1107,15 +1107,14 @@ for i, q in enumerate(test_questions, 1):
 # 7. Model use
 &nbsp; 제작된 모델은 한양학술타운 프로젝트의 일환으로 사용되었으며, 이에 대해 간단히 소개하려고 합니다.
 
-1. 학술타운 E2E모델 갸요
-2. 양자화 
-3. 보드 탑재 
-4. 결과 
+##### 1. 학술타운 E2E모델 개요
+##### 2. 양자화 후 보드 탑재 
+##### 3. 결과 
 
-### 학술타운 E2E모델 개요
+### 1) 학술타운 E2E모델 개요
 &nbsp; 제작된 모델은 학술타운 프로젝트로 진행했었던 Whisper모델과 TTS모델을 결합히여 음성 입력에서 음성 출력으로 내보내는 하나의 E2E모델로 구성하는데 사용하였습니다. Whisper는 ASR모델로 음성 입력을 특정 언어로 번역해주는 딥러닝 모델로, 프로젝트에선 한국어 입력을 받기 더 정확히 인식하기 위해서 한국어 데이터셋으로 파인튜닝을 진행하였으며, 작동원리는 다음과 같습니다.
 
-1. Whisper모델과 VAD행
+1. Whisper모델과 VAD
 
 <img width="386" height="209" alt="image" src="https://github.com/user-attachments/assets/9eb82b99-3d48-479e-b26a-05a77039cd18" />
 
@@ -1142,7 +1141,7 @@ for i, q in enumerate(test_questions, 1):
 
 <img width="777" height="246" alt="image" src="https://github.com/user-attachments/assets/913ef302-6df7-4352-9d82-7bb2c97b83ae" />
 
-### 보드 탑재
+### 2. 양자화 후 보드 탑재
 &nbsp; NVIDIA Jetson orin nano(8GB) 보드는 1,024개의 CUDA  Core, 32개의 Tensor Core를 가진 AI 추론 및 학습에 특화된 보드로 저전력 및 고속으로 모델을 Local로 동작시키는데 특화되어 있습니다. 모델이 8GB RAM을 가지고 있지만, CPU와 GPU가 하나의 8GB RAM을 공유하기 때문에 RAM용량이 부족하다는 한계가 존재했습니다. 사용가능한 총 RAM 메모리 용량은 6.5GB로 6.5GB내에서 Whisper, VAD, Gemma, TTS모델이 모두 작동할 수 있도록 코드를 설계하였으며, 메모리를 효율적으로 사용하도록 구성하였습니다. 
 
 - 보드 구성
@@ -1153,7 +1152,7 @@ for i, q in enumerate(test_questions, 1):
   
 <img width="995" height="130" alt="image" src="https://github.com/user-attachments/assets/f8fb59fa-d662-403c-a79b-eaa272f7a6b1" />
 
-### 결과
+### 3) 결과
 &nbsp; 코드를 구성한 후 모델을 작동시킨 결과는 다음과 같습니다. 모델은 Ubuntu기반 노트북에서 SSH통신을 통해 원격으로 보드 내의 코드를 작동시켰습니다. 사용한 TTS 모델이 영어 base 모델이며 기계음의 부자연스러운 출력이 발생하여 추후에 모델 선정을 통해 교체할 생각입니다.
 
 - 보드 내 모델 로드
