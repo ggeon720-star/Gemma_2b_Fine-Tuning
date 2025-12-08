@@ -1200,7 +1200,7 @@ https://github.com/architectyou/gemma-2-ko-QA-Instruct/blob/main/dataset_maker.p
 
 권성근
 
-신준희
+신준희 : Colab 학습 코드 구현 및 학습 진행 / Blog-In-Progress 작성 / Blog Repository 관리 및 Methology, Analysis 작성 / 프로젝트 회의 주도
 
 한인권
 
