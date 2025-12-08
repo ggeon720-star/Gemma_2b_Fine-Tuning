@@ -1104,11 +1104,23 @@ for i, q in enumerate(test_questions, 1):
 
 
 
-
-
 # Related Work (e.g., existing studies)
-#### Guo, Z., Jin, R., Liu, C., Huang, Y., Shi, D., Supryadi, Yu, L., Liu, Y., Li, J., Xiong, B., & Xiong, D. (2023, November 25). Evaluating large language models: A comprehensive survey (arXiv pre-print arXiv:2310.19736).
-#### 안효준, 김지호, 전정운, 박혜연, 최성필. (2025). 지식증류와 LoRA 기반 튜닝을 활용한 LLM 경량화 및 뉴스 요약 성능 평가. 2025 한국컴퓨터종합학술대회 논문집, 599–601.
+### 1. Hugging face Blog (Fine-Tuning Gemma Models in Hugging Face)
+&nbsp; gemma-2b 모델을 base로 파인튜닝을 진행하였기 때문에 허깅페이스에 제시된 gemma finetuning방법을 참고하였습니다. 이 블로그를 참고하여 LoRA를 활용해 gemma모델을 파인튜닝할 수 있음을 알게 되었으며, gemma모델에 대한 기본적인 정보와 성능에 대해서 알게 되었습니다.
+
+https://huggingface.co/blog/gemma-peft
+
+https://huggingface.co/blog/gemma-july-update
+
+### 2. QLoRA를 활용해 gemma모델 학습하기 블로그
+&nbsp; QLoRA를 활용해 gemma모델을 한국어 뉴스기사 요약 데이터를 활용해 파인튜닝한 내용을 다룬 블로그를 활용해 전반적인 코드 구성을 설계하였습니다. 이 블로그에서 QLoRA와 STFTrainer를 활용해 모델을 학습시킨 것을 보고 적용하였으며, 학습 인수 및 전반적인 내용에 대해 공부하였습니다.
+
+https://blog.naver.com/dgkim1108/223846263977
+
+### 3. gemma-ko-instruction 코드를 활용한 데이터 생성 코드
+&nbsp; gemma 모델을 파인튜닝하기 위해 OPENAI API를 활용해 데이터를 추가적으로 생성했던 프로젝트를 참고하여 OPENAI API를 활용해 데이터셋을 생성하는 아이디어를 얻었습니다. 이 코드는 법률 정보에 대한 추가적인 데이터를 얻기 위해 OPENAI API를 활용했으며, 저희는 추가적으로 위치 정보에 대한 데이터를 얻기 위해 NAVER API를 추가적으로 활용하였습니다.
+
+https://github.com/architectyou/gemma-2-ko-QA-Instruct/blob/main/dataset_maker.py
 
 
 # Model use
