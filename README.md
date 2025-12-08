@@ -15,6 +15,7 @@ AI+X 딥러닝 프로젝트
 5. Evaluation & Analysis
 6. direction for improvement
 7. Model use(additional progress)
+8. Related work
   
 # 1. Proposal
 - 동기 및 목표
@@ -1103,27 +1104,7 @@ for i, q in enumerate(test_questions, 1):
  개선 방안 : GPU자원 확보를 통해 QLoRA에서 16비트 또는 QLoRA대신 LoRA만을 사용하여 학습을 진행하면 학습 정확도와 merge과정에서 원본 모델의 기능을 그대로 사용할 수 있습니다. 또한 LoRA Rank를 보다 크게 설정하여 정확한 학습을 진행하여 성능 향상에 기여할 수 있다고 기대됩니다.
 
 
-
-# Related Work (e.g., existing studies)
-### 1. Hugging face Blog (Fine-Tuning Gemma Models in Hugging Face)
-&nbsp; gemma-2b 모델을 base로 파인튜닝을 진행하였기 때문에 허깅페이스에 제시된 gemma finetuning방법을 참고하였습니다. 이 블로그를 참고하여 LoRA를 활용해 gemma모델을 파인튜닝할 수 있음을 알게 되었으며, gemma모델에 대한 기본적인 정보와 성능에 대해서 알게 되었습니다.
-
-https://huggingface.co/blog/gemma-peft
-
-https://huggingface.co/blog/gemma-july-update
-
-### 2. QLoRA를 활용해 gemma모델 학습하기 블로그
-&nbsp; QLoRA를 활용해 gemma모델을 한국어 뉴스기사 요약 데이터를 활용해 파인튜닝한 내용을 다룬 블로그를 활용해 전반적인 코드 구성을 설계하였습니다. 이 블로그에서 QLoRA와 STFTrainer를 활용해 모델을 학습시킨 것을 보고 적용하였으며, 학습 인수 및 전반적인 내용에 대해 공부하였습니다.
-
-https://blog.naver.com/dgkim1108/223846263977
-
-### 3. gemma-ko-instruction 코드를 활용한 데이터 생성 코드
-&nbsp; gemma 모델을 파인튜닝하기 위해 OPENAI API를 활용해 데이터를 추가적으로 생성했던 프로젝트를 참고하여 OPENAI API를 활용해 데이터셋을 생성하는 아이디어를 얻었습니다. 이 코드는 법률 정보에 대한 추가적인 데이터를 얻기 위해 OPENAI API를 활용했으며, 저희는 추가적으로 위치 정보에 대한 데이터를 얻기 위해 NAVER API를 추가적으로 활용하였습니다.
-
-https://github.com/architectyou/gemma-2-ko-QA-Instruct/blob/main/dataset_maker.py
-
-
-# Model use
+# 7. Model use
 &nbsp; 제작된 모델은 한양학술타운 프로젝트의 일환으로 사용되었으며, 이에 대해 간단히 소개하려고 합니다.
 
 1. 학술타운 E2E모델 갸요
@@ -1191,9 +1172,30 @@ https://github.com/user-attachments/assets/cf74bdcc-a74e-4a7b-aecc-20a81747ff87
 ### 마무리
 &nbsp; 이 프로젝트를 통해 상용화가 가능한 E2E모델은 아니었지만, 한양대 음성 길안내 시스템을 구성할 수 있었습니다. 추후에 LLM모델과 TTS모델의 개선을 통해 실제로 설치해서 사용할 수 있는 한양대 Local 음성 챗봇을 만드는 것이 향후 목표입니다.
 
+
+# 8. Related Work (e.g., existing studies)
+### 1. Hugging face Blog (Fine-Tuning Gemma Models in Hugging Face)
+&nbsp; gemma-2b 모델을 base로 파인튜닝을 진행하였기 때문에 허깅페이스에 제시된 gemma finetuning방법을 참고하였습니다. 이 블로그를 참고하여 LoRA를 활용해 gemma모델을 파인튜닝할 수 있음을 알게 되었으며, gemma모델에 대한 기본적인 정보와 성능에 대해서 알게 되었습니다.
+
+https://huggingface.co/blog/gemma-peft
+
+https://huggingface.co/blog/gemma-july-update
+
+### 2. QLoRA를 활용해 gemma모델 학습하기 블로그
+&nbsp; QLoRA를 활용해 gemma모델을 한국어 뉴스기사 요약 데이터를 활용해 파인튜닝한 내용을 다룬 블로그를 활용해 전반적인 코드 구성을 설계하였습니다. 이 블로그에서 QLoRA와 STFTrainer를 활용해 모델을 학습시킨 것을 보고 적용하였으며, 학습 인수 및 전반적인 내용에 대해 공부하였습니다.
+
+https://blog.naver.com/dgkim1108/223846263977
+
+### 3. gemma-ko-instruction 코드를 활용한 데이터 생성 코드
+&nbsp; gemma 모델을 파인튜닝하기 위해 OPENAI API를 활용해 데이터를 추가적으로 생성했던 프로젝트를 참고하여 OPENAI API를 활용해 데이터셋을 생성하는 아이디어를 얻었습니다. 이 코드는 법률 정보에 대한 추가적인 데이터를 얻기 위해 OPENAI API를 활용했으며, 저희는 추가적으로 위치 정보에 대한 데이터를 얻기 위해 NAVER API를 추가적으로 활용하였습니다.
+
+https://github.com/architectyou/gemma-2-ko-QA-Instruct/blob/main/dataset_maker.py
+
+
 ### 인원별 프로젝트 활동 내용
 
-고재윤 : API를 활용하여 데이터 생성 코드 구현 및 데이터셋 구축, Local (RTX 3060Ti VRAM 8GB) 학습 코드 구현 및 학습 진행, Local 및 보드(NVIDIA Jetson orin nano) 내에서 모델 작동 및 활용, 문제점 및 개선방향 제시
+고재윤 : API를 활용하여 데이터 생성 코드 구현 및 데이터셋 구축, Local (RTX 3060Ti VRAM 8GB) 학습 코드 구현 및 학습 진행, Local 및 보드(NVIDIA Jetson orin nano) 내에서 모델 작동 및 활용, 블로그 내 Proposal, Dataset, direction for improvement
+Model use 및 결과 작성
 권성근
 신준희
 한인권
