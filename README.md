@@ -1191,10 +1191,12 @@ https://github.com/user-attachments/assets/cf74bdcc-a74e-4a7b-aecc-20a81747ff87
 ### 마무리
 &nbsp; 이 프로젝트를 통해 상용화가 가능한 E2E모델은 아니었지만, 한양대 음성 길안내 시스템을 구성할 수 있었습니다. 추후에 LLM모델과 TTS모델의 개선을 통해 실제로 설치해서 사용할 수 있는 한양대 Local 음성 챗봇을 만드는 것이 향후 목표입니다.
 
-인원별 프로젝트 활동 내용
+### 인원별 프로젝트 활동 내용
 
-고재윤 : API를 활용하여 데이터 생성 코드 구현 및 데이터셋 구축, Local (RTX 3060Ti VRAM 8GB) 학습 코드 구현 및 학습 진행, Local 및 보드(NVIDIA Jetson orin nano) 내에서 모델 작동 및 활용
-
+고재윤 : API를 활용하여 데이터 생성 코드 구현 및 데이터셋 구축, Local (RTX 3060Ti VRAM 8GB) 학습 코드 구현 및 학습 진행, Local 및 보드(NVIDIA Jetson orin nano) 내에서 모델 작동 및 활용, 문제점 및 개선방향 제시
+권성근
+신준희
+한인권
 
 
 
