@@ -3,7 +3,7 @@ AI+X 딥러닝 프로젝트
 
 블로그 주소 : https://github.com/ggeon720-star/Gemma_2b_Fine-Tuning/tree/main
 
-유튜브 주소 : 
+유튜브 주소 : https://www.youtube.com/watch?v=aOIoBYsqUFQ
 
 # Members
 - 고재윤, 융합전자공학부, jaeyun2448@naver.com
@@ -53,8 +53,15 @@ https://github.com/KU-HIAI/Ko-Gemma
 
 
 # 3. Model Archive
+&nbsp; 
 
-file:///C:/Users/jaeyu/Downloads/NVIDIA_Gemma_2b_it_in4.onnx.svg
+
+ - ONNX 디코더 레이어 하나 추출
+   
+<img width="1679" height="805" alt="image" src="https://github.com/user-attachments/assets/ce746605-a0df-41d7-a636-3932d9dbedb4" />
+
+
+
 
 
 # 4. Datasets
