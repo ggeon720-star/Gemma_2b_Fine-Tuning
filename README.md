@@ -3,6 +3,8 @@ AI+X 딥러닝 프로젝트
 
 블로그 주소 : https://github.com/ggeon720-star/Gemma_2b_Fine-Tuning/tree/main
 
+유튜브 주소 : 
+
 # Members
 - 고재윤, 융합전자공학부, jaeyun2448@naver.com
 - 권성근, 원자력공학과, gbdlzlemr02@gmail.com
@@ -12,12 +14,13 @@ AI+X 딥러닝 프로젝트
 # Index
 1. Proposal
 2. Base-model
-3. Datasets
-4. Methodology
-5. Evaluation & Analysis
-6. direction for improvement
-7. Model use(additional progress)
-8. Related work
+3. Model archive
+4. Datasets
+5. Methodology
+6. Evaluation & Analysis
+7. direction for improvement
+8. Model use(additional progress)
+9. Related work
   
 # 1. Proposal
 - 동기 및 목표
@@ -49,7 +52,12 @@ https://www.jetson-ai-lab.com/tutorial_slm.html
 https://github.com/KU-HIAI/Ko-Gemma
 
 
-# 3. Datasets
+# 3. Model Archive
+
+
+
+
+# 4. Datasets
 순서
 >1. 개요
 >2. gpt.py코드 설명
@@ -583,7 +591,7 @@ if __name__ == "__main__":
 
 
 
-# 4. Methodology 
+# 5. Methodology 
 대략적인 알고리즘
 > 1. 패키지 설치
 > 2. Google Drive 마운트
@@ -1046,7 +1054,7 @@ for i, q in enumerate(test_questions, 1):
     print("-" * 70)
 ```
 
-# 5. Evaluation & Analysis
+# 6. Evaluation & Analysis
 #### 다음은 모델 학습 과정에 따른 Loss 및 Entropy 입니다.
 
 <img width="1387" height="947" alt="1" src="https://github.com/user-attachments/assets/a43cc64d-807f-402a-b0a6-1debd17e9863" />
@@ -1090,7 +1098,7 @@ for i, q in enumerate(test_questions, 1):
 
 결과를 통해 특정한 질문에는 정확한 응답을 생성하는 것을 확인하였으며, 기억 기능도 작동하는 것을 확인하였습니다.
 
-# 6. direction for improvement
+# 7. direction for improvement
 &nbsp; 위의 결과와 같이 모델이 학습한 대로 결과를 출력하는 것을 확인할 수 있으며, 학습하지 않은 다양한 질문에도 자연스러운 응답을 생성하는 것을 확인할 수 있었습니다. 하지만 모델이 특정한 소수의 질문에 대해서만 제대로된 응답을 제시하였으며, 대부분의 질문에 대해선 부자연스러운 응답 또는 관련 없는 대답을 제시하는 것을 확인하였습니다. 또한 때때로 특정 응답을 계속 반복하여 제시하기도 하였으며 학습된 데이터와 관련 없는 완전한 오류의 응답을 제시하는 등 성능 면에서 실제로 사용하기에는 한계가 있었습니다. 이러한 문제점을 분석하고 이에 대한 개선방안을 제시하려고 합니다.
 
 ### 1. 부정확한 데이터 및 데이터 자체에서 오류가 존재, 주로 짧은 답변 데이터로 구성
@@ -1109,7 +1117,7 @@ for i, q in enumerate(test_questions, 1):
  개선 방안 : GPU자원 확보를 통해 QLoRA에서 16비트 또는 QLoRA대신 LoRA만을 사용하여 학습을 진행하면 학습 정확도와 merge과정에서 원본 모델의 기능을 그대로 사용할 수 있습니다. 또한 LoRA Rank를 보다 크게 설정하여 정확한 학습을 진행하여 성능 향상에 기여할 수 있다고 기대됩니다.
 
 
-# 7. Model use
+# 8. Model use
 &nbsp; 제작된 모델은 한양학술타운 프로젝트에서 진행한 내용을 발전시키는 데에에 사용되었으며, 이에 대해 간단히 소개하려고 합니다.
 
 ##### 1. 학술타운 E2E모델 개요
@@ -1177,7 +1185,7 @@ https://github.com/user-attachments/assets/cf74bdcc-a74e-4a7b-aecc-20a81747ff87
 &nbsp; 이 프로젝트를 통해 상용화가 가능한 E2E모델은 아니었지만, 한양대 음성 길안내 시스템을 구성할 수 있었습니다. 추후에 LLM모델과 TTS모델의 개선을 통해 실제로 설치해서 사용할 수 있는 한양대 Local 음성 챗봇을 만드는 것이 향후 목표입니다.
 
 
-# 8. Related Work (e.g., existing studies)
+# 9. Related Work (e.g., existing studies)
 ### 1. Hugging face Blog (Fine-Tuning Gemma Models in Hugging Face)
 &nbsp; gemma-2b 모델을 base로 파인튜닝을 진행하였기 때문에 허깅페이스에 제시된 gemma finetuning방법을 참고하였습니다. 이 블로그를 참고하여 LoRA를 활용해 gemma모델을 파인튜닝할 수 있음을 알게 되었으며, gemma모델에 대한 기본적인 정보와 성능에 대해서 알게 되었습니다.
 
