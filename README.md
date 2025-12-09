@@ -47,20 +47,9 @@ https://www.jetson-ai-lab.com/tutorial_slm.html
 
 &nbsp; 추가적으로 Gemma-2B모델은 다국어 모델이지만, 한국어 데이터에 대한 학습이 부족하여 한양대학교 길안내라는 특정한 정보에 대한 학습이 부정확할 가능성이 높습니다. 따라서, Gemma-2B-it모델을 한국어 데이터셋으로 파인튜닝한 고려대학교의 Ko-gemma(gemma-ko-2B-v1)모델을 최종 base-model로 선정하여 한양대학교 길안내라는 특정한 한국어 데이터셋에 대한 학습 효율을 높였습니다.
 
-<img width="675" height="279" alt="image" src="https://github.com/user-attachments/assets/2e1480e6-0f2a-494c-b525-90509924d0d5" />
+<img width="675" height="279" alt="image" s조 
 
-https://github.com/KU-HIAI/Ko-Gemma
-
-
-# 3. Model Archive
-
-### Gemma 모델 구조
-
-&nbsp; Gemma모델은 OPENA AI의 GPT와 다른 LLM모델과 비슷하게 트랜스포머의 디코더 구조를 적용한 LLM모델입니다. 트랜스포머 구조는 수업시간에 배운 것과 같이 인코더와 디코더로 이루어져 있으며 인코더와 디코더는 각각 multi-head attention Layer와 feed-forward Layer로 구성되어 있습니다. 인코더는 대부분 입력을 받아 입력의 특징을 추출하고 분석하는 역할을 하며, 디코더는 추출된 값을 받아 답변을 생성하는 역할을 합니다. 대부분의 LLM모델에서는 적절한 답변을 생성하는 것에 초점을 맞추고 있어 트랜스포머의 디코더 모델만을 선택하여 구성되어 있습니다. 따라서 Gemma모델 또한 입력을 전처리하여 어려 개의 토큰 벡터로 분해하여 각 토큰을 디코더 트랜스포머에 입력하고 multi-head attention과 feed-forward를 통해 답변을 생성하는 구조입니다. 그 중에서도 저희가 선택한 Gemma-2B 모델은 18개의 레이어를 가지고 있습니다.
-
- - 모델의 전체 구조
-   
-<img width="347" height="643" alt="image" src="https://github.com/user-attachments/assets/d6b22ddd-fbe6-42db-b4f9-fabf2ee7d679" /><img width="702" height="511" alt="image" src="https://github.com/user-attachments/assets/daca2152-1b5d-4d50-b3e7-b04807c45e6d" />
+<img width="702" height="511" alt="image" src="https://github.com/user-attachments/assets/daca2152-1b5d-4d50-b3e7-b04807c45e6d" />
 
 
 (https://developers.googleblog.com/ko/gemma-explained-overview-gemma-model-family-architectures/)
