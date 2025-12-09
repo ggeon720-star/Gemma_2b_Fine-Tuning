@@ -1,6 +1,8 @@
 # QLoRA를 이용한 Gemma-2B base 한양대학교 길안내 특화 파인튜닝 
 AI+X 딥러닝 프로젝트
 
+블로그 주소 : https://github.com/ggeon720-star/Gemma_2b_Fine-Tuning/tree/main
+
 # Members
 - 고재윤, 융합전자공학부, jaeyun2448@naver.com
 - 권성근, 원자력공학과, gbdlzlemr02@gmail.com
