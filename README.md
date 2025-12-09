@@ -53,8 +53,13 @@ https://github.com/KU-HIAI/Ko-Gemma
 
 
 # 3. Model Archive
+순서
+>1. Gemma 모댈 구조
+>2. Gemma 모델 ONNX 상세 구조
+>3. QLoRA & STFTrainer
 
-### Gemma 모델 구조
+
+### 1) Gemma 모델 구조
 
 &nbsp; Gemma모델은 OPENA AI의 GPT와 다른 LLM모델과 비슷하게 트랜스포머의 디코더 구조를 적용한 LLM모델입니다. 트랜스포머 구조는 수업시간에 배운 것과 같이 인코더와 디코더로 이루어져 있으며 인코더와 디코더는 각각 multi-head attention Layer와 feed-forward Layer로 구성되어 있습니다. 인코더는 대부분 입력을 받아 입력의 특징을 추출하고 분석하는 역할을 하며, 디코더는 추출된 값을 받아 답변을 생성하는 역할을 합니다. 대부분의 LLM모델에서는 적절한 답변을 생성하는 것에 초점을 맞추고 있어 트랜스포머의 디코더 모델만을 선택하여 구성되어 있습니다. 따라서 Gemma모델 또한 입력을 전처리하여 어려 개의 토큰 벡터로 분해하여 각 토큰을 디코더 트랜스포머에 입력하고 multi-head attention과 feed-forward를 통해 답변을 생성하는 구조입니다. 그 중에서도 저희가 선택한 Gemma-2B 모델은 18개의 레이어를 가지고 있습니다.
 
@@ -65,7 +70,7 @@ https://github.com/KU-HIAI/Ko-Gemma
 
 (https://developers.googleblog.com/ko/gemma-explained-overview-gemma-model-family-architectures/)
 
-### Gemma 모델 ONNX
+### 2) Gemma 모델 ONNX 상세 구조
 &nbsp; Gemma모델의 구조를 정확히 파악하기 위해서 ONNX를 활용하였습니다. ONNX 라이브러리는 딥러닝 모델을 ONNX 형태로 변환하여 모델의 구조와 작동 원리를 쉽게 파악할 수 있게 만들어주며, ONNX runtime과 ONNX quantization 기능을 통해 모델을 빠르고 간단하게 양자화하고 작동시킬 수 있습니다. ONNX파일로 변환한 모델은 작은 용량으로 모델의 구조를 파악할 수 있기에 사용하였습니다. 저희가 Gemma-2B 모델의 구조를 파악하기 위해 사용한 ONNX파일은 hugging face 내의 NVIDIA_Gemma_2b_it_in4.onnx와 EmbeddedLLM_Gemma_2b_it_int4.onnx입니다. 두 모델의 구조는 Gemma-2B모델이기에 같지만 양자화 방식이 달라 양자화 노드에서 차이가 약간은 존재합니다. Netron에서 ONNX파일을 통해 모델의 상세 구조를 확인하면 다음과 같습니다. 사진의 크기가 너무 큰 관계로 하나의 디코더 레이어만 캡처하여 첨부하였으며, 모델의 전체적인 구조를 보고 싶으면 다운로드 받은 후에 Netron 사이트에 접속하여 확인하면 됩니다. 위의 설명과 같이 Gemma-2B의 디코더 Layer는 총 18개이며 같은 구조로 되어 있는 것을 확인할 수 있습니다. 18개의 디코더 Layer 외에는 Input의 전처리 인코딩 과정과 활성화함수를 통해 디코더에서 출력된 값을 토큰으로 변환시키는 과정이 포함되어 있습니다.
 
 - Netron 주소 : https://netron.app/
@@ -78,6 +83,23 @@ https://github.com/KU-HIAI/Ko-Gemma
 
 &nbsp; 따라서 모델의 전반적인 구조는 곱셈 연산과 행렬 곱셈 연산으로 진행되며 총 18개의 Decoder Layer가 같은 구조로 이루어져 동시에 입력을 받아 Quarry, key, value값을 처리하며 GroupQuarryAttention을 통해 토큰 간의 상관관계를 추출한 다음 답변을 생성하는 구조임을 알 수 있습니다.
 
+### 3) QLoRA & SFTTrainer
+
+&nbsp; LLM모델은 굉장히 많은 파라미터수와 많은 Layer구조로 이루어져 있습니다. Parameter개수에 의해서 필요한 메모리 용량과 모델의 크기가 결정되기 때문에, 큰 모델일 수록 학습하는데 필요한 VRAM용량이 증가합니다. 하지만 QLoRA는 적은 메모리 용량으로도 효과적으로 모델을 학습시킬 수 있도록 고안해낸 학습 방법입니다. LoRA(Low Rank Adapter)은 학습된 모델을 파인튜닝하여 다른 데이터셋으로 다시 학습시킬 떄, 변화되는 가중치의 값이 많지 않다는 점에서 착안된 방법입니다. 학습을 진행하면 많은 행렬x행령(MatMul)연산이 수행되는데, 이 과정에서 많은 연산이 수행됩니다. 하지만 LoRA는 변화하는 핵심 Low만 추출하여 행렬곱을 수행해 연산 횟수를 획기적으로 줄입니다. 예를 들어서 20x20행렬끼리 곱셈을 진행한다면, 하나의 cell당 곱셈 20번과 덧셈 19번을 진행해 총 곱셈 20x400번, 덧셈 19x400번을 진행하여야 합니다. 하지만 가중치가 LoRA를 사용해 변화하는 핵심 3개의 Low만 선택하여 연산을 진행한다면, 20x3행렬과 3x20행렬의 곱으로 분해하여 같은 크기의 output을 가지지만 하나의 셀 당 3번의 곱셈과 2번의 덧셈을 진행하기에 총 3x400번의 곱셈과 2x400번의 연산을 진행하게 됩니다. 따라서, 곱셈과 덧셈 횟수가 17x400인 6800회 감소하는 것을 확인할 수 있습니다. 또한, 연산에 사용되는 행렬의 크기가 작기 때문에 메모리 사용도 적게 사용되며 가중치가 변화하는 주요 Low만 추출하여 진행하기에 정확도도 크게 떨어지지 않는다는 장점을 가지고 있습니다.
+
+- Hugging face LoRA 설명 그림
+
+![HLhlrvac5tDFGWGnBM0iC](https://github.com/user-attachments/assets/f347cc8a-506e-46da-8a0f-0d5ba4ec1c10)
+
+&nbsp; QLoRA는 Quantization LoRA로, LoRA를 진행할 모델의 가중치를 양자화하여 불러와 LoRA학습을 진행시키는 방법입니다. LoRA방법은 똑같지만, 원본 모델의 가중치를 양자화하여 불러와 계산하면 정확도는 떨어지지만 메모리를 적게 사용하면서 효과적으로 학습을 진행할 수 있습니다. 학습을 진행할 때, QLoRA config를 작성하여 상세한 설정을 진행하였으며, 저희는 INT4양자화를 적용하여 원본 모델의 가중치를 Bitsandbytes(LLM에 특화된 양자화 라이브러리)로 양자화하여 불러왔습니다. 양자화는 간단히 설명하면 저장된 숫자의 형태를 FP32, 즉 32비트의 부동소수점 형태에서 INT4의 정수 4비트 형태 등으로 변환하여 사용함으로서 메모리 사용을 효과적으로 줄이는 방법으로, 정확도가 감소하는 것을 방지하기 위해 다양한 방법의 양자화가 존재합니다. 
+
+- Hugging face QLoRA 설명 그림
+
+<img width="829" height="368" alt="image" src="https://github.com/user-attachments/assets/5f0c19c2-a37d-4121-9108-23e02e1e3282" />
+
+(https://huggingface.co/blog/samuellimabraz/peft-methods)
+
+&nbsp; QLoRA를 적용한 모델 학습은 최종적으로 Transformers라이브러리에서 제공되는 SFTTrainer를 사용하여 학습하였습니다. SFTTrainer에서는 epoch, val_step 등의 값을 지정하여 원하는 방식으로 학습을 진행할 수 있도록 돕는 라이브러리입니다. QLoRA를 활용하여 학습하면 Adapter형태로 모델이 저장되는데, 이를 원본 모델과의 merge를 통해 성능을 향상시키고 safetensor형태로 변환하여 저장하여 최종 모델을 완성하였습니다.
 
 
 # 4. Datasets
