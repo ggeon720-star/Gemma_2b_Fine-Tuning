@@ -60,7 +60,7 @@ https://github.com/KU-HIAI/Ko-Gemma
 
  - 모델의 전체 구조
    
-<img width="347" height="643" alt="image" src="https://github.com/user-attachments/assets/d6b22ddd-fbe6-42db-b4f9-fabf2ee7d679" /><img width="809" height="605" alt="image" src="https://github.com/user-attachments/assets/9cbd9cee-3787-42f4-8a86-6eb6fa2c333d" />
+<img width="347" height="643" alt="image" src="https://github.com/user-attachments/assets/d6b22ddd-fbe6-42db-b4f9-fabf2ee7d679" /><img width="702" height="511" alt="image" src="https://github.com/user-attachments/assets/daca2152-1b5d-4d50-b3e7-b04807c45e6d" />
 
 
 (https://developers.googleblog.com/ko/gemma-explained-overview-gemma-model-family-architectures/)
@@ -72,13 +72,11 @@ https://github.com/KU-HIAI/Ko-Gemma
 
 - Netron으로 본 Gemma-2B의 디코더 Layer
 
-<img width="347" height="643" alt="image" src="https://github.com/user-attachments/assets/d6b22ddd-fbe6-42db-b4f9-fabf2ee7d679" />
+<img width="1009" height="814" alt="image" src="https://github.com/user-attachments/assets/b4c80e63-9717-420d-b752-73e594deb1b4" />
 
+&nbsp; 위의 그림은 NVIDIA_Gemma_2b_it_in4.onnx에서 디코더 레이어 하나를 캡처한 것으로, 원본 모델이 INT4양자화를 사용한 모델이기에 양자화된 가중치를 Dequantization하여 FP16으로 만든 다음 연산에 사용하는 함수가 포함되어 있습니다. 이를 제외하고 이 레이어에서 Mul은 Multiplier로 곱셈 연산, ADD는 덧셈 연산, MatMul은 행렬 곱셈 연산을 의미합니다. 따라서 전반적인 구조는 Mul과 MatMul, Gelu 활성화 함수를 이용해 연산을 처리하고, nomalization 즉 정규화를 진행하면서 multihead attention과 feed-forward과정을 진행하는 것을 볼 수 있습니다. 처음 초록색 정규화가 진행될 때 까지가 multi-head attention, 2번 째 초록색 정규화가 진행 될 때가 feed-forward 과정으로 구분됩니다. 연산에 이후에는 결과값과 past_key와 past_value 값이 GroupQuarryAttention연산을 진행하여 present_key와 present_value값을 생성할 문장의 토큰을 구성하는 데 사용되는 것을 확인할 수 있습니다. 
 
-
- - ONNX 디코더 레이어 하나 추출
-   
-<img width="1679" height="805" alt="image" src="https://github.com/user-attachments/assets/ce746605-a0df-41d7-a636-3932d9dbedb4" />
+&nbsp; 따라서 모델의 전반적인 구조는 곱셈 연산과 행렬 곱셈 연산으로 진행되며 총 18개의 Decoder Layer가 같은 구조로 이루어져 동시에 입력을 받아 Quarry, key, value값을 처리하며 GroupQuarryAttention을 통해 토큰 간의 상관관계를 추출한 다음 답변을 생성하는 구조임을 알 수 있습니다.
 
 
 
