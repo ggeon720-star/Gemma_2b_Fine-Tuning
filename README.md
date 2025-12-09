@@ -54,7 +54,7 @@ https://github.com/KU-HIAI/Ko-Gemma
 
 # 3. Model Archive
 
-
+file:///C:/Users/jaeyu/Downloads/NVIDIA_Gemma_2b_it_in4.onnx.svg
 
 
 # 4. Datasets
