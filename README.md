@@ -1210,7 +1210,7 @@ https://github.com/architectyou/gemma-2-ko-QA-Instruct/blob/main/dataset_maker.p
 
 권성근 : Colab 환경 코드 수정 및 구현 검증 / Blog 수정 및 자료 조사
 
-신준희 : Colab 학습 코드 구현 및 학습 진행 / Blog-In-Progress 작성 / Blog Repository 관리 및 Methology, Analysis 작성 / 프로젝트 회의 주도
+신준희 : Colab 학습 코드 구현 및 학습 진행 / Blog-In-Progress 작성 / Blog Repository 관리 및 Methology, Analysis 작성 / 네이버 기사 요약 데이터셋을 이용한 모델 파인튜닝 / 법률&규정 텍스트 분석 데이터셋을 이용한 모델 파인튜닝 / 프로젝트 회의 주도
 
 한인권
 
