@@ -1165,9 +1165,10 @@ for i, q in enumerate(test_questions, 1):
 # 8. Model use
 &nbsp; 제작된 모델은 한양학술타운 프로젝트에서 진행한 내용을 발전시키는 데에에 사용되었으며, 이에 대해 간단히 소개하려고 합니다.
 
-##### 1. 학술타운 E2E모델 개요
-##### 2. 양자화 후 보드 탑재 
-##### 3. 결과 
+순서
+> 1. 학술타운 E2E모델 개요
+> 2. 양자화 후 보드 탑재 
+> 3. 결과 
 
 ### 1) 학술타운 E2E모델 개요
 &nbsp; 제작된 모델은 학술타운 프로젝트로 진행했었던 Whisper모델과 TTS모델을 결합히여 음성 입력에서 음성 출력으로 내보내는 하나의 E2E모델로 구성하는데 사용하였습니다. Whisper는 ASR모델로 음성 입력을 특정 언어로 번역해주는 딥러닝 모델로, 프로젝트에선 한국어 입력을 받기 더 정확히 인식하기 위해서 한국어 데이터셋으로 파인튜닝을 진행하였으며, 작동원리는 다음과 같습니다.
@@ -1251,7 +1252,7 @@ https://github.com/architectyou/gemma-2-ko-QA-Instruct/blob/main/dataset_maker.p
 
 ### 인원별 프로젝트 활동 내용
 
-고재윤 : API를 활용하여 데이터 생성 코드 구현 및 데이터셋 구축 / Local 학습 코드 구현 및 학습 진행 / Local 및 보드 내에서 모델 작동 및 활용 / 블로그 내 Proposal, Dataset, direction for improvement, Evaluation & Analysis(같이 작성), Model use, Related work 작성 (Local : RTX 3060Ti VRAM 8GB)
+고재윤 : API를 활용하여 데이터 생성 코드 구현 및 데이터셋 구축 / Local 학습 코드 구현 및 학습 진행 / Local 및 보드 내에서 모델 작동 및 활용 / 블로그 내 Proposal, base model, model architecture, Dataset, direction for improvement, Evaluation & Analysis(같이 작성), Model use, Related work 작성 (Local : RTX 3060Ti VRAM 8GB)
 
 권성근 : Colab 환경 코드 수정 및 구현 검증 / Blog 수정 및 자료 조사
 
