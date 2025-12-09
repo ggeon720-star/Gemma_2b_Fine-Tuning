@@ -63,15 +63,7 @@ https://github.com/KU-HIAI/Ko-Gemma
 
 &nbsp; Gemma모델은 OPENA AI의 GPT와 다른 LLM모델과 비슷하게 트랜스포머의 디코더 구조를 적용한 LLM모델입니다. 트랜스포머 구조는 수업시간에 배운 것과 같이 인코더와 디코더로 이루어져 있으며 인코더와 디코더는 각각 multi-head attention Layer와 feed-forward Layer로 구성되어 있습니다. 인코더는 대부분 입력을 받아 입력의 특징을 추출하고 분석하는 역할을 하며, 디코더는 추출된 값을 받아 답변을 생성하는 역할을 합니다. 대부분의 LLM모델에서는 적절한 답변을 생성하는 것에 초점을 맞추고 있어 트랜스포머의 디코더 모델만을 선택하여 구성되어 있습니다. 따라서 Gemma모델 또한 입력을 전처리하여 어려 개의 토큰 벡터로 분해하여 각 토큰을 디코더 트랜스포머에 입력하고 multi-head attention과 feed-forward를 통해 답변을 생성하는 구조입니다. 그 중에서도 저희가 선택한 Gemma-2B 모델은 18개의 레이어를 가지고 있습니다.
 
- - 모델의 전체 구조
-   
-<img width="347" height="643" alt="image" src="https://github.com/user-attachments/assets/d6b22ddd-fbe6-42db-b4f9-fabf2ee7d679" /><img width="809" height="605" alt="image" src="https://github.com/user-attachments/assets/9cbd9cee-3787-42f4-8a86-6eb6fa2c333d" />
-
-
-(https://developers.googleblog.com/ko/gemma-explained-overview-gemma-model-family-architectures/)
-
-### 2) Gemma 모델 ONNX 상세 구조
-&nbsp; Gemma모델의 구조를 정확히 파악하기 위해서 ONNX를 활용하였습니다. ONNX 라이브러리는 딥러닝 모델을 ONNX 형태로 변환하여 모델의 구조와 작동 원리를 쉽게 파악할 수 있게 만들어주며, ONNX runtime과 ONNX quantization 기능을 통해 모델을 빠르고 간단하게 양자화하고 작동시킬 수 있습니다. ONNX파일로 변환한 모델은 작은 용량으로 모델의 구조를 파악할 수 있기에 사용하였습니다. 저희가 Gemma-2B 모델의 구조를 파악하기 위해 사용한 ONNX파일은 hugging face 내의 NVIDIA_Gemma_2b_it_in4.onnx와 EmbeddedLLM_Gemma_2b_it_int4.onnx입니다. 두 모델의 구조는 Gemma-2B모델이기에 같지만 양자화 방식이 달라 양자화 노드에서 차이가 약간은 존재합니다. Netron에서 ONNX파일을 통해 모델의 상세 구조를 확인하면 다음과 같습니다. 사진의 크기가 너무 큰 관계로 하나의 디코더 레이어만 캡처하여 첨부하였으며, 모델의 전체적인 구조를 보고 싶으면 다운로드 받은 후에 Netron 사이트에 접속하여 확인하면 됩니다. 위의 설명과 같이 Gemma-2B의 디코더 Layer는 총 18개이며 같은 구조로 되어 있는 것을 확인할 수 있습니다. 18개의 디코더 Layer 외에는 Input의 전처리 인코딩 과정과 활성화함수를 통해 디코더에서 출력된 값을 토큰으로 변환시키는 과정이 포함되어 있습니다.
+ - 모델의 전체 을 사용했습니다. 두 모델의 구조는 Gemma-2B모델이기에 같지만 양자화 방식이 달라 양자화 노드에서 차이가 약간은 존재합니다. Netron에서 ONNX파일을 통해 모델의 상세 구조를 확인하면 다음과 같습니다. 사진의 크기가 너무 큰 관계로 하나의 디코더 레이어만 캡처하여 첨부하였으며, 모델의 전체적인 구조를 보고 싶으면 다운로드 받은 후에 Netron 사이트에 접속하여 확인하면 됩니다. 위의 설명과 같이 Gemma-2B의 디코더 Layer는 총 18개이며 같은 구조로 되어 있는 것을 확인할 수 있습니다. 18개의 디코더 Layer 외에는 Input의 전처리 인코딩 과정과 활성화함수를 통해 디코더에서 출력된 값을 토큰으로 변환시키는 과정이 포함되어 있습니다.
 
 - Netron 주소 : https://netron.app/
 
